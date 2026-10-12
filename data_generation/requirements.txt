@@ -1,0 +1,6 @@
+# Human-readable actor names; fixed seeding makes mock distributions reproducible.
+Faker==39.1.0
+# PostgreSQL driver and binary runtime: COPY, transactions, exact numeric values.
+psycopg[binary]==3.3.6
+# MongoDB driver: BSON dates, batched document writes and index/schema checks.
+pymongo==4.18.2
