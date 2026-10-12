@@ -1,0 +1,67 @@
+{
+  "project": "StaySpot",
+  "repository": "https://github.com/anantreen/StaySpot_A1B",
+  "source_folder": "StaySpotAI",
+  "source_commit": "0b2f70d48917739a1fc841f89f7002fbaa68af7d",
+  "initial_members": [
+    "member1"
+  ],
+  "members": {
+    "member1": [
+      "members/member1/README.md",
+      "members/member1/api/routes.js",
+      "members/member1/sql/01_schema_ddl.sql",
+      "members/member1/tests/workflows.cases.js",
+      "members/member1/web/App.jsx",
+      "members/member1/web/Browse.jsx",
+      "members/member1/web/PropertyDetails.jsx",
+      "members/member1/web/components/Alert.jsx",
+      "members/member1/web/components/DataState.jsx",
+      "members/member1/web/components/Heading.jsx",
+      "members/member1/web/components/HouseArt.jsx",
+      "members/member1/web/components/Modal.jsx",
+      "members/member1/web/components/Pager.jsx",
+      "members/member1/web/components/Picker.jsx",
+      "members/member1/web/components/Pill.jsx",
+      "members/member1/web/hooks/useData.js",
+      "members/member1/web/lib/api.js",
+      "members/member1/web/lib/format.js",
+      "members/member1/web/lib/query.js"
+    ],
+    "member2": [
+      "members/member2/README.md",
+      "members/member2/api/routes.js",
+      "members/member2/data_generation/postgres_seeder.py",
+      "members/member2/sql/02_indexes.sql",
+      "members/member2/sql/03_triggers_and_audit.sql",
+      "members/member2/sql/04_stored_procedures.sql",
+      "members/member2/tests/workflows.cases.js",
+      "members/member2/web/Audit.jsx",
+      "members/member2/web/BookingStatusAction.jsx",
+      "members/member2/web/Transaction.jsx"
+    ],
+    "member3": [
+      "members/member3/README.md",
+      "members/member3/api/routes.js",
+      "members/member3/sql/05_materialized_views.sql",
+      "members/member3/sql/06_window_analytics.sql",
+      "members/member3/tests/workflows.cases.js",
+      "members/member3/web/Analytics.jsx",
+      "members/member3/web/LineChart.jsx"
+    ],
+    "member4": [
+      "members/member4/README.md",
+      "members/member4/api/routes.js",
+      "members/member4/data_generation/mongo_seeder.py",
+      "members/member4/mongo/01_collections_and_indexes.js",
+      "members/member4/mongo/02_workflow3_geonear.js",
+      "members/member4/mongo/03_workflow4_facet.js",
+      "members/member4/mongo/geospatial.cjs",
+      "members/member4/mongo/pipelines.cjs",
+      "members/member4/mongo/review-facets.cjs",
+      "members/member4/tests/workflows.cases.js",
+      "members/member4/web/MapView.jsx",
+      "members/member4/web/Reviews.jsx"
+    ]
+  }
+}
