@@ -148,7 +148,8 @@ export function Transaction({ actor, initialProperty, onWallet }) {
                 <h3>{property.title}</h3>
                 <div>
                   <span>
-                    {money(property.base_price)} × {nights || 0} nights
+                    {money(property.base_price)} × {nights || 0}{" "}
+                    {Number(nights) === 1 ? "night" : "nights"}
                   </span>
                   <strong>
                     {money(Number(property.base_price) * Number(nights || 0))}
