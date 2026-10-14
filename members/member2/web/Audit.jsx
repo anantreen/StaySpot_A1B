@@ -6,7 +6,7 @@
  * The opaque server cursor preserves timestamp microseconds and an ID tie-breaker.
  */
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ReceiptText, Wallet, CircleCheck } from "lucide-react";
 import { money } from "../../member1/web/lib/format.js";
 import { date } from "../../member1/web/lib/format.js";
@@ -24,19 +24,17 @@ import { Pager } from "../../member1/web/components/Pager.jsx";
 export function Audit({ actor }) {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
-  const [after, setAfter] = useState("");
-  const [history, setHistory] = useState([]);
+  // A cursor is valid only for the actor/date scope that produced it. Keeping the scope
+  // beside the cursor lets a new guest or date range start at page one in the same
+  // render, so no request is ever sent with another scope's cursor.
+  const scope = `${actor?.id ?? 1}|${from}|${to}`;
+  const [paging, setPaging] = useState({ scope, after: "", history: [] });
+  const current = paging.scope === scope ? paging : { scope, after: "", history: [] };
   // Date filters and the selected actor are sent to the server; no full ledger is
   // loaded.
   const resource = useData(
-    `/audit?${qs({ guest_id: actor?.id ?? 1, from, to, after, limit: 20 })}`,
+    `/audit?${qs({ guest_id: actor?.id ?? 1, from, to, after: current.after, limit: 20 })}`,
   );
-  // A cursor is valid only for its actor/date scope; reset history when that scope
-  // changes.
-  useEffect(() => {
-    setAfter("");
-    setHistory([]);
-  }, [actor?.id, from, to]);
   return (
     <>
       <Heading
@@ -53,7 +51,7 @@ export function Audit({ actor }) {
         <div className="panel">
           <small>PAGE OPENING BALANCE</small>
           <strong>
-            {resource.data?.opening_balance === null
+            {resource.data?.opening_balance == null
               ? "—"
               : money(resource.data?.opening_balance)}
           </strong>
@@ -127,16 +125,22 @@ export function Audit({ actor }) {
           </div>
         </DataState>
         <Pager
-          history={history}
+          history={current.history}
           next={resource.data?.next}
-          onNext={() => {
-            setHistory((h) => [...h, after]);
-            setAfter(resource.data.next);
-          }}
-          onBack={() => {
-            setAfter(history.at(-1));
-            setHistory((h) => h.slice(0, -1));
-          }}
+          onNext={() =>
+            setPaging({
+              scope,
+              after: resource.data.next,
+              history: [...current.history, current.after],
+            })
+          }
+          onBack={() =>
+            setPaging({
+              scope,
+              after: current.history.at(-1),
+              history: current.history.slice(0, -1),
+            })
+          }
         />
       </div>
     </>

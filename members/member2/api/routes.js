@@ -67,7 +67,8 @@ export function registerMember2Routes(app, { pool, mongo }) {
       } catch (err) {
         // A procedure/index failure also removes the wallet UPDATE and trigger-created
         // row.
-        await client.query("ROLLBACK");
+        // If the connection itself failed, ROLLBACK fails too; keep the original error.
+        await client.query("ROLLBACK").catch(() => {});
         throw err;
       } finally {
         // Always return the borrowed connection, including validation/SQL error paths.
