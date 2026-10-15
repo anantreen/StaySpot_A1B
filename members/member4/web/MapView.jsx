@@ -36,7 +36,18 @@ export function MapView() {
   const [notice, setNotice] = useState("");
   const [adding, setAdding] = useState(false);
   const [inputError, setInputError] = useState("");
-  const resource = useData(`/search?${qs({ ...origin, minutes })}`);
+  const searchUrl = `/search?${qs({ ...origin, minutes })}`;
+  const resource = useData(searchUrl);
+  // Remember which query the displayed results belong to. A 15-second poll of the same
+  // query refreshes silently instead of swapping the list for a loading spinner.
+  const [loadedUrl, setLoadedUrl] = useState("");
+  useEffect(() => {
+    if (resource.data && !resource.loading) setLoadedUrl(searchUrl);
+  }, [resource.data, resource.loading]);
+  const listState =
+    resource.loading && loadedUrl === searchUrl
+      ? { ...resource, loading: false }
+      : resource;
   // DOM container, Leaflet instance and replaceable data layer have distinct lifetimes.
   const mapNode = useRef(null);
   const mapRef = useRef(null);
@@ -121,10 +132,17 @@ export function MapView() {
       })
         .addTo(group)
         .bindTooltip(`${Math.round(p.distance_meters)} metres away`);
-    map.setView([origin.latitude, origin.longitude], 13);
     // Recompute map geometry after layout/data updates, including responsive layouts.
     map.invalidateSize();
   }, [resource.data, origin]);
+  useEffect(() => {
+    // Re-centre only when the origin changes, keeping the user's zoom; polling results
+    // must not pull the view back while the user is panning or zooming.
+    mapRef.current?.setView(
+      [origin.latitude, origin.longitude],
+      mapRef.current.getZoom(),
+    );
+  }, [origin.latitude, origin.longitude]);
   /**
    * Append a demo search session at the current origin and immediately refresh the
    * results.
@@ -260,7 +278,7 @@ export function MapView() {
               {notice}
             </p>
           )}
-          <DataState resource={resource} empty={!resource.data?.nearest.length}>
+          <DataState resource={listState} empty={!resource.data?.nearest.length}>
             <p className="help">Nearest 100 pins · sorted by distance</p>
             <div className="nearest-list">
               {resource.data?.nearest.map((p, i) => (
