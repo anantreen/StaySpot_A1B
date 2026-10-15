@@ -1,5 +1,7 @@
 # StaySpot wireframes and UI reference
 
+The [comparison with the supplied Figma/SVG boards](review/README.md) includes updated complete SVG boards and eight additional recovery/edge-state frames, with corresponding frontend changes. The original exports below remain available as the earlier design handover.
+
 This handover documents the existing **StaySpot Assignment 2 application**. It includes the nine screens in the supplied four-member allocation, an editable Excalidraw wireframe board, a colored UI reference board, and six alternative interaction states. The application UI, CSS, APIs and database behavior are unchanged.
 
 Open [preview.html](preview.html) locally for a gallery with wireframe/UI switching and member filters. No server, Docker, database or dependency installation is needed to view the designs.

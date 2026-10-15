@@ -2,16 +2,17 @@
  * Paged browsing for properties, guests and bookings.
  *
  * The active entity determines the endpoint, filters and card/table presentation.
- * The server sends a bounded page plus a next cursor; older cursors enable Back.
+ * Properties and guests use server cursors. Bookings are ordered newest first
+ * in the frontend and then split into display pages.
  * Record details belong to Member 1; booking-status actions belong to Member 2.
  */
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { MapPin, ArrowUpRight, Search, Leaf } from "lucide-react";
 import { money } from "./lib/format.js";
 import { qs } from "./lib/query.js";
-import { api } from "./lib/api.js";
 import { useData } from "./hooks/useData.js";
+import { useBookingHistory } from "./hooks/useBookingHistory.js";
 import { Alert } from "./components/Alert.jsx";
 import { DataState } from "./components/DataState.jsx";
 import { Pill } from "./components/Pill.jsx";
@@ -35,33 +36,68 @@ export function Browse({ actor, onBook }) {
   const [search, setSearch] = useState("");
   const [status, setStatus] = useState("");
   const [mine, setMine] = useState(false);
-  const [after, setAfter] = useState("");
-  const [history, setHistory] = useState([]);
-  const [detail, setDetail] = useState(null);
+  const [detailId, setDetailId] = useState(null);
   const [detailError, setDetailError] = useState("");
-  // Compose the same bounded endpoint request used before this documentation pass.
-  // Properties render eight cards; guest/booking tables request twenty records.
-  const resource = useData(
-    `/${entity}?${qs({ search, after, status: entity === "bookings" ? status : "", guest_id: entity === "bookings" && mine ? actor?.id : "", limit: entity === "properties" ? 8 : 20 })}`,
+  // Cursor/display positions belong to one entity/filter/guest combination. Reset them during
+  // render so an actor change cannot briefly request the previous guest's page.
+  const scope = JSON.stringify([entity, search, status, mine, actor?.id]);
+  const [paging, setPaging] = useState({ scope, after: "", history: [] });
+  const current = paging.scope === scope ? paging : { scope, after: "", history: [] };
+  if (paging.scope !== scope) setPaging(current);
+  const { after, history } = current;
+  const pageSize = entity === "properties" ? 8 : 20;
+  const bookingId = search.trim();
+  // Booking lookup is by numeric ID. Explain invalid input beside the search
+  // field and pause its request rather than exposing the API's generic error.
+  const bookingSearchError =
+    entity === "bookings" &&
+    bookingId !== "" &&
+    (!/^\d+$/.test(bookingId) ||
+      !Number.isSafeInteger(Number(bookingId)) ||
+      Number(bookingId) < 1 ||
+      Number(bookingId) > 2147483647)
+      ? "Search by booking ID using digits only, for example 50001."
+      : "";
+  // Keep property/guest browsing on its existing bounded server pages. Bookings
+  // use the existing endpoint's maximum batch size to read fewer API pages.
+  const catalogResource = useData(
+    entity === "bookings"
+      ? null
+      : `/${entity}?${qs({ search, after, limit: pageSize })}`,
   );
-  /**
-   * Filters or actor changes invalidate older page cursors: return to page one.
-   */
-  function reset() {
-    setAfter("");
-    setHistory([]);
-  }
-  useEffect(reset, [actor?.id]);
+  const bookingResource = useBookingHistory(
+    entity === "bookings" && !bookingSearchError
+      ? `/bookings?${qs({ search: bookingId, status, guest_id: mine ? actor?.id : "", limit: 50 })}`
+      : null,
+  );
+  const resource = entity === "bookings" ? bookingResource : catalogResource;
+  // For bookings, `after` is a local offset, never an API cursor. Sorting the
+  // complete matching history first keeps newest-first order across pages.
+  const offset = Number(after || 0);
+  const items =
+    (entity === "bookings"
+      ? resource.data?.items.slice(offset, offset + pageSize)
+      : resource.data?.items) ?? [];
+  const next =
+    entity === "bookings"
+      ? offset + pageSize < (resource.data?.items.length ?? 0)
+        ? String(offset + pageSize)
+        : null
+      : resource.data?.next;
+  const entityLabel =
+    items.length === 1
+      ? { properties: "property", guests: "guest", bookings: "booking" }[entity]
+      : entity;
+  // The shared hook also discards a pending detail response when its dialog is
+  // closed, a different record is opened, or Browse unmounts during navigation.
+  const detailResource = useData(detailId == null ? null : `/${entity}/${detailId}`);
   /**
    * Fetch authoritative detail data instead of assuming the list contains every field.
    */
-  async function open(item) {
-    try {
-      setDetailError("");
-      setDetail(await api(`/${entity}/${item.id}`));
-    } catch (e) {
-      setDetailError(e.message);
-    }
+  function open(item) {
+    setDetailError("");
+    if (detailId === item.id) detailResource.reload();
+    setDetailId(item.id);
   }
   return (
     <>
@@ -113,8 +149,8 @@ export function Browse({ actor, onBook }) {
                 setSearch("");
                 setStatus("");
                 setMine(false);
+                setDetailId(null);
                 setDetailError("");
-                reset();
               }}
             >
               {label}
@@ -125,13 +161,15 @@ export function Browse({ actor, onBook }) {
           <Search size={18} />
           <input
             aria-label={`Search ${entity}`}
+            inputMode={entity === "bookings" ? "numeric" : undefined}
+            aria-invalid={Boolean(bookingSearchError)}
+            aria-describedby={bookingSearchError ? "booking-search-error" : undefined}
             placeholder={
               entity === "bookings" ? "Find a booking by ID…" : `Search ${entity}…`
             }
             value={search}
             onChange={(e) => {
               setSearch(e.target.value);
-              reset();
             }}
           />
         </div>
@@ -143,7 +181,6 @@ export function Browse({ actor, onBook }) {
             value={status}
             onChange={(e) => {
               setStatus(e.target.value);
-              reset();
             }}
           >
             <option value="">All statuses</option>
@@ -157,7 +194,6 @@ export function Browse({ actor, onBook }) {
               checked={mine}
               onChange={(e) => {
                 setMine(e.target.checked);
-                reset();
               }}
             />{" "}
             Selected guest only
@@ -165,126 +201,166 @@ export function Browse({ actor, onBook }) {
         </div>
       )}
       {detailError && <Alert message={detailError} />}
-      <DataState resource={resource} empty={!resource.data?.items.length}>
-        {entity === "properties" ? (
-          <div className="property-grid">
-            {resource.data?.items.map((p, i) => (
-              <button className="property-card" key={p.id} onClick={() => open(p)}>
-                <div className="property-cover">
-                  <HouseArt variant={i} />
-                  <span className="cover-chip">
-                    <Leaf size={12} /> Thoughtful spaces
-                  </span>
-                </div>
-                <div className="property-info">
-                  <div className="property-location">
-                    <MapPin size={13} />
-                    {p.title.split(" ")[0]}
-                    <span>#{p.id}</span>
-                  </div>
-                  <h3>{p.title}</h3>
-                  <div className="property-price">
-                    <strong>{money(p.base_price)}</strong>
-                    <span>/ night</span>
-                    <ArrowUpRight size={19} />
-                  </div>
-                </div>
-              </button>
-            ))}
-          </div>
-        ) : (
-          <div className="panel table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  {entity === "guests" ? (
-                    <>
-                      <th>Guest</th>
-                      <th>Wallet balance</th>
-                      <th>Details</th>
-                    </>
-                  ) : (
-                    <>
-                      <th>Booking</th>
-                      <th>Guest & property</th>
-                      <th>Amount</th>
-                      <th>Status</th>
-                      <th>Next step</th>
-                    </>
-                  )}
-                </tr>
-              </thead>
-              <tbody>
-                {resource.data?.items.map((r) => (
-                  <tr key={r.id}>
-                    {entity === "guests" ? (
-                      <>
-                        <td>
-                          <div className="record-name">
-                            {r.name}
-                            <small>Guest #{r.id}</small>
-                          </div>
-                        </td>
-                        <td>{money(r.wallet_balance)}</td>
-                        <td>
-                          <button className="text-btn" onClick={() => open(r)}>
-                            View guest <ArrowUpRight size={15} />
-                          </button>
-                        </td>
-                      </>
-                    ) : (
-                      <>
-                        <td>
-                          <button className="text-btn" onClick={() => open(r)}>
-                            #{r.id}
-                          </button>
-                          <small className="cell-small">{r.nights} nights</small>
-                        </td>
-                        <td>
-                          <div className="record-name">
-                            {r.guest_name}
-                            <small>{r.property_title}</small>
-                          </div>
-                        </td>
-                        <td>{money(r.total_cost)}</td>
-                        <td>
-                          <Pill status={r.status} />
-                        </td>
-                        <td>
-                          <BookingStatusAction
-                            booking={r}
-                            onSuccess={resource.reload}
-                            onError={setDetailError}
-                          />
-                        </td>
-                      </>
-                    )}
-                  </tr>
+      {bookingSearchError ? (
+        <div id="booking-search-error">
+          <Alert message={bookingSearchError} />
+        </div>
+      ) : (
+        <>
+          <DataState
+            resource={resource}
+            empty={!items.length}
+            emptyTitle={`No ${entity} found`}
+            emptyMessage={
+              search || status || mine
+                ? "Try another search or clear the filters to see more results."
+                : `There are no ${entity} to show yet.`
+            }
+            emptyAction={
+              (search || status || mine) && (
+                <button
+                  className="btn secondary"
+                  onClick={() => {
+                    setSearch("");
+                    setStatus("");
+                    setMine(false);
+                  }}
+                >
+                  Clear filters
+                </button>
+              )
+            }
+          >
+            {entity === "properties" ? (
+              <div className="property-grid">
+                {items.map((p, i) => (
+                  <button className="property-card" key={p.id} onClick={() => open(p)}>
+                    <div className="property-cover">
+                      <HouseArt variant={i} />
+                      <span className="cover-chip">
+                        <Leaf size={12} /> Thoughtful spaces
+                      </span>
+                    </div>
+                    <div className="property-info">
+                      <div className="property-location">
+                        <MapPin size={13} />
+                        {p.title.split(" ")[0]}
+                        <span>#{p.id}</span>
+                      </div>
+                      <h3>{p.title}</h3>
+                      <div className="property-price">
+                        <strong>{money(p.base_price)}</strong>
+                        <span>/ night</span>
+                        <ArrowUpRight size={19} />
+                      </div>
+                    </div>
+                  </button>
                 ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </DataState>
-      <Pager
-        label={`Page ${history.length + 1} · ${resource.data?.items.length ?? 0} ${entity}`}
-        history={history}
-        next={resource.data?.next}
-        onNext={() => {
-          setHistory((h) => [...h, after]);
-          setAfter(resource.data.next);
-        }}
-        onBack={() => {
-          setAfter(history.at(-1));
-          setHistory((h) => h.slice(0, -1));
-        }}
-      />
-      {detail && (
+              </div>
+            ) : (
+              <div className="panel table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      {entity === "guests" ? (
+                        <>
+                          <th>Guest</th>
+                          <th>Wallet balance</th>
+                          <th>Details</th>
+                        </>
+                      ) : (
+                        <>
+                          <th>Booking</th>
+                          <th>Guest & property</th>
+                          <th>Amount</th>
+                          <th>Status</th>
+                          <th>Next step</th>
+                        </>
+                      )}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {items.map((r) => (
+                      <tr key={r.id}>
+                        {entity === "guests" ? (
+                          <>
+                            <td>
+                              <div className="record-name">
+                                {r.name}
+                                <small>Guest #{r.id}</small>
+                              </div>
+                            </td>
+                            <td>{money(r.wallet_balance)}</td>
+                            <td>
+                              <button className="text-btn" onClick={() => open(r)}>
+                                View guest <ArrowUpRight size={15} />
+                              </button>
+                            </td>
+                          </>
+                        ) : (
+                          <>
+                            <td>
+                              <button className="text-btn" onClick={() => open(r)}>
+                                #{r.id}
+                              </button>
+                              <small className="cell-small">
+                                {r.nights} {Number(r.nights) === 1 ? "night" : "nights"}
+                              </small>
+                            </td>
+                            <td>
+                              <div className="record-name">
+                                {r.guest_name}
+                                <small>{r.property_title}</small>
+                              </div>
+                            </td>
+                            <td>{money(r.total_cost)}</td>
+                            <td>
+                              <Pill status={r.status} />
+                            </td>
+                            <td>
+                              <BookingStatusAction
+                                booking={r}
+                                onSuccess={resource.reload}
+                                onError={setDetailError}
+                              />
+                            </td>
+                          </>
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </DataState>
+          <Pager
+            pageSize={pageSize}
+            label={`Page ${history.length + 1} · ${items.length} ${entityLabel}`}
+            history={history}
+            next={next}
+            onNext={() => {
+              setPaging({
+                scope,
+                after: next,
+                history: [...history, after],
+              });
+            }}
+            onBack={() => {
+              setPaging({
+                scope,
+                after: history.at(-1),
+                history: history.slice(0, -1),
+              });
+            }}
+          />
+        </>
+      )}
+      {detailId != null && (
         <PropertyDetails
           entity={entity}
-          detail={detail}
+          resource={detailResource}
           onBook={onBook}
-          onClose={() => setDetail(null)}
+          onClose={() => setDetailId(null)}
         />
       )}
     </>

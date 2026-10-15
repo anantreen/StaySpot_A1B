@@ -26,7 +26,10 @@ export function Reviews() {
   const resource = useData(`/reviews?property_id=${property.id}`);
   const reviewData = resource.data;
   // A $facet branch returns an array containing at most one overall summary document.
-  const overall = reviewData?.overallAverage[0];
+  const overall = reviewData?.overallAverage?.[0];
+  const amenityEntries = Object.entries(reviewData?.amenities ?? {}).filter(
+    ([key]) => !["_id", "property_id"].includes(key),
+  );
   // Empty review scopes have zero reviews; bar widths must avoid division by zero.
   const total = overall?.totalReviews ?? 0;
   // Tag bars compare each count with the largest tag frequency, not total review count.
@@ -118,35 +121,33 @@ export function Reviews() {
             </div>
             <Leaf size={25} />
           </div>
-          {reviewData?.amenities ? (
+          {amenityEntries.length ? (
             <div className="catalog-grid">
-              {Object.entries(reviewData.amenities)
-                .filter(([k]) => !["_id", "property_id"].includes(k))
-                .map(([key, value]) => (
-                  <div key={key}>
-                    <h3>{key.replaceAll("_", " ")}</h3>
-                    {Array.isArray(value) ? (
-                      value.map((v) => (
-                        <p key={v}>
-                          <Check size={16} />
-                          {v}
-                        </p>
-                      ))
-                    ) : typeof value === "object" && value !== null ? (
-                      Object.entries(value).map(([k, v]) => (
-                        <p key={k}>
-                          <Check size={16} />
-                          <span>
-                            <strong>{k}: </strong>
-                            {Array.isArray(v) ? v.join(", ") : String(v)}
-                          </span>
-                        </p>
-                      ))
-                    ) : (
-                      <p>{String(value)}</p>
-                    )}
-                  </div>
-                ))}
+              {amenityEntries.map(([key, value]) => (
+                <div key={key}>
+                  <h3>{key.replaceAll("_", " ")}</h3>
+                  {Array.isArray(value) ? (
+                    value.map((v) => (
+                      <p key={v}>
+                        <Check size={16} />
+                        {v}
+                      </p>
+                    ))
+                  ) : typeof value === "object" && value !== null ? (
+                    Object.entries(value).map(([k, v]) => (
+                      <p key={k}>
+                        <Check size={16} />
+                        <span>
+                          <strong>{k}: </strong>
+                          {Array.isArray(v) ? v.join(", ") : String(v)}
+                        </span>
+                      </p>
+                    ))
+                  ) : (
+                    <p>{String(value)}</p>
+                  )}
+                </div>
+              ))}
             </div>
           ) : (
             <p className="state">

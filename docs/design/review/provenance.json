@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "source": "source/StaySpot_ALL_UI.svg",
+    "sha256": "2cb0c733de149165a7b3bf2c8f22eb6f177dd46f8db982099a85735a1bcb2720",
+    "original_groups": 15,
+    "added_groups": 8
+  },
+  "wireframes": {
+    "source": "source/StaySpot_ALL_Wireframes.svg",
+    "sha256": "7d6d349a6ee03f9ebd9445a47c20f650f688c9b35de25393b98e16f21a99eba6",
+    "original_groups": 14,
+    "added_groups": 8
+  }
+}

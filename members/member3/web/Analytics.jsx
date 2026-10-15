@@ -27,6 +27,7 @@ import { Alert } from "../../member1/web/components/Alert.jsx";
 import { DataState } from "../../member1/web/components/DataState.jsx";
 import { Heading } from "../../member1/web/components/Heading.jsx";
 import { LineChart } from "./LineChart.jsx";
+import { validateDateRange } from "../../member1/web/lib/validation.js";
 
 /**
  * Load the selected period, render SQL-produced averages/ranks and expose summary
@@ -39,8 +40,15 @@ export function Analytics() {
   const [to, setTo] = useState(today());
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-  const resource = useData(`/analytics?${qs({ from, to })}`);
+  // Match the API's inclusive UTC range limit before requesting any analytics.
+  // Draft dates stay editable even when missing, reversed or longer than 90 days.
+  const rangeError = validateDateRange(from, to, { required: true, maxDays: 90 });
+  const resource = useData(rangeError ? null : `/analytics?${qs({ from, to })}`, {
+    keepPreviousData: true,
+  });
   const analyticsData = resource.data;
+  // Keep the refresh button busy through both the POST and the following GET.
+  const refreshing = busy || resource.loading;
   /**
    * Refresh the materialized summary, then request its actual totals and completion
    * time.
@@ -62,7 +70,7 @@ export function Analytics() {
   // Ordering by rank does not recompute it or remove tied properties.
   const ranks =
     analyticsData?.series
-      .filter((s) => s.booking_date.slice(0, 10) === to)
+      .filter((s) => s.booking_date.slice(0, 10) === analyticsData.to)
       .sort(
         (a, b) => Number(a.revenue_momentum_rank) - Number(b.revenue_momentum_rank),
       ) ?? [];
@@ -73,46 +81,62 @@ export function Analytics() {
         title="Good places. Growing stories."
         description="See where your stays are taking you, one seven-day average at a time."
         action={
-          <button className="btn secondary" onClick={refresh} disabled={busy}>
-            {busy ? <RefreshCw className="spin" size={16} /> : <RefreshCw size={16} />}{" "}
+          <button
+            className="btn secondary"
+            onClick={refresh}
+            disabled={refreshing || Boolean(rangeError)}
+          >
+            {refreshing ? (
+              <RefreshCw className="spin" size={16} />
+            ) : (
+              <RefreshCw size={16} />
+            )}{" "}
             Refresh totals
           </button>
         }
       />
       {error && <Alert message={error} />}
-      <DataState resource={resource}>
-        <div className="stats-grid">
-          {[
-            [
-              "Gross booked revenue",
-              money(analyticsData?.totals.total_revenue),
-              ChartNoAxesCombined,
-            ],
-            ["Nights booked", count(analyticsData?.totals.total_nights), CalendarDays],
-            ["Total bookings", count(analyticsData?.totals.total_bookings), Home],
-            ["Properties", count(analyticsData?.totals.properties), LayoutGrid],
-          ].map(([label, value, Icon]) => (
-            <div className="panel stat" key={label}>
-              <span>
-                <Icon size={18} />
-                {label}
-              </span>
-              <strong>{value}</strong>
-              <small>Lifetime materialized totals</small>
-            </div>
-          ))}
-        </div>
-        <div className="refresh-note">
-          <Clock3 size={14} /> Last refreshed {date(analyticsData?.refreshed_at)}
-        </div>
-        <div className="panel">
-          <div className="section-head">
-            <div>
-              <h2>Revenue, with room to grow</h2>
-              <p className="muted">
-                Seven-day moving average · top 4 displayed properties · UTC
-              </p>
-            </div>
+      {analyticsData && (
+        <>
+          <div className="stats-grid" aria-busy={refreshing}>
+            {[
+              [
+                "Gross booked revenue",
+                money(analyticsData?.totals.total_revenue),
+                ChartNoAxesCombined,
+              ],
+              [
+                "Nights booked",
+                count(analyticsData?.totals.total_nights),
+                CalendarDays,
+              ],
+              ["Total bookings", count(analyticsData?.totals.total_bookings), Home],
+              ["Properties", count(analyticsData?.totals.properties), LayoutGrid],
+            ].map(([label, value, Icon]) => (
+              <div className="panel stat" key={label}>
+                <span>
+                  <Icon size={18} />
+                  {label}
+                </span>
+                <strong>{value}</strong>
+                <small>Lifetime materialized totals</small>
+              </div>
+            ))}
+          </div>
+          <div className="refresh-note">
+            <Clock3 size={14} /> Last refreshed {date(analyticsData?.refreshed_at)}
+          </div>
+        </>
+      )}
+      <div className="panel">
+        <div className="section-head">
+          <div>
+            <h2>Revenue, with room to grow</h2>
+            <p className="muted">
+              Seven-day moving average · top 4 displayed properties · UTC
+            </p>
+          </div>
+          <div className="analytics-date-controls">
             <div className="date-filters">
               <label>
                 From
@@ -120,6 +144,9 @@ export function Analytics() {
                   aria-label="Analytics from date"
                   type="date"
                   value={from}
+                  max={to || undefined}
+                  aria-invalid={Boolean(rangeError)}
+                  aria-describedby={rangeError ? "analytics-range-error" : undefined}
                   onChange={(e) => setFrom(e.target.value)}
                 />
               </label>
@@ -129,21 +156,38 @@ export function Analytics() {
                   aria-label="Analytics to date"
                   type="date"
                   value={to}
+                  min={from || undefined}
+                  aria-invalid={Boolean(rangeError)}
+                  aria-describedby={rangeError ? "analytics-range-error" : undefined}
                   onChange={(e) => setTo(e.target.value)}
                 />
               </label>
             </div>
+            {rangeError && (
+              <div id="analytics-range-error">
+                <Alert message={rangeError} />
+              </div>
+            )}
           </div>
+        </div>
+        {rangeError && analyticsData && (
+          <p className="help">
+            Showing the last loaded period: {analyticsData.from} to {analyticsData.to}.
+          </p>
+        )}
+        <DataState resource={resource} keepPreviousData>
           {analyticsData?.series.length ? (
             <LineChart series={analyticsData.series} summary={analyticsData.summary} />
           ) : (
-            <p className="state">No property data in this period.</p>
+            !rangeError && <p className="state">No property data in this period.</p>
           )}
-        </div>
+        </DataState>
+      </div>
+      {analyticsData && (
         <div className="panel ranking-panel">
           <div className="section-head">
             <h2>Places on the rise</h2>
-            <span className="soft-tag">Daily dense rank · {to}</span>
+            <span className="soft-tag">Daily dense rank · {analyticsData.to}</span>
           </div>
           <p className="help">
             Top 12 properties by lifetime revenue. Ranks compare their unrounded
@@ -183,7 +227,7 @@ export function Analytics() {
             </table>
           </div>
         </div>
-      </DataState>
+      )}
     </>
   );
 }

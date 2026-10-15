@@ -2,39 +2,55 @@
  * Read-only wallet ledger with date filters and cursor pages.
  *
  * Each row uses the trigger-stored balance_after snapshot as its running balance.
- * The page opening balance describes the state immediately before its first row.
- * The opaque server cursor preserves timestamp microseconds and an ID tie-breaker.
+ * Newest entries appear first; the frontend paginates the reversed API history.
+ * The page opening balance is the balance before its oldest displayed entry.
  */
 
 import React, { useState } from "react";
 import { ReceiptText, Wallet, CircleCheck } from "lucide-react";
 import { money } from "../../member1/web/lib/format.js";
 import { date } from "../../member1/web/lib/format.js";
-import { qs } from "../../member1/web/lib/query.js";
-import { useData } from "../../member1/web/hooks/useData.js";
+import { useAuditHistory } from "./hooks/useAuditHistory.js";
 import { DataState } from "../../member1/web/components/DataState.jsx";
 import { Pill } from "../../member1/web/components/Pill.jsx";
 import { Heading } from "../../member1/web/components/Heading.jsx";
 import { Pager } from "../../member1/web/components/Pager.jsx";
+import { Alert } from "../../member1/web/components/Alert.jsx";
+import { validateDateRange } from "../../member1/web/lib/validation.js";
 
 /**
- * Render chronological, date-filtered wallet pages for the selected actor.
+ * Render newest-first, date-filtered wallet pages for the selected actor.
  * @param {Object} props actor provides the guest ID and current wallet snapshot.
  */
 export function Audit({ actor }) {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
-  // A cursor is valid only for the actor/date scope that produced it. Keeping the scope
-  // beside the cursor lets a new guest or date range start at page one in the same
-  // render, so no request is ever sent with another scope's cursor.
+  const rangeError = validateDateRange(from, to);
+  // A display page belongs to one guest/date scope. Changing either starts at
+  // the latest page, including when returning to a previously selected guest.
   const scope = `${actor?.id ?? 1}|${from}|${to}`;
-  const [paging, setPaging] = useState({ scope, after: "", history: [] });
-  const current = paging.scope === scope ? paging : { scope, after: "", history: [] };
-  // Date filters and the selected actor are sent to the server; no full ledger is
-  // loaded.
-  const resource = useData(
-    `/audit?${qs({ guest_id: actor?.id ?? 1, from, to, after: current.after, limit: 20 })}`,
-  );
+  const [paging, setPaging] = useState({ scope, offset: 0, history: [] });
+  const current = paging.scope === scope ? paging : { scope, offset: 0, history: [] };
+  if (paging.scope !== scope) setPaging(current);
+  const resource = useAuditHistory({
+    guestId: actor?.id,
+    from,
+    to,
+    enabled: Boolean(actor) && !rangeError,
+  });
+  const pageSize = 20;
+  const items =
+    resource.data?.items.slice(current.offset, current.offset + pageSize) ?? [];
+  const next =
+    current.offset + pageSize < (resource.data?.items.length ?? 0)
+      ? current.offset + pageSize
+      : null;
+  // Keep the existing opening-balance meaning even though the oldest row now
+  // appears at the bottom. Each row's stored running balance is displayed as-is.
+  const oldest = items.at(-1);
+  const openingBalance = oldest
+    ? (Number(oldest.running_balance) - Number(oldest.amount_changed)).toFixed(2)
+    : null;
   return (
     <>
       <Heading
@@ -50,11 +66,7 @@ export function Audit({ actor }) {
         </div>
         <div className="panel">
           <small>PAGE OPENING BALANCE</small>
-          <strong>
-            {resource.data?.opening_balance == null
-              ? "—"
-              : money(resource.data?.opening_balance)}
-          </strong>
+          <strong>{openingBalance == null ? "—" : money(openingBalance)}</strong>
           <ReceiptText size={26} />
         </div>
         <div className="panel assurance">
@@ -75,6 +87,8 @@ export function Audit({ actor }) {
                 type="date"
                 aria-label="Audit from date"
                 value={from}
+                aria-invalid={Boolean(rangeError)}
+                aria-describedby={rangeError ? "audit-range-error" : undefined}
                 onChange={(e) => setFrom(e.target.value)}
               />
             </label>
@@ -84,64 +98,102 @@ export function Audit({ actor }) {
                 type="date"
                 aria-label="Audit to date"
                 value={to}
+                aria-invalid={Boolean(rangeError)}
+                aria-describedby={rangeError ? "audit-range-error" : undefined}
                 onChange={(e) => setTo(e.target.value)}
               />
             </label>
           </div>
         </div>
-        <DataState resource={resource} empty={!resource.data?.items.length}>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Entry</th>
-                  <th>Date & time</th>
-                  <th>Type</th>
-                  <th>Change</th>
-                  <th>Running balance</th>
-                </tr>
-              </thead>
-              <tbody>
-                {resource.data?.items.map((r) => (
-                  <tr key={r.id}>
-                    <td>#{r.id}</td>
-                    <td>{date(r.timestamp)}</td>
-                    <td>
-                      <Pill status={r.action_type} />
-                    </td>
-                    <td
-                      className={Number(r.amount_changed) > 0 ? "positive" : "negative"}
-                    >
-                      {Number(r.amount_changed) > 0 ? "+" : ""}
-                      {money(r.amount_changed)}
-                    </td>
-                    <td>
-                      <strong>{money(r.running_balance)}</strong>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+        {rangeError && (
+          <div id="audit-range-error">
+            <Alert message={rangeError} />
           </div>
-        </DataState>
-        <Pager
-          history={current.history}
-          next={resource.data?.next}
-          onNext={() =>
-            setPaging({
-              scope,
-              after: resource.data.next,
-              history: [...current.history, current.after],
-            })
-          }
-          onBack={() =>
-            setPaging({
-              scope,
-              after: current.history.at(-1),
-              history: current.history.slice(0, -1),
-            })
-          }
-        />
+        )}
+        {!rangeError && (
+          <DataState
+            resource={resource}
+            empty={!items.length}
+            emptyTitle={actor ? "No wallet activity" : "Choose a demo guest"}
+            emptyMessage={
+              !actor
+                ? "Select a guest in the header to view their wallet history."
+                : from || to
+                  ? "No wallet entries match this date range."
+                  : "No wallet changes have been recorded for this guest yet."
+            }
+            emptyAction={
+              (from || to) && (
+                <button
+                  className="btn secondary"
+                  onClick={() => {
+                    setFrom("");
+                    setTo("");
+                  }}
+                >
+                  Clear dates
+                </button>
+              )
+            }
+          >
+            <div className="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Entry</th>
+                    <th>Date & time</th>
+                    <th>Type</th>
+                    <th>Change</th>
+                    <th>Running balance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {items.map((r) => (
+                    <tr key={r.id}>
+                      <td>#{r.id}</td>
+                      <td>{date(r.timestamp)}</td>
+                      <td>
+                        <Pill status={r.action_type} />
+                      </td>
+                      <td
+                        className={
+                          Number(r.amount_changed) > 0 ? "positive" : "negative"
+                        }
+                      >
+                        {Number(r.amount_changed) > 0 ? "+" : ""}
+                        {money(r.amount_changed)}
+                      </td>
+                      <td>
+                        <strong>{money(r.running_balance)}</strong>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </DataState>
+        )}
+        {!rangeError && actor && (
+          <Pager
+            pageSize={pageSize}
+            history={current.history}
+            next={next}
+            onNext={() =>
+              setPaging({
+                scope,
+                offset: next,
+                history: [...current.history, current.offset],
+              })
+            }
+            onBack={() =>
+              setPaging({
+                scope,
+                offset: current.history.at(-1),
+                history: current.history.slice(0, -1),
+              })
+            }
+          />
+        )}
       </div>
     </>
   );

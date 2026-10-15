@@ -25,6 +25,8 @@ import { useData } from "./hooks/useData.js";
 import { Alert } from "./components/Alert.jsx";
 import { Modal } from "./components/Modal.jsx";
 import { Picker } from "./components/Picker.jsx";
+import { ErrorBoundary } from "./components/ErrorBoundary.jsx";
+import { PageState } from "./components/PageState.jsx";
 import { Browse } from "./Browse.jsx";
 import { Transaction } from "../../member2/web/Transaction.jsx";
 import { Audit } from "../../member2/web/Audit.jsx";
@@ -42,43 +44,59 @@ const navigation = [
   ["map", "Search map", MapPin],
   ["reviews", "Reviews", Star],
 ];
+
+// Invalid links get a recoverable page instead of silently opening another screen.
+function viewFromLocation() {
+  const next = window.location.hash.slice(1) || "browse";
+  const knownPath = ["/", "/index.html"].includes(window.location.pathname);
+  return knownPath && navigation.some(([id]) => id === next) ? next : "notfound";
+}
 /**
  * Render the shared shell and the one screen selected by the URL hash.
  * The selected actor and pending property are the only state shared between screens.
  */
 export function App() {
-  // Validate a direct-link hash before choosing the initial view; unknown hashes fall
-  // back to Browse.
-  const initial = window.location.hash.slice(1);
-  const [view, setView] = useState(
-    navigation.some((n) => n[0] === initial) ? initial : "browse",
-  );
+  const [view, setView] = useState(viewFromLocation);
   const [actor, setActor] = useState(null);
   const [actorError, setActorError] = useState("");
   const [actorPicker, setActorPicker] = useState(false);
   const [initialProperty, setInitialProperty] = useState(null);
+  const [actorVersion, setActorVersion] = useState(0);
   // The live badge reflects PostgreSQL AND MongoDB connectivity, independently of actor
   // data.
   const health = useData("/health");
   useEffect(() => {
-    // Fetch one initial actor, not every guest; the header picker handles larger
-    // searches.
-    api("/guests?limit=1")
-      .then((d) => {
-        if (!d.items.length)
-          throw new Error("No guests found. Seed the databases to start your demo.");
-        setActor(d.items[0]);
-      })
-      .catch((e) => setActorError(e.message));
-  }, []);
+    const timer = setInterval(health.reload, 30000);
+    return () => clearInterval(timer);
+  }, [health.reload]);
+  const initialGuests = useData("/guests?limit=1");
+  useEffect(() => {
+    const first = initialGuests.data?.items[0];
+    if (first) setActor((current) => current ?? first);
+  }, [initialGuests.data]);
+  const actorMessage =
+    actorError ||
+    (!actor &&
+      (initialGuests.error ||
+        (initialGuests.data?.items.length === 0
+          ? "No demo guests are available yet."
+          : "")));
+  function retryActor() {
+    setActorError("");
+    initialGuests.reload();
+    setActorVersion((value) => value + 1);
+  }
   useEffect(() => {
     // Listen for Back/Forward or manual hash edits and remove the listener on unmount.
     const handler = () => {
-      const next = window.location.hash.slice(1);
-      if (navigation.some((n) => n[0] === next)) setView(next);
+      setView(viewFromLocation());
     };
     window.addEventListener("hashchange", handler);
-    return () => window.removeEventListener("hashchange", handler);
+    window.addEventListener("popstate", handler);
+    return () => {
+      window.removeEventListener("hashchange", handler);
+      window.removeEventListener("popstate", handler);
+    };
   }, []);
   /**
    * Keep screen state and URL synchronized, then position the user at the new screen
@@ -86,7 +104,12 @@ export function App() {
    */
   function navigate(next) {
     setView(next);
-    window.location.hash = next;
+    if (["/", "/index.html"].includes(window.location.pathname)) {
+      window.location.hash = next;
+    } else {
+      // A recovery action also removes an invalid pathname from the address bar.
+      window.history.pushState(null, "", `/#${next}`);
+    }
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   /**
@@ -99,24 +122,37 @@ export function App() {
   /**
    * Reread the wallet when changing screens so the shell reflects recent bookings.
    */
-  async function actorRefresh() {
-    if (actor) {
-      try {
-        setActor(await api(`/guests/${actor.id}`));
-      } catch (e) {
-        setActorError(e.message);
-      }
-    }
-  }
   useEffect(() => {
-    // Changing screens may follow a transaction, so refresh the selected actor
-    // snapshot.
-    actorRefresh();
-  }, [view]);
+    const actorId = actor?.id;
+    if (actorId == null) return;
+    let alive = true;
+    // Discard a response if navigation or guest selection has moved on. An old
+    // wallet request must never switch the header back to the previous guest.
+    api(`/guests/${actorId}`)
+      .then((record) => {
+        if (alive) {
+          setActor((current) => (current?.id === actorId ? record : current));
+          setActorError("");
+        }
+      })
+      .catch((e) => {
+        if (alive) setActorError(e.message);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [view, actor?.id, actorVersion]);
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a className="brand" href="#browse" onClick={() => navigate("browse")}>
+        <a
+          className="brand"
+          href="#browse"
+          onClick={(e) => {
+            e.preventDefault();
+            navigate("browse");
+          }}
+        >
           <span className="brand-mark">
             <Home size={25} />
           </span>
@@ -154,7 +190,9 @@ export function App() {
         <header className="topbar">
           <div className="breadcrumb">
             Workspace <span>/</span>
-            <strong>{navigation.find((n) => n[0] === view)?.[1]}</strong>
+            <strong>
+              {navigation.find((n) => n[0] === view)?.[1] ?? "Page not found"}
+            </strong>
           </div>
           <div className="header-actions">
             <span
@@ -162,12 +200,23 @@ export function App() {
               title={health.error ?? "Both PostgreSQL and MongoDB are connected"}
             >
               <i />
-              {health.loading
+              {health.loading && !health.data
                 ? "Connecting"
                 : health.error
                   ? "Offline"
                   : "Live databases"}
             </span>
+            {health.error && (
+              <button
+                className="btn secondary connection-retry"
+                onClick={() => {
+                  health.reload();
+                  retryActor();
+                }}
+              >
+                Retry connection
+              </button>
+            )}
             <button
               className="actor-button"
               onClick={() => setActorPicker(true)}
@@ -189,16 +238,25 @@ export function App() {
           </div>
         </header>
         <main>
-          {actorError && <Alert message={actorError} />}
-          {
-            {
+          {actorMessage && !health.error && (
+            <div className="recovery-banner">
+              <Alert message={actorMessage} />
+              <button className="btn secondary" onClick={retryActor}>
+                Try again
+              </button>
+            </div>
+          )}
+          <ErrorBoundary key={view} onHome={() => navigate("browse")}>
+            {{
               browse: <Browse actor={actor} onBook={book} />,
               transaction: (
                 <Transaction
                   actor={actor}
                   initialProperty={initialProperty}
                   onWallet={(wallet_balance) =>
-                    setActor((a) => ({ ...a, wallet_balance }))
+                    setActor((a) =>
+                      a?.id === actor?.id ? { ...a, wallet_balance } : a,
+                    )
                   }
                 />
               ),
@@ -206,8 +264,15 @@ export function App() {
               analytics: <Analytics />,
               map: <MapView />,
               reviews: <Reviews />,
-            }[view]
-          }
+            }[view] ?? (
+              <PageState
+                code="404"
+                title="That page could not be found"
+                message="Choose a screen from the sidebar or return to Browse."
+                onHome={() => navigate("browse")}
+              />
+            )}
+          </ErrorBoundary>
           <footer className="page-footer">
             <span>StaySpot · Thoughtful stays, meaningful experiences.</span>
             <span>

@@ -1,19 +1,19 @@
 # StaySpot_A1B — StaySpot Assignment 2
 
-The group integration base for **StaySpot**, copied from **StaySpotAI** with the shared project files and **Member 1 only**. Members 2, 3 and 4 will add their respective folders through branches from their own devices. The repository folder is **StaySpot_A1B**; the product name remains **StaySpot**.
+The group project for **StaySpot**, initially copied from **StaySpotAI** with shared files and Member 1. All four member folders are now present and their contributions have been merged. The repository folder is **StaySpot_A1B**; the product name remains **StaySpot**.
 
-**Current state: incomplete by design.** Full setup, build, API startup and integration tests require all four member folders. The UI, APIs and integration paths are preserved; teammates' modules are not replaced by stubs. Use `python3 scripts/check_members.py` to check what is missing before running the app. Historical reports, screenshots and test logs below belong to the complete reference project and do not verify this partial base.
+**Current verification — 15 October 2026:** the production build passed, and read-only checks reached the running app and all read workflows. Test sources and several optional helper scripts have since been removed from the working tree; historical test logs are not current suite results. See the [point-by-point handover](docs/handover_note.md) and [verified backend comparison](docs/backend_comparison.md) for results and outstanding requirements.
 
-See [the member branch and merge guide](docs/team_git_workflow.md) for your manual initial push, teammates' contributions and final integration. The new copy has no `.git` history, dependencies, local `.env` or build output. The original `StaySpotAI` folder remains unchanged.
+The initial copy excluded the source `.git`, dependencies, local `.env` and build output. This repository now has its own member/merge history, but does not contain the original Assignment 1 ancestry. The [member branch guide](docs/team_git_workflow.md) records the earlier partial-copy workflow; its initial-state descriptions and deleted-helper commands are historical. New clones should follow the current quickstart below.
 
 **Copy source:** local `StaySpotAI`, revision `0b2f70d` (recorded in [the handover manifest](docs/member_handover_manifest.json)).
 **Original assignment reference:** https://github.com/git-adityamishra/27_a1
 **Original reference commit:** `774fbd2f33463c3e88352bdb0b7988165c65abcf` (reference metadata; its Git history is not copied).
 **Submission repository:** https://github.com/anantreen/StaySpot_A1B
-**Final commit hash:** resolve the current published revision with `git rev-parse HEAD` or [GitHub commits](https://github.com/anantreen/StaySpot_A1B/commits/main). The packaging script stamps that exact committed SHA into the ZIP README.
+**Final commit hash:** after committing and publishing the final work, record its actual SHA here using `git rev-parse HEAD` and check [GitHub commits](https://github.com/anantreen/StaySpot_A1B/commits/main). A local HEAD does not include uncommitted changes or prove that they were pushed.
 **Demo walkthrough:** [demo_walkthrough.mp4](docs/demo_walkthrough.mp4) — captioned actual live-browser captures, under five minutes; method disclosed in [browser verification](docs/browser_verification.md). Add the team's uploaded share link here if an external demo URL is required.
 
-## Clone and run after all member folders are merged
+## Clone and run
 
 Use a Bash terminal on macOS/Linux. On Windows, use Ubuntu in WSL 2 and enable Docker Desktop's WSL integration; run all commands inside that WSL terminal, rather than mixing Windows and WSL installations.
 
@@ -23,7 +23,7 @@ Use a Bash terminal on macOS/Linux. On Windows, use Ubuntu in WSL 2 and enable D
 |---|---|---|
 | Git | Clone the repository | [Git downloads](https://git-scm.com/downloads) |
 | Node.js 22.12+ and npm | API, React dependencies and production build | [Node.js downloads](https://nodejs.org/en/download) |
-| Python 3.11+ with pip/venv | Database seeders and Python checks | [Python downloads](https://www.python.org/downloads/) |
+| Python 3.11+ with pip/venv | Database seeders | [Python downloads](https://www.python.org/downloads/) |
 | Docker with Compose v2 | PostgreSQL 16 and MongoDB 7.0 services | [Docker Desktop](https://docs.docker.com/desktop/) or [Docker Engine](https://docs.docker.com/engine/install/) |
 | PostgreSQL client `psql` | Apply the SQL scripts | [PostgreSQL downloads](https://www.postgresql.org/download/) |
 | MongoDB Shell `mongosh` | Create validators/indexes and run workflows | [mongosh installation](https://www.mongodb.com/docs/mongodb-shell/install/) |
@@ -61,9 +61,6 @@ Run this sequence once against the new project's empty database volumes:
 git clone https://github.com/anantreen/StaySpot_A1B.git
 cd StaySpot_A1B
 
-# Stop here if member contributions are missing; merge them before setup.
-python3 scripts/check_members.py
-
 # Local settings are intentionally not committed. Create your own from the sample.
 cp .env.example .env
 
@@ -87,14 +84,13 @@ npm start
 
 Open **http://127.0.0.1:3000**. Keep the `npm start` terminal running. The first run downloads database images and generates 50,000 bookings, 100,000 audits and 500,000 search sessions, so it takes longer than later starts. Run `npm start` after `npm run build`; there is no prebuilt `dist/` committed in Git.
 
-In a **second terminal** in the cloned folder, verify the app and important workflows:
+In a **second terminal** in the cloned folder, check that the API can reach both databases:
 
 ```bash
 curl http://127.0.0.1:3000/api/health
-npm test
 ```
 
-Health should return `ok: true`. The API tests should report 12 passes and zero skipped tests when .env and both seeded databases are available. Sample actors include guest #1, Ananya Rao; select another guest using the header for demonstrations. Browser map tiles require internet access.
+Health should return `ok: true`. This checks connectivity; it does not prove every seed phase or workflow. Sample actors include guest #1, Ananya Rao; select another guest using the header for demonstrations. Browser map tiles require internet access. See the verification section for the current test-source limitation.
 
 ### 3. Starting it again and developing
 
@@ -111,6 +107,8 @@ For front-end development, stop the existing app with Ctrl+C, then use `npm run 
 
 To stop: Ctrl+C stops the app, and `docker compose stop` stops the engines while retaining their data. `docker compose start --wait` resumes already-created services. React/API credentials are read from your own .env; the original developer's hidden runtime folders are not needed by a new clone.
 
+Use **Ctrl+C**, not Ctrl+Z, to stop the server. Ctrl+Z suspends the process and can leave port 3000 occupied. In the terminal where you suspended it, use `jobs`, then `fg` and Ctrl+C to stop that job. Express now reports a busy port and exits unsuccessfully rather than printing a misleading startup URL.
+
 ### Troubleshooting
 
 | Symptom | Fix |
@@ -118,15 +116,17 @@ To stop: Ctrl+C stops the app, and `docker compose stop` stops the engines while
 | docker.sock is missing / cannot connect to Docker | Start Docker Desktop/Engine; wait for `docker info` to succeed. Activating Python's venv does not start Docker. |
 | `psql` or `mongosh`: command not found | Install the listed clients and put their binaries on PATH in this terminal. |
 | `venv` / ensurepip missing on Ubuntu | Install the distribution's `python3-venv` package and recreate .venv. |
-| Port 5432 or 27017 is already occupied | Change `POSTGRES_PORT`/`MONGO_PORT` and the matching connection URL in .env before starting Compose; examples appear below. |
-| relation/table already exists during setup | Setup was run on an initialized database. Skip setup on later runs and use the restart commands. |
+| A configured database port is already occupied | This project defaults to host ports `55434` and `27021`. Check `.env` and exported shell variables; keep `POSTGRES_PORT`/`MONGO_PORT` aligned with their connection URLs. |
+| `.env not found. Continuing without it.` | Create `.env` from `.env.example`, set the ports/URLs for this project's databases, then restart the API. Without it, defaults may point to another project. |
+| relation/table already exists during setup | Setup was run on an existing database. The setup preflight now stops before modifying existing tables. Check `.env`; use the restart commands when initialization is complete. |
+| `Request failed: 26` from a MongoDB request | MongoDB reports a missing namespace/collection. Verify `MONGO_URL` and `MONGO_DB` select the intended database and that its validators/indexes and seed data have been installed. |
 | API cannot find dist/index.html / page unavailable | Run `npm run build`, then `npm start` from the project root. |
 | Port 3000 is in use | Stop the previous app instance. For production you may change PORT in .env and use that URL; the development proxy expects 3000. |
-| Map has no recent search pins after a later restart | SearchSessions expire after two hours; add a pin in the UI or run the telemetry-only replenishment command below. |
+| Map has no recent search pins after a later restart | SearchSessions expire after two hours; add a pin in the UI at the selected origin to demonstrate a new search. |
 
 ## Code sections for four members
 
-The code is organized under [members/](members/README.md), following the supplied responsibility/Figma-screen mapping. Each member folder contains their screens, route handlers, database scripts and existing tests. The current UI, stylesheet, endpoint contracts and root commands are preserved.
+The code is organized under [members/](members/README.md), following the supplied responsibility/Figma-screen mapping. Each member folder contains its screens, route handlers and database scripts. The originally supplied member tests are currently deleted from the working tree. Root entry points delegate to the member implementations.
 
 | Member | Assigned section | Figma screens |
 |---|---|---|
@@ -152,22 +152,28 @@ React + Vite provide reusable UI and a small static build. Express keeps the API
 
 [Handover note](docs/handover_note.md), [API sketch](docs/api_endpoints.md), [users/style](docs/design/users_and_style.md), [Assignment 2 report](docs/assignment2_report.md), [browser evidence](docs/browser_verification.md).
 
+### Backend changes and handover
+
+- Retained the inherited schema relationships, active-stay rule, wallet trigger, materialized-view unique index and geospatial/TTL foundations.
+- Moved booking transaction boundaries to one API connection, propagated errors and calculated price from database price × nights.
+- Added required financial fields, real nights and append-only audit guards; replaced fabricated seed balances with trigger-generated entries.
+- Bounded and pre-aggregated analytics, corrected daily rank meaning, and recorded actual materialized-refresh completion.
+- Added MongoDB validators, property/date filtering before review facets, explicit search recency, grid hotspots and cross-database seed ID alignment.
+- Added API validation, error handling and setup preflight. The [backend comparison](docs/backend_comparison.md) links the original and current implementations and records what was verified.
+
+**Outstanding:** original Git ancestry is missing; frontend newest-first bookings still download all matching pages. These requirements are not marked complete in the current handover.
+
 The [design handover](docs/design/README.md) contains nine current wireframes and matching UI references in the four-member allocation. Open [the gallery](docs/design/preview.html) locally, or download [the editable Excalidraw wireframe board](docs/design/StaySpot-wireframes.excalidraw) and open it in Excalidraw. SVG/PNG exports and booking/error state annotations are included. No application UI or API changes are introduced by these artifacts.
 
 ![Browse screen](docs/screenshots/01_browse.png)
 
-## Important tests
+## Current verification and historical tests
 
-```bash
-# npm test loads the ignored .env; tests use both real databases.
-npm test
-# With Python dependencies installed and .env exported:
-python tests/database_checks.py
-```
+On 15 October, `npm run build` passed. Ten read-only HTTP checks returned nine successful responses and the expected unknown-API 404. The [verification table](docs/backend_comparison.md#4-current-verification-results) records the exact scope; booking writes, concurrency, rollback and a fresh setup were not rerun.
 
-Twelve API integration cases and eight database checks passed. They test booking success/failure, concurrent deductions, active check-in rollback/release, immutable audit, forged prices/invalid inputs, bounded pagination, precise ledger cursors, seven-day gaps/ties, geospatial bounds/live pins, facet counts/validators and materialized totals. API tests explicitly skip when database environment variables are missing; a skipped run is not represented as verification. Tests append a few dedicated test records; the initial seed independently meets assignment thresholds.
+The configured `npm test` entry still refers to tests/workflows.test.js, which is deleted in the current working tree. tests/database_checks.py and the member test sources are also deleted. The old 12 API passes and eight database passes cannot be claimed as a current test run.
 
-[API test log](performance/api_test_results.txt), [database test log](performance/database_test_results.txt), [production build log](performance/build_results.txt).
+Historical evidence: [API test log](performance/api_test_results.txt), [database test log](performance/database_test_results.txt), [production build log](performance/build_results.txt), and [October 7 clone verification](docs/clone_validation.md). These records describe their earlier tested versions.
 
 ## Readable code and implementation notes
 
@@ -187,17 +193,29 @@ Twelve API integration cases and eight database checks passed. They test booking
 
 The quickstart above already installs and seeds the databases. This section documents that configuration and the optional native-server path; it is not another first-run sequence. `scripts/setup.sh` targets empty databases and intentionally refuses duplicate seeding.
 
+Setup checks its tools, Python dependencies, PostgreSQL tables and MongoDB target documents before creating schema. SQL installation runs in one transaction so an installation error rolls back its DDL. The subsequent PostgreSQL and MongoDB seed phases are separate; setup is not a cross-database transaction or an automatic recovery/migration tool. If PostgreSQL is already fully seeded but all three MongoDB target collections are empty, finish just the MongoDB phase with the activated Python environment:
+
+```bash
+set -a
+source .env
+set +a
+mongosh "$MONGO_URL/$MONGO_DB" --quiet -f mongo/01_collections_and_indexes.js
+python data_generation/mongo_seeder.py
+```
+
+The MongoDB seeder refuses nonempty target collections. These recovery commands preserve the existing relational dataset. StaySpot_A1B defaults to PostgreSQL host port `55434` and MongoDB host port `27021`, allowing another project to keep `5432` and `27019`. The `.env.example`, Compose fallback ports, API defaults and setup defaults agree. Keep both the port variable and connection URL aligned when overriding either database.
+
 The script loads .env, installs all six SQL files and the MongoDB validators/indexes, then seeds 1,000 guests, 2,000 properties, 50,000 bookings, 100,000 trigger audit entries, 500,000 city-clustered search sessions, 50,000 reviews and matching property catalogs. MongoDB setup runs before its seed data so validation is exercised during insertion. COPY/bulk batches keep memory bounded; errors exit unsuccessfully.
 
 If Compose reports that docker.sock does not exist, Docker Desktop is stopped. Start it with `docker desktop start` (or open Docker in Applications) and wait for `docker info` to succeed. The Python virtual environment does not start the Docker engine.
 
-If another MongoDB already uses port 27017, set `MONGO_PORT=27019` and `MONGO_URL=mongodb://127.0.0.1:27019` in .env. Compose and the app must use the same host port. `POSTGRES_PORT` similarly controls PostgreSQL's host port; update `DATABASE_URL` when changing it. Existing local database services do not need to be stopped.
+If native MongoDB uses port `27017`, this project's default host port `27021` avoids it. PostgreSQL similarly uses host port `55434` while retaining container port `5432`. Compose and the app must use the same host ports: update `MONGO_URL` with `MONGO_PORT`, and `DATABASE_URL` with `POSTGRES_PORT`. Existing local database services do not need to be stopped. Exported shell port variables override Compose's `.env` interpolation; unset stale `MONGO_PORT`/`POSTGRES_PORT` exports in your terminal if Compose still resolves the wrong ports.
 
-Compose uses MongoDB 7.0 because MongoDB 8 has a [documented incompatibility with Linux kernels 6.19 through 7.0.13](https://www.mongodb.com/docs/manual/release-notes/8.0/), including this Mac's Docker Desktop kernel 7.0.12. The Docker path was verified from a fresh Git clone using PostgreSQL 16.15 and MongoDB 7.0.40: full seeding, production serving, 12 API tests and eight database checks passed. [Fresh-clone verification details](docs/clone_validation.md) record the tested scope. The earlier native MongoDB 8 performance reports remain records of their original runs. The UI and API code are unchanged.
+Compose uses MongoDB 7.0. The [October 7 fresh-clone record](docs/clone_validation.md) documents why it was selected and the PostgreSQL 16.15/MongoDB 7.0.40 environment used for that earlier setup/build/test run. The native MongoDB 8 performance reports are also historical. Current verification is recorded separately in the handover comparison.
 
 For databases installed without Docker, create an empty PostgreSQL database and an empty MongoDB database, edit .env to their connection details, then run the same setup script. PostgreSQL must permit installing pg_trgm. Do not run both projects' default Docker port mappings simultaneously; use separate ports/database names or one chosen project at a time.
 
-New clones use the defaults in .env.example: PostgreSQL on 5432 and MongoDB on 27017. Only the earlier developer verification environment used ports 55432/27018; friends do not need those services or any hidden runtime folder. If the default ports are busy, change the host-port variables and their corresponding URLs together, for example:
+New clones use the defaults in `.env.example`: PostgreSQL on `55434` and MongoDB on `27021`. Earlier verification environments used other ports; friends do not need those services or any hidden runtime folder. The matching default settings are:
 
 ```dotenv
 POSTGRES_PORT=55434
@@ -206,14 +224,7 @@ MONGO_PORT=27021
 MONGO_URL=mongodb://127.0.0.1:27021
 ```
 
-Search sessions intentionally expire after two hours. Before a later stress-test/demo, append fresh telemetry without resetting wallets:
-
-```bash
-set -a
-source .env
-set +a
-python scripts/replenish_sessions.py --count 500000
-```
+Search sessions intentionally expire after two hours. For a later demo, select an origin on the Map page and use its Add pin action to create a fresh search session. The old telemetry replenishment helper has been removed; do not rerun full setup to refresh pins.
 
 ## Independent Part A workflows
 
@@ -234,16 +245,9 @@ Mongo shell scripts must run from the repository root because they load the shar
 
 ## Verification and reports
 
-```bash
-set -a
-source .env
-set +a
-python scripts/capture_performance.py
-python tests/database_checks.py
-python scripts/build_reports.py
-```
+The existing reports/logs record the earlier performance and eight-check database run. Their capture, database-check and report-building scripts are currently deleted, so their former reproduction commands are not listed as runnable steps here. No new execution plans or performance timings were captured for the October 15 handover.
 
-Eight live-database checks passed. The measured SQL workflow uses idx_bookings_property_date; MongoDB uses GEO_NEAR_2DSPHERE / IXSCAN and an indexed match before $facet. The original all-history and optimized bounded output differ in scope; the same-scope SQL comparison was separately verified for equal results. Reads do not force the optimizer by disabling sequential scans. A materialized refresh still processes the global source data.
+The saved SQL workflow uses idx_bookings_property_date; MongoDB plans show GEO_NEAR_2DSPHERE / IXSCAN and a match before $facet. The original all-history and optimized bounded output differ in scope; the historical report separately describes a same-scope comparator. A materialized refresh still processes global source data. Frontend booking history currently accumulates all matching API pages despite the per-request bound.
 
 [Assignment 1 report and requirement audit](docs/assignment1_report.md), [ERD](docs/relational_erd.png), [MongoDB validators/map](docs/mongo_schema_map.json), [performance and complexity](docs/performance_and_complexity.md), [database test log](performance/database_test_results.txt).
 
@@ -258,21 +262,15 @@ Team numbers and member names/roll numbers still need filling. The responsibilit
 | Member 3 — name pending | Pending | 06 Analytics | Analytics, window functions, Materialized View |
 | Member 4 — name pending | Pending | 07 Map / Search Hotspots; 08 Reviews & Amenities | Map, Reviews, MongoDB pipelines |
 
-Assignment 2 is published at https://github.com/anantreen/StaySpot_A1B with the inherited commits preserved. The original repository remains linked as the source/upstream. This is a separate GitHub repository retaining the source history; it is not represented as a GitHub-registered fork. Confirm the course's fork requirement and fill the remaining team identity fields before Moodle submission.
+The submission repository is https://github.com/anantreen/StaySpot_A1B. Its member contribution history is present, but the original Assignment 1 ancestry is absent. The [Git audit](docs/backend_comparison.md#2-git-history-findings) records the separate root and missing original commit. Resolve the brief's fork/history requirement and fill team identity fields before claiming compliance.
 
-The final packager requires a clean committed tree and stamps the exact source HEAD and supplied repository URL into the ZIP README. It excludes .git, node_modules, virtual environments, caches, build output, secrets and database dumps; it enforces a ZIP strictly below 20,000,000 bytes. A review archive can be made while metadata is pending; its name explicitly prevents confusion with a final submission.
-
-```bash
-python scripts/package_submission.py --assignment 2 --review
-# After filling metadata and committing, use the actual team/repository values:
-python scripts/package_submission.py --assignment 2 --team YOUR_TEAM_NUMBER --repo-url https://github.com/anantreen/StaySpot_A1B
-```
+The previous packaging helper is deleted. Prepare the final archive with the actual repository URL and published commit; exclude .git, node_modules, virtual environments, caches, build output, secrets and database dumps. Verify the final ZIP is strictly below 20,000,000 bytes; no current script is claimed to enforce that automatically.
 
 The final filenames are <team>_a1.zip for Assignment 1 and <new_team>_a1b.zip for Assignment 2. Submit one correctly named ZIP to Moodle and prepare for the team's live viva. [Requirement audit](docs/requirements_checklist.md) records these remaining team-owned steps.
 
-## Executed performance proof
+## Historical executed performance proof
 
-Captured from real seeded databases with the default planner; no scan-forcing settings. Full logs are linked below. Workflow 2 covers five properties for 30 days (plus six warm-up days). Workflow 4 covers one property's past-year reviews. These scopes are explicit and are shared with the UI/API.
+The saved records below were captured from seeded databases with the default planner. They were not rerun for the current handover. Workflow 2 covers five properties for 30 days (plus six warm-up days); Workflow 4 covers one property's past-year reviews. They use the database functions/builders also used by the API; the default UI analytics cohort is twelve properties.
 
 ```text
 SELECT * FROM revenue_analytics((CURRENT_TIMESTAMP AT TIME ZONE 'UTC')::date-29, (CURRENT_TIMESTAMP AT TIME ZONE 'UTC')::date, ARRAY[1,2,3,4,5])

@@ -16,12 +16,12 @@ import { createApp } from "./app.js";
 const pool = new pg.Pool({
   connectionString:
     process.env.DATABASE_URL ??
-    "postgresql://stayspot:stayspot@127.0.0.1:5432/stayspot",
+    "postgresql://stayspot:stayspot@127.0.0.1:55434/stayspot",
   max: 10,
   connectionTimeoutMillis: 5000,
   statement_timeout: 15000,
 });
-const client = new MongoClient(process.env.MONGO_URL ?? "mongodb://127.0.0.1:27017", {
+const client = new MongoClient(process.env.MONGO_URL ?? "mongodb://127.0.0.1:27021", {
   serverSelectionTimeoutMS: 5000,
 });
 // Select the document database; the driver establishes connections when operations run.
@@ -30,7 +30,21 @@ pool.on("error", (error) => console.error("Database connection error:", error.co
 const server = createApp({ pool, mongo }).listen(
   Number(process.env.PORT ?? 3000),
   "127.0.0.1",
-  () => console.log(`StaySpot API: http://127.0.0.1:${process.env.PORT ?? 3000}`),
+  async (error) => {
+    // Express 5 passes listener errors to this callback. Report a busy port
+    // instead of printing a success URL for a server that never started.
+    if (error) {
+      console.error(
+        error.code === "EADDRINUSE"
+          ? `Port ${process.env.PORT ?? 3000} is already in use. Stop the previous StaySpot server with Ctrl+C before starting another.`
+          : `StaySpot could not start: ${error.message}`,
+      );
+      await Promise.all([pool.end(), client.close()]);
+      process.exitCode = 1;
+      return;
+    }
+    console.log(`StaySpot API: http://127.0.0.1:${process.env.PORT ?? 3000}`);
+  },
 );
 // Handle Ctrl+C/termination: stop accepting requests before closing database
 // connections.

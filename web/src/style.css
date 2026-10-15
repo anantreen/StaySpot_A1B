@@ -1,7 +1,8 @@
 /*
  * StaySpot visual styles. Comments identify component responsibilities only.
  * Preserve rule order: later media queries and phone overrides intentionally win.
- * JavaScript files reuse these class names; values and rendered UI are unchanged.
+ * JavaScript files reuse these class names; recovery states share the existing
+ * palette and controls while the ordinary screen layouts remain in place.
  */
 
 /* Foundations: fonts, palette and shared design variables. */
@@ -1026,6 +1027,13 @@ select {
   font-size: 9px;
   width: 132px;
 }
+/* Date validation stays beside the controls without changing the valid layout. */
+.analytics-date-controls {
+  max-width: 360px;
+}
+.analytics-date-controls .alert {
+  margin: 12px 0 0;
+}
 .positive {
   color: #77975c;
 }
@@ -1904,6 +1912,55 @@ select {
     grid-template-columns: 1fr 1.5fr;
   }
 }
+/* Recovery states use the same cards, colors and controls as the main screens. */
+.page-state {
+  margin: 40px auto;
+  max-width: 780px;
+  padding: clamp(28px, 6vw, 70px);
+  text-align: center;
+}
+.page-state > svg {
+  color: var(--green);
+  margin-bottom: 20px;
+}
+.page-state h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 400;
+}
+.page-state p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.recovery-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.recovery-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.recovery-banner .alert {
+  flex: 1 1 250px;
+  margin: 0;
+}
+.connection-retry {
+  padding: 7px 10px;
+  font-size: 11px;
+}
+.booking-fields {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
 /* Respect a user's reduced-motion preference without altering functional feedback. */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -1917,6 +1974,19 @@ select {
 
 /* Keep all six destinations visible and controls easy to tap on a phone. */
 @media (max-width: 650px) {
+  .topbar {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 70px;
+    gap: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .header-actions {
+    gap: 8px;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
   .sidebar nav {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

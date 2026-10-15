@@ -45,7 +45,23 @@ export function Picker({ entity, value, onSelect, label }) {
           />
         </div>
       </label>
-      <DataState resource={resource} empty={!resource.data?.items.length}>
+      <DataState
+        resource={resource}
+        empty={!resource.data?.items.length}
+        emptyTitle={`No ${entity} found`}
+        emptyMessage={
+          search
+            ? "Try another search or clear it to see available choices."
+            : `There are no ${entity} available to select yet.`
+        }
+        emptyAction={
+          search && (
+            <button type="button" className="btn secondary" onClick={() => change("")}>
+              Clear search
+            </button>
+          )
+        }
+      >
         <div className="picker-list">
           {resource.data?.items.map((item) => (
             <button

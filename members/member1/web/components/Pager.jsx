@@ -14,10 +14,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
  * Previous is available with history; Next is available only when the server sends a
  * cursor.
  */
-export function Pager({ next, history, onNext, onBack, label }) {
+export function Pager({ next, history, onNext, onBack, label, pageSize = 20 }) {
   return (
     <div className="pager">
-      <span>{label ?? `Page ${history.length + 1}`} · up to 20 records per page</span>
+      <span>
+        {label ?? `Page ${history.length + 1}`} · up to {pageSize} records per page
+      </span>
       <div>
         <button
           className="icon-btn"

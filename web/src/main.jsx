@@ -9,6 +9,11 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "../../members/member1/web/App.jsx";
+import { ErrorBoundary } from "../../members/member1/web/components/ErrorBoundary.jsx";
 import "./style.css";
 
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  <ErrorBoundary>
+    <App />
+  </ErrorBoundary>,
+);

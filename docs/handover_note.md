@@ -1,17 +1,36 @@
 # StaySpot handover note
 
-Inherited repository: https://github.com/git-adityamishra/27_a1, main commit `774fbd2f33463c3e88352bdb0b7988165c65abcf`. Both local folders retain the full inherited Git history. StaySpot2 is copied from the corrected StaySpot working tree, so it can run independently.
+Reviewed **15 October 2026** against the current `StaySpot_A1B` working tree. See the [backend comparison](backend_comparison.md) for source links, Git evidence and verification details.
 
-The inherited tables, checked-in partial unique index, wallet audit trigger, materialized-view unique index, MongoDB geospatial/TTL indexes, and intent of the four workflows provided a useful starting point. The original raw SQL report exposed repeated booking sequential scans and approximately 732,000 property/day rows; its Mongo review report explicitly contained COLLSCAN. The README's claimed timings did not consistently match its pasted output, and the recorded final commit was not the checked-out main commit.
+## 1. Source and history
 
-The original booking procedure ended transactions inside an exception block, which PostgreSQL disallows. It also swallowed failures as NOTICEs, so a browser could not reliably distinguish failure from success. The revised procedure leaves transaction boundaries to the caller, computes price from property base_price and nights, performs a conditional locked wallet update, and lets meaningful errors propagate. The API commits or rolls back the booking, wallet debit and trigger entry together. An immediate CHECKED_IN booking allows the uniqueness failure to be demonstrated; CONFIRMED reservations can coexist.
+- **Original:** [git-adityamishra/27_a1](https://github.com/git-adityamishra/27_a1), commit `774fbd2f33463c3e88352bdb0b7988165c65abcf`. Compared committed source using `git show`, excluding local corrections.
+- **Current:** `StaySpot_A1B`, branded **StaySpot**, with all four member sections merged.
+- **Correction:** `StaySpotAI` retains the original ancestry; `StaySpot_A1B` has a separate root and lacks those commits. The previous handover's history claim was incorrect. The brief's history-preservation requirement remains unmet.
 
-The schema now records nights, rejects null/negative balances and invalid financial values, validates audit action/sign consistency, provides timestamp defaults and guards audit UPDATE/DELETE/TRUNCATE. The summary reports actual total nights rather than using booking count as a proxy. Concurrent refresh records its actual completion timestamp. New property/time, guest/booking, audit/time, status and search indexes support bounded UI requests. The revenue function pre-aggregates selected bookings over a bounded UTC date range, fills missing days, includes six warm-up days, and ranks properties on the same day. API PostgreSQL DATE parsing preserves calendar strings instead of shifting them by the host timezone.
+## 2. Useful inherited foundations
 
-MongoDB now creates and validates all three collections, including flexible nested amenities. Both JS workflows and the API import the same pure pipeline builders. Reviews match property/date before $facet; ratings are integer stars. Search uses explicit recency and 5 km bounds, eliminates a redundant nearest-pin sort, and separately aggregates all qualifying pins into approximate grid hotspots. COPY/bulk seeders use actual PostgreSQL guest/property IDs, clustered city telemetry, bounded batches, and real trigger-generated audit entries. They fail clearly on a nonempty database instead of duplicating data or hiding errors.
+- Relational entities, foreign keys, coordinate checks, the active-stay partial unique index and a balance-guarded wallet update already existed.
+- The wallet trigger, materialized-view unique index, calendar/window query, geospatial index, two-hour TTL and review facets also came from the original authors.
 
-Validation used isolated PostgreSQL 16 and MongoDB 8 instances, the full required seed scale, eight database checks and twelve API integration cases. Browser checks exercised booking failures/success, status changes, actor switching, read-only ledger, dense ranks, refresh, live map pins, facets, catalogs and phone layouts. Raw measured before/after plans replace the inherited assertions. Initial browser/API checks found and fixed the DATE timezone issue.
+## 3. Problems and documented changes
 
-Suggestions for the original authors: run setup from a clean clone, propagate transaction errors, compare plans against the exact query/scope, generate coherent ledgers through triggers, and keep cross-database IDs aligned. This is a local teaching demo with no authentication, availability calendar or production migration/role-management system. The scripts target a fresh database; a deployed inherited instance needs a deliberate data migration. Owner/superuser access can bypass audit triggers, so append-only behavior here describes ordinary application operations rather than privileged administrative tamper resistance.
+- **Transactions:** the old procedure terminated transactions inside an exception-handling block. The revised procedure propagates errors; one API connection commits or rolls back the wallet, booking and audit together. Price now comes from database price × nights.
+- **Schema/audit:** nullable wallets, absent nights and editable ledger history were weaknesses. Added financial constraints, nights, defaults, action/sign checks and audit UPDATE/DELETE/TRUNCATE guards.
+- **Analytics:** replaced full-history calendar expansion with selected-property/date pre-aggregation, six warm-up days and zero-filled dates. Ranks now compare properties on each day. Materialized totals include actual nights and refresh-completion time.
+- **MongoDB:** added collection validators, review property/date indexes and matching, shared pipelines, explicit search recency and grid hotspots. Preserved the five-kilometre radius and two-hour TTL.
+- **Seed/setup:** replaced fabricated audit balances with trigger-generated entries; aligned MongoDB IDs with SQL records and used COPY/bulk batches. Setup checks dependencies and refuses used databases before writing; refusal alone does not prove completed seeding.
+- **Application:** added the HTTP/React layer to the inherited database scripts. Member-owned routes validate inputs and translate errors. Later navigation/loading/recovery fixes are listed in the [UI review](design/review/README.md).
 
-Source organization follow-up: the existing implementation is grouped into members/member1 (Browse/PropertyDetails/shared foundations/schema), member2 (booking/status/audit/transactional SQL), member3 (analytics/windows/materialized view), and member4 (map/reviews/MongoDB). Root bootstraps and numbered workflow files delegate to those canonical sources; the UI and API contracts are preserved. See members/README.md for the supplied Figma ownership mapping.
+## 4. Verification for this handover
+
+- **Build:** `npm run build` passed.
+- **Running app:** nine read-only HTTP requests passed, covering HTML, health and every read workflow; an unknown API returned the expected 404. Both databases answered health checks. Map search had zero qualifying pins; no data was inserted.
+- **Limits:** fresh setup, booking writes, concurrency and rollback were not rerun. October 7 clone/test logs concern an earlier version. Test sources are currently deleted; historical pass counts are not current results.
+
+## 5. Remaining issues and suggestions
+
+- Resolve fork/history compliance while preserving the team's contributions and source attribution.
+- Newest-first bookings download all matching pages before sorting, conflicting with the brief's no-all-50,000-rows rule. Audit similarly accumulates its guest/date scope.
+- Explain API-owned transaction boundaries in the viva. Plain `BEGIN` does not explicitly request REPEATABLE READ; Project 3's supplied brief does not explicitly require that level.
+- Suggestions for the original authors: propagate failures, align IDs, generate coherent ledgers and compare equal query scopes. This is a local demo without authentication or production migrations; privileged owners can bypass audit triggers.

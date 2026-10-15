@@ -6,13 +6,14 @@
  * Successful responses include before/after balances and the real trigger audit row.
  */
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { CalendarPlus, ArrowRight, RefreshCw, Wallet, Leaf } from "lucide-react";
 import { money } from "../../member1/web/lib/format.js";
 import { api } from "../../member1/web/lib/api.js";
 import { Alert } from "../../member1/web/components/Alert.jsx";
 import { Heading } from "../../member1/web/components/Heading.jsx";
 import { Picker } from "../../member1/web/components/Picker.jsx";
+import { validateNights } from "../../member1/web/lib/validation.js";
 
 /**
  * Submit a stay for the selected actor, then render its committed receipt.
@@ -26,10 +27,19 @@ export function Transaction({ actor, initialProperty, onWallet }) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState(null);
+  const nightsError = validateNights(nights);
+  const requestScope = useRef(null);
   useEffect(() => {
-    // Clear another actor's receipt/error when the demo guest changes.
+    // A response belongs to this guest and this mounted form. Navigating away
+    // or switching guests must not display its receipt in another guest's form.
+    const scope = { pending: false };
+    requestScope.current = scope;
     setResult(null);
     setError("");
+    setBusy(false);
+    return () => {
+      requestScope.current = null;
+    };
   }, [actor?.id]);
   /**
    * Submit one booking request and publish the committed wallet balance to App.
@@ -38,6 +48,9 @@ export function Transaction({ actor, initialProperty, onWallet }) {
    */
   async function submit(e) {
     e.preventDefault();
+    const scope = requestScope.current;
+    if (!scope || scope.pending || !actor || !property || nightsError) return;
+    scope.pending = true;
     setBusy(true);
     setError("");
     setResult(null);
@@ -53,13 +66,14 @@ export function Transaction({ actor, initialProperty, onWallet }) {
           status,
         }),
       });
-      setResult(data);
+      if (requestScope.current === scope) setResult(data);
       // Update the shared header wallet only from a successful committed response.
       onWallet(data.balance_after);
     } catch (e) {
-      setError(e.message);
+      if (requestScope.current === scope) setError(e.message);
     } finally {
-      setBusy(false);
+      scope.pending = false;
+      if (requestScope.current === scope) setBusy(false);
     }
   }
   return (
@@ -75,59 +89,74 @@ export function Transaction({ actor, initialProperty, onWallet }) {
             <h2>The little details</h2>
             <CalendarPlus size={21} />
           </div>
-          <form onSubmit={submit}>
-            <Picker
-              entity="properties"
-              label="01 · Choose your property"
-              value={property}
-              onSelect={setProperty}
-            />
-            <div className="form-grid">
-              <label>
-                02 · Number of nights
-                <input
-                  aria-label="Number of nights"
-                  type="number"
-                  min="1"
-                  max="365"
-                  required
-                  value={nights}
-                  onChange={(e) => setNights(e.target.value)}
-                />
-              </label>
-              <label>
-                03 · Start your stay
-                <select
-                  aria-label="Starting status"
-                  value={status}
-                  onChange={(e) => setStatus(e.target.value)}
-                >
-                  <option value="CONFIRMED">Reserve for later</option>
-                  <option value="CHECKED_IN">Check in now</option>
-                </select>
-              </label>
-            </div>
-            <p className="help">
-              Only one checked-in stay per guest is allowed. Confirmed reservations can
-              coexist.
-            </p>
-            {error && <Alert message={error} />}
-            <button
-              className="btn full"
-              disabled={busy || !property || !actor}
-              type="submit"
-            >
-              {busy ? (
-                <>
-                  <RefreshCw className="spin" size={18} />
-                  Booking your stay…
-                </>
-              ) : (
-                <>
-                  Confirm booking <ArrowRight size={18} />
-                </>
+          <form onSubmit={submit} noValidate>
+            <fieldset className="booking-fields" disabled={busy}>
+              <Picker
+                entity="properties"
+                label="01 · Choose your property"
+                value={property}
+                onSelect={setProperty}
+              />
+              <div className="form-grid">
+                <label>
+                  02 · Number of nights
+                  <input
+                    aria-label="Number of nights"
+                    type="number"
+                    min="1"
+                    max="365"
+                    step="1"
+                    aria-invalid={Boolean(nightsError)}
+                    aria-describedby={nightsError ? "booking-nights-error" : undefined}
+                    required
+                    value={nights}
+                    onChange={(e) => setNights(e.target.value)}
+                  />
+                </label>
+                <label>
+                  03 · Start your stay
+                  <select
+                    aria-label="Starting status"
+                    value={status}
+                    onChange={(e) => setStatus(e.target.value)}
+                  >
+                    <option value="CONFIRMED">Reserve for later</option>
+                    <option value="CHECKED_IN">Check in now</option>
+                  </select>
+                </label>
+              </div>
+              {nightsError && (
+                <div id="booking-nights-error">
+                  <Alert message={nightsError} />
+                </div>
               )}
-            </button>
+              {!actor && (
+                <p className="help">
+                  Select a demo guest in the header before booking.
+                </p>
+              )}
+              <p className="help">
+                Only one checked-in stay per guest is allowed. Confirmed reservations
+                can coexist.
+              </p>
+              {error && <Alert message={error} />}
+              <button
+                className="btn full"
+                disabled={busy || !property || !actor || Boolean(nightsError)}
+                type="submit"
+              >
+                {busy ? (
+                  <>
+                    <RefreshCw className="spin" size={18} />
+                    Booking your stay…
+                  </>
+                ) : (
+                  <>
+                    Confirm booking <ArrowRight size={18} />
+                  </>
+                )}
+              </button>
+            </fieldset>
           </form>
         </div>
         <aside>

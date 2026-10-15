@@ -18,6 +18,7 @@ import { useData } from "../../member1/web/hooks/useData.js";
 import { Alert } from "../../member1/web/components/Alert.jsx";
 import { DataState } from "../../member1/web/components/DataState.jsx";
 import { Heading } from "../../member1/web/components/Heading.jsx";
+import { validateCoordinates } from "../../member1/web/lib/validation.js";
 
 /**
  * Render the Leaflet map and latest bounded results for a selectable origin.
@@ -36,6 +37,8 @@ export function MapView() {
   const [notice, setNotice] = useState("");
   const [adding, setAdding] = useState(false);
   const [inputError, setInputError] = useState("");
+  const [coordinateError, setCoordinateError] = useState("");
+  const [tileError, setTileError] = useState(false);
   const searchUrl = `/search?${qs({ ...origin, minutes })}`;
   const resource = useData(searchUrl);
   // Remember which query the displayed results belong to. A 15-second poll of the same
@@ -52,6 +55,7 @@ export function MapView() {
   const mapNode = useRef(null);
   const mapRef = useRef(null);
   const layerRef = useRef(null);
+  const tilesRef = useRef(null);
   useEffect(() => {
     // The stable reload callback lets polling run without reinstalling its timer on
     // every result.
@@ -66,11 +70,23 @@ export function MapView() {
       13,
     );
     mapRef.current = map;
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    const tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 19,
     }).addTo(map);
+    tilesRef.current = tiles;
+    let failedTiles = 0;
+    tiles.on("loading", () => {
+      failedTiles = 0;
+    });
+    tiles.on("tileerror", () => {
+      failedTiles += 1;
+      setTileError(true);
+    });
+    tiles.on("load", () => {
+      if (!failedTiles) setTileError(false);
+    });
     // A map click updates both committed origin and its editable form values.
     map.on("click", (e) => {
       const next = {
@@ -84,6 +100,7 @@ export function MapView() {
     return () => {
       map.remove();
       mapRef.current = null;
+      tilesRef.current = null;
     };
   }, []);
   useEffect(() => {
@@ -167,17 +184,9 @@ export function MapView() {
     e.preventDefault();
     const latitude = Number(draft.latitude);
     const longitude = Number(draft.longitude);
-    if (
-      !Number.isFinite(latitude) ||
-      latitude < -90 ||
-      latitude > 90 ||
-      !Number.isFinite(longitude) ||
-      longitude < -180 ||
-      longitude > 180
-    ) {
-      setInputError(
-        "Enter a latitude from −90 to 90 and a longitude from −180 to 180.",
-      );
+    const error = validateCoordinates(draft);
+    setCoordinateError(error);
+    if (error) {
       return;
     }
     setInputError("");
@@ -197,7 +206,7 @@ export function MapView() {
         }
       />
       <div className="panel map-controls">
-        <form onSubmit={apply}>
+        <form onSubmit={apply} noValidate>
           <label>
             Latitude
             <input
@@ -208,6 +217,8 @@ export function MapView() {
               min="-90"
               max="90"
               value={draft.latitude}
+              aria-invalid={Boolean(coordinateError)}
+              aria-describedby={coordinateError ? "map-input-error" : undefined}
               onChange={(e) => setDraft((v) => ({ ...v, latitude: e.target.value }))}
             />
           </label>
@@ -221,6 +232,8 @@ export function MapView() {
               min="-180"
               max="180"
               value={draft.longitude}
+              aria-invalid={Boolean(coordinateError)}
+              aria-describedby={coordinateError ? "map-input-error" : undefined}
               onChange={(e) => setDraft((v) => ({ ...v, longitude: e.target.value }))}
             />
           </label>
@@ -241,6 +254,11 @@ export function MapView() {
           </select>
         </label>
       </div>
+      {coordinateError && (
+        <div id="map-input-error">
+          <Alert message={coordinateError} />
+        </div>
+      )}
       {inputError && <Alert message={inputError} />}
       <div className="map-layout">
         <div className="panel map-panel">
@@ -251,6 +269,17 @@ export function MapView() {
               LIVE · 15s polling
             </span>
           </div>
+          {tileError && (
+            <div className="recovery-banner">
+              <Alert message="Map tiles could not be loaded. Nearby searches are listed separately." />
+              <button
+                className="btn secondary"
+                onClick={() => tilesRef.current?.redraw()}
+              >
+                Retry map tiles
+              </button>
+            </div>
+          )}
           <div
             ref={mapNode}
             className="leaflet-map"
@@ -278,7 +307,19 @@ export function MapView() {
               {notice}
             </p>
           )}
-          <DataState resource={listState} empty={!resource.data?.nearest.length}>
+          <DataState
+            resource={listState}
+            empty={!resource.data?.nearest.length}
+            emptyTitle="No recent searches nearby"
+            emptyMessage="Try another area or a longer time window. Older search pins expire after two hours."
+            emptyAction={
+              Number(minutes) < 120 && (
+                <button className="btn secondary" onClick={() => setMinutes(120)}>
+                  Show last 2 hours
+                </button>
+              )
+            }
+          >
             <p className="help">Nearest 100 pins · sorted by distance</p>
             <div className="nearest-list">
               {resource.data?.nearest.map((p, i) => (

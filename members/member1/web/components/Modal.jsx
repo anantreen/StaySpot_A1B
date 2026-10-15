@@ -16,20 +16,31 @@ import { X } from "lucide-react";
  */
 export function Modal({ title, onClose, children }) {
   const ref = useRef(null);
+  const closeRef = useRef(onClose);
+  useEffect(() => {
+    closeRef.current = onClose;
+  }, [onClose]);
   useEffect(() => {
     // Remember the invoking button so closing the dialog returns the keyboard user
     // there.
     const previous = document.activeElement;
     ref.current?.focus();
     const key = (e) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") closeRef.current();
       // At either end of the focusable list, wrap Tab/Shift+Tab inside the open dialog.
       if (e.key === "Tab") {
-        const els = ref.current?.querySelectorAll('button,input,select,[tabindex="0"]');
+        const els = [
+          ...(ref.current?.querySelectorAll(
+            'button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),a[href],[tabindex="0"]',
+          ) ?? []),
+        ].filter((element) => element.getClientRects().length > 0);
         if (!els?.length) return;
         const first = els[0];
         const last = els[els.length - 1];
-        if (e.shiftKey && document.activeElement === first) {
+        if (
+          e.shiftKey &&
+          (document.activeElement === first || document.activeElement === ref.current)
+        ) {
           e.preventDefault();
           last.focus();
         } else if (!e.shiftKey && document.activeElement === last) {
@@ -44,7 +55,7 @@ export function Modal({ title, onClose, children }) {
       document.removeEventListener("keydown", key);
       previous?.focus();
     };
-  }, [onClose]);
+  }, []);
   return (
     <div
       className="modal-shade"

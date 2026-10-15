@@ -1,5 +1,7 @@
 # Demo walkthrough (under five minutes)
 
+For a new team recording, follow the [complete 4:50 walkthrough script](video_walkthrough_script.md), including spoken narration, screen actions, member sections and preparation notes.
+
 A captioned walkthrough assembled from actual live seeded-browser captures is supplied as demo_walkthrough.mp4. Screenshots show tested behavior, not mock data. For a team-recorded presentation, use this sequence:
 
 1. Browse paginated properties and open a detail; briefly switch to Guests and Bookings.
