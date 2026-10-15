@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1442" height="1374" viewBox="1639 4787 1442 1374" fill="none"><title>10 Phone layout · Member 1–4</title><g id="10 Phone layout Â· Member 1â4">
+<text id="10 Phone layout" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" font-weight="bold" letter-spacing="0em"><tspan x="1640" y="4830.5">10 Phone layout</tspan></text>
+<text id="Member 1â4 Â· new_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="24" letter-spacing="0em"><tspan x="1640" y="4865.23">Member 1–4 · new</tspan></text>
+<g id="Group_161">
+<g id="Group_162">
+<path id="Vector_1379" d="M3080 4880H1640V6160H3080V4880Z" fill="#F7F6F2" />
+<text id="SUPPLEMENT / PHONE LAYOUT Â· 390 Ã 844" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1688" y="4926.85">SUPPLEMENT / PHONE LAYOUT · 390 × 844</tspan></text>
+<text id="Same components, stacked for a phone." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="40" letter-spacing="0em"><tspan x="1688" y="4991.55">Same components, stacked for a phone.</tspan></text>
+<text id="Follows the 650 px rules in web/src/style.css: 3Ã2 navigation, single-column forms, two cards per row, tables scroll sideways." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="1688" y="5034.49">Follows the 650 px rules in web/src/style.css: 3×2 navigation, single-column forms, two cards per row, tables scroll sideways.</tspan></text>
+</g>
+<g id="Group_163">
+<path id="Vector_1380" d="M2053 5047H1737C1711.59 5047 1691 5067.59 1691 5093V5863C1691 5888.41 1711.59 5909 1737 5909H2053C2078.41 5909 2099 5888.41 2099 5863V5093C2099 5067.59 2078.41 5047 2053 5047Z" fill="#283229" />
+<path id="Vector_1381" d="M2052 5056H1738C1717.01 5056 1700 5073.01 1700 5094V5862C1700 5882.99 1717.01 5900 1738 5900H2052C2072.99 5900 2090 5882.99 2090 5862V5094C2090 5073.01 2072.99 5056 2052 5056Z" fill="#F7F6F2" />
+<path id="Vector_1382" d="M2090 5070H1700V5286H2090V5070Z" fill="#FDFDFB" />
+<path id="Vector_1383" d="M1740 5078H1726C1721.58 5078 1718 5081.58 1718 5086V5100C1718 5104.42 1721.58 5108 1726 5108H1740C1744.42 5108 1748 5104.42 1748 5100V5086C1748 5081.58 1744.42 5078 1740 5078Z" fill="#244C38" />
+<g id="Frame_257">
+<path id="Vector_1384" d="M1735.5 5100.5V5093.83C1735.5 5093.61 1735.41 5093.4 1735.26 5093.24C1735.1 5093.09 1734.89 5093 1734.67 5093H1731.33C1731.11 5093 1730.9 5093.09 1730.74 5093.24C1730.59 5093.4 1730.5 5093.61 1730.5 5093.83V5100.5" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1385" d="M1725.5 5091.33C1725.5 5091.09 1725.55 5090.85 1725.65 5090.63C1725.76 5090.41 1725.91 5090.22 1726.09 5090.06L1731.92 5085.06C1732.22 5084.81 1732.61 5084.67 1733 5084.67C1733.39 5084.67 1733.78 5084.81 1734.08 5085.06L1739.91 5090.06C1740.09 5090.22 1740.24 5090.41 1740.35 5090.63C1740.45 5090.85 1740.5 5091.09 1740.5 5091.33V5098.83C1740.5 5099.28 1740.32 5099.7 1740.01 5100.01C1739.7 5100.32 1739.28 5100.5 1738.83 5100.5H1727.17C1726.72 5100.5 1726.3 5100.32 1725.99 5100.01C1725.68 5099.7 1725.5 5099.28 1725.5 5098.83V5091.33Z" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="StaySpot_11" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="1756" y="5098.27">StaySpot</tspan></text>
+<text id="._11" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="1845" y="5098.27">.</tspan></text>
+<path id="Vector_1386" d="M1824.33 5122H1725C1721.13 5122 1718 5125.13 1718 5129V5152C1718 5155.87 1721.13 5159 1725 5159H1824.33C1828.2 5159 1831.33 5155.87 1831.33 5152V5129C1831.33 5125.13 1828.2 5122 1824.33 5122Z" fill="#EAF0E5" />
+<g id="Frame_258">
+<path id="Vector_1387" d="M1734.88 5135.62H1732.17C1731.87 5135.62 1731.62 5135.87 1731.62 5136.17V5138.88C1731.62 5139.17 1731.87 5139.42 1732.17 5139.42H1734.88C1735.17 5139.42 1735.42 5139.17 1735.42 5138.88V5136.17C1735.42 5135.87 1735.17 5135.62 1734.88 5135.62Z" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1388" d="M1740.83 5135.62H1738.13C1737.83 5135.62 1737.58 5135.87 1737.58 5136.17V5138.88C1737.58 5139.17 1737.83 5139.42 1738.13 5139.42H1740.83C1741.13 5139.42 1741.38 5139.17 1741.38 5138.88V5136.17C1741.38 5135.87 1741.13 5135.62 1740.83 5135.62Z" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1389" d="M1740.83 5141.58H1738.13C1737.83 5141.58 1737.58 5141.83 1737.58 5142.12V5144.83C1737.58 5145.13 1737.83 5145.37 1738.13 5145.37H1740.83C1741.13 5145.37 1741.38 5145.13 1741.38 5144.83V5142.12C1741.38 5141.83 1741.13 5141.58 1740.83 5141.58Z" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1390" d="M1734.88 5141.58H1732.17C1731.87 5141.58 1731.62 5141.83 1731.62 5142.12V5144.83C1731.62 5145.13 1731.87 5145.37 1732.17 5145.37H1734.88C1735.17 5145.37 1735.42 5145.13 1735.42 5144.83V5142.12C1735.42 5141.83 1735.17 5141.58 1734.88 5141.58Z" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Browse_15" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="1749" y="5141.42">Browse</tspan></text>
+<g id="Frame_259">
+<path id="Vector_1391" d="M1854.67 5135.08V5137.25" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1392" d="M1859 5135.08V5137.25" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1393" d="M1861.71 5141.04V5137.25C1861.71 5136.96 1861.59 5136.69 1861.39 5136.48C1861.19 5136.28 1860.91 5136.17 1860.62 5136.17H1853.04C1852.75 5136.17 1852.48 5136.28 1852.28 5136.48C1852.07 5136.69 1851.96 5136.96 1851.96 5137.25V5144.83C1851.96 5145.12 1852.07 5145.4 1852.28 5145.6C1852.48 5145.8 1852.75 5145.92 1853.04 5145.92H1857.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1394" d="M1851.96 5139.42H1861.71" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1395" d="M1859 5144.29H1862.25" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1396" d="M1860.62 5142.67V5145.92" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Book a stay_16" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1869.33" y="5141.42">Book a stay</tspan></text>
+<g id="Frame_260">
+<path id="Vector_1397" d="M1972.83 5135.08V5145.92L1973.92 5145.37L1975 5145.92L1976.08 5145.37L1977.17 5145.92L1978.25 5145.37L1979.33 5145.92L1980.42 5145.37L1981.5 5145.92V5135.08L1980.42 5135.62L1979.33 5135.08L1978.25 5135.62L1977.17 5135.08L1976.08 5135.62L1975 5135.08L1973.92 5135.62L1972.83 5135.08Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1398" d="M1978.25 5138.33H1975" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1399" d="M1979.33 5140.5H1975" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1400" d="M1977.71 5142.67H1975" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Audit trail_12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1989.67" y="5141.42">Audit trail</tspan></text>
+<g id="Frame_261">
+<path id="Vector_1401" d="M1736.5 5186.67V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1402" d="M1738.67 5185.58V5189.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1403" d="M1740.83 5183.42V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1404" d="M1741.92 5179.62L1737.23 5184.31C1737.21 5184.33 1737.18 5184.35 1737.15 5184.37C1737.11 5184.38 1737.08 5184.39 1737.04 5184.39C1737.01 5184.39 1736.97 5184.38 1736.94 5184.37C1736.91 5184.35 1736.88 5184.33 1736.85 5184.31L1735.07 5182.53C1735.02 5182.47 1734.95 5182.45 1734.88 5182.45C1734.8 5182.45 1734.73 5182.47 1734.68 5182.53L1731.08 5186.13" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1405" d="M1732.17 5187.75V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1406" d="M1734.33 5185.58V5189.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Analytics_12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1749" y="5185.42">Analytics</tspan></text>
+<g id="Frame_262">
+<path id="Vector_1407" d="M1857.16 5189.81C1858.17 5188.94 1861.17 5186.12 1861.17 5183.42C1861.17 5182.27 1860.71 5181.17 1859.9 5180.35C1859.08 5179.54 1857.98 5179.08 1856.83 5179.08C1855.68 5179.08 1854.58 5179.54 1853.77 5180.35C1852.96 5181.17 1852.5 5182.27 1852.5 5183.42C1852.5 5186.12 1855.5 5188.94 1856.51 5189.81C1856.6 5189.88 1856.72 5189.92 1856.83 5189.92C1856.95 5189.92 1857.07 5189.88 1857.16 5189.81Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1408" d="M1856.83 5185.04C1857.73 5185.04 1858.46 5184.31 1858.46 5183.42C1858.46 5182.52 1857.73 5181.79 1856.83 5181.79C1855.94 5181.79 1855.21 5182.52 1855.21 5183.42C1855.21 5184.31 1855.94 5185.04 1856.83 5185.04Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search map_12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1869.33" y="5185.42">Search map</tspan></text>
+<g id="Frame_263" clip-path="url(#clip26_6_3)">
+<path id="Vector_1409" d="M1976.91 5179.24C1976.93 5179.2 1976.97 5179.15 1977.02 5179.13C1977.06 5179.1 1977.11 5179.08 1977.17 5179.08C1977.22 5179.08 1977.27 5179.1 1977.32 5179.13C1977.36 5179.15 1977.4 5179.2 1977.42 5179.24L1978.68 5181.78C1978.76 5181.94 1978.88 5182.09 1979.03 5182.2C1979.18 5182.31 1979.36 5182.38 1979.54 5182.41L1982.34 5182.82C1982.39 5182.82 1982.44 5182.85 1982.48 5182.88C1982.52 5182.91 1982.55 5182.96 1982.57 5183.01C1982.59 5183.06 1982.59 5183.12 1982.57 5183.17C1982.56 5183.22 1982.53 5183.27 1982.5 5183.31L1980.47 5185.28C1980.34 5185.41 1980.24 5185.57 1980.18 5185.74C1980.12 5185.92 1980.11 5186.11 1980.14 5186.29L1980.62 5189.08C1980.63 5189.13 1980.62 5189.18 1980.6 5189.23C1980.58 5189.28 1980.55 5189.33 1980.51 5189.36C1980.46 5189.39 1980.41 5189.41 1980.36 5189.41C1980.3 5189.42 1980.25 5189.41 1980.2 5189.38L1977.7 5188.07C1977.54 5187.98 1977.35 5187.93 1977.17 5187.93C1976.98 5187.93 1976.8 5187.98 1976.63 5188.07L1974.13 5189.38C1974.08 5189.41 1974.03 5189.42 1973.98 5189.41C1973.92 5189.41 1973.87 5189.39 1973.83 5189.36C1973.78 5189.33 1973.75 5189.28 1973.73 5189.23C1973.71 5189.18 1973.7 5189.13 1973.71 5189.08L1974.19 5186.29C1974.22 5186.11 1974.21 5185.92 1974.15 5185.74C1974.09 5185.57 1973.99 5185.41 1973.86 5185.28L1971.84 5183.31C1971.8 5183.27 1971.77 5183.22 1971.76 5183.17C1971.74 5183.12 1971.75 5183.06 1971.76 5183.01C1971.78 5182.96 1971.81 5182.91 1971.85 5182.88C1971.89 5182.84 1971.94 5182.82 1972 5182.81L1974.79 5182.41C1974.98 5182.38 1975.15 5182.31 1975.3 5182.2C1975.45 5182.09 1975.58 5181.94 1975.66 5181.78L1976.91 5179.24Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Reviews_12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1989.67" y="5185.42">Reviews</tspan></text>
+<path id="Vector_1410" d="M1700 5216H2090" stroke="#E6E8E0" />
+<text id="Workspace / Browse" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1719" y="5250.71">Workspace / Browse</tspan></text>
+<path id="Vector_1411" d="M1935 5266C1943.28 5266 1950 5259.28 1950 5251C1950 5242.72 1943.28 5236 1935 5236C1926.72 5236 1920 5242.72 1920 5251C1920 5259.28 1926.72 5266 1935 5266Z" fill="#EAF0E5" />
+<text id="AR_12" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="1927" y="5252.71">AR</tspan></text>
+<text id="Ananya Rao_13" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="1958" y="5245.42">Ananya Rao</tspan></text>
+<text id="â¹44,911.00 in wallet_10" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1958" y="5259.71">₹44,911.00 in wallet</tspan></text>
+<g id="Frame_264">
+<path id="Vector_1412" d="M2061 5248.5L2064 5251.5L2067 5248.5" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path id="Vector_1413" d="M1700 5286H2090" stroke="#E6E8E0" />
+<text id="YOUR NEXT CHAPTER_5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="1718" y="5316.71">YOUR NEXT CHAPTER</tspan></text>
+<text id="A place for every" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="27" letter-spacing="0em"><tspan x="1718" y="5348.27">A place for every</tspan></text>
+<text id="possibility." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="27" letter-spacing="0em"><tspan x="1718" y="5381.27">possibility.</tspan></text>
+<text id="Discover thoughtful spaces, familiar comforts, and a little room to explore._5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1718" y="5408.14">Discover thoughtful spaces, familiar comforts, and a little room to explore.</tspan></text>
+</g>
+<g id="Group_164">
+<path id="Vector_1414" d="M2060 5438H1730C1723.37 5438 1718 5443.37 1718 5450V5576C1718 5582.63 1723.37 5588 1730 5588H2060C2066.63 5588 2072 5582.63 2072 5576V5450C2072 5443.37 2066.63 5438 2060 5438Z" fill="#244C38" />
+<g id="Frame_265" clip-path="url(#clip27_6_3)">
+<path id="Vector_1415" d="M2064 5462H1914V5580H2064V5462Z" fill="#E4E8DC" />
+<path id="Vector_1416" d="M2030.25 5501.33C2035.43 5501.33 2039.62 5495.04 2039.62 5487.29C2039.62 5479.53 2035.43 5473.24 2030.25 5473.24C2025.07 5473.24 2020.88 5479.53 2020.88 5487.29C2020.88 5495.04 2025.07 5501.33 2030.25 5501.33Z" fill="#F8F1D2" />
+<path id="Vector_1417" d="M1914 5549.1C1930.25 5538.23 1946.25 5539.92 1962 5554.15C1977.75 5568.39 1996.75 5564.83 2019 5543.48C2041.25 5522.12 2056.25 5522.31 2064 5544.04V5580H1914" fill="#BACAB3" />
+<path id="Vector_1418" d="M1936.5 5557.52V5501.33L1975.12 5480.54L2012.62 5500.77V5557.52" fill="#F6F0E4" />
+<path id="Vector_1419" d="M1932.75 5504.7L1975.12 5477.73L2017.12 5504.7" stroke="#667664" stroke-width="4.59036" />
+<path id="Vector_1420" d="M1968 5557.52V5522.12H1983.38V5557.52" fill="#5D735D" />
+<path id="Vector_1421" d="M1958.62 5513.7H1946.25C1945.84 5513.7 1945.5 5514.2 1945.5 5514.82V5537.86C1945.5 5538.48 1945.84 5538.98 1946.25 5538.98H1958.62C1959.04 5538.98 1959.38 5538.48 1959.38 5537.86V5514.82C1959.38 5514.2 1959.04 5513.7 1958.62 5513.7Z" fill="#82A099" />
+<path id="Vector_1422" d="M2003.25 5513.7H1993.12C1992.71 5513.7 1992.38 5514.2 1992.38 5514.82V5537.86C1992.38 5538.48 1992.71 5538.98 1993.12 5538.98H2003.25C2003.66 5538.98 2004 5538.48 2004 5537.86V5514.82C2004 5514.2 2003.66 5513.7 2003.25 5513.7Z" fill="#82A099" />
+<g id="Vector_1423">
+<path d="M1952.25 5514.26V5538.98V5514.26ZM1945.5 5525.5H1959.38H1945.5ZM1998 5514.26V5538.98V5514.26ZM1992.38 5525.5H2004H1992.38Z" fill="black" />
+<path d="M1952.25 5514.26V5538.98M1945.5 5525.5H1959.38M1998 5514.26V5538.98M1992.38 5525.5H2004" stroke="#E5EDDE" stroke-width="1.37711" />
+</g>
+<path id="Vector_1424" d="M2043 5522.69H2016.38V5557.52H2043V5522.69Z" fill="#F2EADF" />
+<path id="Vector_1425" d="M2014.5 5523.25L2028.75 5508.08L2044.88 5523.25" fill="#97A58D" />
+<path id="Vector_1426" d="M2033.25 5533.92H2023.5V5548.53H2033.25V5533.92Z" fill="#7E9E92" />
+<g id="Vector_1427">
+<path d="M2048.62 5558.65V5518.19V5558.65Z" fill="black" />
+<path d="M2048.62 5558.65V5518.19" stroke="#536E53" stroke-width="2.29518" />
+</g>
+<path id="Vector_1428" d="M2048.62 5533.36C2053.6 5533.36 2057.62 5524.05 2057.62 5512.57C2057.62 5501.09 2053.6 5491.78 2048.62 5491.78C2043.65 5491.78 2039.62 5501.09 2039.62 5512.57C2039.62 5524.05 2043.65 5533.36 2048.62 5533.36Z" fill="#789473" />
+<g id="Vector_1429">
+<path d="M1927.5 5563.14V5530.55V5563.14Z" fill="black" />
+<path d="M1927.5 5563.14V5530.55" stroke="#698561" stroke-width="2.29518" />
+</g>
+<path id="Vector_1430" d="M1927.5 5546.29C1932.06 5546.29 1935.75 5537.73 1935.75 5527.18C1935.75 5516.63 1932.06 5508.08 1927.5 5508.08C1922.94 5508.08 1919.25 5516.63 1919.25 5527.18C1919.25 5537.73 1922.94 5546.29 1927.5 5546.29Z" fill="#8DA680" />
+<path id="Vector_1431" d="M1968.38 5558.65L1962.38 5580H1996.12L1983.75 5558.65" fill="#E8DAC4" />
+<g id="Vector_1432">
+<path d="M1914 5567.64H1957.5H1914ZM2003.62 5567.64H2064H2003.62Z" fill="black" />
+<path d="M1914 5567.64H1957.5M2003.62 5567.64H2064" stroke="#A7B99A" stroke-width="1.37711" />
+</g>
+</g>
+<g id="Group_165">
+<text id="Good stays._3" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" letter-spacing="0em"><tspan x="1736" y="5472.27">Good stays.</tspan></text>
+<text id="Great beginnings._3" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" letter-spacing="0em"><tspan x="1736" y="5500.27">Great beginnings.</tspan></text>
+</g>
+<path id="Vector_1433" d="M1833 5530H1743C1739.13 5530 1736 5533.13 1736 5537V5557C1736 5560.87 1739.13 5564 1743 5564H1833C1836.87 5564 1840 5560.87 1840 5557V5537C1840 5533.13 1836.87 5530 1833 5530Z" fill="#F7F6F2" />
+<text id="Book a stay_17" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="1750" y="5548.42">Book a stay</tspan></text>
+<g id="Frame_266">
+<path id="Vector_1434" d="M1821.79 5542.79H1827.21V5548.21" stroke="#283229" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1435" d="M1821.79 5548.21L1827.21 5542.79" stroke="#283229" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_166">
+<text id="Properties_6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1718" y="5616.85">Properties</tspan></text>
+<text id="Guests_5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1800" y="5616.85">Guests</tspan></text>
+<text id="Bookings_5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1858" y="5616.85">Bookings</tspan></text>
+<path id="Vector_1436" d="M1718 5631H1778.92" stroke="#244C38" stroke-width="2" />
+<path id="Vector_1437" d="M2066 5642H1724C1720.69 5642 1718 5644.69 1718 5648V5672C1718 5675.31 1720.69 5678 1724 5678H2066C2069.31 5678 2072 5675.31 2072 5672V5648C2072 5644.69 2069.31 5642 2066 5642Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_267">
+<path id="Vector_1438" d="M1736.88 5663.88C1739.64 5663.88 1741.88 5661.64 1741.88 5658.88C1741.88 5656.11 1739.64 5653.88 1736.88 5653.88C1734.11 5653.88 1731.88 5656.11 1731.88 5658.88C1731.88 5661.64 1734.11 5663.88 1736.88 5663.88Z" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1439" d="M1743.12 5665.12L1740.44 5662.44" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search propertiesâ¦_6" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1754" y="5661.14">Search properties…</tspan></text>
+<path id="Vector_1440" d="M1881 5692H1726C1721.58 5692 1718 5695.58 1718 5700V5880C1718 5884.42 1721.58 5888 1726 5888H1881C1885.42 5888 1889 5884.42 1889 5880V5700C1889 5695.58 1885.42 5692 1881 5692Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_268" clip-path="url(#clip28_6_3)">
+<path id="Vector_1441" d="M1883 5698H1724V5794H1883V5698Z" fill="#E4E8DC" />
+<path id="Vector_1442" d="M1847.22 5730C1852.71 5730 1857.16 5724.88 1857.16 5718.57C1857.16 5712.26 1852.71 5707.14 1847.22 5707.14C1841.74 5707.14 1837.29 5712.26 1837.29 5718.57C1837.29 5724.88 1841.74 5730 1847.22 5730Z" fill="#F8F1D2" />
+<path id="Vector_1443" d="M1724 5768.86C1741.23 5760.02 1758.19 5761.39 1774.88 5772.97C1791.58 5784.55 1811.72 5781.66 1835.3 5764.29C1858.89 5746.91 1874.79 5747.07 1883 5764.74V5794H1724" fill="#BACAB3" />
+<path id="Vector_1444" d="M1747.85 5775.71V5730L1788.79 5713.09L1828.54 5729.54V5775.71" fill="#F6F0E4" />
+<path id="Vector_1445" d="M1743.88 5732.74L1788.79 5710.8L1833.31 5732.74" stroke="#667664" stroke-width="4.2628" />
+<path id="Vector_1446" d="M1781.24 5775.71V5746.91H1797.54V5775.71" fill="#5D735D" />
+<path id="Vector_1447" d="M1771.3 5740.06H1758.19C1757.75 5740.06 1757.39 5740.47 1757.39 5740.97V5759.71C1757.39 5760.22 1757.75 5760.63 1758.19 5760.63H1771.3C1771.74 5760.63 1772.1 5760.22 1772.1 5759.71V5740.97C1772.1 5740.47 1771.74 5740.06 1771.3 5740.06Z" fill="#82A099" />
+<path id="Vector_1448" d="M1818.61 5740.06H1807.87C1807.43 5740.06 1807.08 5740.47 1807.08 5740.97V5759.71C1807.08 5760.22 1807.43 5760.63 1807.87 5760.63H1818.61C1819.04 5760.63 1819.4 5760.22 1819.4 5759.71V5740.97C1819.4 5740.47 1819.04 5740.06 1818.61 5740.06Z" fill="#82A099" />
+<g id="Vector_1449">
+<path d="M1764.55 5740.51V5760.63V5740.51ZM1757.39 5749.66H1772.1H1757.39ZM1813.04 5740.51V5760.63V5740.51ZM1807.08 5749.66H1819.4H1807.08Z" fill="black" />
+<path d="M1764.55 5740.51V5760.63M1757.39 5749.66H1772.1M1813.04 5740.51V5760.63M1807.08 5749.66H1819.4" stroke="#E5EDDE" stroke-width="1.27884" />
+</g>
+<path id="Vector_1450" d="M1860.74 5747.37H1832.52V5775.71H1860.74V5747.37Z" fill="#F2EADF" />
+<path id="Vector_1451" d="M1830.53 5747.83L1845.64 5735.49L1862.73 5747.83" fill="#97A58D" />
+<path id="Vector_1452" d="M1850.41 5756.51H1840.07V5768.4H1850.41V5756.51Z" fill="#7E9E92" />
+<g id="Vector_1453">
+<path d="M1866.7 5776.63V5743.71V5776.63Z" fill="black" />
+<path d="M1866.7 5776.63V5743.71" stroke="#536E53" stroke-width="2.1314" />
+</g>
+<path id="Vector_1454" d="M1866.7 5756.06C1871.97 5756.06 1876.24 5748.48 1876.24 5739.14C1876.24 5729.8 1871.97 5722.23 1866.7 5722.23C1861.43 5722.23 1857.16 5729.8 1857.16 5739.14C1857.16 5748.48 1861.43 5756.06 1866.7 5756.06Z" fill="#789473" />
+<g id="Vector_1455">
+<path d="M1738.31 5780.29V5753.77V5780.29Z" fill="black" />
+<path d="M1738.31 5780.29V5753.77" stroke="#698561" stroke-width="2.1314" />
+</g>
+<path id="Vector_1456" d="M1738.31 5766.57C1743.14 5766.57 1747.05 5759.61 1747.05 5751.03C1747.05 5742.44 1743.14 5735.49 1738.31 5735.49C1733.48 5735.49 1729.56 5742.44 1729.56 5751.03C1729.56 5759.61 1733.48 5766.57 1738.31 5766.57Z" fill="#8DA680" />
+<path id="Vector_1457" d="M1781.64 5776.63L1775.28 5794H1811.05L1797.93 5776.63" fill="#E8DAC4" />
+<g id="Vector_1458">
+<path d="M1724 5783.94H1770.11H1724ZM1819 5783.94H1883H1819Z" fill="black" />
+<path d="M1724 5783.94H1770.11M1819 5783.94H1883" stroke="#A7B99A" stroke-width="1.27884" />
+</g>
+</g>
+<g id="Frame_269">
+<path id="Vector_1459" d="M1733.78 5813.99C1734.63 5813.26 1737.17 5810.87 1737.17 5808.58C1737.17 5807.61 1736.78 5806.68 1736.09 5805.99C1735.41 5805.3 1734.47 5804.92 1733.5 5804.92C1732.53 5804.92 1731.59 5805.3 1730.91 5805.99C1730.22 5806.68 1729.83 5807.61 1729.83 5808.58C1729.83 5810.87 1732.37 5813.26 1733.22 5813.99C1733.3 5814.05 1733.4 5814.08 1733.5 5814.08C1733.6 5814.08 1733.7 5814.05 1733.78 5813.99Z" stroke="#7B8176" stroke-width="0.916667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1460" d="M1733.5 5809.96C1734.26 5809.96 1734.88 5809.34 1734.88 5808.58C1734.88 5807.82 1734.26 5807.21 1733.5 5807.21C1732.74 5807.21 1732.12 5807.82 1732.12 5808.58C1732.12 5809.34 1732.74 5809.96 1733.5 5809.96Z" stroke="#7B8176" stroke-width="0.916667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Hyderabad_6" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1743" y="5810.71">Hyderabad</tspan></text>
+<text id="#1_4" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1868" y="5810.71">#1</tspan></text>
+<text id="Hyderabad Terrace Retâ¦" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="1728" y="5832.14">Hyderabad Terrace Ret…</tspan></text>
+<text id="â¹5,089.00_5" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1728" y="5862.85">₹5,089.00</tspan></text>
+<text id="/ night_17" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1794" y="5862.71">/ night</tspan></text>
+<path id="Vector_1461" d="M2064 5692H1909C1904.58 5692 1901 5695.58 1901 5700V5880C1901 5884.42 1904.58 5888 1909 5888H2064C2068.42 5888 2072 5884.42 2072 5880V5700C2072 5695.58 2068.42 5692 2064 5692Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_270" clip-path="url(#clip29_6_3)">
+<path id="Vector_1462" d="M2066 5698H1907V5794H2066V5698Z" fill="#EDDFCF" />
+<path id="Vector_1463" d="M2030.22 5730C2035.71 5730 2040.16 5724.88 2040.16 5718.57C2040.16 5712.26 2035.71 5707.14 2030.22 5707.14C2024.74 5707.14 2020.29 5712.26 2020.29 5718.57C2020.29 5724.88 2024.74 5730 2030.22 5730Z" fill="#F8F1D2" />
+<path id="Vector_1464" d="M1907 5768.86C1924.23 5760.02 1941.19 5761.39 1957.88 5772.97C1974.58 5784.55 1994.72 5781.66 2018.3 5764.29C2041.89 5746.91 2057.79 5747.07 2066 5764.74V5794H1907" fill="#BACAB3" />
+<path id="Vector_1465" d="M1930.85 5775.71V5730L1971.79 5713.09L2011.54 5729.54V5775.71" fill="#DBA77E" />
+<path id="Vector_1466" d="M1926.88 5732.74L1971.79 5710.8L2016.31 5732.74" stroke="#667664" stroke-width="4.2628" />
+<path id="Vector_1467" d="M1964.24 5775.71V5746.91H1980.54V5775.71" fill="#5D735D" />
+<path id="Vector_1468" d="M1954.3 5740.06H1941.19C1940.75 5740.06 1940.39 5740.47 1940.39 5740.97V5759.71C1940.39 5760.22 1940.75 5760.63 1941.19 5760.63H1954.3C1954.74 5760.63 1955.1 5760.22 1955.1 5759.71V5740.97C1955.1 5740.47 1954.74 5740.06 1954.3 5740.06Z" fill="#82A099" />
+<path id="Vector_1469" d="M2001.61 5740.06H1990.87C1990.43 5740.06 1990.08 5740.47 1990.08 5740.97V5759.71C1990.08 5760.22 1990.43 5760.63 1990.87 5760.63H2001.61C2002.04 5760.63 2002.4 5760.22 2002.4 5759.71V5740.97C2002.4 5740.47 2002.04 5740.06 2001.61 5740.06Z" fill="#82A099" />
+<g id="Vector_1470">
+<path d="M1947.55 5740.51V5760.63V5740.51ZM1940.39 5749.66H1955.1H1940.39ZM1996.04 5740.51V5760.63V5740.51ZM1990.08 5749.66H2002.4H1990.08Z" fill="black" />
+<path d="M1947.55 5740.51V5760.63M1940.39 5749.66H1955.1M1996.04 5740.51V5760.63M1990.08 5749.66H2002.4" stroke="#E5EDDE" stroke-width="1.27884" />
+</g>
+<path id="Vector_1471" d="M2043.74 5747.37H2015.52V5775.71H2043.74V5747.37Z" fill="#F2EADF" />
+<path id="Vector_1472" d="M2013.53 5747.83L2028.64 5735.49L2045.73 5747.83" fill="#97A58D" />
+<path id="Vector_1473" d="M2033.41 5756.51H2023.07V5768.4H2033.41V5756.51Z" fill="#7E9E92" />
+<g id="Vector_1474">
+<path d="M2049.7 5776.63V5743.71V5776.63Z" fill="black" />
+<path d="M2049.7 5776.63V5743.71" stroke="#536E53" stroke-width="2.1314" />
+</g>
+<path id="Vector_1475" d="M2049.7 5756.06C2054.97 5756.06 2059.24 5748.48 2059.24 5739.14C2059.24 5729.8 2054.97 5722.23 2049.7 5722.23C2044.43 5722.23 2040.16 5729.8 2040.16 5739.14C2040.16 5748.48 2044.43 5756.06 2049.7 5756.06Z" fill="#789473" />
+<g id="Vector_1476">
+<path d="M1921.31 5780.29V5753.77V5780.29Z" fill="black" />
+<path d="M1921.31 5780.29V5753.77" stroke="#698561" stroke-width="2.1314" />
+</g>
+<path id="Vector_1477" d="M1921.31 5766.57C1926.14 5766.57 1930.06 5759.61 1930.06 5751.03C1930.06 5742.44 1926.14 5735.49 1921.31 5735.49C1916.48 5735.49 1912.57 5742.44 1912.57 5751.03C1912.57 5759.61 1916.48 5766.57 1921.31 5766.57Z" fill="#8DA680" />
+<path id="Vector_1478" d="M1964.64 5776.63L1958.28 5794H1994.05L1980.94 5776.63" fill="#E8DAC4" />
+<g id="Vector_1479">
+<path d="M1907 5783.94H1953.11H1907ZM2002 5783.94H2066H2002Z" fill="black" />
+<path d="M1907 5783.94H1953.11M2002 5783.94H2066" stroke="#A7B99A" stroke-width="1.27884" />
+</g>
+</g>
+<g id="Frame_271">
+<path id="Vector_1480" d="M1916.78 5813.99C1917.63 5813.26 1920.17 5810.87 1920.17 5808.58C1920.17 5807.61 1919.78 5806.68 1919.09 5805.99C1918.41 5805.3 1917.47 5804.92 1916.5 5804.92C1915.53 5804.92 1914.59 5805.3 1913.91 5805.99C1913.22 5806.68 1912.83 5807.61 1912.83 5808.58C1912.83 5810.87 1915.37 5813.26 1916.22 5813.99C1916.3 5814.05 1916.4 5814.08 1916.5 5814.08C1916.6 5814.08 1916.7 5814.05 1916.78 5813.99Z" stroke="#7B8176" stroke-width="0.916667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1481" d="M1916.5 5809.96C1917.26 5809.96 1917.88 5809.34 1917.88 5808.58C1917.88 5807.82 1917.26 5807.21 1916.5 5807.21C1915.74 5807.21 1915.12 5807.82 1915.12 5808.58C1915.12 5809.34 1915.74 5809.96 1916.5 5809.96Z" stroke="#7B8176" stroke-width="0.916667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Delhi_5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1926" y="5810.71">Delhi</tspan></text>
+<text id="#2_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2051" y="5810.71">#2</tspan></text>
+<text id="Delhi Terrace Retreat 2_6" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="1911" y="5832.14">Delhi Terrace Retreat 2</tspan></text>
+<text id="â¹4,458.00_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1911" y="5862.85">₹4,458.00</tspan></text>
+<text id="/ night_18" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1977" y="5862.71">/ night</tspan></text>
+</g>
+<g id="Group_167">
+<path id="Vector_1482" d="M2518 5047H2202C2176.59 5047 2156 5067.59 2156 5093V5863C2156 5888.41 2176.59 5909 2202 5909H2518C2543.41 5909 2564 5888.41 2564 5863V5093C2564 5067.59 2543.41 5047 2518 5047Z" fill="#283229" />
+<path id="Vector_1483" d="M2517 5056H2203C2182.01 5056 2165 5073.01 2165 5094V5862C2165 5882.99 2182.01 5900 2203 5900H2517C2537.99 5900 2555 5882.99 2555 5862V5094C2555 5073.01 2537.99 5056 2517 5056Z" fill="#F7F6F2" />
+<path id="Vector_1484" d="M2555 5070H2165V5286H2555V5070Z" fill="#FDFDFB" />
+<path id="Vector_1485" d="M2205 5078H2191C2186.58 5078 2183 5081.58 2183 5086V5100C2183 5104.42 2186.58 5108 2191 5108H2205C2209.42 5108 2213 5104.42 2213 5100V5086C2213 5081.58 2209.42 5078 2205 5078Z" fill="#244C38" />
+<g id="Frame_272">
+<path id="Vector_1486" d="M2200.5 5100.5V5093.83C2200.5 5093.61 2200.41 5093.4 2200.26 5093.24C2200.1 5093.09 2199.89 5093 2199.67 5093H2196.33C2196.11 5093 2195.9 5093.09 2195.74 5093.24C2195.59 5093.4 2195.5 5093.61 2195.5 5093.83V5100.5" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1487" d="M2190.5 5091.33C2190.5 5091.09 2190.55 5090.85 2190.65 5090.63C2190.76 5090.41 2190.91 5090.22 2191.09 5090.06L2196.92 5085.06C2197.22 5084.81 2197.61 5084.67 2198 5084.67C2198.39 5084.67 2198.78 5084.81 2199.08 5085.06L2204.91 5090.06C2205.09 5090.22 2205.24 5090.41 2205.35 5090.63C2205.45 5090.85 2205.5 5091.09 2205.5 5091.33V5098.83C2205.5 5099.28 2205.32 5099.7 2205.01 5100.01C2204.7 5100.32 2204.28 5100.5 2203.83 5100.5H2192.17C2191.72 5100.5 2191.3 5100.32 2190.99 5100.01C2190.68 5099.7 2190.5 5099.28 2190.5 5098.83V5091.33Z" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="StaySpot_12" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="2221" y="5098.27">StaySpot</tspan></text>
+<text id="._12" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="2310" y="5098.27">.</tspan></text>
+<g id="Frame_273">
+<path id="Vector_1488" d="M2199.88 5135.62H2197.17C2196.87 5135.62 2196.62 5135.87 2196.62 5136.17V5138.88C2196.62 5139.17 2196.87 5139.42 2197.17 5139.42H2199.88C2200.17 5139.42 2200.42 5139.17 2200.42 5138.88V5136.17C2200.42 5135.87 2200.17 5135.62 2199.88 5135.62Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1489" d="M2205.83 5135.62H2203.12C2202.83 5135.62 2202.58 5135.87 2202.58 5136.17V5138.88C2202.58 5139.17 2202.83 5139.42 2203.12 5139.42H2205.83C2206.13 5139.42 2206.37 5139.17 2206.37 5138.88V5136.17C2206.37 5135.87 2206.13 5135.62 2205.83 5135.62Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1490" d="M2205.83 5141.58H2203.12C2202.83 5141.58 2202.58 5141.83 2202.58 5142.12V5144.83C2202.58 5145.13 2202.83 5145.37 2203.12 5145.37H2205.83C2206.13 5145.37 2206.37 5145.13 2206.37 5144.83V5142.12C2206.37 5141.83 2206.13 5141.58 2205.83 5141.58Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1491" d="M2199.88 5141.58H2197.17C2196.87 5141.58 2196.62 5141.83 2196.62 5142.12V5144.83C2196.62 5145.13 2196.87 5145.37 2197.17 5145.37H2199.88C2200.17 5145.37 2200.42 5145.13 2200.42 5144.83V5142.12C2200.42 5141.83 2200.17 5141.58 2199.88 5141.58Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Browse_16" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2214" y="5141.42">Browse</tspan></text>
+<path id="Vector_1492" d="M2409.67 5122H2310.33C2306.47 5122 2303.33 5125.13 2303.33 5129V5152C2303.33 5155.87 2306.47 5159 2310.33 5159H2409.67C2413.53 5159 2416.67 5155.87 2416.67 5152V5129C2416.67 5125.13 2413.53 5122 2409.67 5122Z" fill="#EAF0E5" />
+<g id="Frame_274">
+<path id="Vector_1493" d="M2319.67 5135.08V5137.25" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1494" d="M2324 5135.08V5137.25" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1495" d="M2326.71 5141.04V5137.25C2326.71 5136.96 2326.59 5136.69 2326.39 5136.48C2326.19 5136.28 2325.91 5136.17 2325.62 5136.17H2318.04C2317.75 5136.17 2317.48 5136.28 2317.28 5136.48C2317.07 5136.69 2316.96 5136.96 2316.96 5137.25V5144.83C2316.96 5145.12 2317.07 5145.4 2317.28 5145.6C2317.48 5145.8 2317.75 5145.92 2318.04 5145.92H2322.37" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1496" d="M2316.96 5139.42H2326.71" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1497" d="M2324 5144.29H2327.25" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1498" d="M2325.62 5142.67V5145.92" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Book a stay_18" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2334.33" y="5141.42">Book a stay</tspan></text>
+<g id="Frame_275">
+<path id="Vector_1499" d="M2437.83 5135.08V5145.92L2438.92 5145.37L2440 5145.92L2441.08 5145.37L2442.17 5145.92L2443.25 5145.37L2444.33 5145.92L2445.42 5145.37L2446.5 5145.92V5135.08L2445.42 5135.62L2444.33 5135.08L2443.25 5135.62L2442.17 5135.08L2441.08 5135.62L2440 5135.08L2438.92 5135.62L2437.83 5135.08Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1500" d="M2443.25 5138.33H2440" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1501" d="M2444.33 5140.5H2440" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1502" d="M2442.71 5142.67H2440" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Audit trail_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2454.67" y="5141.42">Audit trail</tspan></text>
+<g id="Frame_276">
+<path id="Vector_1503" d="M2201.5 5186.67V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1504" d="M2203.67 5185.58V5189.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1505" d="M2205.83 5183.42V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1506" d="M2206.92 5179.62L2202.23 5184.31C2202.21 5184.33 2202.18 5184.35 2202.15 5184.37C2202.11 5184.38 2202.08 5184.39 2202.04 5184.39C2202.01 5184.39 2201.97 5184.38 2201.94 5184.37C2201.9 5184.35 2201.88 5184.33 2201.85 5184.31L2200.07 5182.53C2200.02 5182.47 2199.95 5182.45 2199.88 5182.45C2199.8 5182.45 2199.73 5182.47 2199.68 5182.53L2196.08 5186.13" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1507" d="M2197.17 5187.75V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1508" d="M2199.33 5185.58V5189.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Analytics_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2214" y="5185.42">Analytics</tspan></text>
+<g id="Frame_277">
+<path id="Vector_1509" d="M2322.16 5189.81C2323.17 5188.94 2326.17 5186.12 2326.17 5183.42C2326.17 5182.27 2325.71 5181.17 2324.9 5180.35C2324.08 5179.54 2322.98 5179.08 2321.83 5179.08C2320.68 5179.08 2319.58 5179.54 2318.77 5180.35C2317.96 5181.17 2317.5 5182.27 2317.5 5183.42C2317.5 5186.12 2320.5 5188.94 2321.51 5189.81C2321.6 5189.88 2321.72 5189.92 2321.83 5189.92C2321.95 5189.92 2322.07 5189.88 2322.16 5189.81Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1510" d="M2321.83 5185.04C2322.73 5185.04 2323.46 5184.31 2323.46 5183.42C2323.46 5182.52 2322.73 5181.79 2321.83 5181.79C2320.94 5181.79 2320.21 5182.52 2320.21 5183.42C2320.21 5184.31 2320.94 5185.04 2321.83 5185.04Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search map_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2334.33" y="5185.42">Search map</tspan></text>
+<g id="Frame_278" clip-path="url(#clip30_6_3)">
+<path id="Vector_1511" d="M2441.91 5179.24C2441.93 5179.2 2441.97 5179.15 2442.02 5179.13C2442.06 5179.1 2442.11 5179.08 2442.17 5179.08C2442.22 5179.08 2442.27 5179.1 2442.32 5179.13C2442.36 5179.15 2442.4 5179.2 2442.42 5179.24L2443.68 5181.78C2443.76 5181.94 2443.88 5182.09 2444.03 5182.2C2444.18 5182.31 2444.36 5182.38 2444.54 5182.41L2447.34 5182.82C2447.39 5182.82 2447.44 5182.85 2447.48 5182.88C2447.52 5182.91 2447.55 5182.96 2447.57 5183.01C2447.59 5183.06 2447.59 5183.12 2447.58 5183.17C2447.56 5183.22 2447.54 5183.27 2447.5 5183.31L2445.47 5185.28C2445.34 5185.41 2445.24 5185.57 2445.18 5185.74C2445.12 5185.92 2445.11 5186.11 2445.14 5186.29L2445.62 5189.08C2445.63 5189.13 2445.62 5189.18 2445.6 5189.23C2445.58 5189.28 2445.55 5189.33 2445.51 5189.36C2445.46 5189.39 2445.41 5189.41 2445.36 5189.41C2445.3 5189.42 2445.25 5189.41 2445.2 5189.38L2442.7 5188.07C2442.54 5187.98 2442.35 5187.93 2442.17 5187.93C2441.98 5187.93 2441.8 5187.98 2441.63 5188.07L2439.13 5189.38C2439.08 5189.41 2439.03 5189.42 2438.98 5189.41C2438.92 5189.41 2438.87 5189.39 2438.83 5189.36C2438.78 5189.33 2438.75 5189.28 2438.73 5189.23C2438.71 5189.18 2438.7 5189.13 2438.71 5189.08L2439.19 5186.29C2439.22 5186.11 2439.21 5185.92 2439.15 5185.74C2439.09 5185.57 2438.99 5185.41 2438.86 5185.28L2436.84 5183.31C2436.8 5183.27 2436.77 5183.22 2436.76 5183.17C2436.74 5183.12 2436.75 5183.06 2436.76 5183.01C2436.78 5182.96 2436.81 5182.91 2436.85 5182.88C2436.89 5182.84 2436.94 5182.82 2437 5182.81L2439.79 5182.41C2439.98 5182.38 2440.15 5182.31 2440.3 5182.2C2440.45 5182.09 2440.58 5181.94 2440.66 5181.78L2441.91 5179.24Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Reviews_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2454.67" y="5185.42">Reviews</tspan></text>
+<path id="Vector_1512" d="M2165 5216H2555" stroke="#E6E8E0" />
+<text id="Workspace / Book a stay" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2184" y="5250.71">Workspace / Book a stay</tspan></text>
+<path id="Vector_1513" d="M2400 5266C2408.28 5266 2415 5259.28 2415 5251C2415 5242.72 2408.28 5236 2400 5236C2391.72 5236 2385 5242.72 2385 5251C2385 5259.28 2391.72 5266 2400 5266Z" fill="#EAF0E5" />
+<text id="AR_13" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="2392" y="5252.71">AR</tspan></text>
+<text id="Ananya Rao_14" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2423" y="5245.42">Ananya Rao</tspan></text>
+<text id="â¹50,000.00 in wallet_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2423" y="5259.71">₹50,000.00 in wallet</tspan></text>
+<g id="Frame_279">
+<path id="Vector_1514" d="M2526 5248.5L2529 5251.5L2532 5248.5" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path id="Vector_1515" d="M2165 5286H2555" stroke="#E6E8E0" />
+<text id="MAKE YOURSELF AT HOME_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="2183" y="5316.71">MAKE YOURSELF AT HOME</tspan></text>
+<text id="Letâs book your" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="27" letter-spacing="0em"><tspan x="2183" y="5348.27">Let’s book your</tspan></text>
+<text id="next stay." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="27" letter-spacing="0em"><tspan x="2183" y="5381.27">next stay.</tspan></text>
+<text id="Pick a place, choose your nights, and leave the rest to us._3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2183" y="5408.14">Pick a place, choose your nights, and leave the rest to us.</tspan></text>
+</g>
+<g id="Group_168">
+<path id="Vector_1516" d="M2528 5420H2192C2187.03 5420 2183 5424.03 2183 5429V5881C2183 5885.97 2187.03 5890 2192 5890H2528C2532.97 5890 2537 5885.97 2537 5881V5429C2537 5424.03 2532.97 5420 2528 5420Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="The little details_3" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="2201" y="5450.2">The little details</tspan></text>
+<text id="01 Â· Choose your property_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2201" y="5478.14">01 · Choose your property</tspan></text>
+<path id="Vector_1517" d="M2513 5488H2207C2203.69 5488 2201 5490.69 2201 5494V5522C2201 5525.31 2203.69 5528 2207 5528H2513C2516.31 5528 2519 5525.31 2519 5522V5494C2519 5490.69 2516.31 5488 2513 5488Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_280">
+<path id="Vector_1518" d="M2219.88 5511.88C2222.64 5511.88 2224.88 5509.64 2224.88 5506.88C2224.88 5504.11 2222.64 5501.88 2219.88 5501.88C2217.11 5501.88 2214.88 5504.11 2214.88 5506.88C2214.88 5509.64 2217.11 5511.88 2219.88 5511.88Z" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1519" d="M2226.12 5513.12L2223.44 5510.44" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search propertiesâ¦_7" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2237" y="5509.14">Search properties…</tspan></text>
+<path id="Vector_1520" d="M2519 5538H2201V5584H2519V5538Z" fill="#EAF0E5" stroke="#E6E8E0" />
+<text id="Hyderabad Terrace Retreat 1_9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2213" y="5556.14">Hyderabad Terrace Retreat 1</tspan></text>
+<text id="#1 Â· â¹5,089.00 / night_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2213" y="5571.71">#1 · ₹5,089.00 / night</tspan></text>
+<g id="Frame_281">
+<path id="Vector_1521" d="M2505.5 5556.75L2498.62 5563.62L2495.5 5560.5" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path id="Vector_1522" d="M2519 5584H2201V5630H2519V5584Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Delhi Terrace Retreat 2_7" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2213" y="5602.14">Delhi Terrace Retreat 2</tspan></text>
+<text id="#2 Â· â¹4,458.00 / night_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2213" y="5617.71">#2 · ₹4,458.00 / night</tspan></text>
+<g id="Frame_282">
+<path id="Vector_1523" d="M2496.12 5606.5H2504.88" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1524" d="M2500.5 5602.12V5610.88" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path id="Vector_1525" d="M2519 5630H2201V5676H2519V5630Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Mumbai Terrace Retreat 3_6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2213" y="5648.14">Mumbai Terrace Retreat 3</tspan></text>
+<text id="#3 Â· â¹3,981.00 / night_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2213" y="5663.71">#3 · ₹3,981.00 / night</tspan></text>
+<g id="Frame_283">
+<path id="Vector_1526" d="M2496.12 5652.5H2504.88" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1527" d="M2500.5 5648.12V5656.88" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="02 Â· Number of nights_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2201" y="5693.42">02 · Number of nights</tspan></text>
+<path id="Vector_1528" d="M2345 5704H2207C2203.69 5704 2201 5706.69 2201 5710V5740C2201 5743.31 2203.69 5746 2207 5746H2345C2348.31 5746 2351 5743.31 2351 5740V5710C2351 5706.69 2348.31 5704 2345 5704Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="1_10" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2213" y="5726.85">1</tspan></text>
+<text id="03 Â· Start your stay_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2369" y="5693.42">03 · Start your stay</tspan></text>
+<path id="Vector_1529" d="M2513 5704H2375C2371.69 5704 2369 5706.69 2369 5710V5740C2369 5743.31 2371.69 5746 2375 5746H2513C2516.31 5746 2519 5743.31 2519 5740V5710C2519 5706.69 2516.31 5704 2513 5704Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Check in now_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2381" y="5726.14">Check in now</tspan></text>
+<g id="Frame_284">
+<path id="Vector_1530" d="M2498.25 5721.88L2501.5 5725.13L2504.75 5721.88" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="Group_169">
+<text id="Only one checked-in stay per guest is allowed." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2201" y="5765.42">Only one checked-in stay per guest is allowed.</tspan></text>
+<text id="Confirmed reservations can coexist." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2201" y="5778.02">Confirmed reservations can coexist.</tspan></text>
+</g>
+<path id="Vector_1531" d="M2513 5802H2207C2203.69 5802 2201 5804.69 2201 5808V5840C2201 5843.31 2203.69 5846 2207 5846H2513C2516.31 5846 2519 5843.31 2519 5840V5808C2519 5804.69 2516.31 5802 2513 5802Z" fill="#244C38" stroke="#244C38" />
+<text id="Confirm booking_4" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="2217" y="5823.85">Confirm booking</tspan></text>
+<g id="Frame_285">
+<path id="Vector_1532" d="M2492.54 5821.5H2502.46" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1533" d="M2497.5 5816.54L2502.46 5821.5L2497.5 5826.46" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_170">
+<path id="Vector_1534" d="M2528 5868H2192C2187.03 5868 2183 5872.03 2183 5877V5891C2183 5895.97 2187.03 5900 2192 5900H2528C2532.97 5900 2537 5895.97 2537 5891V5877C2537 5872.03 2532.97 5868 2528 5868Z" fill="#244C38" />
+<text id="YOUR STAY WALLET Â· â¹50,000.00 (scrolls below)" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2201" y="5884.71">YOUR STAY WALLET · ₹50,000.00 (scrolls below)</tspan></text>
+</g>
+<g id="Group_171">
+<path id="Vector_1535" d="M2983 5047H2667C2641.59 5047 2621 5067.59 2621 5093V5863C2621 5888.41 2641.59 5909 2667 5909H2983C3008.41 5909 3029 5888.41 3029 5863V5093C3029 5067.59 3008.41 5047 2983 5047Z" fill="#283229" />
+<path id="Vector_1536" d="M2982 5056H2668C2647.01 5056 2630 5073.01 2630 5094V5862C2630 5882.99 2647.01 5900 2668 5900H2982C3002.99 5900 3020 5882.99 3020 5862V5094C3020 5073.01 3002.99 5056 2982 5056Z" fill="#F7F6F2" />
+<path id="Vector_1537" d="M3020 5070H2630V5286H3020V5070Z" fill="#FDFDFB" />
+<path id="Vector_1538" d="M2670 5078H2656C2651.58 5078 2648 5081.58 2648 5086V5100C2648 5104.42 2651.58 5108 2656 5108H2670C2674.42 5108 2678 5104.42 2678 5100V5086C2678 5081.58 2674.42 5078 2670 5078Z" fill="#244C38" />
+<g id="Frame_286">
+<path id="Vector_1539" d="M2665.5 5100.5V5093.83C2665.5 5093.61 2665.41 5093.4 2665.26 5093.24C2665.1 5093.09 2664.89 5093 2664.67 5093H2661.33C2661.11 5093 2660.9 5093.09 2660.74 5093.24C2660.59 5093.4 2660.5 5093.61 2660.5 5093.83V5100.5" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1540" d="M2655.5 5091.33C2655.5 5091.09 2655.55 5090.85 2655.65 5090.63C2655.76 5090.41 2655.91 5090.22 2656.09 5090.06L2661.92 5085.06C2662.22 5084.81 2662.61 5084.67 2663 5084.67C2663.39 5084.67 2663.78 5084.81 2664.08 5085.06L2669.91 5090.06C2670.09 5090.22 2670.24 5090.41 2670.35 5090.63C2670.45 5090.85 2670.5 5091.09 2670.5 5091.33V5098.83C2670.5 5099.28 2670.32 5099.7 2670.01 5100.01C2669.7 5100.32 2669.28 5100.5 2668.83 5100.5H2657.17C2656.72 5100.5 2656.3 5100.32 2655.99 5100.01C2655.68 5099.7 2655.5 5099.28 2655.5 5098.83V5091.33Z" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="StaySpot_13" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="2686" y="5098.27">StaySpot</tspan></text>
+<text id="._13" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="2775" y="5098.27">.</tspan></text>
+<g id="Frame_287">
+<path id="Vector_1541" d="M2664.88 5135.62H2662.17C2661.87 5135.62 2661.62 5135.87 2661.62 5136.17V5138.88C2661.62 5139.17 2661.87 5139.42 2662.17 5139.42H2664.88C2665.17 5139.42 2665.42 5139.17 2665.42 5138.88V5136.17C2665.42 5135.87 2665.17 5135.62 2664.88 5135.62Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1542" d="M2670.83 5135.62H2668.12C2667.83 5135.62 2667.58 5135.87 2667.58 5136.17V5138.88C2667.58 5139.17 2667.83 5139.42 2668.12 5139.42H2670.83C2671.13 5139.42 2671.37 5139.17 2671.37 5138.88V5136.17C2671.37 5135.87 2671.13 5135.62 2670.83 5135.62Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1543" d="M2670.83 5141.58H2668.12C2667.83 5141.58 2667.58 5141.83 2667.58 5142.12V5144.83C2667.58 5145.13 2667.83 5145.37 2668.12 5145.37H2670.83C2671.13 5145.37 2671.37 5145.13 2671.37 5144.83V5142.12C2671.37 5141.83 2671.13 5141.58 2670.83 5141.58Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1544" d="M2664.88 5141.58H2662.17C2661.87 5141.58 2661.62 5141.83 2661.62 5142.12V5144.83C2661.62 5145.13 2661.87 5145.37 2662.17 5145.37H2664.88C2665.17 5145.37 2665.42 5145.13 2665.42 5144.83V5142.12C2665.42 5141.83 2665.17 5141.58 2664.88 5141.58Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Browse_17" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2679" y="5141.42">Browse</tspan></text>
+<g id="Frame_288">
+<path id="Vector_1545" d="M2784.67 5135.08V5137.25" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1546" d="M2789 5135.08V5137.25" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1547" d="M2791.71 5141.04V5137.25C2791.71 5136.96 2791.59 5136.69 2791.39 5136.48C2791.19 5136.28 2790.91 5136.17 2790.63 5136.17H2783.04C2782.75 5136.17 2782.48 5136.28 2782.28 5136.48C2782.07 5136.69 2781.96 5136.96 2781.96 5137.25V5144.83C2781.96 5145.12 2782.07 5145.4 2782.28 5145.6C2782.48 5145.8 2782.75 5145.92 2783.04 5145.92H2787.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1548" d="M2781.96 5139.42H2791.71" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1549" d="M2789 5144.29H2792.25" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1550" d="M2790.63 5142.67V5145.92" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Book a stay_19" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2799.33" y="5141.42">Book a stay</tspan></text>
+<path id="Vector_1551" d="M2995 5122H2895.67C2891.8 5122 2888.67 5125.13 2888.67 5129V5152C2888.67 5155.87 2891.8 5159 2895.67 5159H2995C2998.87 5159 3002 5155.87 3002 5152V5129C3002 5125.13 2998.87 5122 2995 5122Z" fill="#EAF0E5" />
+<g id="Frame_289">
+<path id="Vector_1552" d="M2902.83 5135.08V5145.92L2903.92 5145.37L2905 5145.92L2906.08 5145.37L2907.17 5145.92L2908.25 5145.37L2909.33 5145.92L2910.42 5145.37L2911.5 5145.92V5135.08L2910.42 5135.62L2909.33 5135.08L2908.25 5135.62L2907.17 5135.08L2906.08 5135.62L2905 5135.08L2903.92 5135.62L2902.83 5135.08Z" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1553" d="M2908.25 5138.33H2905" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1554" d="M2909.33 5140.5H2905" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1555" d="M2907.71 5142.67H2905" stroke="#244C38" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Audit trail_14" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2919.67" y="5141.42">Audit trail</tspan></text>
+<g id="Frame_290">
+<path id="Vector_1556" d="M2666.5 5186.67V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1557" d="M2668.67 5185.58V5189.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1558" d="M2670.83 5183.42V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1559" d="M2671.92 5179.62L2667.23 5184.31C2667.21 5184.33 2667.18 5184.35 2667.15 5184.37C2667.11 5184.38 2667.08 5184.39 2667.04 5184.39C2667.01 5184.39 2666.97 5184.38 2666.94 5184.37C2666.9 5184.35 2666.88 5184.33 2666.85 5184.31L2665.07 5182.53C2665.02 5182.47 2664.95 5182.45 2664.88 5182.45C2664.8 5182.45 2664.73 5182.47 2664.68 5182.53L2661.08 5186.13" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1560" d="M2662.17 5187.75V5189.38" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1561" d="M2664.33 5185.58V5189.37" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Analytics_14" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2679" y="5185.42">Analytics</tspan></text>
+<g id="Frame_291">
+<path id="Vector_1562" d="M2787.16 5189.81C2788.17 5188.94 2791.17 5186.12 2791.17 5183.42C2791.17 5182.27 2790.71 5181.17 2789.9 5180.35C2789.08 5179.54 2787.98 5179.08 2786.83 5179.08C2785.68 5179.08 2784.58 5179.54 2783.77 5180.35C2782.96 5181.17 2782.5 5182.27 2782.5 5183.42C2782.5 5186.12 2785.5 5188.94 2786.51 5189.81C2786.6 5189.88 2786.72 5189.92 2786.83 5189.92C2786.95 5189.92 2787.07 5189.88 2787.16 5189.81Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1563" d="M2786.83 5185.04C2787.73 5185.04 2788.46 5184.31 2788.46 5183.42C2788.46 5182.52 2787.73 5181.79 2786.83 5181.79C2785.94 5181.79 2785.21 5182.52 2785.21 5183.42C2785.21 5184.31 2785.94 5185.04 2786.83 5185.04Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search map_14" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2799.33" y="5185.42">Search map</tspan></text>
+<g id="Frame_292" clip-path="url(#clip31_6_3)">
+<path id="Vector_1564" d="M2906.91 5179.24C2906.93 5179.2 2906.97 5179.15 2907.02 5179.13C2907.06 5179.1 2907.11 5179.08 2907.17 5179.08C2907.22 5179.08 2907.27 5179.1 2907.32 5179.13C2907.36 5179.15 2907.4 5179.2 2907.42 5179.24L2908.68 5181.78C2908.76 5181.94 2908.88 5182.09 2909.03 5182.2C2909.18 5182.31 2909.36 5182.38 2909.54 5182.41L2912.34 5182.82C2912.39 5182.82 2912.44 5182.85 2912.48 5182.88C2912.52 5182.91 2912.55 5182.96 2912.57 5183.01C2912.59 5183.06 2912.59 5183.12 2912.57 5183.17C2912.56 5183.22 2912.53 5183.27 2912.5 5183.31L2910.47 5185.28C2910.34 5185.41 2910.24 5185.57 2910.18 5185.74C2910.12 5185.92 2910.11 5186.11 2910.14 5186.29L2910.62 5189.08C2910.63 5189.13 2910.62 5189.18 2910.6 5189.23C2910.58 5189.28 2910.55 5189.33 2910.51 5189.36C2910.46 5189.39 2910.41 5189.41 2910.36 5189.41C2910.3 5189.42 2910.25 5189.41 2910.2 5189.38L2907.7 5188.07C2907.54 5187.98 2907.35 5187.93 2907.17 5187.93C2906.98 5187.93 2906.8 5187.98 2906.63 5188.07L2904.13 5189.38C2904.08 5189.41 2904.03 5189.42 2903.98 5189.41C2903.92 5189.41 2903.87 5189.39 2903.83 5189.36C2903.78 5189.33 2903.75 5189.28 2903.73 5189.23C2903.71 5189.18 2903.7 5189.13 2903.71 5189.08L2904.19 5186.29C2904.22 5186.11 2904.21 5185.92 2904.15 5185.74C2904.09 5185.57 2903.99 5185.41 2903.86 5185.28L2901.84 5183.31C2901.8 5183.27 2901.77 5183.22 2901.76 5183.17C2901.74 5183.12 2901.75 5183.06 2901.76 5183.01C2901.78 5182.96 2901.81 5182.91 2901.85 5182.88C2901.89 5182.84 2901.94 5182.82 2902 5182.81L2904.79 5182.41C2904.98 5182.38 2905.15 5182.31 2905.3 5182.2C2905.45 5182.09 2905.58 5181.94 2905.66 5181.78L2906.91 5179.24Z" stroke="#7B8176" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Reviews_14" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2919.67" y="5185.42">Reviews</tspan></text>
+<path id="Vector_1565" d="M2630 5216H3020" stroke="#E6E8E0" />
+<text id="Workspace / Audit trail_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2649" y="5250.71">Workspace / Audit trail</tspan></text>
+<path id="Vector_1566" d="M2865 5266C2873.28 5266 2880 5259.28 2880 5251C2880 5242.72 2873.28 5236 2865 5236C2856.72 5236 2850 5242.72 2850 5251C2850 5259.28 2856.72 5266 2865 5266Z" fill="#EAF0E5" />
+<text id="AR_14" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="2857" y="5252.71">AR</tspan></text>
+<text id="Ananya Rao_15" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2888" y="5245.42">Ananya Rao</tspan></text>
+<text id="â¹44,911.00 in wallet_11" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2888" y="5259.71">₹44,911.00 in wallet</tspan></text>
+<g id="Frame_293">
+<path id="Vector_1567" d="M2991 5248.5L2994 5251.5L2997 5248.5" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path id="Vector_1568" d="M2630 5286H3020" stroke="#E6E8E0" />
+<text id="EVERY RUPEE, ACCOUNTED FOR_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="2648" y="5316.71">EVERY RUPEE, ACCOUNTED FOR</tspan></text>
+<text id="A clear trail." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="27" letter-spacing="0em"><tspan x="2648" y="5348.27">A clear trail.</tspan></text>
+<text id="Peace of mind." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="27" letter-spacing="0em"><tspan x="2648" y="5381.27">Peace of mind.</tspan></text>
+<text id="Read-only wallet history for Ananya Rao._2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2648" y="5408.14">Read-only wallet history for Ananya Rao.</tspan></text>
+</g>
+<g id="Group_172">
+<path id="Vector_1569" d="M2810 5420H2657C2652.03 5420 2648 5424.03 2648 5429V5489C2648 5493.97 2652.03 5498 2657 5498H2810C2814.97 5498 2819 5493.97 2819 5489V5429C2819 5424.03 2814.97 5420 2810 5420Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="AVAILABLE IN WALLET_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="6" font-weight="bold" letter-spacing="0em"><tspan x="2662" y="5441.78">AVAILABLE IN WALLET</tspan></text>
+<text id="â¹44,911.00_6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="2662" y="5474.13">₹44,911.00</tspan></text>
+<path id="Vector_1570" d="M2993 5420H2840C2835.03 5420 2831 5424.03 2831 5429V5489C2831 5493.97 2835.03 5498 2840 5498H2993C2997.97 5498 3002 5493.97 3002 5489V5429C3002 5424.03 2997.97 5420 2993 5420Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="PAGE OPENING BALANCE_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="6" font-weight="bold" letter-spacing="0em"><tspan x="2845" y="5441.78">PAGE OPENING BALANCE</tspan></text>
+<text id="â¹50,000.00_11" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="2845" y="5474.13">₹50,000.00</tspan></text>
+<path id="Vector_1571" d="M2993 5508H2657C2652.03 5508 2648 5512.03 2648 5517V5555C2648 5559.97 2652.03 5564 2657 5564H2993C2997.97 5564 3002 5559.97 3002 5555V5517C3002 5512.03 2997.97 5508 2993 5508Z" fill="#EAF0E5" stroke="#E6E8E0" />
+<g id="Frame_294" clip-path="url(#clip32_6_3)">
+<path id="Vector_1572" d="M2672 5544.33C2676.6 5544.33 2680.33 5540.6 2680.33 5536C2680.33 5531.4 2676.6 5527.67 2672 5527.67C2667.4 5527.67 2663.67 5531.4 2663.67 5536C2663.67 5540.6 2667.4 5544.33 2672 5544.33Z" stroke="#244C38" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1573" d="M2669.5 5536L2671.17 5537.67L2674.5 5534.33" stroke="#244C38" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Always recorded. Never edited._2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="2692" y="5529.85">Always recorded. Never edited.</tspan></text>
+<text id="Every wallet change leaves an immutable entry." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2692" y="5547.71">Every wallet change leaves an immutable entry.</tspan></text>
+</g>
+<g id="Group_173">
+<path id="Vector_1574" d="M2993 5574H2657C2652.03 5574 2648 5578.03 2648 5583V5881C2648 5885.97 2652.03 5890 2657 5890H2993C2997.97 5890 3002 5885.97 3002 5881V5583C3002 5578.03 2997.97 5574 2993 5574Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Wallet activity_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="2664" y="5604.2">Wallet activity</tspan></text>
+<text id="From_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2664" y="5629.42">From</tspan></text>
+<path id="Vector_1575" d="M2808 5638H2670C2666.69 5638 2664 5640.69 2664 5644V5666C2664 5669.31 2666.69 5672 2670 5672H2808C2811.31 5672 2814 5669.31 2814 5666V5644C2814 5640.69 2811.31 5638 2808 5638Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="01/10/2026" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2674" y="5657.14">01/10/2026</tspan></text>
+<text id="To_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2828" y="5629.42">To</tspan></text>
+<path id="Vector_1576" d="M2972 5638H2834C2830.69 5638 2828 5640.69 2828 5644V5666C2828 5669.31 2830.69 5672 2834 5672H2972C2975.31 5672 2978 5669.31 2978 5666V5644C2978 5640.69 2975.31 5638 2972 5638Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="13/10/2026" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2838" y="5657.14">13/10/2026</tspan></text>
+<text id="ENTRY_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="7" font-weight="bold" letter-spacing="0em"><tspan x="2664" y="5697.5">ENTRY</tspan></text>
+<text id="DATE &amp; TIME_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="7" font-weight="bold" letter-spacing="0em"><tspan x="2730" y="5697.5">DATE &amp; TIME</tspan></text>
+<text id="TYPE_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="7" font-weight="bold" letter-spacing="0em"><tspan x="2862" y="5697.5">TYPE</tspan></text>
+<text id="CHANGE_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="7" font-weight="bold" letter-spacing="0em"><tspan x="2930" y="5697.5">CHANGE</tspan></text>
+<path id="Vector_1577" d="M2664 5714H2986" stroke="#E6E8E0" />
+<text id="#1_5" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2664" y="5733.42">#1</tspan></text>
+<text id="1 Oct, 09:14" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2730" y="5733.42">1 Oct, 09:14</tspan></text>
+<path id="Vector_1578" d="M2902 5722H2866C2863.79 5722 2862 5723.79 2862 5726V5737C2862 5739.21 2863.79 5741 2866 5741H2902C2904.21 5741 2906 5739.21 2906 5737V5726C2906 5723.79 2904.21 5722 2902 5722Z" fill="#EAF0E5" />
+<text id="Credit_5" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2868" y="5732.71">Credit</tspan></text>
+<text id="+â¹10.00_5" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2930" y="5733.42">+₹10.00</tspan></text>
+<path id="Vector_1579" d="M2664 5750H2986" stroke="#E6E8E0" />
+<text id="#1001_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2664" y="5769.42">#1001</tspan></text>
+<text id="1 Oct, 09:14_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2730" y="5769.42">1 Oct, 09:14</tspan></text>
+<path id="Vector_1580" d="M2902 5758H2866C2863.79 5758 2862 5759.79 2862 5762V5773C2862 5775.21 2863.79 5777 2866 5777H2902C2904.21 5777 2906 5775.21 2906 5773V5762C2906 5759.79 2904.21 5758 2902 5758Z" fill="#FFF0E8" />
+<text id="Debit_5" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2868" y="5768.71">Debit</tspan></text>
+<text id="ââ¹10.00_5" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2930" y="5769.42">−₹10.00</tspan></text>
+<path id="Vector_1581" d="M2664 5786H2986" stroke="#E6E8E0" />
+<text id="#2001_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2664" y="5805.42">#2001</tspan></text>
+<text id="3 Oct, 11:02" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2730" y="5805.42">3 Oct, 11:02</tspan></text>
+<path id="Vector_1582" d="M2902 5794H2866C2863.79 5794 2862 5795.79 2862 5798V5809C2862 5811.21 2863.79 5813 2866 5813H2902C2904.21 5813 2906 5811.21 2906 5809V5798C2906 5795.79 2904.21 5794 2902 5794Z" fill="#EAF0E5" />
+<text id="Credit_6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2868" y="5804.71">Credit</tspan></text>
+<text id="+â¹10.00_6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2930" y="5805.42">+₹10.00</tspan></text>
+<path id="Vector_1583" d="M2664 5822H2986" stroke="#E6E8E0" />
+<text id="#100001" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2664" y="5841.42">#100001</tspan></text>
+<text id="13 Oct, 14:02" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2730" y="5841.42">13 Oct, 14:02</tspan></text>
+<path id="Vector_1584" d="M2902 5830H2866C2863.79 5830 2862 5831.79 2862 5834V5845C2862 5847.21 2863.79 5849 2866 5849H2902C2904.21 5849 2906 5847.21 2906 5845V5834C2906 5831.79 2904.21 5830 2902 5830Z" fill="#FFF0E8" />
+<text id="Debit_6" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2868" y="5840.71">Debit</tspan></text>
+<text id="ââ¹5,089" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2930" y="5841.42">−₹5,089</tspan></text>
+<text id="Page 1 Â· up to 20 records per page_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2664" y="5874.71">Page 1 · up to 20 records per page</tspan></text>
+<text id="Swipe for balance" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2898" y="5874.71">Swipe for balance</tspan></text>
+</g>
+<g id="Group_174">
+<text id="Browse Â· 3Ã2 nav grid; two property cards per row" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="1700" y="5952.06">Browse · 3×2 nav grid; two property cards per row</tspan></text>
+<text id="Book a stay Â· form first; wallet and summary stack below" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="2165" y="5952.06">Book a stay · form first; wallet and summary stack below</tspan></text>
+<text id="Audit trail Â· summary cards pair up; the table scrolls sideways" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="2630" y="5952.06">Audit trail · summary cards pair up; the table scrolls sideways</tspan></text>
+</g>
+<g id="Group_175">
+<path id="Vector_1585" d="M1902 6065H3038" stroke="#E6E8E0" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences._15" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1902" y="6090.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_1586" d="M3080 6120H1640V6160H3080V6120Z" fill="#EAF0E5" />
+<text id="DESIGN NOTE Â· Shared Â· web/src/style.css @media (max-width: 650px) Â· compare with docs/screenshots/07_mobile_reviews.png and 08_mobile_browse.png." fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1662" y="6142.85">DESIGN NOTE · Shared · web/src/style.css @media (max-width: 650px) · compare with docs/screenshots/07_mobile_reviews.png and 08_mobile_browse.png.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_6_3">
+<rect width="6360" height="6160" fill="white" />
+</clipPath>
+<clipPath id="clip1_6_3">
+<rect width="570" height="237" fill="white" transform="translate(4090 374)" />
+</clipPath>
+<clipPath id="clip2_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 713)" />
+</clipPath>
+<clipPath id="clip3_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 713)" />
+</clipPath>
+<clipPath id="clip4_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 713)" />
+</clipPath>
+<clipPath id="clip5_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 713)" />
+</clipPath>
+<clipPath id="clip6_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 964)" />
+</clipPath>
+<clipPath id="clip7_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 964)" />
+</clipPath>
+<clipPath id="clip8_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 964)" />
+</clipPath>
+<clipPath id="clip9_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 964)" />
+</clipPath>
+<clipPath id="clip10_6_3">
+<rect width="570" height="237" fill="white" transform="translate(810 1964)" />
+</clipPath>
+<clipPath id="clip11_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2303)" />
+</clipPath>
+<clipPath id="clip12_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2303)" />
+</clipPath>
+<clipPath id="clip13_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2303)" />
+</clipPath>
+<clipPath id="clip14_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2303)" />
+</clipPath>
+<clipPath id="clip15_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2554)" />
+</clipPath>
+<clipPath id="clip16_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2554)" />
+</clipPath>
+<clipPath id="clip17_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2554)" />
+</clipPath>
+<clipPath id="clip18_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2554)" />
+</clipPath>
+<clipPath id="clip19_6_3">
+<rect width="524" height="275" fill="white" transform="translate(458 1966)" />
+</clipPath>
+<clipPath id="clip20_6_3">
+<rect width="18" height="18" fill="white" transform="translate(1941 2617)" />
+</clipPath>
+<clipPath id="clip21_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3638)" />
+</clipPath>
+<clipPath id="clip22_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3668)" />
+</clipPath>
+<clipPath id="clip23_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3698)" />
+</clipPath>
+<clipPath id="clip24_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3728)" />
+</clipPath>
+<clipPath id="clip25_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3758)" />
+</clipPath>
+<clipPath id="clip26_6_3">
+<rect width="13" height="13" fill="white" transform="translate(1970.67 5178)" />
+</clipPath>
+<clipPath id="clip27_6_3">
+<rect width="150" height="118" fill="white" transform="translate(1914 5462)" />
+</clipPath>
+<clipPath id="clip28_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1724 5698)" />
+</clipPath>
+<clipPath id="clip29_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1907 5698)" />
+</clipPath>
+<clipPath id="clip30_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2435.67 5178)" />
+</clipPath>
+<clipPath id="clip31_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2900.67 5178)" />
+</clipPath>
+<clipPath id="clip32_6_3">
+<rect width="20" height="20" fill="white" transform="translate(2662 5526)" />
+</clipPath>
+</defs>
+</svg>

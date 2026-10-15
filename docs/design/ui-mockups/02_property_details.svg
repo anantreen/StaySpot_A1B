@@ -1,417 +1,773 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1280" viewBox="0 0 1440 1280" role="img">
-<title>StaySpot — Property Details</title>
-<g data-section="shell">
-<rect x="0" y="0" width="1440" height="1280" rx="0" fill="#f7f6f2" stroke="transparent" opacity="1.0"/>
-<rect x="0" y="0" width="220" height="1190" rx="0" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<rect x="22" y="34" width="37" height="37" rx="10" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<svg x="28" y="40" width="25" height="25" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
-<text x="68" y="64.1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#244c38">
-<tspan x="68" dy="0">StaySpot</tspan>
-</text>
-<text x="181" y="64.1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#c76a42">
-<tspan x="181" dy="0">.</tspan>
-</text>
-<text x="34" y="130.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#7b8176">
-<tspan x="34" dy="0">YOUR WORKSPACE</tspan>
-</text>
-<rect x="22" y="150" width="176" height="47" rx="7" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<ellipse cx="180.5" cy="173.5" rx="2.5" ry="2.5" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<svg x="36" y="164" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#244c38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
-<text x="69" y="177.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="69" dy="0">Browse</tspan>
-</text>
-<svg x="36" y="217" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-plus"><path d="M8 2v4"></path><path d="M16 2v4"></path><path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path><path d="M3 10h18"></path><path d="M16 19h6"></path><path d="M19 16v6"></path></svg>
-<text x="69" y="230.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Book a stay</tspan>
-</text>
-<svg x="36" y="270" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt-text"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8"></path><path d="M16 12H8"></path><path d="M13 16H8"></path></svg>
-<text x="69" y="283.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Audit trail</tspan>
-</text>
-<svg x="36" y="323" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined"><path d="M12 16v5"></path><path d="M16 14v7"></path><path d="M20 10v11"></path><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"></path><path d="M4 18v3"></path><path d="M8 14v7"></path></svg>
-<text x="69" y="336.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Analytics</tspan>
-</text>
-<svg x="36" y="376" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="69" y="389.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Search map</tspan>
-</text>
-<svg x="36" y="429" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
-<text x="69" y="442.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Reviews</tspan>
-</text>
-<svg x="34" y="534" width="32" height="32" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="34" y="604.85" font-family="Georgia, Times New Roman, serif" font-size="21" font-weight="400" fill="#244c38">
-<tspan x="34" dy="0">A little closer</tspan>
-<tspan x="34" dy="29.4">to feeling at</tspan>
-<tspan x="34" dy="29.4">home.</tspan>
-</text>
-<text x="34" y="701.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="34" dy="0">VACATION RENTALS &amp;</tspan>
-<tspan x="34" dy="11.2">EXPERIENCES</tspan>
-</text>
-<polyline points="32,755 188,755" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="32" y="780.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="32" dy="0">Project 03           SSD · 2026</tspan>
-</text>
-<rect x="220" y="0" width="1220" height="88" rx="0" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="262" y="48.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">Workspace    /</tspan>
-</text>
-<text x="349" y="48.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#283229">
-<tspan x="349" dy="0">Browse</tspan>
-</text>
-<ellipse cx="1099.0" cy="44.0" rx="3.0" ry="3.0" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<text x="1108" y="47.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1108" dy="0">Live databases</tspan>
-</text>
-<ellipse cx="1231.5" cy="43.5" rx="16.5" ry="16.5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<text x="1223" y="46.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#244c38">
-<tspan x="1223" dy="0">AR</tspan>
-</text>
-<text x="1258" y="40.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="1258" dy="0">Ananya Rao</tspan>
-</text>
-<text x="1258" y="57.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1258" dy="0">₹50,000.00 in wallet</tspan>
-</text>
-<svg x="1381" y="37" width="15" height="15" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg>
-<text x="262" y="133.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#7b8176">
-<tspan x="262" dy="0">YOUR NEXT CHAPTER</tspan>
-</text>
-<text x="262" y="184.15" font-family="Georgia, Times New Roman, serif" font-size="39" font-weight="400" fill="#283229">
-<tspan x="262" dy="0">A place for every possibility.</tspan>
-</text>
-<text x="262" y="224.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">Discover thoughtful spaces, familiar comforts, and a little room to explore.</tspan>
-</text>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1442" height="1374" viewBox="-1 1607 1442 1374" fill="none"><title>02 Property details · Member 1</title><g id="02 Property details Â· Member 1">
+<text id="02 Property details_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" font-weight="bold" letter-spacing="0em"><tspan x="0" y="1650.5">02 Property details</tspan></text>
+<text id="Member 1 Â· from GitHub docs/design_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="24" letter-spacing="0em"><tspan x="0" y="1685.23">Member 1 · from GitHub docs/design</tspan></text>
+<g id="Group_60">
+<g id="Group_61">
+<path id="Vector_433" d="M1440 1700H0V2980H1440V1700Z" fill="#F7F6F2" />
+<path id="Vector_434" d="M220 1700H0V2890H220V1700Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<path id="Vector_435" d="M49 1734H32C26.4772 1734 22 1738.48 22 1744V1761C22 1766.52 26.4772 1771 32 1771H49C54.5228 1771 59 1766.52 59 1761V1744C59 1738.48 54.5228 1734 49 1734Z" fill="#244C38" />
+<g id="Frame_76">
+<path id="Vector_436" d="M43.625 1761.87V1753.54C43.625 1753.27 43.5153 1753 43.3199 1752.81C43.1246 1752.61 42.8596 1752.5 42.5833 1752.5H38.4167C38.1404 1752.5 37.8754 1752.61 37.6801 1752.81C37.4847 1753 37.375 1753.27 37.375 1753.54V1761.87" stroke="white" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_437" d="M31.125 1750.42C31.1249 1750.11 31.191 1749.81 31.3185 1749.54C31.4461 1749.26 31.6321 1749.02 31.8635 1748.82L39.1552 1742.58C39.5312 1742.26 40.0077 1742.08 40.5 1742.08C40.9923 1742.08 41.4688 1742.26 41.8448 1742.58L49.1365 1748.82C49.3679 1749.02 49.5539 1749.26 49.6815 1749.54C49.809 1749.81 49.8751 1750.11 49.875 1750.42V1759.79C49.875 1760.34 49.6555 1760.87 49.2648 1761.26C48.8741 1761.66 48.3442 1761.87 47.7917 1761.87H33.2083C32.6558 1761.87 32.1259 1761.66 31.7352 1761.26C31.3445 1760.87 31.125 1760.34 31.125 1759.79V1750.42Z" stroke="white" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="browse-banner">
-<rect x="262" y="258" width="1136" height="250" rx="9" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<svg x="298" y="286" width="15" height="15" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="320" y="296.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#ffffff">
-<tspan x="320" dy="0">MADE FOR SLOWER DAYS</tspan>
-</text>
-<text x="298" y="343.35" font-family="Georgia, Times New Roman, serif" font-size="31" font-weight="400" fill="#ffffff">
-<tspan x="298" dy="0">Good stays.</tspan>
-<tspan x="298" dy="43.4">Great beginnings.</tspan>
-</text>
-<text x="298" y="411.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#ffffff">
-<tspan x="298" dy="0">From city corners to quiet courtyards,</tspan>
-<tspan x="298" dy="15.399999999999999">find somewhere that feels like you.</tspan>
-</text>
-<rect x="298" y="450" width="140" height="36" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="314" y="472.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#244c38">
-<tspan x="314" dy="0">Book a stay</tspan>
-</text>
-<svg x="408" y="461" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#244c38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
-<svg x="810" y="264" width="570" height="237" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#e4e8dc"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#f6f0e4"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
+<text id="StaySpot_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="68" y="1763.05">StaySpot</tspan></text>
+<text id="._3" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="181" y="1763.05">.</tspan></text>
+<text id="YOUR WORKSPACE_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="34" y="1830.42">YOUR WORKSPACE</tspan></text>
+<path id="Vector_438" d="M191 1850H29C25.134 1850 22 1853.13 22 1857V1890C22 1893.87 25.134 1897 29 1897H191C194.866 1897 198 1893.87 198 1890V1857C198 1853.13 194.866 1850 191 1850Z" fill="#EAF0E5" />
+<path id="Vector_439" d="M180.5 1876C181.881 1876 183 1874.88 183 1873.5C183 1872.12 181.881 1871 180.5 1871C179.119 1871 178 1872.12 178 1873.5C178 1874.88 179.119 1876 180.5 1876Z" fill="#244C38" />
+<g id="Frame_77">
+<path id="Vector_440" d="M43.125 1866.38H39.1667C38.7294 1866.38 38.375 1866.73 38.375 1867.17V1871.12C38.375 1871.56 38.7294 1871.92 39.1667 1871.92H43.125C43.5622 1871.92 43.9167 1871.56 43.9167 1871.12V1867.17C43.9167 1866.73 43.5622 1866.38 43.125 1866.38Z" stroke="#244C38" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_441" d="M51.8333 1866.38H47.8749C47.4377 1866.38 47.0833 1866.73 47.0833 1867.17V1871.12C47.0833 1871.56 47.4377 1871.92 47.8749 1871.92H51.8333C52.2705 1871.92 52.6249 1871.56 52.6249 1871.12V1867.17C52.6249 1866.73 52.2705 1866.38 51.8333 1866.38Z" stroke="#244C38" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_442" d="M51.8333 1875.08H47.8749C47.4377 1875.08 47.0833 1875.44 47.0833 1875.87V1879.83C47.0833 1880.27 47.4377 1880.62 47.8749 1880.62H51.8333C52.2705 1880.62 52.6249 1880.27 52.6249 1879.83V1875.87C52.6249 1875.44 52.2705 1875.08 51.8333 1875.08Z" stroke="#244C38" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_443" d="M43.125 1875.08H39.1667C38.7294 1875.08 38.375 1875.44 38.375 1875.87V1879.83C38.375 1880.27 38.7294 1880.62 39.1667 1880.62H43.125C43.5622 1880.62 43.9167 1880.27 43.9167 1879.83V1875.87C43.9167 1875.44 43.5622 1875.08 43.125 1875.08Z" stroke="#244C38" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="browse-toolbar">
-<text x="262" y="566.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="262" dy="0">Properties</tspan>
-</text>
-<text x="353" y="566.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="353" dy="0">Guests</tspan>
-</text>
-<text x="420" y="566.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="420" dy="0">Bookings</tspan>
-</text>
-<polyline points="262,579 326,579" fill="none" stroke="#244c38" stroke-width="2"/>
-<rect x="1127" y="542" width="271" height="38" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="1140" y="552" width="18" height="18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-<text x="1166" y="564.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1166" dy="0">Search properties…</tspan>
-</text>
+<text id="Browse_5" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="69" y="1876.78">Browse</tspan></text>
+<g id="Frame_78">
+<path id="Vector_444" d="M42.3333 1918.58V1921.75" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_445" d="M48.6667 1918.58V1921.75" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_446" d="M52.625 1927.29V1921.75C52.625 1921.33 52.4582 1920.93 52.1613 1920.63C51.8643 1920.33 51.4616 1920.17 51.0417 1920.17H39.9583C39.5384 1920.17 39.1357 1920.33 38.8387 1920.63C38.5418 1920.93 38.375 1921.33 38.375 1921.75V1932.83C38.375 1933.25 38.5418 1933.66 38.8387 1933.95C39.1357 1934.25 39.5384 1934.42 39.9583 1934.42H46.2917" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_447" d="M38.375 1924.92H52.625" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_448" d="M48.6667 1932.04H53.4167" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_449" d="M51.0417 1929.67V1934.42" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-1">
-<rect x="262" y="602" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="267" y="603" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#e4e8dc"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#f6f0e4"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="273" y="613" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="279" y="619" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="294" y="627.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="294" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="275" y="752" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="292" y="760.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="292" dy="0">Hyderabad</tspan>
-</text>
-<text x="502" y="759.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="502" dy="0">#1</tspan>
-</text>
-<text x="276" y="785.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="276" dy="0">Hyderabad Terrace Retreat 1</tspan>
-</text>
-<text x="276" y="817.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="276" dy="0">₹5,089.00</tspan>
-</text>
-<text x="357" y="816.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="357" dy="0">/ night</tspan>
-</text>
-<svg x="501" y="806" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<text id="Book a stay_5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="69" y="1929.78">Book a stay</tspan></text>
+<g id="Frame_79">
+<path id="Vector_450" d="M39.1667 1971.58V1987.42L40.7501 1986.62L42.3334 1987.42L43.9167 1986.62L45.5001 1987.42L47.0834 1986.62L48.6667 1987.42L50.2501 1986.62L51.8334 1987.42V1971.58L50.2501 1972.37L48.6667 1971.58L47.0834 1972.37L45.5001 1971.58L43.9167 1972.37L42.3334 1971.58L40.7501 1972.37L39.1667 1971.58Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_451" d="M47.0833 1976.33H42.3333" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_452" d="M48.6666 1979.5H42.3333" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_453" d="M46.2916 1982.67H42.3333" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-2">
-<rect x="551" y="602" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="556" y="603" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#eddfcf"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#dba77e"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="562" y="613" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="568" y="619" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="583" y="627.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="583" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="564" y="752" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="581" y="760.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="581" dy="0">Delhi</tspan>
-</text>
-<text x="791" y="759.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="791" dy="0">#2</tspan>
-</text>
-<text x="565" y="785.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="565" dy="0">Delhi Terrace Retreat 2</tspan>
-</text>
-<text x="565" y="817.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="565" dy="0">₹4,458.00</tspan>
-</text>
-<text x="646" y="816.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="646" dy="0">/ night</tspan>
-</text>
-<svg x="790" y="806" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<text id="Audit trail_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="69" y="1982.78">Audit trail</tspan></text>
+<g id="Frame_80">
+<path id="Vector_454" d="M45.5 2035.67V2039.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_455" d="M48.6667 2034.08V2039.62" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_456" d="M51.8333 2030.92V2039.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_457" d="M53.4166 2025.38L46.5718 2032.22C46.5351 2032.26 46.4914 2032.29 46.4433 2032.31C46.3952 2032.33 46.3437 2032.34 46.2916 2032.34C46.2395 2032.34 46.188 2032.33 46.1399 2032.31C46.0918 2032.29 46.0481 2032.26 46.0113 2032.22L43.4052 2029.61C43.3309 2029.54 43.2303 2029.5 43.1253 2029.5C43.0204 2029.5 42.9197 2029.54 42.8455 2029.61L37.5833 2034.88" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_458" d="M39.1667 2037.25V2039.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_459" d="M42.3333 2034.08V2039.62" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-3">
-<rect x="840" y="602" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="845" y="603" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#dce6e5"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#ece9df"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="851" y="613" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="857" y="619" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="872" y="627.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="872" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="853" y="752" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="870" y="760.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="870" dy="0">Mumbai</tspan>
-</text>
-<text x="1080" y="759.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1080" dy="0">#3</tspan>
-</text>
-<text x="854" y="785.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="854" dy="0">Mumbai Terrace Retreat 3</tspan>
-</text>
-<text x="854" y="817.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="854" dy="0">₹3,981.00</tspan>
-</text>
-<text x="935" y="816.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="935" dy="0">/ night</tspan>
-</text>
-<svg x="1079" y="806" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<text id="Analytics_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="69" y="2035.78">Analytics</tspan></text>
+<g id="Frame_81">
+<path id="Vector_460" d="M45.9759 2093.26C47.4484 2091.99 51.8334 2087.87 51.8334 2083.92C51.8334 2082.24 51.1662 2080.63 49.9784 2079.44C48.7907 2078.25 47.1798 2077.58 45.5001 2077.58C43.8204 2077.58 42.2095 2078.25 41.0217 2079.44C39.834 2080.63 39.1667 2082.24 39.1667 2083.92C39.1667 2087.87 43.5518 2091.99 45.0243 2093.26C45.1615 2093.36 45.3284 2093.42 45.5001 2093.42C45.6717 2093.42 45.8387 2093.36 45.9759 2093.26Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_461" d="M45.5 2086.29C46.8117 2086.29 47.875 2085.23 47.875 2083.92C47.875 2082.61 46.8117 2081.54 45.5 2081.54C44.1883 2081.54 43.125 2082.61 43.125 2083.92C43.125 2085.23 44.1883 2086.29 45.5 2086.29Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-4">
-<rect x="1129" y="602" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="1134" y="603" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#e8e3d9"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#e2c9ae"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="1140" y="613" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="1146" y="619" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="1161" y="627.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1161" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="1142" y="752" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1159" y="760.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="1159" dy="0">Bengaluru</tspan>
-</text>
-<text x="1369" y="759.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1369" dy="0">#4</tspan>
-</text>
-<text x="1143" y="785.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="1143" dy="0">Bengaluru Garden Studio 4</tspan>
-</text>
-<text x="1143" y="817.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="1143" dy="0">₹3,000.00</tspan>
-</text>
-<text x="1224" y="816.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="1224" dy="0">/ night</tspan>
-</text>
-<svg x="1368" y="806" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<text id="Search map_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="69" y="2088.78">Search map</tspan></text>
+<g id="Frame_82">
+<path id="Vector_462" d="M45.1238 2130.82C45.1585 2130.75 45.2121 2130.69 45.2786 2130.65C45.345 2130.61 45.4217 2130.58 45.4999 2130.58C45.5781 2130.58 45.6547 2130.61 45.7212 2130.65C45.7876 2130.69 45.8412 2130.75 45.8759 2130.82L47.7047 2134.52C47.8251 2134.76 48.003 2134.98 48.2229 2135.14C48.4428 2135.3 48.6983 2135.4 48.9674 2135.44L53.0571 2136.04C53.1346 2136.05 53.2074 2136.08 53.2673 2136.13C53.3272 2136.18 53.3718 2136.25 53.396 2136.32C53.4202 2136.4 53.4231 2136.48 53.4043 2136.55C53.3856 2136.63 53.3459 2136.7 53.2899 2136.75L50.3322 2139.63C50.1372 2139.82 49.9912 2140.06 49.907 2140.32C49.8227 2140.58 49.8026 2140.85 49.8485 2141.12L50.5468 2145.19C50.5604 2145.27 50.5521 2145.35 50.5226 2145.42C50.4931 2145.49 50.4438 2145.56 50.3801 2145.6C50.3165 2145.65 50.2412 2145.68 50.1627 2145.68C50.0842 2145.69 50.0058 2145.67 49.9364 2145.63L46.2805 2143.71C46.0396 2143.58 45.7716 2143.52 45.4995 2143.52C45.2274 2143.52 44.9594 2143.58 44.7185 2143.71L41.0634 2145.63C40.994 2145.67 40.9157 2145.69 40.8373 2145.68C40.759 2145.68 40.6838 2145.65 40.6203 2145.6C40.5568 2145.56 40.5075 2145.49 40.4781 2145.42C40.4486 2145.35 40.4402 2145.27 40.4538 2145.19L41.1513 2141.12C41.1973 2140.85 41.1774 2140.58 41.0931 2140.32C41.0088 2140.06 40.8628 2139.82 40.6675 2139.63L37.7099 2136.75C37.6533 2136.7 37.6133 2136.63 37.5943 2136.55C37.5752 2136.48 37.578 2136.4 37.6023 2136.32C37.6265 2136.25 37.6713 2136.18 37.7315 2136.13C37.7916 2136.08 37.8648 2136.05 37.9426 2136.04L42.0316 2135.44C42.301 2135.4 42.5568 2135.3 42.777 2135.14C42.9972 2134.98 43.1753 2134.77 43.2959 2134.52L45.1238 2130.82Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-5">
-<rect x="262" y="853" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="267" y="854" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#e4e8dc"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#f6f0e4"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="273" y="864" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="279" y="870" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="294" y="878.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="294" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="275" y="1003" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="292" y="1011.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="292" dy="0">Chennai</tspan>
-</text>
-<text x="502" y="1010.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="502" dy="0">#5</tspan>
-</text>
-<text x="276" y="1036.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="276" dy="0">Chennai Garden Studio 5</tspan>
-</text>
-<text x="276" y="1068.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="276" dy="0">₹1,821.00</tspan>
-</text>
-<text x="357" y="1067.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="357" dy="0">/ night</tspan>
-</text>
-<svg x="501" y="1057" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<text id="Reviews_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="69" y="2141.78">Reviews</tspan></text>
+<g id="Frame_83">
+<path id="Vector_463" d="M48.6666 2260.67C46.3253 2260.67 44.0669 2259.8 42.3392 2258.22C40.6116 2256.64 39.5409 2254.47 39.3395 2252.14C39.1382 2249.8 39.8208 2247.48 41.2521 2245.63C42.6834 2243.77 44.7587 2242.53 47.0666 2242.13C54.6666 2240.67 56.6666 2239.97 59.3332 2236.67C60.6666 2239.33 61.9999 2242.24 61.9999 2247.33C61.9999 2254.67 55.6266 2260.67 48.6666 2260.67Z" stroke="#7B8176" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_464" d="M36.6667 2262C36.6667 2258 39.1334 2254.85 43.4401 2254C46.6667 2253.36 50.0001 2251.33 51.3334 2250" stroke="#7B8176" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-6">
-<rect x="551" y="853" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="556" y="854" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#eddfcf"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#dba77e"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="562" y="864" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="568" y="870" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="583" y="878.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="583" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="564" y="1003" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="581" y="1011.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="581" dy="0">Hyderabad</tspan>
-</text>
-<text x="791" y="1010.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="791" dy="0">#6</tspan>
-</text>
-<text x="565" y="1036.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="565" dy="0">Hyderabad Terrace Retreat 6</tspan>
-</text>
-<text x="565" y="1068.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="565" dy="0">₹5,082.00</tspan>
-</text>
-<text x="646" y="1067.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="646" dy="0">/ night</tspan>
-</text>
-<svg x="790" y="1057" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<g id="Group_62">
+<text id="A little closer_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="34" y="2303.99">A little closer</tspan></text>
+<text id="to feeling at_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="34" y="2333.39">to feeling at</tspan></text>
+<text id="home._3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="34" y="2362.79">home.</tspan></text>
 </g>
-<g data-section="property-7">
-<rect x="840" y="853" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="845" y="854" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#dce6e5"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#ece9df"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="851" y="864" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="857" y="870" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="872" y="878.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="872" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="853" y="1003" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="870" y="1011.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="870" dy="0">Delhi</tspan>
-</text>
-<text x="1080" y="1010.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1080" dy="0">#7</tspan>
-</text>
-<text x="854" y="1036.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="854" dy="0">Delhi Terrace Retreat 7</tspan>
-</text>
-<text x="854" y="1068.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="854" dy="0">₹4,294.00</tspan>
-</text>
-<text x="935" y="1067.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="935" dy="0">/ night</tspan>
-</text>
-<svg x="1079" y="1057" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+<g id="Group_63">
+<text id="VACATION RENTALS &amp;_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="34" y="2401.71">VACATION RENTALS &amp;</tspan></text>
+<text id="EXPERIENCES_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="34" y="2412.91">EXPERIENCES</tspan></text>
 </g>
-<g data-section="property-8">
-<rect x="1129" y="853" width="269" height="232" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<svg x="1134" y="854" width="259" height="135" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#e8e3d9"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#e2c9ae"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<rect x="1140" y="864" width="108" height="25" rx="2" fill="#fdfdfb" stroke="transparent" opacity="1.0"/>
-<svg x="1146" y="870" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="1161" y="878.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1161" dy="0">Thoughtful spaces</tspan>
-</text>
-<svg x="1142" y="1003" width="12" height="12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1159" y="1011.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="1159" dy="0">Mumbai</tspan>
-</text>
-<text x="1369" y="1010.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1369" dy="0">#8</tspan>
-</text>
-<text x="1143" y="1036.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="1143" dy="0">Mumbai Courtyard House 8</tspan>
-</text>
-<text x="1143" y="1068.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="1143" dy="0">₹1,924.00</tspan>
-</text>
-<text x="1224" y="1067.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="1224" dy="0">/ night</tspan>
-</text>
-<svg x="1368" y="1057" width="16" height="16" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
-<text x="262" y="1127.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">Page 1 · 8 properties · up to 20 records per page</tspan>
-</text>
-<rect x="1318" y="1107" width="35" height="33" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="1334" y="1129.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#244c38">
-<tspan x="1334" dy="0">‹</tspan>
-</text>
-<rect x="1363" y="1107" width="35" height="33" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="1379" y="1129.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#244c38">
-<tspan x="1379" dy="0">›</tspan>
-</text>
+<path id="Vector_465" d="M32 2455H188" stroke="#E6E8E0" />
+<text id="Project 03 SSD Â· 2026_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="32" y="2480.14">Project 03 SSD · 2026</tspan></text>
+<path id="Vector_466" d="M1440 1700H220V1788H1440V1700Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Workspace_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="262" y="1747.85">Workspace </tspan></text>
+<text id="Browse_6" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="349" y="1747.85">Browse</tspan></text>
+<path id="Vector_467" d="M1099 1747C1100.66 1747 1102 1745.66 1102 1744C1102 1742.34 1100.66 1741 1099 1741C1097.34 1741 1096 1742.34 1096 1744C1096 1745.66 1097.34 1747 1099 1747Z" fill="#244C38" />
+<text id="Live databases_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1108" y="1747.14">Live databases</tspan></text>
+<path id="Vector_468" d="M1231.5 1760C1240.61 1760 1248 1752.61 1248 1743.5C1248 1734.39 1240.61 1727 1231.5 1727C1222.39 1727 1215 1734.39 1215 1743.5C1215 1752.61 1222.39 1760 1231.5 1760Z" fill="#EAF0E5" />
+<text id="AR_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="1223" y="1746.14">AR</tspan></text>
+<text id="Ananya Rao_4" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1258" y="1739.85">Ananya Rao</tspan></text>
+<text id="â¹50,000.00 in wallet_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1258" y="1757.14">₹50,000.00 in wallet</tspan></text>
+<g id="Frame_84">
+<path id="Vector_469" d="M1384.75 1742.62L1388.5 1746.38L1392.25 1742.62" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="assignment-notes">
-<polyline points="262,1185 1398,1185" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="262" y="1210.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">StaySpot · Thoughtful stays, meaningful experiences.</tspan>
-</text>
-<rect x="0" y="1240" width="1440" height="40" rx="0" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<text x="22" y="1263.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#244c38">
-<tspan x="22" dy="0">DESIGN NOTE · Member 1 · Browse.jsx · cards open the detail modal; Book a stay passes the property to Booking.</tspan>
-</text>
+<text id="YOUR NEXT CHAPTER_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="262" y="1833.42">YOUR NEXT CHAPTER</tspan></text>
+<text id="A place for every possibility._4" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="39" letter-spacing="0em"><tspan x="262" y="1882.83">A place for every possibility.</tspan></text>
+<text id="Discover thoughtful spaces, familiar comforts, and a little room to explore._3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="262" y="1923.78">Discover thoughtful spaces, familiar comforts, and a little room to explore.</tspan></text>
 </g>
-<g data-section="modal-backdrop">
-<rect x="0" y="0" width="1440" height="1240" rx="0" fill="#283229" stroke="transparent" opacity="0.38"/>
+<g id="Group_64">
+<path id="Vector_470" d="M1389 1958H271C266.029 1958 262 1962.03 262 1967V2199C262 2203.97 266.029 2208 271 2208H1389C1393.97 2208 1398 2203.97 1398 2199V1967C1398 1962.03 1393.97 1958 1389 1958Z" fill="#244C38" />
+<g id="Frame_85">
+<path id="Vector_471" d="M304.875 1998.5C303.778 1998.5 302.719 1998.09 301.909 1997.35C301.099 1996.61 300.597 1995.59 300.503 1994.5C300.409 1993.41 300.729 1992.32 301.4 1991.45C302.07 1990.58 303.043 1990 304.125 1989.81C307.688 1989.12 308.625 1988.8 309.875 1987.25C310.5 1988.5 311.125 1989.86 311.125 1992.25C311.125 1995.69 308.138 1998.5 304.875 1998.5Z" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_472" d="M299.25 1999.12C299.25 1997.25 300.406 1995.77 302.425 1995.38C303.938 1995.08 305.5 1994.12 306.125 1993.5" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="property-modal">
-<rect x="434" y="194" width="572" height="836" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="458" y="235.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#283229">
-<tspan x="458" dy="0">Your stay, at a glance</tspan>
-</text>
-<svg x="957" y="218" width="20" height="20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
-<svg x="458" y="266" width="524" height="275" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="house-art" viewBox="0 0 400 210" aria-hidden="true"><rect width="400" height="210" fill="#eddfcf"></rect><circle cx="310" cy="45" r="25" fill="#f8f1d2"></circle><path d="M0 155Q65 126 128 164T280 145T400 146V210H0" fill="#bacab3"></path><path d="M60 170V70L163 33L263 69V170" fill="#dba77e"></path><path d="M50 76L163 28L275 76" fill="none" stroke="#667664" stroke-width="10"></path><path d="M144 170V107H185V170" fill="#5d735d"></path><rect x="84" y="92" width="37" height="45" rx="2" fill="#82a099"></rect><rect x="209" y="92" width="31" height="45" rx="2" fill="#82a099"></rect><path d="M102 93V137M84 113H121M224 93V137M209 113H240" stroke="#e5edde" stroke-width="3"></path><rect x="273" y="108" width="71" height="62" fill="#f2eadf"></rect><path d="M268 109L306 82L349 109" fill="#97a58d"></path><rect x="292" y="128" width="26" height="26" fill="#7e9e92"></rect><path d="M359 172V100" stroke="#536e53" stroke-width="5"></path><ellipse cx="359" cy="90" rx="24" ry="37" fill="#789473"></ellipse><path d="M36 180V122" stroke="#698561" stroke-width="5"></path><ellipse cx="36" cy="116" rx="22" ry="34" fill="#8da680"></ellipse><path d="M145 172L129 210H219L186 172" fill="#e8dac4"></path><path d="M0 188H116M239 188H400" stroke="#a7b99a" stroke-width="3"></path></svg>
-<text x="458" y="576.2" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#7b8176">
-<tspan x="458" dy="0">id</tspan>
-</text>
-<text x="624" y="577.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#283229">
-<tspan x="624" dy="0">1</tspan>
-</text>
-<polyline points="458,596 982,596" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="458" y="628.2" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#7b8176">
-<tspan x="458" dy="0">title</tspan>
-</text>
-<text x="624" y="629.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#283229">
-<tspan x="624" dy="0">Hyderabad Terrace Retreat 1</tspan>
-</text>
-<polyline points="458,648 982,648" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="458" y="680.2" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#7b8176">
-<tspan x="458" dy="0">base price</tspan>
-</text>
-<text x="624" y="681.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#283229">
-<tspan x="624" dy="0">5089.00</tspan>
-</text>
-<polyline points="458,700 982,700" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="458" y="732.2" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#7b8176">
-<tspan x="458" dy="0">latitude</tspan>
-</text>
-<text x="624" y="733.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#283229">
-<tspan x="624" dy="0">17.420147</tspan>
-</text>
-<polyline points="458,752 982,752" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="458" y="784.2" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#7b8176">
-<tspan x="458" dy="0">longitude</tspan>
-</text>
-<text x="624" y="785.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#283229">
-<tspan x="624" dy="0">78.511706</tspan>
-</text>
-<polyline points="458,804 982,804" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="458" y="923" width="185" height="40" rx="6" fill="#244c38" stroke="#244c38" opacity="1.0"/>
-<text x="474" y="945.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">
-<tspan x="474" dy="0">Book this stay</tspan>
-</text>
-<svg x="613" y="934" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+<text id="MADE FOR SLOWER DAYS_2" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" font-weight="bold" letter-spacing="0em"><tspan x="320" y="1996.71">MADE FOR SLOWER DAYS</tspan></text>
+<g id="Group_65">
+<text id="Good stays._2" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="31" letter-spacing="0em"><tspan x="298" y="2042.62">Good stays.</tspan></text>
+<text id="Great beginnings._2" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="31" letter-spacing="0em"><tspan x="298" y="2086.02">Great beginnings.</tspan></text>
 </g>
-<g data-section="assignment-notes">
-<polyline points="262,1185 1398,1185" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="262" y="1210.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">StaySpot · Thoughtful stays, meaningful experiences.</tspan>
-</text>
-<rect x="0" y="1240" width="1440" height="40" rx="0" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<text x="22" y="1263.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#244c38">
-<tspan x="22" dy="0">DESIGN NOTE · Member 1 · PropertyDetails.jsx · read-only property record; editable design layers; close returns to Browse.</tspan>
-</text>
+<g id="Group_66">
+<text id="From city corners to quiet courtyards,_2" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="298" y="2110.85">From city corners to quiet courtyards,</tspan></text>
+<text id="find somewhere that feels like you._2" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="298" y="2126.25">find somewhere that feels like you.</tspan></text>
 </g>
+<path id="Vector_473" d="M432 2150H304C300.686 2150 298 2152.69 298 2156V2180C298 2183.31 300.686 2186 304 2186H432C435.314 2186 438 2183.31 438 2180V2156C438 2152.69 435.314 2150 432 2150Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Book a stay_6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="314" y="2171.85">Book a stay</tspan></text>
+<g id="Frame_86">
+<path id="Vector_474" d="M412.958 2165.96H420.042V2173.04" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_475" d="M412.958 2173.04L420.042 2165.96" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="Frame_87" clip-path="url(#clip10_6_3)">
+<path id="Vector_476" d="M1380 1964H810V2201H1380V1964Z" fill="#E4E8DC" />
+<path id="Vector_477" d="M1251.75 2043C1271.43 2043 1287.38 2030.37 1287.38 2014.79C1287.38 1999.2 1271.43 1986.57 1251.75 1986.57C1232.07 1986.57 1216.12 1999.2 1216.12 2014.79C1216.12 2030.37 1232.07 2043 1251.75 2043Z" fill="#F8F1D2" />
+<path id="Vector_478" d="M810 2138.93C871.75 2117.11 932.55 2120.5 992.4 2149.09C1052.25 2177.68 1124.45 2170.53 1209 2127.64C1293.55 2084.76 1350.55 2085.13 1380 2128.77V2201H810" fill="#BACAB3" />
+<path id="Vector_479" d="M895.5 2155.86V2043L1042.27 2001.24L1184.77 2041.87V2155.86" fill="#F6F0E4" />
+<path id="Vector_480" d="M881.25 2049.77L1042.27 1995.6L1201.87 2049.77" stroke="#667664" stroke-width="12.6815" />
+<path id="Vector_481" d="M1015.2 2155.86V2084.76H1073.62V2155.86" fill="#5D735D" />
+<path id="Vector_482" d="M979.575 2067.83H932.55C930.976 2067.83 929.7 2068.84 929.7 2070.09V2116.36C929.7 2117.6 930.976 2118.61 932.55 2118.61H979.575C981.149 2118.61 982.425 2117.6 982.425 2116.36V2070.09C982.425 2068.84 981.149 2067.83 979.575 2067.83Z" fill="#82A099" />
+<path id="Vector_483" d="M1149.15 2067.83H1110.67C1109.1 2067.83 1107.82 2068.84 1107.82 2070.09V2116.36C1107.82 2117.6 1109.1 2118.61 1110.67 2118.61H1149.15C1150.72 2118.61 1152 2117.6 1152 2116.36V2070.09C1152 2068.84 1150.72 2067.83 1149.15 2067.83Z" fill="#82A099" />
+<g id="Vector_484">
+<path d="M955.35 2068.96V2118.61V2068.96ZM929.7 2091.53H982.425H929.7ZM1129.2 2068.96V2118.61V2068.96ZM1107.82 2091.53H1152H1107.82Z" fill="black" />
+<path d="M955.35 2068.96V2118.61M929.7 2091.53H982.425M1129.2 2068.96V2118.61M1107.82 2091.53H1152" stroke="#E5EDDE" stroke-width="3.80446" />
+</g>
+<path id="Vector_485" d="M1300.2 2085.89H1199.03V2155.86H1300.2V2085.89Z" fill="#F2EADF" />
+<path id="Vector_486" d="M1191.9 2087.01L1246.05 2056.54L1307.33 2087.01" fill="#97A58D" />
+<path id="Vector_487" d="M1263.15 2108.46H1226.1V2137.8H1263.15V2108.46Z" fill="#7E9E92" />
+<g id="Vector_488">
+<path d="M1321.57 2158.11V2076.86V2158.11Z" fill="black" />
+<path d="M1321.57 2158.11V2076.86" stroke="#536E53" stroke-width="6.34077" />
+</g>
+<path id="Vector_489" d="M1321.58 2107.33C1340.46 2107.33 1355.78 2088.63 1355.78 2065.57C1355.78 2042.51 1340.46 2023.81 1321.58 2023.81C1302.69 2023.81 1287.38 2042.51 1287.38 2065.57C1287.38 2088.63 1302.69 2107.33 1321.58 2107.33Z" fill="#789473" />
+<g id="Vector_490">
+<path d="M861.3 2167.14V2101.69V2167.14Z" fill="black" />
+<path d="M861.3 2167.14V2101.69" stroke="#698561" stroke-width="6.34077" />
+</g>
+<path id="Vector_491" d="M861.3 2133.29C878.614 2133.29 892.65 2116.11 892.65 2094.91C892.65 2073.72 878.614 2056.54 861.3 2056.54C843.986 2056.54 829.95 2073.72 829.95 2094.91C829.95 2116.11 843.986 2133.29 861.3 2133.29Z" fill="#8DA680" />
+<path id="Vector_492" d="M1016.62 2158.11L993.825 2201H1122.07L1075.05 2158.11" fill="#E8DAC4" />
+<g id="Vector_493">
+<path d="M810 2176.17H975.3H810ZM1150.57 2176.17H1380H1150.57Z" fill="black" />
+<path d="M810 2176.17H975.3M1150.57 2176.17H1380" stroke="#A7B99A" stroke-width="3.80446" />
+</g>
+</g>
+</g>
+<g id="Group_67">
+<text id="Properties_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="262" y="2265.78">Properties</tspan></text>
+<text id="Guests_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="353" y="2265.78">Guests</tspan></text>
+<text id="Bookings_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="420" y="2265.78">Bookings</tspan></text>
+<path id="Vector_494" d="M262 2279H326" stroke="#244C38" stroke-width="2" />
+<path id="Vector_495" d="M1392 2242H1133C1129.69 2242 1127 2244.69 1127 2248V2274C1127 2277.31 1129.69 2280 1133 2280H1392C1395.31 2280 1398 2277.31 1398 2274V2248C1398 2244.69 1395.31 2242 1392 2242Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_88">
+<path id="Vector_496" d="M1148.25 2266.25C1151.56 2266.25 1154.25 2263.56 1154.25 2260.25C1154.25 2256.94 1151.56 2254.25 1148.25 2254.25C1144.94 2254.25 1142.25 2256.94 1142.25 2260.25C1142.25 2263.56 1144.94 2266.25 1148.25 2266.25Z" stroke="#7B8176" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_497" d="M1155.75 2267.75L1152.53 2264.53" stroke="#7B8176" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search propertiesâ¦_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1166" y="2264.14">Search properties…</tspan></text>
+</g>
+<g id="Group_68">
+<path id="Vector_498" d="M522 2302H271C266.029 2302 262 2306.03 262 2311V2525C262 2529.97 266.029 2534 271 2534H522C526.971 2534 531 2529.97 531 2525V2311C531 2306.03 526.971 2302 522 2302Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_89" clip-path="url(#clip11_6_3)">
+<path id="Vector_499" d="M526 2303H267V2438H526V2303Z" fill="#E4E8DC" />
+<path id="Vector_500" d="M467.725 2348C476.665 2348 483.913 2340.8 483.913 2331.93C483.913 2323.05 476.665 2315.86 467.725 2315.86C458.785 2315.86 451.538 2323.05 451.538 2331.93C451.538 2340.8 458.785 2348 467.725 2348Z" fill="#F8F1D2" />
+<path id="Vector_501" d="M267 2402.64C295.058 2390.21 322.685 2392.14 349.88 2408.43C377.075 2424.71 409.882 2420.64 448.3 2396.21C486.718 2371.79 512.618 2372 526 2396.86V2438H267" fill="#BACAB3" />
+<path id="Vector_502" d="M305.85 2412.29V2348L372.543 2324.21L437.293 2347.36V2412.29" fill="#F6F0E4" />
+<path id="Vector_503" d="M299.375 2351.86L372.542 2321L445.062 2351.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_504" d="M360.24 2412.29V2371.79H386.787V2412.29" fill="#5D735D" />
+<path id="Vector_505" d="M344.052 2362.14H322.685C321.97 2362.14 321.39 2362.72 321.39 2363.43V2389.79C321.39 2390.5 321.97 2391.07 322.685 2391.07H344.052C344.768 2391.07 345.347 2390.5 345.347 2389.79V2363.43C345.347 2362.72 344.768 2362.14 344.052 2362.14Z" fill="#82A099" />
+<path id="Vector_506" d="M421.105 2362.14H403.622C402.907 2362.14 402.327 2362.72 402.327 2363.43V2389.79C402.327 2390.5 402.907 2391.07 403.622 2391.07H421.105C421.82 2391.07 422.4 2390.5 422.4 2389.79V2363.43C422.4 2362.72 421.82 2362.14 421.105 2362.14Z" fill="#82A099" />
+<g id="Vector_507">
+<path d="M333.045 2362.79V2391.07V2362.79ZM321.39 2375.64H345.347H321.39ZM412.04 2362.79V2391.07V2362.79ZM402.327 2375.64H422.4H402.327Z" fill="black" />
+<path d="M333.045 2362.79V2391.07M321.39 2375.64H345.347M412.04 2362.79V2391.07M402.327 2375.64H422.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_508" d="M489.74 2372.43H443.768V2412.29H489.74V2372.43Z" fill="#F2EADF" />
+<path id="Vector_509" d="M440.53 2373.07L465.135 2355.71L492.978 2373.07" fill="#97A58D" />
+<path id="Vector_510" d="M472.905 2385.29H456.07V2402H472.905V2385.29Z" fill="#7E9E92" />
+<g id="Vector_511">
+<path d="M499.452 2413.57V2367.29V2413.57Z" fill="black" />
+<path d="M499.452 2413.57V2367.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_512" d="M499.453 2384.64C508.035 2384.64 514.993 2373.99 514.993 2360.86C514.993 2347.72 508.035 2337.07 499.453 2337.07C490.87 2337.07 483.913 2347.72 483.913 2360.86C483.913 2373.99 490.87 2384.64 499.453 2384.64Z" fill="#789473" />
+<g id="Vector_513">
+<path d="M290.31 2418.71V2381.43V2418.71Z" fill="black" />
+<path d="M290.31 2418.71V2381.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_514" d="M290.31 2399.43C298.177 2399.43 304.555 2389.64 304.555 2377.57C304.555 2365.5 298.177 2355.71 290.31 2355.71C282.443 2355.71 276.065 2365.5 276.065 2377.57C276.065 2389.64 282.443 2399.43 290.31 2399.43Z" fill="#8DA680" />
+<path id="Vector_515" d="M360.888 2413.57L350.528 2438H408.803L387.435 2413.57" fill="#E8DAC4" />
+<g id="Vector_516">
+<path d="M267 2423.86H342.11H267ZM421.753 2423.86H526H421.753Z" fill="black" />
+<path d="M267 2423.86H342.11M421.752 2423.86H526" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_517" d="M379 2313H275C273.895 2313 273 2313.9 273 2315V2336C273 2337.1 273.895 2338 275 2338H379C380.105 2338 381 2337.1 381 2336V2315C381 2313.9 380.105 2313 379 2313Z" fill="#FDFDFB" />
+<g id="Frame_90">
+<path id="Vector_518" d="M284.5 2329C283.622 2329 282.775 2328.68 282.127 2328.08C281.48 2327.49 281.078 2326.68 281.002 2325.8C280.927 2324.93 281.183 2324.06 281.72 2323.36C282.256 2322.67 283.035 2322.2 283.9 2322.05C286.75 2321.5 287.5 2321.24 288.5 2320C289 2321 289.5 2322.09 289.5 2324C289.5 2326.75 287.11 2329 284.5 2329Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_519" d="M280 2329.5C280 2328 280.925 2326.82 282.54 2326.5C283.75 2326.26 285 2325.5 285.5 2325" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="294" y="2327.71">Thoughtful spaces</tspan></text>
+<g id="Frame_91">
+<path id="Vector_520" d="M281.3 2462.9C282.23 2462.1 285 2459.5 285 2457C285 2455.94 284.579 2454.92 283.828 2454.17C283.078 2453.42 282.061 2453 281 2453C279.939 2453 278.922 2453.42 278.172 2454.17C277.421 2454.92 277 2455.94 277 2457C277 2459.5 279.77 2462.1 280.7 2462.9C280.786 2462.96 280.892 2463 281 2463C281.108 2463 281.214 2462.96 281.3 2462.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_521" d="M281 2458.5C281.828 2458.5 282.5 2457.83 282.5 2457C282.5 2456.17 281.828 2455.5 281 2455.5C280.172 2455.5 279.5 2456.17 279.5 2457C279.5 2457.83 280.172 2458.5 281 2458.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Hyderabad_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="292" y="2460.42">Hyderabad</tspan></text>
+<text id="#1_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="502" y="2459.71">#1</tspan></text>
+<text id="Hyderabad Terrace Retreat 1_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="276" y="2484.85">Hyderabad Terrace Retreat 1</tspan></text>
+<text id="â¹5,089.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="276" y="2516.78">₹5,089.00</tspan></text>
+<text id="/ night_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="357" y="2516.42">/ night</tspan></text>
+<g id="Frame_92">
+<path id="Vector_522" d="M505.667 2510.67H512.333V2517.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_523" d="M505.667 2517.33L512.333 2510.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_69">
+<path id="Vector_524" d="M811 2302H560C555.029 2302 551 2306.03 551 2311V2525C551 2529.97 555.029 2534 560 2534H811C815.971 2534 820 2529.97 820 2525V2311C820 2306.03 815.971 2302 811 2302Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_93" clip-path="url(#clip12_6_3)">
+<path id="Vector_525" d="M815 2303H556V2438H815V2303Z" fill="#EDDFCF" />
+<path id="Vector_526" d="M756.725 2348C765.665 2348 772.913 2340.8 772.913 2331.93C772.913 2323.05 765.665 2315.86 756.725 2315.86C747.785 2315.86 740.538 2323.05 740.538 2331.93C740.538 2340.8 747.785 2348 756.725 2348Z" fill="#F8F1D2" />
+<path id="Vector_527" d="M556 2402.64C584.058 2390.21 611.685 2392.14 638.88 2408.43C666.075 2424.71 698.882 2420.64 737.3 2396.21C775.718 2371.79 801.618 2372 815 2396.86V2438H556" fill="#BACAB3" />
+<path id="Vector_528" d="M594.85 2412.29V2348L661.543 2324.21L726.293 2347.36V2412.29" fill="#DBA77E" />
+<path id="Vector_529" d="M588.375 2351.86L661.542 2321L734.062 2351.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_530" d="M649.24 2412.29V2371.79H675.787V2412.29" fill="#5D735D" />
+<path id="Vector_531" d="M633.052 2362.14H611.685C610.97 2362.14 610.39 2362.72 610.39 2363.43V2389.79C610.39 2390.5 610.97 2391.07 611.685 2391.07H633.052C633.768 2391.07 634.347 2390.5 634.347 2389.79V2363.43C634.347 2362.72 633.768 2362.14 633.052 2362.14Z" fill="#82A099" />
+<path id="Vector_532" d="M710.105 2362.14H692.622C691.907 2362.14 691.327 2362.72 691.327 2363.43V2389.79C691.327 2390.5 691.907 2391.07 692.622 2391.07H710.105C710.82 2391.07 711.4 2390.5 711.4 2389.79V2363.43C711.4 2362.72 710.82 2362.14 710.105 2362.14Z" fill="#82A099" />
+<g id="Vector_533">
+<path d="M622.045 2362.79V2391.07V2362.79ZM610.39 2375.64H634.347H610.39ZM701.04 2362.79V2391.07V2362.79ZM691.327 2375.64H711.4H691.327Z" fill="black" />
+<path d="M622.045 2362.79V2391.07M610.39 2375.64H634.347M701.04 2362.79V2391.07M691.327 2375.64H711.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_534" d="M778.74 2372.43H732.768V2412.29H778.74V2372.43Z" fill="#F2EADF" />
+<path id="Vector_535" d="M729.53 2373.07L754.135 2355.71L781.978 2373.07" fill="#97A58D" />
+<path id="Vector_536" d="M761.905 2385.29H745.07V2402H761.905V2385.29Z" fill="#7E9E92" />
+<g id="Vector_537">
+<path d="M788.452 2413.57V2367.29V2413.57Z" fill="black" />
+<path d="M788.452 2413.57V2367.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_538" d="M788.453 2384.64C797.035 2384.64 803.993 2373.99 803.993 2360.86C803.993 2347.72 797.035 2337.07 788.453 2337.07C779.87 2337.07 772.913 2347.72 772.913 2360.86C772.913 2373.99 779.87 2384.64 788.453 2384.64Z" fill="#789473" />
+<g id="Vector_539">
+<path d="M579.31 2418.71V2381.43V2418.71Z" fill="black" />
+<path d="M579.31 2418.71V2381.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_540" d="M579.31 2399.43C587.177 2399.43 593.555 2389.64 593.555 2377.57C593.555 2365.5 587.177 2355.71 579.31 2355.71C571.443 2355.71 565.065 2365.5 565.065 2377.57C565.065 2389.64 571.443 2399.43 579.31 2399.43Z" fill="#8DA680" />
+<path id="Vector_541" d="M649.888 2413.57L639.528 2438H697.803L676.435 2413.57" fill="#E8DAC4" />
+<g id="Vector_542">
+<path d="M556 2423.86H631.11H556ZM710.753 2423.86H815H710.753Z" fill="black" />
+<path d="M556 2423.86H631.11M710.752 2423.86H815" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_543" d="M668 2313H564C562.895 2313 562 2313.9 562 2315V2336C562 2337.1 562.895 2338 564 2338H668C669.105 2338 670 2337.1 670 2336V2315C670 2313.9 669.105 2313 668 2313Z" fill="#FDFDFB" />
+<g id="Frame_94">
+<path id="Vector_544" d="M573.5 2329C572.622 2329 571.775 2328.68 571.127 2328.08C570.48 2327.49 570.078 2326.68 570.002 2325.8C569.927 2324.93 570.183 2324.06 570.72 2323.36C571.256 2322.67 572.035 2322.2 572.9 2322.05C575.75 2321.5 576.5 2321.24 577.5 2320C578 2321 578.5 2322.09 578.5 2324C578.5 2326.75 576.11 2329 573.5 2329Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_545" d="M569 2329.5C569 2328 569.925 2326.82 571.54 2326.5C572.75 2326.26 574 2325.5 574.5 2325" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_10" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="583" y="2327.71">Thoughtful spaces</tspan></text>
+<g id="Frame_95">
+<path id="Vector_546" d="M570.3 2462.9C571.23 2462.1 574 2459.5 574 2457C574 2455.94 573.579 2454.92 572.828 2454.17C572.078 2453.42 571.061 2453 570 2453C568.939 2453 567.922 2453.42 567.172 2454.17C566.421 2454.92 566 2455.94 566 2457C566 2459.5 568.77 2462.1 569.7 2462.9C569.786 2462.96 569.892 2463 570 2463C570.108 2463 570.214 2462.96 570.3 2462.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_547" d="M570 2458.5C570.828 2458.5 571.5 2457.83 571.5 2457C571.5 2456.17 570.828 2455.5 570 2455.5C569.172 2455.5 568.5 2456.17 568.5 2457C568.5 2457.83 569.172 2458.5 570 2458.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Delhi_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="581" y="2460.42">Delhi</tspan></text>
+<text id="#2_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="791" y="2459.71">#2</tspan></text>
+<text id="Delhi Terrace Retreat 2_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="565" y="2484.85">Delhi Terrace Retreat 2</tspan></text>
+<text id="â¹4,458.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="565" y="2516.78">₹4,458.00</tspan></text>
+<text id="/ night_10" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="646" y="2516.42">/ night</tspan></text>
+<g id="Frame_96">
+<path id="Vector_548" d="M794.667 2510.67H801.333V2517.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_549" d="M794.667 2517.33L801.333 2510.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_70">
+<path id="Vector_550" d="M1100 2302H849C844.029 2302 840 2306.03 840 2311V2525C840 2529.97 844.029 2534 849 2534H1100C1104.97 2534 1109 2529.97 1109 2525V2311C1109 2306.03 1104.97 2302 1100 2302Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_97" clip-path="url(#clip13_6_3)">
+<path id="Vector_551" d="M1104 2303H845V2438H1104V2303Z" fill="#DCE6E5" />
+<path id="Vector_552" d="M1045.72 2348C1054.67 2348 1061.91 2340.8 1061.91 2331.93C1061.91 2323.05 1054.67 2315.86 1045.72 2315.86C1036.78 2315.86 1029.54 2323.05 1029.54 2331.93C1029.54 2340.8 1036.78 2348 1045.72 2348Z" fill="#F8F1D2" />
+<path id="Vector_553" d="M845 2402.64C873.058 2390.21 900.685 2392.14 927.88 2408.43C955.075 2424.71 987.882 2420.64 1026.3 2396.21C1064.72 2371.79 1090.62 2372 1104 2396.86V2438H845" fill="#BACAB3" />
+<path id="Vector_554" d="M883.85 2412.29V2348L950.542 2324.21L1015.29 2347.36V2412.29" fill="#ECE9DF" />
+<path id="Vector_555" d="M877.375 2351.86L950.542 2321L1023.06 2351.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_556" d="M938.24 2412.29V2371.79H964.787V2412.29" fill="#5D735D" />
+<path id="Vector_557" d="M922.053 2362.14H900.685C899.97 2362.14 899.39 2362.72 899.39 2363.43V2389.79C899.39 2390.5 899.97 2391.07 900.685 2391.07H922.053C922.768 2391.07 923.348 2390.5 923.348 2389.79V2363.43C923.348 2362.72 922.768 2362.14 922.053 2362.14Z" fill="#82A099" />
+<path id="Vector_558" d="M999.105 2362.14H981.623C980.907 2362.14 980.328 2362.72 980.328 2363.43V2389.79C980.328 2390.5 980.907 2391.07 981.623 2391.07H999.105C999.82 2391.07 1000.4 2390.5 1000.4 2389.79V2363.43C1000.4 2362.72 999.82 2362.14 999.105 2362.14Z" fill="#82A099" />
+<g id="Vector_559">
+<path d="M911.045 2362.79V2391.07V2362.79ZM899.39 2375.64H923.348H899.39ZM990.04 2362.79V2391.07V2362.79ZM980.328 2375.64H1000.4H980.328Z" fill="black" />
+<path d="M911.045 2362.79V2391.07M899.39 2375.64H923.348M990.04 2362.79V2391.07M980.328 2375.64H1000.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_560" d="M1067.74 2372.43H1021.77V2412.29H1067.74V2372.43Z" fill="#F2EADF" />
+<path id="Vector_561" d="M1018.53 2373.07L1043.14 2355.71L1070.98 2373.07" fill="#97A58D" />
+<path id="Vector_562" d="M1050.91 2385.29H1034.07V2402H1050.91V2385.29Z" fill="#7E9E92" />
+<g id="Vector_563">
+<path d="M1077.45 2413.57V2367.29V2413.57Z" fill="black" />
+<path d="M1077.45 2413.57V2367.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_564" d="M1077.45 2384.64C1086.03 2384.64 1092.99 2373.99 1092.99 2360.86C1092.99 2347.72 1086.03 2337.07 1077.45 2337.07C1068.87 2337.07 1061.91 2347.72 1061.91 2360.86C1061.91 2373.99 1068.87 2384.64 1077.45 2384.64Z" fill="#789473" />
+<g id="Vector_565">
+<path d="M868.31 2418.71V2381.43V2418.71Z" fill="black" />
+<path d="M868.31 2418.71V2381.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_566" d="M868.31 2399.43C876.177 2399.43 882.555 2389.64 882.555 2377.57C882.555 2365.5 876.177 2355.71 868.31 2355.71C860.443 2355.71 854.065 2365.5 854.065 2377.57C854.065 2389.64 860.443 2399.43 868.31 2399.43Z" fill="#8DA680" />
+<path id="Vector_567" d="M938.887 2413.57L928.527 2438H986.802L965.435 2413.57" fill="#E8DAC4" />
+<g id="Vector_568">
+<path d="M845 2423.86H920.11H845ZM999.753 2423.86H1104H999.753Z" fill="black" />
+<path d="M845 2423.86H920.11M999.752 2423.86H1104" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_569" d="M957 2313H853C851.895 2313 851 2313.9 851 2315V2336C851 2337.1 851.895 2338 853 2338H957C958.105 2338 959 2337.1 959 2336V2315C959 2313.9 958.105 2313 957 2313Z" fill="#FDFDFB" />
+<g id="Frame_98">
+<path id="Vector_570" d="M862.5 2329C861.622 2329 860.775 2328.68 860.127 2328.08C859.479 2327.49 859.078 2326.68 859.002 2325.8C858.927 2324.93 859.183 2324.06 859.72 2323.36C860.256 2322.67 861.035 2322.2 861.9 2322.05C864.75 2321.5 865.5 2321.24 866.5 2320C867 2321 867.5 2322.09 867.5 2324C867.5 2326.75 865.11 2329 862.5 2329Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_571" d="M858 2329.5C858 2328 858.925 2326.82 860.54 2326.5C861.75 2326.26 863 2325.5 863.5 2325" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_11" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="872" y="2327.71">Thoughtful spaces</tspan></text>
+<g id="Frame_99">
+<path id="Vector_572" d="M859.3 2462.9C860.23 2462.1 863 2459.5 863 2457C863 2455.94 862.579 2454.92 861.828 2454.17C861.078 2453.42 860.061 2453 859 2453C857.939 2453 856.922 2453.42 856.172 2454.17C855.421 2454.92 855 2455.94 855 2457C855 2459.5 857.77 2462.1 858.7 2462.9C858.786 2462.96 858.892 2463 859 2463C859.108 2463 859.214 2462.96 859.3 2462.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_573" d="M859 2458.5C859.828 2458.5 860.5 2457.83 860.5 2457C860.5 2456.17 859.828 2455.5 859 2455.5C858.172 2455.5 857.5 2456.17 857.5 2457C857.5 2457.83 858.172 2458.5 859 2458.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Mumbai_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="870" y="2460.42">Mumbai</tspan></text>
+<text id="#3_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1080" y="2459.71">#3</tspan></text>
+<text id="Mumbai Terrace Retreat 3_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="854" y="2484.85">Mumbai Terrace Retreat 3</tspan></text>
+<text id="â¹3,981.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="854" y="2516.78">₹3,981.00</tspan></text>
+<text id="/ night_11" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="935" y="2516.42">/ night</tspan></text>
+<g id="Frame_100">
+<path id="Vector_574" d="M1083.67 2510.67H1090.33V2517.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_575" d="M1083.67 2517.33L1090.33 2510.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_71">
+<path id="Vector_576" d="M1389 2302H1138C1133.03 2302 1129 2306.03 1129 2311V2525C1129 2529.97 1133.03 2534 1138 2534H1389C1393.97 2534 1398 2529.97 1398 2525V2311C1398 2306.03 1393.97 2302 1389 2302Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_101" clip-path="url(#clip14_6_3)">
+<path id="Vector_577" d="M1393 2303H1134V2438H1393V2303Z" fill="#E8E3D9" />
+<path id="Vector_578" d="M1334.72 2348C1343.67 2348 1350.91 2340.8 1350.91 2331.93C1350.91 2323.05 1343.67 2315.86 1334.72 2315.86C1325.78 2315.86 1318.54 2323.05 1318.54 2331.93C1318.54 2340.8 1325.78 2348 1334.72 2348Z" fill="#F8F1D2" />
+<path id="Vector_579" d="M1134 2402.64C1162.06 2390.21 1189.68 2392.14 1216.88 2408.43C1244.07 2424.71 1276.88 2420.64 1315.3 2396.21C1353.72 2371.79 1379.62 2372 1393 2396.86V2438H1134" fill="#BACAB3" />
+<path id="Vector_580" d="M1172.85 2412.29V2348L1239.54 2324.21L1304.29 2347.36V2412.29" fill="#E2C9AE" />
+<path id="Vector_581" d="M1166.38 2351.86L1239.54 2321L1312.06 2351.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_582" d="M1227.24 2412.29V2371.79H1253.79V2412.29" fill="#5D735D" />
+<path id="Vector_583" d="M1211.05 2362.14H1189.69C1188.97 2362.14 1188.39 2362.72 1188.39 2363.43V2389.79C1188.39 2390.5 1188.97 2391.07 1189.69 2391.07H1211.05C1211.77 2391.07 1212.35 2390.5 1212.35 2389.79V2363.43C1212.35 2362.72 1211.77 2362.14 1211.05 2362.14Z" fill="#82A099" />
+<path id="Vector_584" d="M1288.11 2362.14H1270.62C1269.91 2362.14 1269.33 2362.72 1269.33 2363.43V2389.79C1269.33 2390.5 1269.91 2391.07 1270.62 2391.07H1288.11C1288.82 2391.07 1289.4 2390.5 1289.4 2389.79V2363.43C1289.4 2362.72 1288.82 2362.14 1288.11 2362.14Z" fill="#82A099" />
+<g id="Vector_585">
+<path d="M1200.05 2362.79V2391.07V2362.79ZM1188.39 2375.64H1212.35H1188.39ZM1279.04 2362.79V2391.07V2362.79ZM1269.33 2375.64H1289.4H1269.33Z" fill="black" />
+<path d="M1200.05 2362.79V2391.07M1188.39 2375.64H1212.35M1279.04 2362.79V2391.07M1269.33 2375.64H1289.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_586" d="M1356.74 2372.43H1310.77V2412.29H1356.74V2372.43Z" fill="#F2EADF" />
+<path id="Vector_587" d="M1307.53 2373.07L1332.14 2355.71L1359.98 2373.07" fill="#97A58D" />
+<path id="Vector_588" d="M1339.91 2385.29H1323.07V2402H1339.91V2385.29Z" fill="#7E9E92" />
+<g id="Vector_589">
+<path d="M1366.45 2413.57V2367.29V2413.57Z" fill="black" />
+<path d="M1366.45 2413.57V2367.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_590" d="M1366.45 2384.64C1375.03 2384.64 1381.99 2373.99 1381.99 2360.86C1381.99 2347.72 1375.03 2337.07 1366.45 2337.07C1357.87 2337.07 1350.91 2347.72 1350.91 2360.86C1350.91 2373.99 1357.87 2384.64 1366.45 2384.64Z" fill="#789473" />
+<g id="Vector_591">
+<path d="M1157.31 2418.71V2381.43V2418.71Z" fill="black" />
+<path d="M1157.31 2418.71V2381.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_592" d="M1157.31 2399.43C1165.18 2399.43 1171.55 2389.64 1171.55 2377.57C1171.55 2365.5 1165.18 2355.71 1157.31 2355.71C1149.44 2355.71 1143.06 2365.5 1143.06 2377.57C1143.06 2389.64 1149.44 2399.43 1157.31 2399.43Z" fill="#8DA680" />
+<path id="Vector_593" d="M1227.89 2413.57L1217.53 2438H1275.8L1254.43 2413.57" fill="#E8DAC4" />
+<g id="Vector_594">
+<path d="M1134 2423.86H1209.11H1134ZM1288.75 2423.86H1393H1288.75Z" fill="black" />
+<path d="M1134 2423.86H1209.11M1288.75 2423.86H1393" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_595" d="M1246 2313H1142C1140.9 2313 1140 2313.9 1140 2315V2336C1140 2337.1 1140.9 2338 1142 2338H1246C1247.1 2338 1248 2337.1 1248 2336V2315C1248 2313.9 1247.1 2313 1246 2313Z" fill="#FDFDFB" />
+<g id="Frame_102">
+<path id="Vector_596" d="M1151.5 2329C1150.62 2329 1149.78 2328.68 1149.13 2328.08C1148.48 2327.49 1148.08 2326.68 1148 2325.8C1147.93 2324.93 1148.18 2324.06 1148.72 2323.36C1149.26 2322.67 1150.03 2322.2 1150.9 2322.05C1153.75 2321.5 1154.5 2321.24 1155.5 2320C1156 2321 1156.5 2322.09 1156.5 2324C1156.5 2326.75 1154.11 2329 1151.5 2329Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_597" d="M1147 2329.5C1147 2328 1147.92 2326.82 1149.54 2326.5C1150.75 2326.26 1152 2325.5 1152.5 2325" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1161" y="2327.71">Thoughtful spaces</tspan></text>
+<g id="Frame_103">
+<path id="Vector_598" d="M1148.3 2462.9C1149.23 2462.1 1152 2459.5 1152 2457C1152 2455.94 1151.58 2454.92 1150.83 2454.17C1150.08 2453.42 1149.06 2453 1148 2453C1146.94 2453 1145.92 2453.42 1145.17 2454.17C1144.42 2454.92 1144 2455.94 1144 2457C1144 2459.5 1146.77 2462.1 1147.7 2462.9C1147.79 2462.96 1147.89 2463 1148 2463C1148.11 2463 1148.21 2462.96 1148.3 2462.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_599" d="M1148 2458.5C1148.83 2458.5 1149.5 2457.83 1149.5 2457C1149.5 2456.17 1148.83 2455.5 1148 2455.5C1147.17 2455.5 1146.5 2456.17 1146.5 2457C1146.5 2457.83 1147.17 2458.5 1148 2458.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Bengaluru_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1159" y="2460.42">Bengaluru</tspan></text>
+<text id="#4_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1369" y="2459.71">#4</tspan></text>
+<text id="Bengaluru Garden Studio 4_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1143" y="2484.85">Bengaluru Garden Studio 4</tspan></text>
+<text id="â¹3,000.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="1143" y="2516.78">₹3,000.00</tspan></text>
+<text id="/ night_12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1224" y="2516.42">/ night</tspan></text>
+<g id="Frame_104">
+<path id="Vector_600" d="M1372.67 2510.67H1379.33V2517.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_601" d="M1372.67 2517.33L1379.33 2510.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_72">
+<path id="Vector_602" d="M522 2553H271C266.029 2553 262 2557.03 262 2562V2776C262 2780.97 266.029 2785 271 2785H522C526.971 2785 531 2780.97 531 2776V2562C531 2557.03 526.971 2553 522 2553Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_105" clip-path="url(#clip15_6_3)">
+<path id="Vector_603" d="M526 2554H267V2689H526V2554Z" fill="#E4E8DC" />
+<path id="Vector_604" d="M467.725 2599C476.665 2599 483.913 2591.8 483.913 2582.93C483.913 2574.05 476.665 2566.86 467.725 2566.86C458.785 2566.86 451.538 2574.05 451.538 2582.93C451.538 2591.8 458.785 2599 467.725 2599Z" fill="#F8F1D2" />
+<path id="Vector_605" d="M267 2653.64C295.058 2641.21 322.685 2643.14 349.88 2659.43C377.075 2675.71 409.882 2671.64 448.3 2647.21C486.718 2622.79 512.618 2623 526 2647.86V2689H267" fill="#BACAB3" />
+<path id="Vector_606" d="M305.85 2663.29V2599L372.543 2575.21L437.293 2598.36V2663.29" fill="#F6F0E4" />
+<path id="Vector_607" d="M299.375 2602.86L372.542 2572L445.062 2602.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_608" d="M360.24 2663.29V2622.79H386.787V2663.29" fill="#5D735D" />
+<path id="Vector_609" d="M344.052 2613.14H322.685C321.97 2613.14 321.39 2613.72 321.39 2614.43V2640.79C321.39 2641.5 321.97 2642.07 322.685 2642.07H344.052C344.768 2642.07 345.347 2641.5 345.347 2640.79V2614.43C345.347 2613.72 344.768 2613.14 344.052 2613.14Z" fill="#82A099" />
+<path id="Vector_610" d="M421.105 2613.14H403.622C402.907 2613.14 402.327 2613.72 402.327 2614.43V2640.79C402.327 2641.5 402.907 2642.07 403.622 2642.07H421.105C421.82 2642.07 422.4 2641.5 422.4 2640.79V2614.43C422.4 2613.72 421.82 2613.14 421.105 2613.14Z" fill="#82A099" />
+<g id="Vector_611">
+<path d="M333.045 2613.79V2642.07V2613.79ZM321.39 2626.64H345.347H321.39ZM412.04 2613.79V2642.07V2613.79ZM402.327 2626.64H422.4H402.327Z" fill="black" />
+<path d="M333.045 2613.79V2642.07M321.39 2626.64H345.347M412.04 2613.79V2642.07M402.327 2626.64H422.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_612" d="M489.74 2623.43H443.768V2663.29H489.74V2623.43Z" fill="#F2EADF" />
+<path id="Vector_613" d="M440.53 2624.07L465.135 2606.71L492.978 2624.07" fill="#97A58D" />
+<path id="Vector_614" d="M472.905 2636.29H456.07V2653H472.905V2636.29Z" fill="#7E9E92" />
+<g id="Vector_615">
+<path d="M499.452 2664.57V2618.29V2664.57Z" fill="black" />
+<path d="M499.452 2664.57V2618.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_616" d="M499.453 2635.64C508.035 2635.64 514.993 2624.99 514.993 2611.86C514.993 2598.72 508.035 2588.07 499.453 2588.07C490.87 2588.07 483.913 2598.72 483.913 2611.86C483.913 2624.99 490.87 2635.64 499.453 2635.64Z" fill="#789473" />
+<g id="Vector_617">
+<path d="M290.31 2669.71V2632.43V2669.71Z" fill="black" />
+<path d="M290.31 2669.71V2632.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_618" d="M290.31 2650.43C298.177 2650.43 304.555 2640.64 304.555 2628.57C304.555 2616.5 298.177 2606.71 290.31 2606.71C282.443 2606.71 276.065 2616.5 276.065 2628.57C276.065 2640.64 282.443 2650.43 290.31 2650.43Z" fill="#8DA680" />
+<path id="Vector_619" d="M360.888 2664.57L350.528 2689H408.803L387.435 2664.57" fill="#E8DAC4" />
+<g id="Vector_620">
+<path d="M267 2674.86H342.11H267ZM421.753 2674.86H526H421.753Z" fill="black" />
+<path d="M267 2674.86H342.11M421.752 2674.86H526" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_621" d="M379 2564H275C273.895 2564 273 2564.9 273 2566V2587C273 2588.1 273.895 2589 275 2589H379C380.105 2589 381 2588.1 381 2587V2566C381 2564.9 380.105 2564 379 2564Z" fill="#FDFDFB" />
+<g id="Frame_106">
+<path id="Vector_622" d="M284.5 2580C283.622 2580 282.775 2579.68 282.127 2579.08C281.48 2578.49 281.078 2577.68 281.002 2576.8C280.927 2575.93 281.183 2575.06 281.72 2574.36C282.256 2573.67 283.035 2573.2 283.9 2573.05C286.75 2572.5 287.5 2572.24 288.5 2571C289 2572 289.5 2573.09 289.5 2575C289.5 2577.75 287.11 2580 284.5 2580Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_623" d="M280 2580.5C280 2579 280.925 2577.82 282.54 2577.5C283.75 2577.26 285 2576.5 285.5 2576" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="294" y="2578.71">Thoughtful spaces</tspan></text>
+<g id="Frame_107">
+<path id="Vector_624" d="M281.3 2713.9C282.23 2713.1 285 2710.5 285 2708C285 2706.94 284.579 2705.92 283.828 2705.17C283.078 2704.42 282.061 2704 281 2704C279.939 2704 278.922 2704.42 278.172 2705.17C277.421 2705.92 277 2706.94 277 2708C277 2710.5 279.77 2713.1 280.7 2713.9C280.786 2713.96 280.892 2714 281 2714C281.108 2714 281.214 2713.96 281.3 2713.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_625" d="M281 2709.5C281.828 2709.5 282.5 2708.83 282.5 2708C282.5 2707.17 281.828 2706.5 281 2706.5C280.172 2706.5 279.5 2707.17 279.5 2708C279.5 2708.83 280.172 2709.5 281 2709.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Chennai_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="292" y="2711.42">Chennai</tspan></text>
+<text id="#5_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="502" y="2710.71">#5</tspan></text>
+<text id="Chennai Garden Studio 5_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="276" y="2735.85">Chennai Garden Studio 5</tspan></text>
+<text id="â¹1,821.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="276" y="2767.78">₹1,821.00</tspan></text>
+<text id="/ night_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="357" y="2767.42">/ night</tspan></text>
+<g id="Frame_108">
+<path id="Vector_626" d="M505.667 2761.67H512.333V2768.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_627" d="M505.667 2768.33L512.333 2761.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_73">
+<path id="Vector_628" d="M811 2553H560C555.029 2553 551 2557.03 551 2562V2776C551 2780.97 555.029 2785 560 2785H811C815.971 2785 820 2780.97 820 2776V2562C820 2557.03 815.971 2553 811 2553Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_109" clip-path="url(#clip16_6_3)">
+<path id="Vector_629" d="M815 2554H556V2689H815V2554Z" fill="#EDDFCF" />
+<path id="Vector_630" d="M756.725 2599C765.665 2599 772.913 2591.8 772.913 2582.93C772.913 2574.05 765.665 2566.86 756.725 2566.86C747.785 2566.86 740.538 2574.05 740.538 2582.93C740.538 2591.8 747.785 2599 756.725 2599Z" fill="#F8F1D2" />
+<path id="Vector_631" d="M556 2653.64C584.058 2641.21 611.685 2643.14 638.88 2659.43C666.075 2675.71 698.882 2671.64 737.3 2647.21C775.718 2622.79 801.618 2623 815 2647.86V2689H556" fill="#BACAB3" />
+<path id="Vector_632" d="M594.85 2663.29V2599L661.543 2575.21L726.293 2598.36V2663.29" fill="#DBA77E" />
+<path id="Vector_633" d="M588.375 2602.86L661.542 2572L734.062 2602.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_634" d="M649.24 2663.29V2622.79H675.787V2663.29" fill="#5D735D" />
+<path id="Vector_635" d="M633.052 2613.14H611.685C610.97 2613.14 610.39 2613.72 610.39 2614.43V2640.79C610.39 2641.5 610.97 2642.07 611.685 2642.07H633.052C633.768 2642.07 634.347 2641.5 634.347 2640.79V2614.43C634.347 2613.72 633.768 2613.14 633.052 2613.14Z" fill="#82A099" />
+<path id="Vector_636" d="M710.105 2613.14H692.622C691.907 2613.14 691.327 2613.72 691.327 2614.43V2640.79C691.327 2641.5 691.907 2642.07 692.622 2642.07H710.105C710.82 2642.07 711.4 2641.5 711.4 2640.79V2614.43C711.4 2613.72 710.82 2613.14 710.105 2613.14Z" fill="#82A099" />
+<g id="Vector_637">
+<path d="M622.045 2613.79V2642.07V2613.79ZM610.39 2626.64H634.347H610.39ZM701.04 2613.79V2642.07V2613.79ZM691.327 2626.64H711.4H691.327Z" fill="black" />
+<path d="M622.045 2613.79V2642.07M610.39 2626.64H634.347M701.04 2613.79V2642.07M691.327 2626.64H711.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_638" d="M778.74 2623.43H732.768V2663.29H778.74V2623.43Z" fill="#F2EADF" />
+<path id="Vector_639" d="M729.53 2624.07L754.135 2606.71L781.978 2624.07" fill="#97A58D" />
+<path id="Vector_640" d="M761.905 2636.29H745.07V2653H761.905V2636.29Z" fill="#7E9E92" />
+<g id="Vector_641">
+<path d="M788.452 2664.57V2618.29V2664.57Z" fill="black" />
+<path d="M788.452 2664.57V2618.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_642" d="M788.453 2635.64C797.035 2635.64 803.993 2624.99 803.993 2611.86C803.993 2598.72 797.035 2588.07 788.453 2588.07C779.87 2588.07 772.913 2598.72 772.913 2611.86C772.913 2624.99 779.87 2635.64 788.453 2635.64Z" fill="#789473" />
+<g id="Vector_643">
+<path d="M579.31 2669.71V2632.43V2669.71Z" fill="black" />
+<path d="M579.31 2669.71V2632.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_644" d="M579.31 2650.43C587.177 2650.43 593.555 2640.64 593.555 2628.57C593.555 2616.5 587.177 2606.71 579.31 2606.71C571.443 2606.71 565.065 2616.5 565.065 2628.57C565.065 2640.64 571.443 2650.43 579.31 2650.43Z" fill="#8DA680" />
+<path id="Vector_645" d="M649.888 2664.57L639.528 2689H697.803L676.435 2664.57" fill="#E8DAC4" />
+<g id="Vector_646">
+<path d="M556 2674.86H631.11H556ZM710.753 2674.86H815H710.753Z" fill="black" />
+<path d="M556 2674.86H631.11M710.752 2674.86H815" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_647" d="M668 2564H564C562.895 2564 562 2564.9 562 2566V2587C562 2588.1 562.895 2589 564 2589H668C669.105 2589 670 2588.1 670 2587V2566C670 2564.9 669.105 2564 668 2564Z" fill="#FDFDFB" />
+<g id="Frame_110">
+<path id="Vector_648" d="M573.5 2580C572.622 2580 571.775 2579.68 571.127 2579.08C570.48 2578.49 570.078 2577.68 570.002 2576.8C569.927 2575.93 570.183 2575.06 570.72 2574.36C571.256 2573.67 572.035 2573.2 572.9 2573.05C575.75 2572.5 576.5 2572.24 577.5 2571C578 2572 578.5 2573.09 578.5 2575C578.5 2577.75 576.11 2580 573.5 2580Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_649" d="M569 2580.5C569 2579 569.925 2577.82 571.54 2577.5C572.75 2577.26 574 2576.5 574.5 2576" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_14" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="583" y="2578.71">Thoughtful spaces</tspan></text>
+<g id="Frame_111">
+<path id="Vector_650" d="M570.3 2713.9C571.23 2713.1 574 2710.5 574 2708C574 2706.94 573.579 2705.92 572.828 2705.17C572.078 2704.42 571.061 2704 570 2704C568.939 2704 567.922 2704.42 567.172 2705.17C566.421 2705.92 566 2706.94 566 2708C566 2710.5 568.77 2713.1 569.7 2713.9C569.786 2713.96 569.892 2714 570 2714C570.108 2714 570.214 2713.96 570.3 2713.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_651" d="M570 2709.5C570.828 2709.5 571.5 2708.83 571.5 2708C571.5 2707.17 570.828 2706.5 570 2706.5C569.172 2706.5 568.5 2707.17 568.5 2708C568.5 2708.83 569.172 2709.5 570 2709.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Hyderabad_4" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="581" y="2711.42">Hyderabad</tspan></text>
+<text id="#6_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="791" y="2710.71">#6</tspan></text>
+<text id="Hyderabad Terrace Retreat 6_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="565" y="2735.85">Hyderabad Terrace Retreat 6</tspan></text>
+<text id="â¹5,082.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="565" y="2767.78">₹5,082.00</tspan></text>
+<text id="/ night_14" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="646" y="2767.42">/ night</tspan></text>
+<g id="Frame_112">
+<path id="Vector_652" d="M794.667 2761.67H801.333V2768.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_653" d="M794.667 2768.33L801.333 2761.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_74">
+<path id="Vector_654" d="M1100 2553H849C844.029 2553 840 2557.03 840 2562V2776C840 2780.97 844.029 2785 849 2785H1100C1104.97 2785 1109 2780.97 1109 2776V2562C1109 2557.03 1104.97 2553 1100 2553Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_113" clip-path="url(#clip17_6_3)">
+<path id="Vector_655" d="M1104 2554H845V2689H1104V2554Z" fill="#DCE6E5" />
+<path id="Vector_656" d="M1045.72 2599C1054.67 2599 1061.91 2591.8 1061.91 2582.93C1061.91 2574.05 1054.67 2566.86 1045.72 2566.86C1036.78 2566.86 1029.54 2574.05 1029.54 2582.93C1029.54 2591.8 1036.78 2599 1045.72 2599Z" fill="#F8F1D2" />
+<path id="Vector_657" d="M845 2653.64C873.058 2641.21 900.685 2643.14 927.88 2659.43C955.075 2675.71 987.882 2671.64 1026.3 2647.21C1064.72 2622.79 1090.62 2623 1104 2647.86V2689H845" fill="#BACAB3" />
+<path id="Vector_658" d="M883.85 2663.29V2599L950.542 2575.21L1015.29 2598.36V2663.29" fill="#ECE9DF" />
+<path id="Vector_659" d="M877.375 2602.86L950.542 2572L1023.06 2602.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_660" d="M938.24 2663.29V2622.79H964.787V2663.29" fill="#5D735D" />
+<path id="Vector_661" d="M922.053 2613.14H900.685C899.97 2613.14 899.39 2613.72 899.39 2614.43V2640.79C899.39 2641.5 899.97 2642.07 900.685 2642.07H922.053C922.768 2642.07 923.348 2641.5 923.348 2640.79V2614.43C923.348 2613.72 922.768 2613.14 922.053 2613.14Z" fill="#82A099" />
+<path id="Vector_662" d="M999.105 2613.14H981.623C980.907 2613.14 980.328 2613.72 980.328 2614.43V2640.79C980.328 2641.5 980.907 2642.07 981.623 2642.07H999.105C999.82 2642.07 1000.4 2641.5 1000.4 2640.79V2614.43C1000.4 2613.72 999.82 2613.14 999.105 2613.14Z" fill="#82A099" />
+<g id="Vector_663">
+<path d="M911.045 2613.79V2642.07V2613.79ZM899.39 2626.64H923.348H899.39ZM990.04 2613.79V2642.07V2613.79ZM980.328 2626.64H1000.4H980.328Z" fill="black" />
+<path d="M911.045 2613.79V2642.07M899.39 2626.64H923.348M990.04 2613.79V2642.07M980.328 2626.64H1000.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_664" d="M1067.74 2623.43H1021.77V2663.29H1067.74V2623.43Z" fill="#F2EADF" />
+<path id="Vector_665" d="M1018.53 2624.07L1043.14 2606.71L1070.98 2624.07" fill="#97A58D" />
+<path id="Vector_666" d="M1050.91 2636.29H1034.07V2653H1050.91V2636.29Z" fill="#7E9E92" />
+<g id="Vector_667">
+<path d="M1077.45 2664.57V2618.29V2664.57Z" fill="black" />
+<path d="M1077.45 2664.57V2618.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_668" d="M1077.45 2635.64C1086.03 2635.64 1092.99 2624.99 1092.99 2611.86C1092.99 2598.72 1086.03 2588.07 1077.45 2588.07C1068.87 2588.07 1061.91 2598.72 1061.91 2611.86C1061.91 2624.99 1068.87 2635.64 1077.45 2635.64Z" fill="#789473" />
+<g id="Vector_669">
+<path d="M868.31 2669.71V2632.43V2669.71Z" fill="black" />
+<path d="M868.31 2669.71V2632.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_670" d="M868.31 2650.43C876.177 2650.43 882.555 2640.64 882.555 2628.57C882.555 2616.5 876.177 2606.71 868.31 2606.71C860.443 2606.71 854.065 2616.5 854.065 2628.57C854.065 2640.64 860.443 2650.43 868.31 2650.43Z" fill="#8DA680" />
+<path id="Vector_671" d="M938.887 2664.57L928.527 2689H986.802L965.435 2664.57" fill="#E8DAC4" />
+<g id="Vector_672">
+<path d="M845 2674.86H920.11H845ZM999.753 2674.86H1104H999.753Z" fill="black" />
+<path d="M845 2674.86H920.11M999.752 2674.86H1104" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_673" d="M957 2564H853C851.895 2564 851 2564.9 851 2566V2587C851 2588.1 851.895 2589 853 2589H957C958.105 2589 959 2588.1 959 2587V2566C959 2564.9 958.105 2564 957 2564Z" fill="#FDFDFB" />
+<g id="Frame_114">
+<path id="Vector_674" d="M862.5 2580C861.622 2580 860.775 2579.68 860.127 2579.08C859.479 2578.49 859.078 2577.68 859.002 2576.8C858.927 2575.93 859.183 2575.06 859.72 2574.36C860.256 2573.67 861.035 2573.2 861.9 2573.05C864.75 2572.5 865.5 2572.24 866.5 2571C867 2572 867.5 2573.09 867.5 2575C867.5 2577.75 865.11 2580 862.5 2580Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_675" d="M858 2580.5C858 2579 858.925 2577.82 860.54 2577.5C861.75 2577.26 863 2576.5 863.5 2576" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_15" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="872" y="2578.71">Thoughtful spaces</tspan></text>
+<g id="Frame_115">
+<path id="Vector_676" d="M859.3 2713.9C860.23 2713.1 863 2710.5 863 2708C863 2706.94 862.579 2705.92 861.828 2705.17C861.078 2704.42 860.061 2704 859 2704C857.939 2704 856.922 2704.42 856.172 2705.17C855.421 2705.92 855 2706.94 855 2708C855 2710.5 857.77 2713.1 858.7 2713.9C858.786 2713.96 858.892 2714 859 2714C859.108 2714 859.214 2713.96 859.3 2713.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_677" d="M859 2709.5C859.828 2709.5 860.5 2708.83 860.5 2708C860.5 2707.17 859.828 2706.5 859 2706.5C858.172 2706.5 857.5 2707.17 857.5 2708C857.5 2708.83 858.172 2709.5 859 2709.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Delhi_4" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="870" y="2711.42">Delhi</tspan></text>
+<text id="#7_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1080" y="2710.71">#7</tspan></text>
+<text id="Delhi Terrace Retreat 7_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="854" y="2735.85">Delhi Terrace Retreat 7</tspan></text>
+<text id="â¹4,294.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="854" y="2767.78">₹4,294.00</tspan></text>
+<text id="/ night_15" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="935" y="2767.42">/ night</tspan></text>
+<g id="Frame_116">
+<path id="Vector_678" d="M1083.67 2761.67H1090.33V2768.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_679" d="M1083.67 2768.33L1090.33 2761.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_75">
+<path id="Vector_680" d="M1389 2553H1138C1133.03 2553 1129 2557.03 1129 2562V2776C1129 2780.97 1133.03 2785 1138 2785H1389C1393.97 2785 1398 2780.97 1398 2776V2562C1398 2557.03 1393.97 2553 1389 2553Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<g id="Frame_117" clip-path="url(#clip18_6_3)">
+<path id="Vector_681" d="M1393 2554H1134V2689H1393V2554Z" fill="#E8E3D9" />
+<path id="Vector_682" d="M1334.72 2599C1343.67 2599 1350.91 2591.8 1350.91 2582.93C1350.91 2574.05 1343.67 2566.86 1334.72 2566.86C1325.78 2566.86 1318.54 2574.05 1318.54 2582.93C1318.54 2591.8 1325.78 2599 1334.72 2599Z" fill="#F8F1D2" />
+<path id="Vector_683" d="M1134 2653.64C1162.06 2641.21 1189.68 2643.14 1216.88 2659.43C1244.07 2675.71 1276.88 2671.64 1315.3 2647.21C1353.72 2622.79 1379.62 2623 1393 2647.86V2689H1134" fill="#BACAB3" />
+<path id="Vector_684" d="M1172.85 2663.29V2599L1239.54 2575.21L1304.29 2598.36V2663.29" fill="#E2C9AE" />
+<path id="Vector_685" d="M1166.38 2602.86L1239.54 2572L1312.06 2602.86" stroke="#667664" stroke-width="6.45174" />
+<path id="Vector_686" d="M1227.24 2663.29V2622.79H1253.79V2663.29" fill="#5D735D" />
+<path id="Vector_687" d="M1211.05 2613.14H1189.69C1188.97 2613.14 1188.39 2613.72 1188.39 2614.43V2640.79C1188.39 2641.5 1188.97 2642.07 1189.69 2642.07H1211.05C1211.77 2642.07 1212.35 2641.5 1212.35 2640.79V2614.43C1212.35 2613.72 1211.77 2613.14 1211.05 2613.14Z" fill="#82A099" />
+<path id="Vector_688" d="M1288.11 2613.14H1270.62C1269.91 2613.14 1269.33 2613.72 1269.33 2614.43V2640.79C1269.33 2641.5 1269.91 2642.07 1270.62 2642.07H1288.11C1288.82 2642.07 1289.4 2641.5 1289.4 2640.79V2614.43C1289.4 2613.72 1288.82 2613.14 1288.11 2613.14Z" fill="#82A099" />
+<g id="Vector_689">
+<path d="M1200.05 2613.79V2642.07V2613.79ZM1188.39 2626.64H1212.35H1188.39ZM1279.04 2613.79V2642.07V2613.79ZM1269.33 2626.64H1289.4H1269.33Z" fill="black" />
+<path d="M1200.05 2613.79V2642.07M1188.39 2626.64H1212.35M1279.04 2613.79V2642.07M1269.33 2626.64H1289.4" stroke="#E5EDDE" stroke-width="1.93552" />
+</g>
+<path id="Vector_690" d="M1356.74 2623.43H1310.77V2663.29H1356.74V2623.43Z" fill="#F2EADF" />
+<path id="Vector_691" d="M1307.53 2624.07L1332.14 2606.71L1359.98 2624.07" fill="#97A58D" />
+<path id="Vector_692" d="M1339.91 2636.29H1323.07V2653H1339.91V2636.29Z" fill="#7E9E92" />
+<g id="Vector_693">
+<path d="M1366.45 2664.57V2618.29V2664.57Z" fill="black" />
+<path d="M1366.45 2664.57V2618.29" stroke="#536E53" stroke-width="3.22587" />
+</g>
+<path id="Vector_694" d="M1366.45 2635.64C1375.03 2635.64 1381.99 2624.99 1381.99 2611.86C1381.99 2598.72 1375.03 2588.07 1366.45 2588.07C1357.87 2588.07 1350.91 2598.72 1350.91 2611.86C1350.91 2624.99 1357.87 2635.64 1366.45 2635.64Z" fill="#789473" />
+<g id="Vector_695">
+<path d="M1157.31 2669.71V2632.43V2669.71Z" fill="black" />
+<path d="M1157.31 2669.71V2632.43" stroke="#698561" stroke-width="3.22587" />
+</g>
+<path id="Vector_696" d="M1157.31 2650.43C1165.18 2650.43 1171.55 2640.64 1171.55 2628.57C1171.55 2616.5 1165.18 2606.71 1157.31 2606.71C1149.44 2606.71 1143.06 2616.5 1143.06 2628.57C1143.06 2640.64 1149.44 2650.43 1157.31 2650.43Z" fill="#8DA680" />
+<path id="Vector_697" d="M1227.89 2664.57L1217.53 2689H1275.8L1254.43 2664.57" fill="#E8DAC4" />
+<g id="Vector_698">
+<path d="M1134 2674.86H1209.11H1134ZM1288.75 2674.86H1393H1288.75Z" fill="black" />
+<path d="M1134 2674.86H1209.11M1288.75 2674.86H1393" stroke="#A7B99A" stroke-width="1.93552" />
+</g>
+</g>
+<path id="Vector_699" d="M1246 2564H1142C1140.9 2564 1140 2564.9 1140 2566V2587C1140 2588.1 1140.9 2589 1142 2589H1246C1247.1 2589 1248 2588.1 1248 2587V2566C1248 2564.9 1247.1 2564 1246 2564Z" fill="#FDFDFB" />
+<g id="Frame_118">
+<path id="Vector_700" d="M1151.5 2580C1150.62 2580 1149.78 2579.68 1149.13 2579.08C1148.48 2578.49 1148.08 2577.68 1148 2576.8C1147.93 2575.93 1148.18 2575.06 1148.72 2574.36C1149.26 2573.67 1150.03 2573.2 1150.9 2573.05C1153.75 2572.5 1154.5 2572.24 1155.5 2571C1156 2572 1156.5 2573.09 1156.5 2575C1156.5 2577.75 1154.11 2580 1151.5 2580Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_701" d="M1147 2580.5C1147 2579 1147.92 2577.82 1149.54 2577.5C1150.75 2577.26 1152 2576.5 1152.5 2576" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Thoughtful spaces_16" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1161" y="2578.71">Thoughtful spaces</tspan></text>
+<g id="Frame_119">
+<path id="Vector_702" d="M1148.3 2713.9C1149.23 2713.1 1152 2710.5 1152 2708C1152 2706.94 1151.58 2705.92 1150.83 2705.17C1150.08 2704.42 1149.06 2704 1148 2704C1146.94 2704 1145.92 2704.42 1145.17 2705.17C1144.42 2705.92 1144 2706.94 1144 2708C1144 2710.5 1146.77 2713.1 1147.7 2713.9C1147.79 2713.96 1147.89 2714 1148 2714C1148.11 2714 1148.21 2713.96 1148.3 2713.9Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_703" d="M1148 2709.5C1148.83 2709.5 1149.5 2708.83 1149.5 2708C1149.5 2707.17 1148.83 2706.5 1148 2706.5C1147.17 2706.5 1146.5 2707.17 1146.5 2708C1146.5 2708.83 1147.17 2709.5 1148 2709.5Z" stroke="#7B8176" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Mumbai_4" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1159" y="2711.42">Mumbai</tspan></text>
+<text id="#8_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1369" y="2710.71">#8</tspan></text>
+<text id="Mumbai Courtyard House 8_2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1143" y="2735.85">Mumbai Courtyard House 8</tspan></text>
+<text id="â¹1,924.00_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="1143" y="2767.78">₹1,924.00</tspan></text>
+<text id="/ night_16" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1224" y="2767.42">/ night</tspan></text>
+<g id="Frame_120">
+<path id="Vector_704" d="M1372.67 2761.67H1379.33V2768.33" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_705" d="M1372.67 2768.33L1379.33 2761.67" stroke="#7B8176" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Page 1 Â· 8 properties Â· up to 20 records per page_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="262" y="2827.42">Page 1 · 8 properties · up to 20 records per page</tspan></text>
+<path id="Vector_706" d="M1347 2807H1324C1320.69 2807 1318 2809.69 1318 2813V2834C1318 2837.31 1320.69 2840 1324 2840H1347C1350.31 2840 1353 2837.31 1353 2834V2813C1353 2809.69 1350.31 2807 1347 2807Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="â¹_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1334" y="2828.85">‹</tspan></text>
+<path id="Vector_707" d="M1392 2807H1369C1365.69 2807 1363 2809.69 1363 2813V2834C1363 2837.31 1365.69 2840 1369 2840H1392C1395.31 2840 1398 2837.31 1398 2834V2813C1398 2809.69 1395.31 2807 1392 2807Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="âº_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="1379" y="2828.85">›</tspan></text>
+</g>
+<g id="Group_76">
+<path id="Vector_708" d="M262 2885H1398" stroke="#E6E8E0" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences._5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="262" y="2910.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_709" d="M1440 2940H0V2980H1440V2940Z" fill="#EAF0E5" />
+<text id="DESIGN NOTE Â· Member 1 Â· Browse.jsx Â· cards open the detail modal; Book a stay passes the property to Booking._2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="22" y="2962.85">DESIGN NOTE · Member 1 · Browse.jsx · cards open the detail modal; Book a stay passes the property to Booking.</tspan></text>
+</g>
+<g id="Group_77">
+<path id="Vector_710" opacity="0.38" d="M1440 1700H0V2940H1440V1700Z" fill="#283229" />
+</g>
+<g id="Group_78">
+<path id="Vector_711" d="M997 1894H443C438.029 1894 434 1898.03 434 1903V2721C434 2725.97 438.029 2730 443 2730H997C1001.97 2730 1006 2725.97 1006 2721V1903C1006 1898.03 1001.97 1894 997 1894Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Your stay, at a glance" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="458" y="1934.56">Your stay, at a glance</tspan></text>
+<g id="Frame_121">
+<path id="Vector_712" d="M972 1923L962 1933" stroke="#7B8176" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_713" d="M962 1923L972 1933" stroke="#7B8176" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="Frame_122" clip-path="url(#clip19_6_3)">
+<path id="Vector_714" d="M982 1966H458V2241H982V1966Z" fill="#EDDFCF" />
+<path id="Vector_715" d="M864.1 2057.67C882.187 2057.67 896.85 2043.01 896.85 2024.93C896.85 2006.85 882.187 1992.19 864.1 1992.19C846.013 1992.19 831.35 2006.85 831.35 2024.93C831.35 2043.01 846.013 2057.67 864.1 2057.67Z" fill="#F8F1D2" />
+<path id="Vector_716" d="M458 2168.98C514.767 2143.66 570.66 2147.59 625.68 2180.76C680.7 2213.94 747.073 2205.64 824.8 2155.88C902.527 2106.12 954.927 2106.56 982 2157.19V2241H458" fill="#BACAB3" />
+<path id="Vector_717" d="M536.6 2188.62V2057.67L671.53 2009.21L802.53 2056.36V2188.62" fill="#DBA77E" />
+<path id="Vector_718" d="M523.5 2065.52L671.53 2002.67L818.25 2065.52" stroke="#667664" stroke-width="13.0976" />
+<path id="Vector_719" d="M646.64 2188.62V2106.12H700.35V2188.62" fill="#5D735D" />
+<path id="Vector_720" d="M613.89 2086.48H570.66C569.213 2086.48 568.04 2087.65 568.04 2089.1V2142.79C568.04 2144.23 569.213 2145.4 570.66 2145.4H613.89C615.337 2145.4 616.51 2144.23 616.51 2142.79V2089.1C616.51 2087.65 615.337 2086.48 613.89 2086.48Z" fill="#82A099" />
+<path id="Vector_721" d="M769.78 2086.48H734.41C732.963 2086.48 731.79 2087.65 731.79 2089.1V2142.79C731.79 2144.23 732.963 2145.4 734.41 2145.4H769.78C771.227 2145.4 772.4 2144.23 772.4 2142.79V2089.1C772.4 2087.65 771.227 2086.48 769.78 2086.48Z" fill="#82A099" />
+<g id="Vector_722">
+<path d="M591.62 2087.79V2145.4V2087.79ZM568.04 2113.98H616.51H568.04ZM751.44 2087.79V2145.4V2087.79ZM731.79 2113.98H772.4H731.79Z" fill="black" />
+<path d="M591.62 2087.79V2145.4M568.04 2113.98H616.51M751.44 2087.79V2145.4M731.79 2113.98H772.4" stroke="#E5EDDE" stroke-width="3.92929" />
+</g>
+<path id="Vector_723" d="M908.64 2107.43H815.63V2188.62H908.64V2107.43Z" fill="#F2EADF" />
+<path id="Vector_724" d="M809.08 2108.74L858.86 2073.38L915.19 2108.74" fill="#97A58D" />
+<path id="Vector_725" d="M874.58 2133.62H840.52V2167.67H874.58V2133.62Z" fill="#7E9E92" />
+<g id="Vector_726">
+<path d="M928.29 2191.24V2096.95V2191.24Z" fill="black" />
+<path d="M928.29 2191.24V2096.95" stroke="#536E53" stroke-width="6.54881" />
+</g>
+<path id="Vector_727" d="M928.29 2132.31C945.654 2132.31 959.73 2110.62 959.73 2083.86C959.73 2057.1 945.654 2035.4 928.29 2035.4C910.926 2035.4 896.85 2057.1 896.85 2083.86C896.85 2110.62 910.926 2132.31 928.29 2132.31Z" fill="#789473" />
+<g id="Vector_728">
+<path d="M505.16 2201.71V2125.76V2201.71Z" fill="black" />
+<path d="M505.16 2201.71V2125.76" stroke="#698561" stroke-width="6.54881" />
+</g>
+<path id="Vector_729" d="M505.16 2162.43C521.077 2162.43 533.98 2142.49 533.98 2117.9C533.98 2093.31 521.077 2073.38 505.16 2073.38C489.243 2073.38 476.34 2093.31 476.34 2117.9C476.34 2142.49 489.243 2162.43 505.16 2162.43Z" fill="#8DA680" />
+<path id="Vector_730" d="M647.95 2191.24L626.99 2241H744.89L701.66 2191.24" fill="#E8DAC4" />
+<g id="Vector_731">
+<path d="M458 2212.19H609.96H458ZM771.09 2212.19H982H771.09Z" fill="black" />
+<path d="M458 2212.19H609.96M771.09 2212.19H982" stroke="#A7B99A" stroke-width="3.92929" />
+</g>
+</g>
+<text id="id" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="458" y="2276.06">id</tspan></text>
+<text id="1_3" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="624" y="2276.78">1</tspan></text>
+<path id="Vector_732" d="M458 2296H982" stroke="#E6E8E0" />
+<text id="title" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="458" y="2328.06">title</tspan></text>
+<text id="Hyderabad Terrace Retreat 1_3" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="624" y="2328.78">Hyderabad Terrace Retreat 1</tspan></text>
+<path id="Vector_733" d="M458 2348H982" stroke="#E6E8E0" />
+<text id="base price" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="458" y="2380.06">base price</tspan></text>
+<text id="5089.00" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="624" y="2380.78">5089.00</tspan></text>
+<path id="Vector_734" d="M458 2400H982" stroke="#E6E8E0" />
+<text id="latitude" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="458" y="2432.06">latitude</tspan></text>
+<text id="17.420147" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="624" y="2432.78">17.420147</tspan></text>
+<path id="Vector_735" d="M458 2452H982" stroke="#E6E8E0" />
+<text id="longitude" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="458" y="2484.06">longitude</tspan></text>
+<text id="78.511706" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="624" y="2484.78">78.511706</tspan></text>
+<path id="Vector_736" d="M458 2504H982" stroke="#E6E8E0" />
+<path id="Vector_737" d="M637 2623H464C460.686 2623 458 2625.69 458 2629V2657C458 2660.31 460.686 2663 464 2663H637C640.314 2663 643 2660.31 643 2657V2629C643 2625.69 640.314 2623 637 2623Z" fill="#244C38" stroke="#244C38" />
+<text id="Book this stay" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="474" y="2644.85">Book this stay</tspan></text>
+<g id="Frame_123">
+<path id="Vector_738" d="M616.542 2642.5H626.458" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_739" d="M621.5 2637.54L626.458 2642.5L621.5 2647.46" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_79">
+<path id="Vector_740" d="M262 2885H1398" stroke="#E6E8E0" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences._6" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="262" y="2910.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_741" d="M1440 2940H0V2980H1440V2940Z" fill="#EAF0E5" />
+<text id="DESIGN NOTE Â· Member 1 Â· PropertyDetails.jsx Â· read-only property record; editable design layers; close returns to Browse." fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="22" y="2962.85">DESIGN NOTE · Member 1 · PropertyDetails.jsx · read-only property record; editable design layers; close returns to Browse.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_6_3">
+<rect width="6360" height="6160" fill="white" />
+</clipPath>
+<clipPath id="clip1_6_3">
+<rect width="570" height="237" fill="white" transform="translate(4090 374)" />
+</clipPath>
+<clipPath id="clip2_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 713)" />
+</clipPath>
+<clipPath id="clip3_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 713)" />
+</clipPath>
+<clipPath id="clip4_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 713)" />
+</clipPath>
+<clipPath id="clip5_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 713)" />
+</clipPath>
+<clipPath id="clip6_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 964)" />
+</clipPath>
+<clipPath id="clip7_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 964)" />
+</clipPath>
+<clipPath id="clip8_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 964)" />
+</clipPath>
+<clipPath id="clip9_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 964)" />
+</clipPath>
+<clipPath id="clip10_6_3">
+<rect width="570" height="237" fill="white" transform="translate(810 1964)" />
+</clipPath>
+<clipPath id="clip11_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2303)" />
+</clipPath>
+<clipPath id="clip12_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2303)" />
+</clipPath>
+<clipPath id="clip13_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2303)" />
+</clipPath>
+<clipPath id="clip14_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2303)" />
+</clipPath>
+<clipPath id="clip15_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2554)" />
+</clipPath>
+<clipPath id="clip16_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2554)" />
+</clipPath>
+<clipPath id="clip17_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2554)" />
+</clipPath>
+<clipPath id="clip18_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2554)" />
+</clipPath>
+<clipPath id="clip19_6_3">
+<rect width="524" height="275" fill="white" transform="translate(458 1966)" />
+</clipPath>
+<clipPath id="clip20_6_3">
+<rect width="18" height="18" fill="white" transform="translate(1941 2617)" />
+</clipPath>
+<clipPath id="clip21_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3638)" />
+</clipPath>
+<clipPath id="clip22_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3668)" />
+</clipPath>
+<clipPath id="clip23_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3698)" />
+</clipPath>
+<clipPath id="clip24_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3728)" />
+</clipPath>
+<clipPath id="clip25_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3758)" />
+</clipPath>
+<clipPath id="clip26_6_3">
+<rect width="13" height="13" fill="white" transform="translate(1970.67 5178)" />
+</clipPath>
+<clipPath id="clip27_6_3">
+<rect width="150" height="118" fill="white" transform="translate(1914 5462)" />
+</clipPath>
+<clipPath id="clip28_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1724 5698)" />
+</clipPath>
+<clipPath id="clip29_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1907 5698)" />
+</clipPath>
+<clipPath id="clip30_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2435.67 5178)" />
+</clipPath>
+<clipPath id="clip31_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2900.67 5178)" />
+</clipPath>
+<clipPath id="clip32_6_3">
+<rect width="20" height="20" fill="white" transform="translate(2662 5526)" />
+</clipPath>
+</defs>
 </svg>

@@ -2,8 +2,8 @@
  * Paged browsing for properties, guests and bookings.
  *
  * The active entity determines the endpoint, filters and card/table presentation.
- * Properties and guests use server cursors. Bookings are ordered newest first
- * in the frontend and then split into display pages.
+ * All entities use bounded server pages. Bookings are ordered newest first by
+ * the API and stop after the latest 1,000 matching records.
  * Record details belong to Member 1; booking-status actions belong to Member 2.
  */
 
@@ -38,7 +38,7 @@ export function Browse({ actor, onBook }) {
   const [mine, setMine] = useState(false);
   const [detailId, setDetailId] = useState(null);
   const [detailError, setDetailError] = useState("");
-  // Cursor/display positions belong to one entity/filter/guest combination. Reset them during
+  // Cursors belong to one entity/filter/guest combination. Reset them during
   // render so an actor change cannot briefly request the previous guest's page.
   const scope = JSON.stringify([entity, search, status, mine, actor?.id]);
   const [paging, setPaging] = useState({ scope, after: "", history: [] });
@@ -58,32 +58,20 @@ export function Browse({ actor, onBook }) {
       Number(bookingId) > 2147483647)
       ? "Search by booking ID using digits only, for example 50001."
       : "";
-  // Keep property/guest browsing on its existing bounded server pages. Bookings
-  // use the existing endpoint's maximum batch size to read fewer API pages.
+  // Each hook requests only the visible page; it never preloads another cursor.
   const catalogResource = useData(
     entity === "bookings"
       ? null
       : `/${entity}?${qs({ search, after, limit: pageSize })}`,
   );
   const bookingResource = useBookingHistory(
-    entity === "bookings" && !bookingSearchError
-      ? `/bookings?${qs({ search: bookingId, status, guest_id: mine ? actor?.id : "", limit: 50 })}`
+    entity === "bookings" && !bookingSearchError && (!mine || actor?.id)
+      ? `/bookings?${qs({ search: bookingId, status, guest_id: mine ? actor?.id : "", after, limit: pageSize })}`
       : null,
   );
   const resource = entity === "bookings" ? bookingResource : catalogResource;
-  // For bookings, `after` is a local offset, never an API cursor. Sorting the
-  // complete matching history first keeps newest-first order across pages.
-  const offset = Number(after || 0);
-  const items =
-    (entity === "bookings"
-      ? resource.data?.items.slice(offset, offset + pageSize)
-      : resource.data?.items) ?? [];
-  const next =
-    entity === "bookings"
-      ? offset + pageSize < (resource.data?.items.length ?? 0)
-        ? String(offset + pageSize)
-        : null
-      : resource.data?.next;
+  const items = resource.data?.items ?? [];
+  const next = resource.data?.next;
   const entityLabel =
     items.length === 1
       ? { properties: "property", guests: "guest", bookings: "booking" }[entity]
@@ -335,7 +323,7 @@ export function Browse({ actor, onBook }) {
           </DataState>
           <Pager
             pageSize={pageSize}
-            label={`Page ${history.length + 1} · ${items.length} ${entityLabel}`}
+            label={`Page ${history.length + 1} · ${items.length} ${entityLabel}${entity === "bookings" ? " · latest 1,000 matches" : ""}`}
             history={history}
             next={next}
             onNext={() => {

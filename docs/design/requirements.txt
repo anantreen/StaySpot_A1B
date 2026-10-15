@@ -1,2 +1,0 @@
-# Optional dependency for regenerating offline PNG previews.
-Pillow>=11.0,<13.0

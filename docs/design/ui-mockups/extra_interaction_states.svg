@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1442" height="1374" viewBox="3279 4787 1442 1374" fill="none"><title>extra Interaction states (original board) · Member 1–4</title><g id="extra Interaction states (original board) Â· Member 1â4">
+<text id="extra Interaction states (original board)" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" font-weight="bold" letter-spacing="0em"><tspan x="3280" y="4830.5">extra Interaction states (original board)</tspan></text>
+<text id="Member 1â4 Â· from GitHub docs/design" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="24" letter-spacing="0em"><tspan x="3280" y="4865.23">Member 1–4 · from GitHub docs/design</tspan></text>
+<g id="Group_176">
+<g id="Group_177">
+<path id="Vector_1587" d="M4720 4880H3280V6160H4720V4880Z" fill="#F7F6F2" />
+<text id="SUPPLEMENT / SHARED INTERACTION STATES" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="3328" y="4926.85">SUPPLEMENT / SHARED INTERACTION STATES</tspan></text>
+<text id="The paths beyond the happy path." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="40" letter-spacing="0em"><tspan x="3328" y="4991.55">The paths beyond the happy path.</tspan></text>
+<text id="Independent demo scenarios from the existing components. This is a design annotation board." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="3328" y="5034.49">Independent demo scenarios from the existing components. This is a design annotation board.</tspan></text>
+</g>
+<g id="Group_178">
+<path id="Vector_1588" d="M3979 5090H3337C3332.03 5090 3328 5094.03 3328 5099V5361C3328 5365.97 3332.03 5370 3337 5370H3979C3983.97 5370 3988 5365.97 3988 5361V5099C3988 5094.03 3983.97 5090 3979 5090Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Success Â· Member 2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="3352" y="5130.56">Success · Member 2</tspan></text>
+<path id="Vector_1589" d="M3959 5155H3357C3354.24 5155 3352 5157.24 3352 5160V5195C3352 5197.76 3354.24 5200 3357 5200H3959C3961.76 5200 3964 5197.76 3964 5195V5160C3964 5157.24 3961.76 5155 3959 5155Z" fill="#EAF0E5" stroke="#E6E8E0" />
+<text id="Youâre all set. Booking #50017 is checked in._2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="3368" y="5181.06">You’re all set. Booking #50017 is checked in.</tspan></text>
+<g id="Group_179">
+<text id="1 night Ã â¹5,089 = â¹5,089" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5237.2">1 night × ₹5,089 = ₹5,089</tspan></text>
+<text id="Before â¹50,000 â after â¹44,911" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5258.2">Before ₹50,000 → after ₹44,911</tspan></text>
+<text id="Trigger audit #100019 Â· DEBIT â¹5,089" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5279.2">Trigger audit #100019 · DEBIT ₹5,089</tspan></text>
+</g>
+</g>
+<g id="Group_180">
+<path id="Vector_1590" d="M4663 5090H4021C4016.03 5090 4012 5094.03 4012 5099V5361C4012 5365.97 4016.03 5370 4021 5370H4663C4667.97 5370 4672 5365.97 4672 5361V5099C4672 5094.03 4667.97 5090 4663 5090Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Insufficient balance Â· Member 2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="4036" y="5130.56">Insufficient balance · Member 2</tspan></text>
+<path id="Vector_1591" d="M4643 5155H4041C4038.24 5155 4036 5157.24 4036 5160V5195C4036 5197.76 4038.24 5200 4041 5200H4643C4645.76 5200 4648 5197.76 4648 5195V5160C4648 5157.24 4645.76 5155 4643 5155Z" fill="#FFF0E8" stroke="#E6E8E0" />
+<text id="Insufficient wallet balance." fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="4052" y="5181.06">Insufficient wallet balance.</tspan></text>
+<g id="Group_181">
+<text id="365 nights Ã â¹5,089 = â¹18,57,485" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5237.2">365 nights × ₹5,089 = ₹18,57,485</tspan></text>
+<text id="Wallet â¹50,000 cannot cover this booking." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5258.2">Wallet ₹50,000 cannot cover this booking.</tspan></text>
+<text id="Booking, debit and audit are rolled back." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5279.2">Booking, debit and audit are rolled back.</tspan></text>
+</g>
+</g>
+<g id="Group_182">
+<path id="Vector_1592" d="M3979 5402H3337C3332.03 5402 3328 5406.03 3328 5411V5673C3328 5677.97 3332.03 5682 3337 5682H3979C3983.97 5682 3988 5677.97 3988 5673V5411C3988 5406.03 3983.97 5402 3979 5402Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Active-stay constraint Â· Member 2" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="3352" y="5442.56">Active-stay constraint · Member 2</tspan></text>
+<path id="Vector_1593" d="M3959 5467H3357C3354.24 5467 3352 5469.24 3352 5472V5507C3352 5509.76 3354.24 5512 3357 5512H3959C3961.76 5512 3964 5509.76 3964 5507V5472C3964 5469.24 3961.76 5467 3959 5467Z" fill="#FFF0E8" stroke="#E6E8E0" />
+<text id="This guest already has a checked-in stay." fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="3368" y="5493.06">This guest already has a checked-in stay.</tspan></text>
+<g id="Group_183">
+<text id="Complete it before checking in again." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5549.2">Complete it before checking in again.</tspan></text>
+<text id="Existing stay remains CHECKED_IN." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5570.2">Existing stay remains CHECKED_IN.</tspan></text>
+<text id="Rejected reservation remains CONFIRMED." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5591.2">Rejected reservation remains CONFIRMED.</tspan></text>
+</g>
+</g>
+<g id="Group_184">
+<path id="Vector_1594" d="M4663 5402H4021C4016.03 5402 4012 5406.03 4012 5411V5673C4012 5677.97 4016.03 5682 4021 5682H4663C4667.97 5682 4672 5677.97 4672 5673V5411C4672 5406.03 4667.97 5402 4663 5402Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Loading / empty Â· All members" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="4036" y="5442.56">Loading / empty · All members</tspan></text>
+<path id="Vector_1595" d="M4643 5467H4041C4038.24 5467 4036 5469.24 4036 5472V5507C4036 5509.76 4038.24 5512 4041 5512H4643C4645.76 5512 4648 5509.76 4648 5507V5472C4648 5469.24 4645.76 5467 4643 5467Z" fill="#EAF0E5" stroke="#E6E8E0" />
+<text id="Loadingâ¦ â No results for these filters." fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="4052" y="5493.06">Loading… → No results for these filters.</tspan></text>
+<g id="Group_185">
+<text id="DataState covers fetches and empty result sets." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5549.2">DataState covers fetches and empty result sets.</tspan></text>
+<text id="Keep filters available so the user can revise them." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5570.2">Keep filters available so the user can revise them.</tspan></text>
+<text id="No reviews: no average; preserve empty bins." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5591.2">No reviews: no average; preserve empty bins.</tspan></text>
+</g>
+</g>
+<g id="Group_186">
+<path id="Vector_1596" d="M3979 5714H3337C3332.03 5714 3328 5718.03 3328 5723V5985C3328 5989.97 3332.03 5994 3337 5994H3979C3983.97 5994 3988 5989.97 3988 5985V5723C3988 5718.03 3983.97 5714 3979 5714Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Error / retry Â· All members" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="3352" y="5754.56">Error / retry · All members</tspan></text>
+<path id="Vector_1597" d="M3959 5779H3357C3354.24 5779 3352 5781.24 3352 5784V5819C3352 5821.76 3354.24 5824 3357 5824H3959C3961.76 5824 3964 5821.76 3964 5819V5784C3964 5781.24 3961.76 5779 3959 5779Z" fill="#FFF0E8" stroke="#E6E8E0" />
+<text id="Request failed. Try again." fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="3368" y="5805.06">Request failed. Try again.</tspan></text>
+<g id="Group_187">
+<text id="Alert explains the request failure." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5861.2">Alert explains the request failure.</tspan></text>
+<text id="DataState provides Retry for read errors." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5882.2">DataState provides Retry for read errors.</tspan></text>
+<text id="Header: Offline when database health fails." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="3352" y="5903.2">Header: Offline when database health fails.</tspan></text>
+</g>
+<path id="Vector_1598" d="M3438 5936H3358C3354.69 5936 3352 5938.69 3352 5942V5964C3352 5967.31 3354.69 5970 3358 5970H3438C3441.31 5970 3444 5967.31 3444 5964V5942C3444 5938.69 3441.31 5936 3438 5936Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Retry" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="3368" y="5957.85">Retry</tspan></text>
+<g id="Frame_295">
+<path id="Vector_1599" d="M3416.12 5955.5C3416.12 5953.81 3416.8 5952.19 3417.99 5950.99C3419.19 5949.8 3420.81 5949.12 3422.5 5949.12C3424.28 5949.13 3425.99 5949.83 3427.27 5951.07L3428.87 5952.67" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1600" d="M3428.87 5949.12V5952.67H3425.33" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1601" d="M3428.87 5955.5C3428.87 5957.19 3428.2 5958.81 3427.01 5960.01C3425.81 5961.2 3424.19 5961.87 3422.5 5961.87C3420.72 5961.87 3419.01 5961.17 3417.73 5959.93L3416.12 5958.33" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1602" d="M3419.67 5958.33H3416.12V5961.87" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_188">
+<path id="Vector_1603" d="M4663 5714H4021C4016.03 5714 4012 5718.03 4012 5723V5985C4012 5989.97 4016.03 5994 4021 5994H4663C4667.97 5994 4672 5989.97 4672 5985V5723C4672 5718.03 4667.97 5714 4663 5714Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Demo guest picker Â· Member 1" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="4036" y="5754.56">Demo guest picker · Member 1</tspan></text>
+<path id="Vector_1604" d="M4643 5779H4041C4038.24 5779 4036 5781.24 4036 5784V5819C4036 5821.76 4038.24 5824 4041 5824H4643C4645.76 5824 4648 5821.76 4648 5819V5784C4648 5781.24 4645.76 5779 4643 5779Z" fill="#EAF0E5" stroke="#E6E8E0" />
+<text id="Switch your demo guest_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="4052" y="5805.06">Switch your demo guest</tspan></text>
+<g id="Group_189">
+<text id="Search guestsâ¦ â paged list â select actor" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5861.2">Search guests… → paged list → select actor</tspan></text>
+<text id="Header name and wallet refresh." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5882.2">Header name and wallet refresh.</tspan></text>
+<text id="Bookings and audit can follow the selected guest." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" letter-spacing="0em"><tspan x="4036" y="5903.2">Bookings and audit can follow the selected guest.</tspan></text>
+</g>
+<path id="Vector_1605" d="M4221 5936H4042C4038.69 5936 4036 5938.69 4036 5942V5964C4036 5967.31 4038.69 5970 4042 5970H4221C4224.31 5970 4227 5967.31 4227 5964V5942C4227 5938.69 4224.31 5936 4221 5936Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Ananya Rao Â· #1" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="4052" y="5957.85">Ananya Rao · #1</tspan></text>
+<g id="Frame_296">
+<path id="Vector_1606" d="M4211.17 5951.25L4203.38 5959.04L4199.83 5955.5" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_190">
+<path id="Vector_1607" d="M3542 6065H4678" stroke="#E6E8E0" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences._16" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="3542" y="6090.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_1608" d="M4720 6120H3280V6160H4720V6120Z" fill="#EAF0E5" />
+<text id="DESIGN NOTE Â· Alternative states are annotations. Source: Transaction, BookingStatusAction, DataState, App, Picker and Reviews." fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3302" y="6142.85">DESIGN NOTE · Alternative states are annotations. Source: Transaction, BookingStatusAction, DataState, App, Picker and Reviews.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_6_3">
+<rect width="6360" height="6160" fill="white" />
+</clipPath>
+<clipPath id="clip1_6_3">
+<rect width="570" height="237" fill="white" transform="translate(4090 374)" />
+</clipPath>
+<clipPath id="clip2_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 713)" />
+</clipPath>
+<clipPath id="clip3_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 713)" />
+</clipPath>
+<clipPath id="clip4_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 713)" />
+</clipPath>
+<clipPath id="clip5_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 713)" />
+</clipPath>
+<clipPath id="clip6_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 964)" />
+</clipPath>
+<clipPath id="clip7_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 964)" />
+</clipPath>
+<clipPath id="clip8_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 964)" />
+</clipPath>
+<clipPath id="clip9_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 964)" />
+</clipPath>
+<clipPath id="clip10_6_3">
+<rect width="570" height="237" fill="white" transform="translate(810 1964)" />
+</clipPath>
+<clipPath id="clip11_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2303)" />
+</clipPath>
+<clipPath id="clip12_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2303)" />
+</clipPath>
+<clipPath id="clip13_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2303)" />
+</clipPath>
+<clipPath id="clip14_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2303)" />
+</clipPath>
+<clipPath id="clip15_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2554)" />
+</clipPath>
+<clipPath id="clip16_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2554)" />
+</clipPath>
+<clipPath id="clip17_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2554)" />
+</clipPath>
+<clipPath id="clip18_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2554)" />
+</clipPath>
+<clipPath id="clip19_6_3">
+<rect width="524" height="275" fill="white" transform="translate(458 1966)" />
+</clipPath>
+<clipPath id="clip20_6_3">
+<rect width="18" height="18" fill="white" transform="translate(1941 2617)" />
+</clipPath>
+<clipPath id="clip21_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3638)" />
+</clipPath>
+<clipPath id="clip22_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3668)" />
+</clipPath>
+<clipPath id="clip23_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3698)" />
+</clipPath>
+<clipPath id="clip24_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3728)" />
+</clipPath>
+<clipPath id="clip25_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3758)" />
+</clipPath>
+<clipPath id="clip26_6_3">
+<rect width="13" height="13" fill="white" transform="translate(1970.67 5178)" />
+</clipPath>
+<clipPath id="clip27_6_3">
+<rect width="150" height="118" fill="white" transform="translate(1914 5462)" />
+</clipPath>
+<clipPath id="clip28_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1724 5698)" />
+</clipPath>
+<clipPath id="clip29_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1907 5698)" />
+</clipPath>
+<clipPath id="clip30_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2435.67 5178)" />
+</clipPath>
+<clipPath id="clip31_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2900.67 5178)" />
+</clipPath>
+<clipPath id="clip32_6_3">
+<rect width="20" height="20" fill="white" transform="translate(2662 5526)" />
+</clipPath>
+</defs>
+</svg>

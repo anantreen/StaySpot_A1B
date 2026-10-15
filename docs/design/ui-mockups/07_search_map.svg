@@ -1,313 +1,363 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1280" viewBox="0 0 1440 1280" role="img">
-<title>StaySpot — Map / Search Hotspots</title>
-<g data-section="shell">
-<rect x="0" y="0" width="1440" height="1280" rx="0" fill="#f7f6f2" stroke="transparent" opacity="1.0"/>
-<rect x="0" y="0" width="220" height="1190" rx="0" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<rect x="22" y="34" width="37" height="37" rx="10" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<svg x="28" y="40" width="25" height="25" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
-<text x="68" y="64.1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#244c38">
-<tspan x="68" dy="0">StaySpot</tspan>
-</text>
-<text x="181" y="64.1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#c76a42">
-<tspan x="181" dy="0">.</tspan>
-</text>
-<text x="34" y="130.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#7b8176">
-<tspan x="34" dy="0">YOUR WORKSPACE</tspan>
-</text>
-<svg x="36" y="164" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
-<text x="69" y="177.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Browse</tspan>
-</text>
-<svg x="36" y="217" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-plus"><path d="M8 2v4"></path><path d="M16 2v4"></path><path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path><path d="M3 10h18"></path><path d="M16 19h6"></path><path d="M19 16v6"></path></svg>
-<text x="69" y="230.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Book a stay</tspan>
-</text>
-<svg x="36" y="270" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt-text"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8"></path><path d="M16 12H8"></path><path d="M13 16H8"></path></svg>
-<text x="69" y="283.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Audit trail</tspan>
-</text>
-<svg x="36" y="323" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined"><path d="M12 16v5"></path><path d="M16 14v7"></path><path d="M20 10v11"></path><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"></path><path d="M4 18v3"></path><path d="M8 14v7"></path></svg>
-<text x="69" y="336.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Analytics</tspan>
-</text>
-<rect x="22" y="362" width="176" height="47" rx="7" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<ellipse cx="180.5" cy="385.5" rx="2.5" ry="2.5" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<svg x="36" y="376" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#244c38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="69" y="389.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#244c38">
-<tspan x="69" dy="0">Search map</tspan>
-</text>
-<svg x="36" y="429" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
-<text x="69" y="442.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="69" dy="0">Reviews</tspan>
-</text>
-<svg x="34" y="534" width="32" height="32" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="34" y="604.85" font-family="Georgia, Times New Roman, serif" font-size="21" font-weight="400" fill="#244c38">
-<tspan x="34" dy="0">A little closer</tspan>
-<tspan x="34" dy="29.4">to feeling at</tspan>
-<tspan x="34" dy="29.4">home.</tspan>
-</text>
-<text x="34" y="701.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="34" dy="0">VACATION RENTALS &amp;</tspan>
-<tspan x="34" dy="11.2">EXPERIENCES</tspan>
-</text>
-<polyline points="32,755 188,755" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="32" y="780.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="32" dy="0">Project 03           SSD · 2026</tspan>
-</text>
-<rect x="220" y="0" width="1220" height="88" rx="0" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="262" y="48.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">Workspace    /</tspan>
-</text>
-<text x="349" y="48.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#283229">
-<tspan x="349" dy="0">Search map</tspan>
-</text>
-<ellipse cx="1099.0" cy="44.0" rx="3.0" ry="3.0" fill="#244c38" stroke="transparent" opacity="1.0"/>
-<text x="1108" y="47.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1108" dy="0">Live databases</tspan>
-</text>
-<ellipse cx="1231.5" cy="43.5" rx="16.5" ry="16.5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<text x="1223" y="46.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#244c38">
-<tspan x="1223" dy="0">AR</tspan>
-</text>
-<text x="1258" y="40.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#283229">
-<tspan x="1258" dy="0">Ananya Rao</tspan>
-</text>
-<text x="1258" y="57.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1258" dy="0">₹44,911.00 in wallet</tspan>
-</text>
-<svg x="1381" y="37" width="15" height="15" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg>
-<text x="262" y="133.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#7b8176">
-<tspan x="262" dy="0">FOLLOW THE CURIOSITY</tspan>
-</text>
-<text x="262" y="184.15" font-family="Georgia, Times New Roman, serif" font-size="39" font-weight="400" fill="#283229">
-<tspan x="262" dy="0">Where people want to be.</tspan>
-</text>
-<text x="262" y="224.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">Live search pins and neighborhood hotspots, within five kilometres of you.</tspan>
-</text>
-<rect x="1243" y="188" width="155" height="40" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="1259" y="210.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#244c38">
-<tspan x="1259" dy="0">Add a search pin</tspan>
-</text>
-<svg x="1368" y="199" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#244c38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1442" height="1374" viewBox="3279 3197 1442 1374" fill="none"><title>07 Search map · Member 4</title><g id="07 Search map Â· Member 4">
+<text id="07 Search map_2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" font-weight="bold" letter-spacing="0em"><tspan x="3280" y="3240.5">07 Search map</tspan></text>
+<text id="Member 4 Â· from GitHub docs/design" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="24" letter-spacing="0em"><tspan x="3280" y="3275.23">Member 4 · from GitHub docs/design</tspan></text>
+<g id="Group_131">
+<g id="Group_132">
+<path id="Vector_1123" d="M4720 3290H3280V4570H4720V3290Z" fill="#F7F6F2" />
+<path id="Vector_1124" d="M3500 3290H3280V4480H3500V3290Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<path id="Vector_1125" d="M3329 3324H3312C3306.48 3324 3302 3328.48 3302 3334V3351C3302 3356.52 3306.48 3361 3312 3361H3329C3334.52 3361 3339 3356.52 3339 3351V3334C3339 3328.48 3334.52 3324 3329 3324Z" fill="#244C38" />
+<g id="Frame_202">
+<path id="Vector_1126" d="M3323.62 3351.87V3343.54C3323.62 3343.27 3323.52 3343 3323.32 3342.81C3323.12 3342.61 3322.86 3342.5 3322.58 3342.5H3318.42C3318.14 3342.5 3317.88 3342.61 3317.68 3342.81C3317.48 3343 3317.38 3343.27 3317.38 3343.54V3351.87" stroke="white" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1127" d="M3311.13 3340.42C3311.12 3340.11 3311.19 3339.81 3311.32 3339.54C3311.45 3339.26 3311.63 3339.02 3311.86 3338.82L3319.16 3332.58C3319.53 3332.26 3320.01 3332.08 3320.5 3332.08C3320.99 3332.08 3321.47 3332.26 3321.84 3332.58L3329.14 3338.82C3329.37 3339.02 3329.55 3339.26 3329.68 3339.54C3329.81 3339.81 3329.88 3340.11 3329.87 3340.42V3349.79C3329.87 3350.34 3329.66 3350.87 3329.26 3351.26C3328.87 3351.66 3328.34 3351.87 3327.79 3351.87H3313.21C3312.66 3351.87 3312.13 3351.66 3311.74 3351.26C3311.34 3350.87 3311.13 3350.34 3311.13 3349.79V3340.42Z" stroke="white" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="map-controls">
-<rect x="262" y="258" width="1136" height="90" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="280" y="286.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="280" dy="0">Latitude</tspan>
-</text>
-<rect x="280" y="298" width="190" height="38" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="292" y="320.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#283229">
-<tspan x="292" dy="0">17.385</tspan>
-</text>
-<text x="484" y="286.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="484" dy="0">Longitude</tspan>
-</text>
-<rect x="484" y="298" width="200" height="38" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="496" y="320.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#283229">
-<tspan x="496" dy="0">78.4867</tspan>
-</text>
-<rect x="696" y="289" width="140" height="40" rx="6" fill="#244c38" stroke="#244c38" opacity="1.0"/>
-<text x="712" y="311.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">
-<tspan x="712" dy="0">Explore this area</tspan>
-</text>
-<svg x="806" y="300" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-<text x="1230" y="286.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1230" dy="0">Recent searches</tspan>
-</text>
-<rect x="1230" y="298" width="150" height="38" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="1242" y="320.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#283229">
-<tspan x="1242" dy="0">Last hour</tspan>
-</text>
-<svg x="1355" y="309" width="15" height="15" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg>
+<text id="StaySpot_9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="3348" y="3353.05">StaySpot</tspan></text>
+<text id="._9" fill="#C76A42" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="3461" y="3353.05">.</tspan></text>
+<text id="YOUR WORKSPACE_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="3314" y="3420.42">YOUR WORKSPACE</tspan></text>
+<g id="Frame_203">
+<path id="Vector_1128" d="M3323.12 3456.38H3319.17C3318.73 3456.38 3318.38 3456.73 3318.38 3457.17V3461.12C3318.38 3461.56 3318.73 3461.92 3319.17 3461.92H3323.12C3323.56 3461.92 3323.92 3461.56 3323.92 3461.12V3457.17C3323.92 3456.73 3323.56 3456.38 3323.12 3456.38Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1129" d="M3331.83 3456.38H3327.88C3327.44 3456.38 3327.08 3456.73 3327.08 3457.17V3461.12C3327.08 3461.56 3327.44 3461.92 3327.88 3461.92H3331.83C3332.27 3461.92 3332.63 3461.56 3332.63 3461.12V3457.17C3332.63 3456.73 3332.27 3456.38 3331.83 3456.38Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1130" d="M3331.83 3465.08H3327.88C3327.44 3465.08 3327.08 3465.44 3327.08 3465.87V3469.83C3327.08 3470.27 3327.44 3470.62 3327.88 3470.62H3331.83C3332.27 3470.62 3332.63 3470.27 3332.63 3469.83V3465.87C3332.63 3465.44 3332.27 3465.08 3331.83 3465.08Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1131" d="M3323.12 3465.08H3319.17C3318.73 3465.08 3318.38 3465.44 3318.38 3465.87V3469.83C3318.38 3470.27 3318.73 3470.62 3319.17 3470.62H3323.12C3323.56 3470.62 3323.92 3470.27 3323.92 3469.83V3465.87C3323.92 3465.44 3323.56 3465.08 3323.12 3465.08Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="map-activity">
-<rect x="262" y="372" width="692" height="592" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="286" y="413.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#283229">
-<tspan x="286" dy="0">Search activity</tspan>
-</text>
-<text x="847" y="405.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#244c38">
-<tspan x="847" dy="0">LIVE · 15s polling</tspan>
-</text>
+<text id="Browse_13" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="3349" y="3466.78">Browse</tspan></text>
+<g id="Frame_204">
+<path id="Vector_1132" d="M3322.33 3508.58V3511.75" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1133" d="M3328.67 3508.58V3511.75" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1134" d="M3332.63 3517.29V3511.75C3332.63 3511.33 3332.46 3510.93 3332.16 3510.63C3331.86 3510.33 3331.46 3510.17 3331.04 3510.17H3319.96C3319.54 3510.17 3319.14 3510.33 3318.84 3510.63C3318.54 3510.93 3318.38 3511.33 3318.38 3511.75V3522.83C3318.38 3523.25 3318.54 3523.66 3318.84 3523.95C3319.14 3524.25 3319.54 3524.42 3319.96 3524.42H3326.29" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1135" d="M3318.38 3514.92H3332.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1136" d="M3328.67 3522.04H3333.42" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1137" d="M3331.04 3519.67V3524.42" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="schematic-map">
-<rect x="263" y="435" width="690" height="431" rx="0" fill="#eaf0e5" stroke="#e6e8e0" opacity="1.0"/>
-<polyline points="278,728 419,692 495,756 630,735 780,658 940,683" fill="none" stroke="#c5a771" stroke-width="18"/>
-<polyline points="290,440 345,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="375,440 430,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="460,440 515,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="545,440 600,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="630,440 685,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="715,440 770,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="800,440 855,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="885,440 940,866" fill="none" stroke="#fdfdfb" stroke-width="6"/>
-<polyline points="263,471 953,460" fill="none" stroke="#fdfdfb" stroke-width="5"/>
-<polyline points="263,538 953,527" fill="none" stroke="#fdfdfb" stroke-width="5"/>
-<polyline points="263,605 953,594" fill="none" stroke="#fdfdfb" stroke-width="5"/>
-<polyline points="263,672 953,661" fill="none" stroke="#fdfdfb" stroke-width="5"/>
-<polyline points="263,739 953,728" fill="none" stroke="#fdfdfb" stroke-width="5"/>
-<polyline points="263,806 953,795" fill="none" stroke="#fdfdfb" stroke-width="5"/>
-<polyline points="266,490 485,575 657,527 950,598" fill="none" stroke="#c5a771" stroke-width="9"/>
-<polyline points="350,435 470,618 729,650 908,866" fill="none" stroke="#c5a771" stroke-width="9"/>
-<ellipse cx="604.5" cy="648.5" rx="215.5" ry="179.5" fill="transparent" stroke="#244c38" opacity="1.0" stroke-dasharray="7 6"/>
-<ellipse cx="577.0" cy="696.0" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="618.9820913277432" cy="650.8061558160057" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="573.8477962549107" cy="644.0356548262615" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="511.2531358168345" cy="740.9901045468391" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="586.0908379783385" cy="658.0177836470829" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="666.0422421961043" cy="651.9785228801603" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="571.7701965633106" cy="725.9689022025552" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="535.8745353756447" cy="633.6490929387617" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="589.5015305554831" cy="659.483035314716" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="640.7334132522523" cy="710.9491186897401" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="554.543541300125" cy="640.8748906876652" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="491.6039951873688" cy="639.8016999688966" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="587.2994478645969" cy="695.9434745347783" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="616.0093998312441" cy="648.5312289647541" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="555.5319931114425" cy="647.3183527372855" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="517.2318281075628" cy="740.7527535289987" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="612.1343663534803" cy="656.6112380449664" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="656.1345755485651" cy="654.3864370513577" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="561.9463209693828" cy="725.7203307809771" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="541.3013000730683" cy="629.7546730290902" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="606.7770407870513" cy="661.0003671252912" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="630.9725727987452" cy="710.7232405226126" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="530.2636909612874" cy="637.8503534145676" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="506.5502937804415" cy="644.0837071336543" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="596.3469019883462" cy="695.7741537493705" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="608.2947527401327" cy="646.3579067323606" rx="4.0" ry="4.0" fill="#c76a42" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="382.5" cy="571.5" rx="11.5" ry="11.5" fill="#244c38" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="495.0" cy="506.0" rx="9.0" ry="9.0" fill="#244c38" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="712.0" cy="548.0" rx="12.0" ry="12.0" fill="#244c38" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="771.5" cy="679.5" rx="13.5" ry="13.5" fill="#244c38" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="484.0" cy="752.0" rx="11.0" ry="11.0" fill="#244c38" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="667.0" cy="805.0" rx="10.0" ry="10.0" fill="#244c38" stroke="#fdfdfb" opacity="1.0"/>
-<ellipse cx="605.0" cy="648.0" rx="7.0" ry="7.0" fill="#ffffff" stroke="#244c38" opacity="1.0"/>
-<text x="591" y="779.75" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#244c38">
-<tspan x="591" dy="0">Hyderabad</tspan>
-</text>
-<text x="277" y="848.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#244c38">
-<tspan x="277" dy="0">SCHEMATIC · not geographic tiles</tspan>
-</text>
-<rect x="275" y="448" width="31" height="31" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="291" y="470.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#244c38">
-<tspan x="291" dy="0">+</tspan>
-</text>
-<rect x="275" y="480" width="31" height="31" rx="6" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="291" y="502.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#244c38">
-<tspan x="291" dy="0">−</tspan>
-</text>
-<text x="280" y="894.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="280" dy="0">● Search pins     ● Grid hotspots     Click to move origin · 5 km radius</tspan>
-</text>
+<text id="Book a stay_14" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="3349" y="3519.78">Book a stay</tspan></text>
+<g id="Frame_205">
+<path id="Vector_1138" d="M3319.17 3561.58V3577.42L3320.75 3576.62L3322.33 3577.42L3323.92 3576.62L3325.5 3577.42L3327.08 3576.62L3328.67 3577.42L3330.25 3576.62L3331.83 3577.42V3561.58L3330.25 3562.37L3328.67 3561.58L3327.08 3562.37L3325.5 3561.58L3323.92 3562.37L3322.33 3561.58L3320.75 3562.37L3319.17 3561.58Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1139" d="M3327.08 3566.33H3322.33" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1140" d="M3328.67 3569.5H3322.33" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1141" d="M3326.29 3572.67H3322.33" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="nearby-searches">
-<rect x="978" y="372" width="420" height="592" rx="9" fill="#fdfdfb" stroke="#e6e8e0" opacity="1.0"/>
-<text x="1002" y="413.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#283229">
-<tspan x="1002" dy="0">Nearby searches</tspan>
-</text>
-<text x="1002" y="455.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#7b8176">
-<tspan x="1002" dy="0">Nearest 100 pins · sorted by distance</tspan>
-</text>
-<rect x="1002" y="498" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="504" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="510.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 1</tspan>
-</text>
-<text x="1043" y="526.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="512.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">0 m</tspan>
-</text>
-<polyline points="1002,541 1374,541" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="1002" y="553" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="559" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="565.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 2</tspan>
-</text>
-<text x="1043" y="581.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="567.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">0 m</tspan>
-</text>
-<polyline points="1002,596 1374,596" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="1002" y="608" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="614" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="620.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 3</tspan>
-</text>
-<text x="1043" y="636.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="622.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">0 m</tspan>
-</text>
-<polyline points="1002,651 1374,651" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="1002" y="663" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="669" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="675.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 4</tspan>
-</text>
-<text x="1043" y="691.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="677.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">29 m</tspan>
-</text>
-<polyline points="1002,706 1374,706" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="1002" y="718" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="724" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="730.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 5</tspan>
-</text>
-<text x="1043" y="746.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="732.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">51 m</tspan>
-</text>
-<polyline points="1002,761 1374,761" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="1002" y="773" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="779" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="785.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 6</tspan>
-</text>
-<text x="1043" y="801.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="787.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">189 m</tspan>
-</text>
-<polyline points="1002,816 1374,816" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<rect x="1002" y="828" width="30" height="30" rx="5" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<svg x="1009" y="834" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#7b8176" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="1043" y="840.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#244c38">
-<tspan x="1043" dy="0">Search pin 7</tspan>
-</text>
-<text x="1043" y="856.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1043" dy="0">17.3850, 78.4867</tspan>
-</text>
-<text x="1340" y="842.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#7b8176">
-<tspan x="1340" dy="0">229 m</tspan>
-</text>
-<polyline points="1002,871 1374,871" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="1002" y="931.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#7b8176">
-<tspan x="1002" dy="0">Checked 7 Oct 2026, 01:28 pm</tspan>
-</text>
-<text x="262" y="1004.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">Map tiles need internet. Hotspots group recent local pins into approximate 0.5 km grid cells.</tspan>
-</text>
+<text id="Audit trail_10" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="3349" y="3572.78">Audit trail</tspan></text>
+<g id="Frame_206">
+<path id="Vector_1142" d="M3325.5 3625.67V3629.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1143" d="M3328.67 3624.08V3629.62" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1144" d="M3331.83 3620.92V3629.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1145" d="M3333.42 3615.38L3326.57 3622.22C3326.54 3622.26 3326.49 3622.29 3326.44 3622.31C3326.4 3622.33 3326.34 3622.34 3326.29 3622.34C3326.24 3622.34 3326.19 3622.33 3326.14 3622.31C3326.09 3622.29 3326.05 3622.26 3326.01 3622.22L3323.41 3619.61C3323.33 3619.54 3323.23 3619.5 3323.13 3619.5C3323.02 3619.5 3322.92 3619.54 3322.85 3619.61L3317.58 3624.88" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1146" d="M3319.17 3627.25V3629.63" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1147" d="M3322.33 3624.08V3629.62" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="assignment-notes">
-<polyline points="262,1185 1398,1185" fill="none" stroke="#e6e8e0" stroke-width="1"/>
-<text x="262" y="1210.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#7b8176">
-<tspan x="262" dy="0">StaySpot · Thoughtful stays, meaningful experiences.</tspan>
-</text>
-<rect x="0" y="1240" width="1440" height="40" rx="0" fill="#eaf0e5" stroke="transparent" opacity="1.0"/>
-<text x="22" y="1263.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#244c38">
-<tspan x="22" dy="0">DESIGN NOTE · Member 4 · MapView.jsx · schematic map; real app uses Leaflet. Filters: 15/60/120 minutes; up to 25 hotspots.</tspan>
-</text>
+<text id="Analytics_10" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="3349" y="3625.78">Analytics</tspan></text>
+<path id="Vector_1148" d="M3471 3652H3309C3305.13 3652 3302 3655.13 3302 3659V3692C3302 3695.87 3305.13 3699 3309 3699H3471C3474.87 3699 3478 3695.87 3478 3692V3659C3478 3655.13 3474.87 3652 3471 3652Z" fill="#EAF0E5" />
+<path id="Vector_1149" d="M3460.5 3678C3461.88 3678 3463 3676.88 3463 3675.5C3463 3674.12 3461.88 3673 3460.5 3673C3459.12 3673 3458 3674.12 3458 3675.5C3458 3676.88 3459.12 3678 3460.5 3678Z" fill="#244C38" />
+<g id="Frame_207">
+<path id="Vector_1150" d="M3325.98 3683.26C3327.45 3681.99 3331.83 3677.87 3331.83 3673.92C3331.83 3672.24 3331.17 3670.63 3329.98 3669.44C3328.79 3668.25 3327.18 3667.58 3325.5 3667.58C3323.82 3667.58 3322.21 3668.25 3321.02 3669.44C3319.83 3670.63 3319.17 3672.24 3319.17 3673.92C3319.17 3677.87 3323.55 3681.99 3325.02 3683.26C3325.16 3683.36 3325.33 3683.42 3325.5 3683.42C3325.67 3683.42 3325.84 3683.36 3325.98 3683.26Z" stroke="#244C38" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1151" d="M3325.5 3676.29C3326.81 3676.29 3327.88 3675.23 3327.88 3673.92C3327.88 3672.61 3326.81 3671.54 3325.5 3671.54C3324.19 3671.54 3323.12 3672.61 3323.12 3673.92C3323.12 3675.23 3324.19 3676.29 3325.5 3676.29Z" stroke="#244C38" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
+<text id="Search map_9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="3349" y="3678.78">Search map</tspan></text>
+<g id="Frame_208">
+<path id="Vector_1152" d="M3325.12 3720.82C3325.16 3720.75 3325.21 3720.69 3325.28 3720.65C3325.35 3720.61 3325.42 3720.58 3325.5 3720.58C3325.58 3720.58 3325.65 3720.61 3325.72 3720.65C3325.79 3720.69 3325.84 3720.75 3325.88 3720.82L3327.7 3724.52C3327.83 3724.76 3328 3724.98 3328.22 3725.14C3328.44 3725.3 3328.7 3725.4 3328.97 3725.44L3333.06 3726.04C3333.13 3726.05 3333.21 3726.08 3333.27 3726.13C3333.33 3726.18 3333.37 3726.25 3333.4 3726.32C3333.42 3726.4 3333.42 3726.48 3333.4 3726.55C3333.39 3726.63 3333.35 3726.7 3333.29 3726.75L3330.33 3729.63C3330.14 3729.82 3329.99 3730.06 3329.91 3730.32C3329.82 3730.58 3329.8 3730.85 3329.85 3731.12L3330.55 3735.19C3330.56 3735.27 3330.55 3735.35 3330.52 3735.42C3330.49 3735.49 3330.44 3735.56 3330.38 3735.6C3330.32 3735.65 3330.24 3735.68 3330.16 3735.68C3330.08 3735.69 3330.01 3735.67 3329.94 3735.63L3326.28 3733.71C3326.04 3733.58 3325.77 3733.52 3325.5 3733.52C3325.23 3733.52 3324.96 3733.58 3324.72 3733.71L3321.06 3735.63C3320.99 3735.67 3320.92 3735.69 3320.84 3735.68C3320.76 3735.68 3320.68 3735.65 3320.62 3735.6C3320.56 3735.56 3320.51 3735.49 3320.48 3735.42C3320.45 3735.35 3320.44 3735.27 3320.45 3735.19L3321.15 3731.12C3321.2 3730.85 3321.18 3730.58 3321.09 3730.32C3321.01 3730.06 3320.86 3729.82 3320.67 3729.63L3317.71 3726.75C3317.65 3726.7 3317.61 3726.63 3317.59 3726.55C3317.58 3726.48 3317.58 3726.4 3317.6 3726.32C3317.63 3726.25 3317.67 3726.18 3317.73 3726.13C3317.79 3726.08 3317.86 3726.05 3317.94 3726.04L3322.03 3725.44C3322.3 3725.4 3322.56 3725.3 3322.78 3725.14C3323 3724.98 3323.18 3724.77 3323.3 3724.52L3325.12 3720.82Z" stroke="#7B8176" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Reviews_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="3349" y="3731.78">Reviews</tspan></text>
+<g id="Frame_209">
+<path id="Vector_1153" d="M3328.67 3850.67C3326.33 3850.67 3324.07 3849.8 3322.34 3848.22C3320.61 3846.64 3319.54 3844.47 3319.34 3842.14C3319.14 3839.8 3319.82 3837.48 3321.25 3835.63C3322.68 3833.77 3324.76 3832.53 3327.07 3832.13C3334.67 3830.67 3336.67 3829.97 3339.33 3826.67C3340.67 3829.33 3342 3832.24 3342 3837.33C3342 3844.67 3335.63 3850.67 3328.67 3850.67Z" stroke="#7B8176" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1154" d="M3316.67 3852C3316.67 3848 3319.13 3844.85 3323.44 3844C3326.67 3843.36 3330 3841.33 3331.33 3840" stroke="#7B8176" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="Group_133">
+<text id="A little closer_9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="3314" y="3893.99">A little closer</tspan></text>
+<text id="to feeling at_9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="3314" y="3923.39">to feeling at</tspan></text>
+<text id="home._9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="3314" y="3952.79">home.</tspan></text>
+</g>
+<g id="Group_134">
+<text id="VACATION RENTALS &amp;_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="3314" y="3991.71">VACATION RENTALS &amp;</tspan></text>
+<text id="EXPERIENCES_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="3314" y="4002.91">EXPERIENCES</tspan></text>
+</g>
+<path id="Vector_1155" d="M3312 4045H3468" stroke="#E6E8E0" />
+<text id="Project 03 SSD Â· 2026_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="3312" y="4070.14">Project 03 SSD · 2026</tspan></text>
+<path id="Vector_1156" d="M4720 3290H3500V3378H4720V3290Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Workspace_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3542" y="3337.85">Workspace </tspan></text>
+<text id="Search map_10" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3629" y="3337.85">Search map</tspan></text>
+<path id="Vector_1157" d="M4379 3337C4380.66 3337 4382 3335.66 4382 3334C4382 3332.34 4380.66 3331 4379 3331C4377.34 3331 4376 3332.34 4376 3334C4376 3335.66 4377.34 3337 4379 3337Z" fill="#244C38" />
+<text id="Live databases_9" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4388" y="3337.14">Live databases</tspan></text>
+<path id="Vector_1158" d="M4511.5 3350C4520.61 3350 4528 3342.61 4528 3333.5C4528 3324.39 4520.61 3317 4511.5 3317C4502.39 3317 4495 3324.39 4495 3333.5C4495 3342.61 4502.39 3350 4511.5 3350Z" fill="#EAF0E5" />
+<text id="AR_9" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="4503" y="3336.14">AR</tspan></text>
+<text id="Ananya Rao_10" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="4538" y="3329.85">Ananya Rao</tspan></text>
+<text id="â¹44,911.00 in wallet_7" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4538" y="3347.14">₹44,911.00 in wallet</tspan></text>
+<g id="Frame_210">
+<path id="Vector_1159" d="M4664.75 3332.62L4668.5 3336.38L4672.25 3332.62" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="FOLLOW THE CURIOSITY" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="3542" y="3423.42">FOLLOW THE CURIOSITY</tspan></text>
+<text id="Where people want to be." fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="39" letter-spacing="0em"><tspan x="3542" y="3472.83">Where people want to be.</tspan></text>
+<text id="Live search pins and neighborhood hotspots, within five kilometres of you." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="3542" y="3513.78">Live search pins and neighborhood hotspots, within five kilometres of you.</tspan></text>
+<path id="Vector_1160" d="M4672 3478H4529C4525.69 3478 4523 3480.69 4523 3484V3512C4523 3515.31 4525.69 3518 4529 3518H4672C4675.31 3518 4678 3515.31 4678 3512V3484C4678 3480.69 4675.31 3478 4672 3478Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Add a search pin" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="4539" y="3499.85">Add a search pin</tspan></text>
+<g id="Frame_211">
+<path id="Vector_1161" d="M4651.54 3497.5H4661.46" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1162" d="M4656.5 3492.54V3502.46" stroke="#244C38" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_135">
+<path id="Vector_1163" d="M4669 3548H3551C3546.03 3548 3542 3552.03 3542 3557V3629C3542 3633.97 3546.03 3638 3551 3638H4669C4673.97 3638 4678 3633.97 4678 3629V3557C4678 3552.03 4673.97 3548 4669 3548Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Latitude" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="3560" y="3576.14">Latitude</tspan></text>
+<path id="Vector_1164" d="M3744 3588H3566C3562.69 3588 3560 3590.69 3560 3594V3620C3560 3623.31 3562.69 3626 3566 3626H3744C3747.31 3626 3750 3623.31 3750 3620V3594C3750 3590.69 3747.31 3588 3744 3588Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="17.385" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3572" y="3609.85">17.385</tspan></text>
+<text id="Longitude" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="3764" y="3576.14">Longitude</tspan></text>
+<path id="Vector_1165" d="M3958 3588H3770C3766.69 3588 3764 3590.69 3764 3594V3620C3764 3623.31 3766.69 3626 3770 3626H3958C3961.31 3626 3964 3623.31 3964 3620V3594C3964 3590.69 3961.31 3588 3958 3588Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="78.4867" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3776" y="3609.85">78.4867</tspan></text>
+<path id="Vector_1166" d="M4110 3579H3982C3978.69 3579 3976 3581.69 3976 3585V3613C3976 3616.31 3978.69 3619 3982 3619H4110C4113.31 3619 4116 3616.31 4116 3613V3585C4116 3581.69 4113.31 3579 4110 3579Z" fill="#244C38" stroke="#244C38" />
+<text id="Explore this area" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="3992" y="3600.85">Explore this area</tspan></text>
+<g id="Frame_212">
+<path id="Vector_1167" d="M4089.54 3598.5H4099.46" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1168" d="M4094.5 3593.54L4099.46 3598.5L4094.5 3603.46" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Recent searches" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4510" y="3576.14">Recent searches</tspan></text>
+<path id="Vector_1169" d="M4654 3588H4516C4512.69 3588 4510 3590.69 4510 3594V3620C4510 3623.31 4512.69 3626 4516 3626H4654C4657.31 3626 4660 3623.31 4660 3620V3594C4660 3590.69 4657.31 3588 4654 3588Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Last hour" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="4522" y="3609.85">Last hour</tspan></text>
+<g id="Frame_213">
+<path id="Vector_1170" d="M4638.75 3604.62L4642.5 3608.38L4646.25 3604.62" stroke="#7B8176" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_136">
+<path id="Vector_1171" d="M4225 3662H3551C3546.03 3662 3542 3666.03 3542 3671V4245C3542 4249.97 3546.03 4254 3551 4254H4225C4229.97 4254 4234 4249.97 4234 4245V3671C4234 3666.03 4229.97 3662 4225 3662Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Search activity" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="3566" y="3702.56">Search activity</tspan></text>
+<text id="LIVE Â· 15s polling" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4127" y="3695.71">LIVE · 15s polling</tspan></text>
+</g>
+<g id="Group_137">
+<path id="Vector_1172" d="M4233 3725H3543V4156H4233V3725Z" fill="#EAF0E5" stroke="#E6E8E0" />
+<path id="Vector_1173" d="M3558 4018L3699 3982L3775 4046L3910 4025L4060 3948L4220 3973" stroke="#C5A771" stroke-width="18" />
+<path id="Vector_1174" d="M3570 3730L3625 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1175" d="M3655 3730L3710 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1176" d="M3740 3730L3795 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1177" d="M3825 3730L3880 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1178" d="M3910 3730L3965 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1179" d="M3995 3730L4050 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1180" d="M4080 3730L4135 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1181" d="M4165 3730L4220 4156" stroke="#FDFDFB" stroke-width="6" />
+<path id="Vector_1182" d="M3543 3761L4233 3750" stroke="#FDFDFB" stroke-width="5" />
+<path id="Vector_1183" d="M3543 3828L4233 3817" stroke="#FDFDFB" stroke-width="5" />
+<path id="Vector_1184" d="M3543 3895L4233 3884" stroke="#FDFDFB" stroke-width="5" />
+<path id="Vector_1185" d="M3543 3962L4233 3951" stroke="#FDFDFB" stroke-width="5" />
+<path id="Vector_1186" d="M3543 4029L4233 4018" stroke="#FDFDFB" stroke-width="5" />
+<path id="Vector_1187" d="M3543 4096L4233 4085" stroke="#FDFDFB" stroke-width="5" />
+<path id="Vector_1188" d="M3546 3780L3765 3865L3937 3817L4230 3888" stroke="#C5A771" stroke-width="9" />
+<path id="Vector_1189" d="M3630 3725L3750 3908L4009 3940L4188 4156" stroke="#C5A771" stroke-width="9" />
+<path id="Vector_1190" d="M3884.5 4118C4003.52 4118 4100 4037.64 4100 3938.5C4100 3839.36 4003.52 3759 3884.5 3759C3765.48 3759 3669 3839.36 3669 3938.5C3669 4037.64 3765.48 4118 3884.5 4118Z" stroke="#244C38" stroke-dasharray="7 6" />
+<path id="Vector_1191" d="M3857 3990C3859.21 3990 3861 3988.21 3861 3986C3861 3983.79 3859.21 3982 3857 3982C3854.79 3982 3853 3983.79 3853 3986C3853 3988.21 3854.79 3990 3857 3990Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1192" d="M3898.98 3944.81C3901.19 3944.81 3902.98 3943.02 3902.98 3940.81C3902.98 3938.6 3901.19 3936.81 3898.98 3936.81C3896.77 3936.81 3894.98 3938.6 3894.98 3940.81C3894.98 3943.02 3896.77 3944.81 3898.98 3944.81Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1193" d="M3853.85 3938.04C3856.06 3938.04 3857.85 3936.24 3857.85 3934.04C3857.85 3931.83 3856.06 3930.04 3853.85 3930.04C3851.64 3930.04 3849.85 3931.83 3849.85 3934.04C3849.85 3936.24 3851.64 3938.04 3853.85 3938.04Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1194" d="M3791.25 4034.99C3793.46 4034.99 3795.25 4033.2 3795.25 4030.99C3795.25 4028.78 3793.46 4026.99 3791.25 4026.99C3789.04 4026.99 3787.25 4028.78 3787.25 4030.99C3787.25 4033.2 3789.04 4034.99 3791.25 4034.99Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1195" d="M3866.09 3952.02C3868.3 3952.02 3870.09 3950.23 3870.09 3948.02C3870.09 3945.81 3868.3 3944.02 3866.09 3944.02C3863.88 3944.02 3862.09 3945.81 3862.09 3948.02C3862.09 3950.23 3863.88 3952.02 3866.09 3952.02Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1196" d="M3946.04 3945.98C3948.25 3945.98 3950.04 3944.19 3950.04 3941.98C3950.04 3939.77 3948.25 3937.98 3946.04 3937.98C3943.83 3937.98 3942.04 3939.77 3942.04 3941.98C3942.04 3944.19 3943.83 3945.98 3946.04 3945.98Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1197" d="M3851.77 4019.97C3853.98 4019.97 3855.77 4018.18 3855.77 4015.97C3855.77 4013.76 3853.98 4011.97 3851.77 4011.97C3849.56 4011.97 3847.77 4013.76 3847.77 4015.97C3847.77 4018.18 3849.56 4019.97 3851.77 4019.97Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1198" d="M3815.87 3927.65C3818.08 3927.65 3819.87 3925.86 3819.87 3923.65C3819.87 3921.44 3818.08 3919.65 3815.87 3919.65C3813.67 3919.65 3811.87 3921.44 3811.87 3923.65C3811.87 3925.86 3813.67 3927.65 3815.87 3927.65Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1199" d="M3869.5 3953.48C3871.71 3953.48 3873.5 3951.69 3873.5 3949.48C3873.5 3947.27 3871.71 3945.48 3869.5 3945.48C3867.29 3945.48 3865.5 3947.27 3865.5 3949.48C3865.5 3951.69 3867.29 3953.48 3869.5 3953.48Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1200" d="M3920.73 4004.95C3922.94 4004.95 3924.73 4003.16 3924.73 4000.95C3924.73 3998.74 3922.94 3996.95 3920.73 3996.95C3918.52 3996.95 3916.73 3998.74 3916.73 4000.95C3916.73 4003.16 3918.52 4004.95 3920.73 4004.95Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1201" d="M3834.54 3934.87C3836.75 3934.87 3838.54 3933.08 3838.54 3930.87C3838.54 3928.67 3836.75 3926.87 3834.54 3926.87C3832.33 3926.87 3830.54 3928.67 3830.54 3930.87C3830.54 3933.08 3832.33 3934.87 3834.54 3934.87Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1202" d="M3771.6 3933.8C3773.81 3933.8 3775.6 3932.01 3775.6 3929.8C3775.6 3927.59 3773.81 3925.8 3771.6 3925.8C3769.39 3925.8 3767.6 3927.59 3767.6 3929.8C3767.6 3932.01 3769.39 3933.8 3771.6 3933.8Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1203" d="M3867.3 3989.94C3869.51 3989.94 3871.3 3988.15 3871.3 3985.94C3871.3 3983.73 3869.51 3981.94 3867.3 3981.94C3865.09 3981.94 3863.3 3983.73 3863.3 3985.94C3863.3 3988.15 3865.09 3989.94 3867.3 3989.94Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1204" d="M3896.01 3942.53C3898.22 3942.53 3900.01 3940.74 3900.01 3938.53C3900.01 3936.32 3898.22 3934.53 3896.01 3934.53C3893.8 3934.53 3892.01 3936.32 3892.01 3938.53C3892.01 3940.74 3893.8 3942.53 3896.01 3942.53Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1205" d="M3835.53 3941.32C3837.74 3941.32 3839.53 3939.53 3839.53 3937.32C3839.53 3935.11 3837.74 3933.32 3835.53 3933.32C3833.32 3933.32 3831.53 3935.11 3831.53 3937.32C3831.53 3939.53 3833.32 3941.32 3835.53 3941.32Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1206" d="M3797.23 4034.75C3799.44 4034.75 3801.23 4032.96 3801.23 4030.75C3801.23 4028.54 3799.44 4026.75 3797.23 4026.75C3795.02 4026.75 3793.23 4028.54 3793.23 4030.75C3793.23 4032.96 3795.02 4034.75 3797.23 4034.75Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1207" d="M3892.13 3950.61C3894.34 3950.61 3896.13 3948.82 3896.13 3946.61C3896.13 3944.4 3894.34 3942.61 3892.13 3942.61C3889.93 3942.61 3888.13 3944.4 3888.13 3946.61C3888.13 3948.82 3889.93 3950.61 3892.13 3950.61Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1208" d="M3936.13 3948.39C3938.34 3948.39 3940.13 3946.6 3940.13 3944.39C3940.13 3942.18 3938.34 3940.39 3936.13 3940.39C3933.93 3940.39 3932.13 3942.18 3932.13 3944.39C3932.13 3946.6 3933.93 3948.39 3936.13 3948.39Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1209" d="M3841.95 4019.72C3844.16 4019.72 3845.95 4017.93 3845.95 4015.72C3845.95 4013.51 3844.16 4011.72 3841.95 4011.72C3839.74 4011.72 3837.95 4013.51 3837.95 4015.72C3837.95 4017.93 3839.74 4019.72 3841.95 4019.72Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1210" d="M3821.3 3923.75C3823.51 3923.75 3825.3 3921.96 3825.3 3919.75C3825.3 3917.55 3823.51 3915.75 3821.3 3915.75C3819.09 3915.75 3817.3 3917.55 3817.3 3919.75C3817.3 3921.96 3819.09 3923.75 3821.3 3923.75Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1211" d="M3886.78 3955C3888.99 3955 3890.78 3953.21 3890.78 3951C3890.78 3948.79 3888.99 3947 3886.78 3947C3884.57 3947 3882.78 3948.79 3882.78 3951C3882.78 3953.21 3884.57 3955 3886.78 3955Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1212" d="M3910.97 4004.72C3913.18 4004.72 3914.97 4002.93 3914.97 4000.72C3914.97 3998.51 3913.18 3996.72 3910.97 3996.72C3908.76 3996.72 3906.97 3998.51 3906.97 4000.72C3906.97 4002.93 3908.76 4004.72 3910.97 4004.72Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1213" d="M3810.26 3931.85C3812.47 3931.85 3814.26 3930.06 3814.26 3927.85C3814.26 3925.64 3812.47 3923.85 3810.26 3923.85C3808.05 3923.85 3806.26 3925.64 3806.26 3927.85C3806.26 3930.06 3808.05 3931.85 3810.26 3931.85Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1214" d="M3786.55 3938.08C3788.76 3938.08 3790.55 3936.29 3790.55 3934.08C3790.55 3931.87 3788.76 3930.08 3786.55 3930.08C3784.34 3930.08 3782.55 3931.87 3782.55 3934.08C3782.55 3936.29 3784.34 3938.08 3786.55 3938.08Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1215" d="M3876.35 3989.77C3878.56 3989.77 3880.35 3987.98 3880.35 3985.77C3880.35 3983.57 3878.56 3981.77 3876.35 3981.77C3874.14 3981.77 3872.35 3983.57 3872.35 3985.77C3872.35 3987.98 3874.14 3989.77 3876.35 3989.77Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1216" d="M3888.29 3940.36C3890.5 3940.36 3892.29 3938.57 3892.29 3936.36C3892.29 3934.15 3890.5 3932.36 3888.29 3932.36C3886.09 3932.36 3884.29 3934.15 3884.29 3936.36C3884.29 3938.57 3886.09 3940.36 3888.29 3940.36Z" fill="#C76A42" stroke="#FDFDFB" />
+<path id="Vector_1217" d="M3662.5 3873C3668.85 3873 3674 3867.85 3674 3861.5C3674 3855.15 3668.85 3850 3662.5 3850C3656.15 3850 3651 3855.15 3651 3861.5C3651 3867.85 3656.15 3873 3662.5 3873Z" fill="#244C38" stroke="#FDFDFB" />
+<path id="Vector_1218" d="M3775 3805C3779.97 3805 3784 3800.97 3784 3796C3784 3791.03 3779.97 3787 3775 3787C3770.03 3787 3766 3791.03 3766 3796C3766 3800.97 3770.03 3805 3775 3805Z" fill="#244C38" stroke="#FDFDFB" />
+<path id="Vector_1219" d="M3992 3850C3998.63 3850 4004 3844.63 4004 3838C4004 3831.37 3998.63 3826 3992 3826C3985.37 3826 3980 3831.37 3980 3838C3980 3844.63 3985.37 3850 3992 3850Z" fill="#244C38" stroke="#FDFDFB" />
+<path id="Vector_1220" d="M4051.5 3983C4058.96 3983 4065 3976.96 4065 3969.5C4065 3962.04 4058.96 3956 4051.5 3956C4044.04 3956 4038 3962.04 4038 3969.5C4038 3976.96 4044.04 3983 4051.5 3983Z" fill="#244C38" stroke="#FDFDFB" />
+<path id="Vector_1221" d="M3764 4053C3770.08 4053 3775 4048.08 3775 4042C3775 4035.92 3770.08 4031 3764 4031C3757.92 4031 3753 4035.92 3753 4042C3753 4048.08 3757.92 4053 3764 4053Z" fill="#244C38" stroke="#FDFDFB" />
+<path id="Vector_1222" d="M3947 4105C3952.52 4105 3957 4100.52 3957 4095C3957 4089.48 3952.52 4085 3947 4085C3941.48 4085 3937 4089.48 3937 4095C3937 4100.52 3941.48 4105 3947 4105Z" fill="#244C38" stroke="#FDFDFB" />
+<path id="Vector_1223" d="M3885 3945C3888.87 3945 3892 3941.87 3892 3938C3892 3934.13 3888.87 3931 3885 3931C3881.13 3931 3878 3934.13 3878 3938C3878 3941.87 3881.13 3945 3885 3945Z" fill="white" stroke="#244C38" />
+<text id="Hyderabad_5" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="3871" y="4069.2">Hyderabad</tspan></text>
+<text id="SCHEMATIC Â· not geographic tiles" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="3557" y="4138.42">SCHEMATIC · not geographic tiles</tspan></text>
+<path id="Vector_1224" d="M3580 3738H3561C3557.69 3738 3555 3740.69 3555 3744V3763C3555 3766.31 3557.69 3769 3561 3769H3580C3583.31 3769 3586 3766.31 3586 3763V3744C3586 3740.69 3583.31 3738 3580 3738Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="+" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="3571" y="3759.85">+</tspan></text>
+<path id="Vector_1225" d="M3580 3770H3561C3557.69 3770 3555 3772.69 3555 3776V3795C3555 3798.31 3557.69 3801 3561 3801H3580C3583.31 3801 3586 3798.31 3586 3795V3776C3586 3772.69 3583.31 3770 3580 3770Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="â" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="3571" y="3791.85">−</tspan></text>
+<text id="â Search pins â Grid hotspots Click to move origin Â· 5 km radius" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="3560" y="4184.42">● Search pins ● Grid hotspots Click to move origin · 5 km radius</tspan></text>
+</g>
+<g id="Group_138">
+<path id="Vector_1226" d="M4669 3662H4267C4262.03 3662 4258 3666.03 4258 3671V4245C4258 4249.97 4262.03 4254 4267 4254H4669C4673.97 4254 4678 4249.97 4678 4245V3671C4678 3666.03 4673.97 3662 4669 3662Z" fill="#FDFDFB" stroke="#E6E8E0" />
+<text id="Nearby searches" fill="#283229" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="4282" y="3702.56">Nearby searches</tspan></text>
+<text id="Nearest 100 pins Â· sorted by distance" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="4282" y="3744.85">Nearest 100 pins · sorted by distance</tspan></text>
+<path id="Vector_1227" d="M4307 3788H4287C4284.24 3788 4282 3790.24 4282 3793V3813C4282 3815.76 4284.24 3818 4287 3818H4307C4309.76 3818 4312 3815.76 4312 3813V3793C4312 3790.24 4309.76 3788 4307 3788Z" fill="#EAF0E5" />
+<g id="Frame_214">
+<path id="Vector_1228" d="M4297.93 3809.44C4299.24 3808.3 4303.17 3804.62 4303.17 3801.08C4303.17 3799.58 4302.57 3798.14 4301.51 3797.08C4300.44 3796.01 4299 3795.42 4297.5 3795.42C4296 3795.42 4294.56 3796.01 4293.49 3797.08C4292.43 3798.14 4291.83 3799.58 4291.83 3801.08C4291.83 3804.62 4295.76 3808.3 4297.07 3809.44C4297.2 3809.53 4297.35 3809.58 4297.5 3809.58C4297.65 3809.58 4297.8 3809.53 4297.93 3809.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1229" d="M4297.5 3803.21C4298.67 3803.21 4299.62 3802.26 4299.62 3801.08C4299.62 3799.91 4298.67 3798.96 4297.5 3798.96C4296.33 3798.96 4295.38 3799.91 4295.38 3801.08C4295.38 3802.26 4296.33 3803.21 4297.5 3803.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 1" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="3800.14">Search pin 1</tspan></text>
+<text id="17.3850, 78.4867" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="3816.71">17.3850, 78.4867</tspan></text>
+<text id="0 m" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="3802.71">0 m</tspan></text>
+<path id="Vector_1230" d="M4282 3831H4654" stroke="#E6E8E0" />
+<path id="Vector_1231" d="M4307 3843H4287C4284.24 3843 4282 3845.24 4282 3848V3868C4282 3870.76 4284.24 3873 4287 3873H4307C4309.76 3873 4312 3870.76 4312 3868V3848C4312 3845.24 4309.76 3843 4307 3843Z" fill="#EAF0E5" />
+<g id="Frame_215">
+<path id="Vector_1232" d="M4297.93 3864.44C4299.24 3863.3 4303.17 3859.62 4303.17 3856.08C4303.17 3854.58 4302.57 3853.14 4301.51 3852.08C4300.44 3851.01 4299 3850.42 4297.5 3850.42C4296 3850.42 4294.56 3851.01 4293.49 3852.08C4292.43 3853.14 4291.83 3854.58 4291.83 3856.08C4291.83 3859.62 4295.76 3863.3 4297.07 3864.44C4297.2 3864.53 4297.35 3864.58 4297.5 3864.58C4297.65 3864.58 4297.8 3864.53 4297.93 3864.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1233" d="M4297.5 3858.21C4298.67 3858.21 4299.62 3857.26 4299.62 3856.08C4299.62 3854.91 4298.67 3853.96 4297.5 3853.96C4296.33 3853.96 4295.38 3854.91 4295.38 3856.08C4295.38 3857.26 4296.33 3858.21 4297.5 3858.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 2" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="3855.14">Search pin 2</tspan></text>
+<text id="17.3850, 78.4867_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="3871.71">17.3850, 78.4867</tspan></text>
+<text id="0 m_2" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="3857.71">0 m</tspan></text>
+<path id="Vector_1234" d="M4282 3886H4654" stroke="#E6E8E0" />
+<path id="Vector_1235" d="M4307 3898H4287C4284.24 3898 4282 3900.24 4282 3903V3923C4282 3925.76 4284.24 3928 4287 3928H4307C4309.76 3928 4312 3925.76 4312 3923V3903C4312 3900.24 4309.76 3898 4307 3898Z" fill="#EAF0E5" />
+<g id="Frame_216">
+<path id="Vector_1236" d="M4297.93 3919.44C4299.24 3918.3 4303.17 3914.62 4303.17 3911.08C4303.17 3909.58 4302.57 3908.14 4301.51 3907.08C4300.44 3906.01 4299 3905.42 4297.5 3905.42C4296 3905.42 4294.56 3906.01 4293.49 3907.08C4292.43 3908.14 4291.83 3909.58 4291.83 3911.08C4291.83 3914.62 4295.76 3918.3 4297.07 3919.44C4297.2 3919.53 4297.35 3919.58 4297.5 3919.58C4297.65 3919.58 4297.8 3919.53 4297.93 3919.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1237" d="M4297.5 3913.21C4298.67 3913.21 4299.62 3912.26 4299.62 3911.08C4299.62 3909.91 4298.67 3908.96 4297.5 3908.96C4296.33 3908.96 4295.38 3909.91 4295.38 3911.08C4295.38 3912.26 4296.33 3913.21 4297.5 3913.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="3910.14">Search pin 3</tspan></text>
+<text id="17.3850, 78.4867_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="3926.71">17.3850, 78.4867</tspan></text>
+<text id="0 m_3" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="3912.71">0 m</tspan></text>
+<path id="Vector_1238" d="M4282 3941H4654" stroke="#E6E8E0" />
+<path id="Vector_1239" d="M4307 3953H4287C4284.24 3953 4282 3955.24 4282 3958V3978C4282 3980.76 4284.24 3983 4287 3983H4307C4309.76 3983 4312 3980.76 4312 3978V3958C4312 3955.24 4309.76 3953 4307 3953Z" fill="#EAF0E5" />
+<g id="Frame_217">
+<path id="Vector_1240" d="M4297.93 3974.44C4299.24 3973.3 4303.17 3969.62 4303.17 3966.08C4303.17 3964.58 4302.57 3963.14 4301.51 3962.08C4300.44 3961.01 4299 3960.42 4297.5 3960.42C4296 3960.42 4294.56 3961.01 4293.49 3962.08C4292.43 3963.14 4291.83 3964.58 4291.83 3966.08C4291.83 3969.62 4295.76 3973.3 4297.07 3974.44C4297.2 3974.53 4297.35 3974.58 4297.5 3974.58C4297.65 3974.58 4297.8 3974.53 4297.93 3974.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1241" d="M4297.5 3968.21C4298.67 3968.21 4299.62 3967.26 4299.62 3966.08C4299.62 3964.91 4298.67 3963.96 4297.5 3963.96C4296.33 3963.96 4295.38 3964.91 4295.38 3966.08C4295.38 3967.26 4296.33 3968.21 4297.5 3968.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 4" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="3965.14">Search pin 4</tspan></text>
+<text id="17.3850, 78.4867_4" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="3981.71">17.3850, 78.4867</tspan></text>
+<text id="29 m" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="3967.71">29 m</tspan></text>
+<path id="Vector_1242" d="M4282 3996H4654" stroke="#E6E8E0" />
+<path id="Vector_1243" d="M4307 4008H4287C4284.24 4008 4282 4010.24 4282 4013V4033C4282 4035.76 4284.24 4038 4287 4038H4307C4309.76 4038 4312 4035.76 4312 4033V4013C4312 4010.24 4309.76 4008 4307 4008Z" fill="#EAF0E5" />
+<g id="Frame_218">
+<path id="Vector_1244" d="M4297.93 4029.44C4299.24 4028.3 4303.17 4024.62 4303.17 4021.08C4303.17 4019.58 4302.57 4018.14 4301.51 4017.08C4300.44 4016.01 4299 4015.42 4297.5 4015.42C4296 4015.42 4294.56 4016.01 4293.49 4017.08C4292.43 4018.14 4291.83 4019.58 4291.83 4021.08C4291.83 4024.62 4295.76 4028.3 4297.07 4029.44C4297.2 4029.53 4297.35 4029.58 4297.5 4029.58C4297.65 4029.58 4297.8 4029.53 4297.93 4029.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1245" d="M4297.5 4023.21C4298.67 4023.21 4299.62 4022.26 4299.62 4021.08C4299.62 4019.91 4298.67 4018.96 4297.5 4018.96C4296.33 4018.96 4295.38 4019.91 4295.38 4021.08C4295.38 4022.26 4296.33 4023.21 4297.5 4023.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 5" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="4020.14">Search pin 5</tspan></text>
+<text id="17.3850, 78.4867_5" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="4036.71">17.3850, 78.4867</tspan></text>
+<text id="51 m" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="4022.71">51 m</tspan></text>
+<path id="Vector_1246" d="M4282 4051H4654" stroke="#E6E8E0" />
+<path id="Vector_1247" d="M4307 4063H4287C4284.24 4063 4282 4065.24 4282 4068V4088C4282 4090.76 4284.24 4093 4287 4093H4307C4309.76 4093 4312 4090.76 4312 4088V4068C4312 4065.24 4309.76 4063 4307 4063Z" fill="#EAF0E5" />
+<g id="Frame_219">
+<path id="Vector_1248" d="M4297.93 4084.44C4299.24 4083.3 4303.17 4079.62 4303.17 4076.08C4303.17 4074.58 4302.57 4073.14 4301.51 4072.08C4300.44 4071.01 4299 4070.42 4297.5 4070.42C4296 4070.42 4294.56 4071.01 4293.49 4072.08C4292.43 4073.14 4291.83 4074.58 4291.83 4076.08C4291.83 4079.62 4295.76 4083.3 4297.07 4084.44C4297.2 4084.53 4297.35 4084.58 4297.5 4084.58C4297.65 4084.58 4297.8 4084.53 4297.93 4084.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1249" d="M4297.5 4078.21C4298.67 4078.21 4299.62 4077.26 4299.62 4076.08C4299.62 4074.91 4298.67 4073.96 4297.5 4073.96C4296.33 4073.96 4295.38 4074.91 4295.38 4076.08C4295.38 4077.26 4296.33 4078.21 4297.5 4078.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 6" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="4075.14">Search pin 6</tspan></text>
+<text id="17.3850, 78.4867_6" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="4091.71">17.3850, 78.4867</tspan></text>
+<text id="189 m" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="4077.71">189 m</tspan></text>
+<path id="Vector_1250" d="M4282 4106H4654" stroke="#E6E8E0" />
+<path id="Vector_1251" d="M4307 4118H4287C4284.24 4118 4282 4120.24 4282 4123V4143C4282 4145.76 4284.24 4148 4287 4148H4307C4309.76 4148 4312 4145.76 4312 4143V4123C4312 4120.24 4309.76 4118 4307 4118Z" fill="#EAF0E5" />
+<g id="Frame_220">
+<path id="Vector_1252" d="M4297.93 4139.44C4299.24 4138.3 4303.17 4134.62 4303.17 4131.08C4303.17 4129.58 4302.57 4128.14 4301.51 4127.08C4300.44 4126.01 4299 4125.42 4297.5 4125.42C4296 4125.42 4294.56 4126.01 4293.49 4127.08C4292.43 4128.14 4291.83 4129.58 4291.83 4131.08C4291.83 4134.62 4295.76 4138.3 4297.07 4139.44C4297.2 4139.53 4297.35 4139.58 4297.5 4139.58C4297.65 4139.58 4297.8 4139.53 4297.93 4139.44Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_1253" d="M4297.5 4133.21C4298.67 4133.21 4299.62 4132.26 4299.62 4131.08C4299.62 4129.91 4298.67 4128.96 4297.5 4128.96C4296.33 4128.96 4295.38 4129.91 4295.38 4131.08C4295.38 4132.26 4296.33 4133.21 4297.5 4133.21Z" stroke="#7B8176" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Search pin 7" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4323" y="4130.14">Search pin 7</tspan></text>
+<text id="17.3850, 78.4867_7" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4323" y="4146.71">17.3850, 78.4867</tspan></text>
+<text id="229 m" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="4620" y="4132.71">229 m</tspan></text>
+<path id="Vector_1254" d="M4282 4161H4654" stroke="#E6E8E0" />
+<text id="Checked 7 Oct 2026, 01:28 pm" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="4282" y="4221.14">Checked 7 Oct 2026, 01:28 pm</tspan></text>
+<text id="Map tiles need internet. Hotspots group recent local pins into approximate 0.5 km grid cells." fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3542" y="4293.85">Map tiles need internet. Hotspots group recent local pins into approximate 0.5 km grid cells.</tspan></text>
+</g>
+<g id="Group_139">
+<path id="Vector_1255" d="M3542 4475H4678" stroke="#E6E8E0" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences._12" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="3542" y="4500.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_1256" d="M4720 4530H3280V4570H4720V4530Z" fill="#EAF0E5" />
+<text id="DESIGN NOTE Â· Member 4 Â· MapView.jsx Â· schematic map; real app uses Leaflet. Filters: 15/60/120 minutes; up to 25 hotspots." fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="3302" y="4552.85">DESIGN NOTE · Member 4 · MapView.jsx · schematic map; real app uses Leaflet. Filters: 15/60/120 minutes; up to 25 hotspots.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_6_3">
+<rect width="6360" height="6160" fill="white" />
+</clipPath>
+<clipPath id="clip1_6_3">
+<rect width="570" height="237" fill="white" transform="translate(4090 374)" />
+</clipPath>
+<clipPath id="clip2_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 713)" />
+</clipPath>
+<clipPath id="clip3_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 713)" />
+</clipPath>
+<clipPath id="clip4_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 713)" />
+</clipPath>
+<clipPath id="clip5_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 713)" />
+</clipPath>
+<clipPath id="clip6_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3547 964)" />
+</clipPath>
+<clipPath id="clip7_6_3">
+<rect width="259" height="135" fill="white" transform="translate(3836 964)" />
+</clipPath>
+<clipPath id="clip8_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4125 964)" />
+</clipPath>
+<clipPath id="clip9_6_3">
+<rect width="259" height="135" fill="white" transform="translate(4414 964)" />
+</clipPath>
+<clipPath id="clip10_6_3">
+<rect width="570" height="237" fill="white" transform="translate(810 1964)" />
+</clipPath>
+<clipPath id="clip11_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2303)" />
+</clipPath>
+<clipPath id="clip12_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2303)" />
+</clipPath>
+<clipPath id="clip13_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2303)" />
+</clipPath>
+<clipPath id="clip14_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2303)" />
+</clipPath>
+<clipPath id="clip15_6_3">
+<rect width="259" height="135" fill="white" transform="translate(267 2554)" />
+</clipPath>
+<clipPath id="clip16_6_3">
+<rect width="259" height="135" fill="white" transform="translate(556 2554)" />
+</clipPath>
+<clipPath id="clip17_6_3">
+<rect width="259" height="135" fill="white" transform="translate(845 2554)" />
+</clipPath>
+<clipPath id="clip18_6_3">
+<rect width="259" height="135" fill="white" transform="translate(1134 2554)" />
+</clipPath>
+<clipPath id="clip19_6_3">
+<rect width="524" height="275" fill="white" transform="translate(458 1966)" />
+</clipPath>
+<clipPath id="clip20_6_3">
+<rect width="18" height="18" fill="white" transform="translate(1941 2617)" />
+</clipPath>
+<clipPath id="clip21_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3638)" />
+</clipPath>
+<clipPath id="clip22_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3668)" />
+</clipPath>
+<clipPath id="clip23_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3698)" />
+</clipPath>
+<clipPath id="clip24_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3728)" />
+</clipPath>
+<clipPath id="clip25_6_3">
+<rect width="12" height="12" fill="white" transform="translate(5519 3758)" />
+</clipPath>
+<clipPath id="clip26_6_3">
+<rect width="13" height="13" fill="white" transform="translate(1970.67 5178)" />
+</clipPath>
+<clipPath id="clip27_6_3">
+<rect width="150" height="118" fill="white" transform="translate(1914 5462)" />
+</clipPath>
+<clipPath id="clip28_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1724 5698)" />
+</clipPath>
+<clipPath id="clip29_6_3">
+<rect width="159" height="96" fill="white" transform="translate(1907 5698)" />
+</clipPath>
+<clipPath id="clip30_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2435.67 5178)" />
+</clipPath>
+<clipPath id="clip31_6_3">
+<rect width="13" height="13" fill="white" transform="translate(2900.67 5178)" />
+</clipPath>
+<clipPath id="clip32_6_3">
+<rect width="20" height="20" fill="white" transform="translate(2662 5526)" />
+</clipPath>
+</defs>
 </svg>

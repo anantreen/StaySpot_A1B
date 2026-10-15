@@ -1,191 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1280" viewBox="0 0 1440 1280" role="img">
-<title>StaySpot — Foundations &amp; Users</title>
-<g data-section="shell">
-<rect x="0" y="0" width="1440" height="1280" rx="0" fill="#fafafa" stroke="transparent" opacity="1.0"/>
-<text x="48" y="47.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#555555">
-<tspan x="48" dy="0">00 / FOUNDATIONS &amp; USERS · MEMBER 1</tspan>
-</text>
-<text x="48" y="113.4" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="44" font-weight="400" fill="#292929">
-<tspan x="48" dy="0">StaySpot. Thoughtful stays.</tspan>
-</text>
-<text x="48" y="158.6" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#777777">
-<tspan x="48" dy="0">Existing UI system, demo users and shared component reference.</tspan>
-</text>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1442" height="1374" viewBox="-1 17 1442 1374" fill="none"><title>00 Foundations &amp; users · Member 1</title><g id="00 Foundations &amp; users Â· Member 1">
+<text id="00 Foundations &amp; users" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" font-weight="bold" letter-spacing="0em"><tspan x="0" y="60.5">00 Foundations &amp; users</tspan></text>
+<text id="Member 1 Â· from GitHub docs/design" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="24" letter-spacing="0em"><tspan x="0" y="95.2273">Member 1 · from GitHub docs/design</tspan></text>
+<g id="Group">
+<g id="Group_2">
+<path id="Vector_2" d="M1440 110H0V1390H1440V110Z" fill="#FAFAFA" />
+<text id="00 / FOUNDATIONS &amp; USERS Â· MEMBER 1" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="48" y="156.85">00 / FOUNDATIONS &amp; USERS · MEMBER 1</tspan></text>
+<text id="StaySpot. Thoughtful stays." fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" letter-spacing="0em"><tspan x="48" y="221.9">StaySpot. Thoughtful stays.</tspan></text>
+<text id="Existing UI system, demo users and shared component reference." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="16" letter-spacing="0em"><tspan x="48" y="267.918">Existing UI system, demo users and shared component reference.</tspan></text>
 </g>
-<g data-section="guest-role">
-<rect x="48" y="206" width="648" height="195" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="72" y="247.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="72" dy="0">Guest · demo actor</tspan>
-</text>
-<text x="72" y="278.6" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#292929">
-<tspan x="72" dy="0">Browse → inspect a property → book → check in → complete.</tspan>
-</text>
-<text x="72" y="326.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="72" dy="0">Switch Ananya Rao in the header. Wallet example: ₹50,000.00.</tspan>
-<tspan x="72" dy="18.2">The current app uses a demo actor picker; it has no login page.</tspan>
-</text>
+<g id="Group_3">
+<path id="Vector_3" d="M687 316H57C52.0294 316 48 320.029 48 325V502C48 506.971 52.0294 511 57 511H687C691.971 511 696 506.971 696 502V325C696 320.029 691.971 316 687 316Z" fill="white" stroke="#CCCCCC" />
+<text id="Guest Â· demo actor" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="72" y="356.559">Guest · demo actor</tspan></text>
+<text id="Browse â inspect a property â book â check in â complete." fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="16" letter-spacing="0em"><tspan x="72" y="387.918">Browse → inspect a property → book → check in → complete.</tspan></text>
+<g id="Group_4">
+<text id="Switch Ananya Rao in the header. Wallet example: â¹50,000.00." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="72" y="435.777">Switch Ananya Rao in the header. Wallet example: ₹50,000.00.</tspan></text>
+<text id="The current app uses a demo actor picker; it has no login page." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="72" y="453.977">The current app uses a demo actor picker; it has no login page.</tspan></text>
 </g>
-<g data-section="manager-role">
-<rect x="720" y="206" width="672" height="195" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="744" y="247.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="744" dy="0">Property manager / analyst</tspan>
-</text>
-<text x="744" y="278.6" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#292929">
-<tspan x="744" dy="0">Browse guests and bookings. Inspect audit history, revenue,</tspan>
-<tspan x="744" dy="22.4">search hotspots, reviews and accessibility.</tspan>
-</text>
-<text x="744" y="341.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="744" dy="0">These are usage personas, not separate authenticated roles.</tspan>
-</text>
 </g>
-<g data-section="palette">
-<rect x="48" y="427" width="648" height="225" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="72" y="468.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="72" dy="0">Source palette</tspan>
-</text>
-<rect x="72" y="490" width="80" height="62" rx="6" fill="#555555" stroke="#cccccc" opacity="1.0"/>
-<text x="72" y="574.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="72" dy="0">Forest</tspan>
-</text>
-<text x="72" y="593.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="72" dy="0">#244c38</tspan>
-</text>
-<rect x="172" y="490" width="80" height="62" rx="6" fill="#fafafa" stroke="#cccccc" opacity="1.0"/>
-<text x="172" y="574.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="172" dy="0">Paper</tspan>
-</text>
-<text x="172" y="593.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="172" dy="0">#f7f6f2</tspan>
-</text>
-<rect x="272" y="490" width="80" height="62" rx="6" fill="#eeeeee" stroke="#cccccc" opacity="1.0"/>
-<text x="272" y="574.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="272" dy="0">Sage</tspan>
-</text>
-<text x="272" y="593.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="272" dy="0">#eaf0e5</tspan>
-</text>
-<rect x="372" y="490" width="80" height="62" rx="6" fill="#555555" stroke="#cccccc" opacity="1.0"/>
-<text x="372" y="574.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="372" dy="0">Terracotta</tspan>
-</text>
-<text x="372" y="593.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="372" dy="0">#c76a42</tspan>
-</text>
-<rect x="472" y="490" width="80" height="62" rx="6" fill="#292929" stroke="#cccccc" opacity="1.0"/>
-<text x="472" y="574.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="472" dy="0">Ink</tspan>
-</text>
-<text x="472" y="593.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="472" dy="0">#283229</tspan>
-</text>
-<rect x="572" y="490" width="80" height="62" rx="6" fill="#999999" stroke="#cccccc" opacity="1.0"/>
-<text x="572" y="574.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="572" dy="0">Gold</tspan>
-</text>
-<text x="572" y="593.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="572" dy="0">#c5a771</tspan>
-</text>
+<g id="Group_5">
+<path id="Vector_4" d="M1383 316H729C724.029 316 720 320.029 720 325V502C720 506.971 724.029 511 729 511H1383C1387.97 511 1392 506.971 1392 502V325C1392 320.029 1387.97 316 1383 316Z" fill="white" stroke="#CCCCCC" />
+<text id="Property manager / analyst" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="744" y="356.559">Property manager / analyst</tspan></text>
+<g id="Group_6">
+<text id="Browse guests and bookings. Inspect audit history, revenue," fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="16" letter-spacing="0em"><tspan x="744" y="387.918">Browse guests and bookings. Inspect audit history, revenue,</tspan></text>
+<text id="search hotspots, reviews and accessibility." fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="16" letter-spacing="0em"><tspan x="744" y="410.318">search hotspots, reviews and accessibility.</tspan></text>
 </g>
-<g data-section="typography">
-<rect x="720" y="427" width="672" height="225" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="744" y="468.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="744" dy="0">Typography &amp; layout</tspan>
-</text>
-<text x="744" y="510.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="30" font-weight="400" fill="#292929">
-<tspan x="744" dy="0">A place for every possibility.</tspan>
-</text>
-<text x="744" y="550.9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#292929">
-<tspan x="744" dy="0">Georgia display · system sans / Inter body</tspan>
-</text>
-<text x="744" y="585.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="744" dy="0">1440 desktop · 220 rail · 88 header · 42 main inset</tspan>
-<tspan x="744" dy="18.2">9 px cards · 6 px controls · 39 px screen title</tspan>
-</text>
+<text id="These are usage personas, not separate authenticated roles." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="744" y="450.777">These are usage personas, not separate authenticated roles.</tspan></text>
 </g>
-<g data-section="shared-controls">
-<rect x="48" y="680" width="1344" height="205" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="72" y="721.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="72" dy="0">Shared controls &amp; states</tspan>
-</text>
-<rect x="72" y="744" width="185" height="40" rx="6" fill="#555555" stroke="#555555" opacity="1.0"/>
-<text x="88" y="766.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">
-<tspan x="88" dy="0">Confirm booking</tspan>
-</text>
-<svg x="227" y="755" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-<rect x="275" y="744" width="140" height="40" rx="6" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="291" y="766.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#555555">
-<tspan x="291" dy="0">Refresh totals</tspan>
-</text>
-<svg x="385" y="755" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#555555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>
-<text x="440" y="728.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="440" dy="0">Picker / search</tspan>
-</text>
-<rect x="440" y="740" width="260" height="38" rx="6" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="452" y="762.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="452" dy="0">Search properties…</tspan>
-</text>
-<rect x="732" y="744" width="140" height="40" rx="9" fill="#eeeeee" stroke="#cccccc" opacity="1.0"/>
-<text x="749" y="767.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#555555">
-<tspan x="749" dy="0">Checked in</tspan>
-</text>
-<text x="906" y="761.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="906" dy="0">Loading…    /    No results</tspan>
-<tspan x="906" dy="18.2">Error message + Retry</tspan>
-</text>
-<text x="72" y="831.9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#292929">
-<tspan x="72" dy="0">Modal · cursor pager · alert · table · HouseArt · heading · pill · accessible focus</tspan>
-</text>
+<g id="Group_7">
+<path id="Vector_5" d="M687 537H57C52.0294 537 48 541.029 48 546V753C48 757.971 52.0294 762 57 762H687C691.971 762 696 757.971 696 753V546C696 541.029 691.971 537 687 537Z" fill="white" stroke="#CCCCCC" />
+<text id="Source palette" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="72" y="577.559">Source palette</tspan></text>
+<path id="Vector_6" d="M146 600H78C74.6863 600 72 602.686 72 606V656C72 659.314 74.6863 662 78 662H146C149.314 662 152 659.314 152 656V606C152 602.686 149.314 600 146 600Z" fill="#555555" stroke="#CCCCCC" />
+<text id="Forest" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="72" y="683.85">Forest</tspan></text>
+<text id="#244c38" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="72" y="703.136">#244c38</tspan></text>
+<path id="Vector_7" d="M246 600H178C174.686 600 172 602.686 172 606V656C172 659.314 174.686 662 178 662H246C249.314 662 252 659.314 252 656V606C252 602.686 249.314 600 246 600Z" fill="#FAFAFA" stroke="#CCCCCC" />
+<text id="Paper" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="172" y="683.85">Paper</tspan></text>
+<text id="#f7f6f2" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="172" y="703.136">#f7f6f2</tspan></text>
+<path id="Vector_8" d="M346 600H278C274.686 600 272 602.686 272 606V656C272 659.314 274.686 662 278 662H346C349.314 662 352 659.314 352 656V606C352 602.686 349.314 600 346 600Z" fill="#EEEEEE" stroke="#CCCCCC" />
+<text id="Sage" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="272" y="683.85">Sage</tspan></text>
+<text id="#eaf0e5" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="272" y="703.136">#eaf0e5</tspan></text>
+<path id="Vector_9" d="M446 600H378C374.686 600 372 602.686 372 606V656C372 659.314 374.686 662 378 662H446C449.314 662 452 659.314 452 656V606C452 602.686 449.314 600 446 600Z" fill="#555555" stroke="#CCCCCC" />
+<text id="Terracotta" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="372" y="683.85">Terracotta</tspan></text>
+<text id="#c76a42" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="372" y="703.136">#c76a42</tspan></text>
+<path id="Vector_10" d="M546 600H478C474.686 600 472 602.686 472 606V656C472 659.314 474.686 662 478 662H546C549.314 662 552 659.314 552 656V606C552 602.686 549.314 600 546 600Z" fill="#292929" stroke="#CCCCCC" />
+<text id="Ink" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="472" y="683.85">Ink</tspan></text>
+<text id="#283229" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="472" y="703.136">#283229</tspan></text>
+<path id="Vector_11" d="M646 600H578C574.686 600 572 602.686 572 606V656C572 659.314 574.686 662 578 662H646C649.314 662 652 659.314 652 656V606C652 602.686 649.314 600 646 600Z" fill="#999999" stroke="#CCCCCC" />
+<text id="Gold" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="572" y="683.85">Gold</tspan></text>
+<text id="#c5a771" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="572" y="703.136">#c5a771</tspan></text>
 </g>
-<g data-section="ownership">
-<rect x="48" y="913" width="1344" height="268" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="72" y="954.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="72" dy="0">Four-member ownership</tspan>
-</text>
-<text x="72" y="993.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#555555">
-<tspan x="72" dy="0">Member 1</tspan>
-</text>
-<text x="214" y="993.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#292929">
-<tspan x="214" dy="0">00 Foundations · 01 Browse · 02 Details</tspan>
-</text>
-<text x="810" y="993.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="810" dy="0">Shared React + PostgreSQL schema</tspan>
-</text>
-<text x="72" y="1036.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#555555">
-<tspan x="72" dy="0">Member 2</tspan>
-</text>
-<text x="214" y="1036.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#292929">
-<tspan x="214" dy="0">03 Booking · 04 Status · 05 Audit</tspan>
-</text>
-<text x="810" y="1036.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="810" dy="0">Procedure + index + wallet trigger</tspan>
-</text>
-<text x="72" y="1079.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#555555">
-<tspan x="72" dy="0">Member 3</tspan>
-</text>
-<text x="214" y="1079.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#292929">
-<tspan x="214" dy="0">06 Analytics</tspan>
-</text>
-<text x="810" y="1079.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="810" dy="0">Window functions + materialized totals</tspan>
-</text>
-<text x="72" y="1122.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#555555">
-<tspan x="72" dy="0">Member 4</tspan>
-</text>
-<text x="214" y="1122.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#292929">
-<tspan x="214" dy="0">07 Map · 08 Reviews &amp; Amenities</tspan>
-</text>
-<text x="810" y="1122.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="810" dy="0">MongoDB aggregation pipelines</tspan>
-</text>
+<g id="Group_8">
+<path id="Vector_12" d="M1383 537H729C724.029 537 720 541.029 720 546V753C720 757.971 724.029 762 729 762H1383C1387.97 762 1392 757.971 1392 753V546C1392 541.029 1387.97 537 1383 537Z" fill="white" stroke="#CCCCCC" />
+<text id="Typography &amp; layout" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="744" y="577.559">Typography &amp; layout</tspan></text>
+<text id="A place for every possibility." fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="744" y="619.409">A place for every possibility.</tspan></text>
+<text id="Georgia display Â· system sans / Inter body" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="744" y="660.491">Georgia display · system sans / Inter body</tspan></text>
+<g id="Group_9">
+<text id="1440 desktop Â· 220 rail Â· 88 header Â· 42 main inset" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="744" y="694.777">1440 desktop · 220 rail · 88 header · 42 main inset</tspan></text>
+<text id="9 px cards Â· 6 px controls Â· 39 px screen title" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="744" y="712.977">9 px cards · 6 px controls · 39 px screen title</tspan></text>
 </g>
-<g data-section="assignment-notes">
-<polyline points="262,1185 1398,1185" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="262" y="1210.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="262" dy="0">StaySpot · Thoughtful stays, meaningful experiences.</tspan>
-</text>
-<rect x="0" y="1240" width="1440" height="40" rx="0" fill="#eeeeee" stroke="transparent" opacity="1.0"/>
-<text x="22" y="1263.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#555555">
-<tspan x="22" dy="0">DESIGN NOTE · Documentation page; exact palette comes from web/src/style.css. No product behavior added.</tspan>
-</text>
 </g>
+<g id="Group_10">
+<path id="Vector_13" d="M1383 790H57C52.0294 790 48 794.029 48 799V986C48 990.971 52.0294 995 57 995H1383C1387.97 995 1392 990.971 1392 986V799C1392 794.029 1387.97 790 1383 790Z" fill="white" stroke="#CCCCCC" />
+<text id="Shared controls &amp; states" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="72" y="830.559">Shared controls &amp; states</tspan></text>
+<path id="Vector_14" d="M251 854H78C74.6863 854 72 856.686 72 860V888C72 891.314 74.6863 894 78 894H251C254.314 894 257 891.314 257 888V860C257 856.686 254.314 854 251 854Z" fill="#555555" stroke="#555555" />
+<text id="Confirm booking" fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="88" y="875.85">Confirm booking</tspan></text>
+<g id="Frame">
+<path id="Vector_15" d="M230.542 873.5H240.458" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_16" d="M235.5 868.542L240.458 873.5L235.5 878.458" stroke="white" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path id="Vector_17" d="M409 854H281C277.686 854 275 856.686 275 860V888C275 891.314 277.686 894 281 894H409C412.314 894 415 891.314 415 888V860C415 856.686 412.314 854 409 854Z" fill="white" stroke="#CCCCCC" />
+<text id="Refresh totals" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="291" y="875.85">Refresh totals</tspan></text>
+<g id="Frame_2">
+<path id="Vector_18" d="M387.125 873.5C387.125 871.809 387.797 870.188 388.992 868.992C390.188 867.797 391.809 867.125 393.5 867.125C395.282 867.132 396.993 867.827 398.274 869.066L399.875 870.667" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_19" d="M399.875 867.125V870.667H396.333" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_20" d="M399.875 873.5C399.875 875.191 399.203 876.812 398.008 878.008C396.812 879.203 395.191 879.875 393.5 879.875C391.718 879.868 390.007 879.173 388.726 877.934L387.125 876.333" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_21" d="M390.667 876.333H387.125V879.875" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Picker / search" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="440" y="838.136">Picker / search</tspan></text>
+<path id="Vector_22" d="M694 850H446C442.686 850 440 852.686 440 856V882C440 885.314 442.686 888 446 888H694C697.314 888 700 885.314 700 882V856C700 852.686 697.314 850 694 850Z" fill="white" stroke="#CCCCCC" />
+<text id="Search propertiesâ¦" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="452" y="871.85">Search properties…</tspan></text>
+<path id="Vector_23" d="M863 854H741C736.029 854 732 858.029 732 863V885C732 889.971 736.029 894 741 894H863C867.971 894 872 889.971 872 885V863C872 858.029 867.971 854 863 854Z" fill="#EEEEEE" stroke="#CCCCCC" />
+<text id="Checked in" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="749" y="876.85">Checked in</tspan></text>
+<g id="Group_11">
+<text id="Loadingâ¦ / No results" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="906" y="870.777">Loading… / No results</tspan></text>
+<text id="Error message + Retry" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="906" y="888.977">Error message + Retry</tspan></text>
+</g>
+<text id="Modal Â· cursor pager Â· alert Â· table Â· HouseArt Â· heading Â· pill Â· accessible focus" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="72" y="941.491">Modal · cursor pager · alert · table · HouseArt · heading · pill · accessible focus</tspan></text>
+</g>
+<g id="Group_12">
+<path id="Vector_24" d="M1383 1023H57C52.0294 1023 48 1027.03 48 1032V1282C48 1286.97 52.0294 1291 57 1291H1383C1387.97 1291 1392 1286.97 1392 1282V1032C1392 1027.03 1387.97 1023 1383 1023Z" fill="white" stroke="#CCCCCC" />
+<text id="Four-member ownership" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="72" y="1063.56">Four-member ownership</tspan></text>
+<text id="Member 1" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="72" y="1102.78">Member 1</tspan></text>
+<text id="00 Foundations Â· 01 Browse Â· 02 Details" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="214" y="1102.78">00 Foundations · 01 Browse · 02 Details</tspan></text>
+<text id="Shared React + PostgreSQL schema" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="810" y="1102.78">Shared React + PostgreSQL schema</tspan></text>
+<text id="Member 2" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="72" y="1145.78">Member 2</tspan></text>
+<text id="03 Booking Â· 04 Status Â· 05 Audit" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="214" y="1145.78">03 Booking · 04 Status · 05 Audit</tspan></text>
+<text id="Procedure + index + wallet trigger" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="810" y="1145.78">Procedure + index + wallet trigger</tspan></text>
+<text id="Member 3" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="72" y="1188.78">Member 3</tspan></text>
+<text id="06 Analytics" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="214" y="1188.78">06 Analytics</tspan></text>
+<text id="Window functions + materialized totals" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="810" y="1188.78">Window functions + materialized totals</tspan></text>
+<text id="Member 4" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="72" y="1231.78">Member 4</tspan></text>
+<text id="07 Map Â· 08 Reviews &amp; Amenities" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="214" y="1231.78">07 Map · 08 Reviews &amp; Amenities</tspan></text>
+<text id="MongoDB aggregation pipelines" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="810" y="1231.78">MongoDB aggregation pipelines</tspan></text>
+</g>
+<g id="Group_13">
+<path id="Vector_25" d="M262 1295H1398" stroke="#CCCCCC" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="262" y="1320.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_26" d="M1440 1350H0V1390H1440V1350Z" fill="#EEEEEE" />
+<text id="DESIGN NOTE Â· Documentation page; exact palette comes from web/src/style.css. No product behavior added." fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="22" y="1372.85">DESIGN NOTE · Documentation page; exact palette comes from web/src/style.css. No product behavior added.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_7_3218">
+<rect width="6360" height="6160" fill="white" />
+</clipPath>
+<clipPath id="clip1_7_3218">
+<rect width="18" height="18" fill="white" transform="translate(1941 2617)" />
+</clipPath>
+<clipPath id="clip2_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3638)" />
+</clipPath>
+<clipPath id="clip3_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3668)" />
+</clipPath>
+<clipPath id="clip4_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3698)" />
+</clipPath>
+<clipPath id="clip5_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3728)" />
+</clipPath>
+<clipPath id="clip6_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3758)" />
+</clipPath>
+<clipPath id="clip7_7_3218">
+<rect width="13" height="13" fill="white" transform="translate(1970.67 5178)" />
+</clipPath>
+<clipPath id="clip8_7_3218">
+<rect width="13" height="13" fill="white" transform="translate(2435.67 5178)" />
+</clipPath>
+<clipPath id="clip9_7_3218">
+<rect width="13" height="13" fill="white" transform="translate(2900.67 5178)" />
+</clipPath>
+<clipPath id="clip10_7_3218">
+<rect width="20" height="20" fill="white" transform="translate(2662 5526)" />
+</clipPath>
+</defs>
 </svg>

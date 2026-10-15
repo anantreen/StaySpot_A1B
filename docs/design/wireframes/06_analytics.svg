@@ -1,344 +1,270 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1280" viewBox="0 0 1440 1280" role="img">
-<title>StaySpot — Analytics</title>
-<g data-section="shell">
-<rect x="0" y="0" width="1440" height="1280" rx="0" fill="#fafafa" stroke="transparent" opacity="1.0"/>
-<rect x="0" y="0" width="220" height="1190" rx="0" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<rect x="22" y="34" width="37" height="37" rx="10" fill="#555555" stroke="transparent" opacity="1.0"/>
-<svg x="28" y="40" width="25" height="25" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
-<text x="68" y="64.1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#555555">
-<tspan x="68" dy="0">StaySpot</tspan>
-</text>
-<text x="181" y="64.1" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#555555">
-<tspan x="181" dy="0">.</tspan>
-</text>
-<text x="34" y="130.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="34" dy="0">YOUR WORKSPACE</tspan>
-</text>
-<svg x="36" y="164" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
-<text x="69" y="177.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="69" dy="0">Browse</tspan>
-</text>
-<svg x="36" y="217" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-plus"><path d="M8 2v4"></path><path d="M16 2v4"></path><path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path><path d="M3 10h18"></path><path d="M16 19h6"></path><path d="M19 16v6"></path></svg>
-<text x="69" y="230.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="69" dy="0">Book a stay</tspan>
-</text>
-<svg x="36" y="270" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt-text"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8"></path><path d="M16 12H8"></path><path d="M13 16H8"></path></svg>
-<text x="69" y="283.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="69" dy="0">Audit trail</tspan>
-</text>
-<rect x="22" y="309" width="176" height="47" rx="7" fill="#eeeeee" stroke="transparent" opacity="1.0"/>
-<ellipse cx="180.5" cy="332.5" rx="2.5" ry="2.5" fill="#555555" stroke="transparent" opacity="1.0"/>
-<svg x="36" y="323" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#555555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined"><path d="M12 16v5"></path><path d="M16 14v7"></path><path d="M20 10v11"></path><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"></path><path d="M4 18v3"></path><path d="M8 14v7"></path></svg>
-<text x="69" y="336.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#555555">
-<tspan x="69" dy="0">Analytics</tspan>
-</text>
-<svg x="36" y="376" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<text x="69" y="389.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="69" dy="0">Search map</tspan>
-</text>
-<svg x="36" y="429" width="19" height="19" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
-<text x="69" y="442.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="69" dy="0">Reviews</tspan>
-</text>
-<svg x="34" y="534" width="32" height="32" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
-<text x="34" y="604.85" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" fill="#555555">
-<tspan x="34" dy="0">A little closer</tspan>
-<tspan x="34" dy="29.4">to feeling at</tspan>
-<tspan x="34" dy="29.4">home.</tspan>
-</text>
-<text x="34" y="701.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#777777">
-<tspan x="34" dy="0">VACATION RENTALS &amp;</tspan>
-<tspan x="34" dy="11.2">EXPERIENCES</tspan>
-</text>
-<polyline points="32,755 188,755" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="32" y="780.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="32" dy="0">Project 03           SSD · 2026</tspan>
-</text>
-<rect x="220" y="0" width="1220" height="88" rx="0" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="262" y="48.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#777777">
-<tspan x="262" dy="0">Workspace    /</tspan>
-</text>
-<text x="349" y="48.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="349" dy="0">Analytics</tspan>
-</text>
-<ellipse cx="1099.0" cy="44.0" rx="3.0" ry="3.0" fill="#555555" stroke="transparent" opacity="1.0"/>
-<text x="1108" y="47.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="1108" dy="0">Live databases</tspan>
-</text>
-<ellipse cx="1231.5" cy="43.5" rx="16.5" ry="16.5" fill="#eeeeee" stroke="transparent" opacity="1.0"/>
-<text x="1223" y="46.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#555555">
-<tspan x="1223" dy="0">AR</tspan>
-</text>
-<text x="1258" y="40.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#292929">
-<tspan x="1258" dy="0">Ananya Rao</tspan>
-</text>
-<text x="1258" y="57.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="1258" dy="0">₹44,911.00 in wallet</tspan>
-</text>
-<svg x="1381" y="37" width="15" height="15" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg>
-<text x="262" y="133.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="262" dy="0">A LITTLE PERSPECTIVE</tspan>
-</text>
-<text x="262" y="184.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="39" font-weight="400" fill="#292929">
-<tspan x="262" dy="0">Good places. Growing stories.</tspan>
-</text>
-<text x="262" y="224.05" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#777777">
-<tspan x="262" dy="0">See where your stays are taking you, one seven-day average at a time.</tspan>
-</text>
-<rect x="1258" y="188" width="140" height="40" rx="6" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="1274" y="210.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#555555">
-<tspan x="1274" dy="0">Refresh totals</tspan>
-</text>
-<svg x="1368" y="199" width="17" height="17" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#555555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1442" height="1374" viewBox="1639 3197 1442 1374" fill="none"><title>06 Analytics · Member 3</title><g id="06 Analytics Â· Member 3">
+<text id="06 Analytics_3" fill="#244C38" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="44" font-weight="bold" letter-spacing="0em"><tspan x="1640" y="3240.5">06 Analytics</tspan></text>
+<text id="Member 3 Â· from GitHub docs/design" fill="#7B8176" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="24" letter-spacing="0em"><tspan x="1640" y="3275.23">Member 3 · from GitHub docs/design</tspan></text>
+<g id="Group_120">
+<g id="Group_121">
+<path id="Vector_753" d="M3080 3290H1640V4570H3080V3290Z" fill="#FAFAFA" />
+<path id="Vector_754" d="M1860 3290H1640V4480H1860V3290Z" fill="white" stroke="#CCCCCC" />
+<path id="Vector_755" d="M1689 3324H1672C1666.48 3324 1662 3328.48 1662 3334V3351C1662 3356.52 1666.48 3361 1672 3361H1689C1694.52 3361 1699 3356.52 1699 3351V3334C1699 3328.48 1694.52 3324 1689 3324Z" fill="#555555" />
+<g id="Frame_169">
+<path id="Vector_756" d="M1683.62 3351.87V3343.54C1683.62 3343.27 1683.52 3343 1683.32 3342.81C1683.12 3342.61 1682.86 3342.5 1682.58 3342.5H1678.42C1678.14 3342.5 1677.88 3342.61 1677.68 3342.81C1677.48 3343 1677.38 3343.27 1677.38 3343.54V3351.87" stroke="white" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_757" d="M1671.13 3340.42C1671.12 3340.11 1671.19 3339.81 1671.32 3339.54C1671.45 3339.26 1671.63 3339.02 1671.86 3338.82L1679.16 3332.58C1679.53 3332.26 1680.01 3332.08 1680.5 3332.08C1680.99 3332.08 1681.47 3332.26 1681.84 3332.58L1689.14 3338.82C1689.37 3339.02 1689.55 3339.26 1689.68 3339.54C1689.81 3339.81 1689.88 3340.11 1689.87 3340.42V3349.79C1689.87 3350.34 1689.66 3350.87 1689.26 3351.26C1688.87 3351.66 1688.34 3351.87 1687.79 3351.87H1673.21C1672.66 3351.87 1672.13 3351.66 1671.74 3351.26C1671.34 3350.87 1671.13 3350.34 1671.13 3349.79V3340.42Z" stroke="white" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="metric-0">
-<rect x="262" y="258" width="269" height="142" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<svg x="280" y="282" width="18" height="18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined"><path d="M12 16v5"></path><path d="M16 14v7"></path><path d="M20 10v11"></path><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"></path><path d="M4 18v3"></path><path d="M8 14v7"></path></svg>
-<text x="307" y="294.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="307" dy="0">Gross booked revenue</tspan>
-</text>
-<text x="280" y="343.7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#555555">
-<tspan x="280" dy="0">₹67,98,00,241.00</tspan>
-</text>
-<text x="280" y="378.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#777777">
-<tspan x="280" dy="0">Lifetime materialized totals</tspan>
-</text>
+<text id="StaySpot_8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1708" y="3353.05">StaySpot</tspan></text>
+<text id="._8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1821" y="3353.05">.</tspan></text>
+<text id="YOUR WORKSPACE_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="1674" y="3420.42">YOUR WORKSPACE</tspan></text>
+<g id="Frame_170">
+<path id="Vector_758" d="M1683.12 3456.38H1679.17C1678.73 3456.38 1678.38 3456.73 1678.38 3457.17V3461.12C1678.38 3461.56 1678.73 3461.92 1679.17 3461.92H1683.12C1683.56 3461.92 1683.92 3461.56 1683.92 3461.12V3457.17C1683.92 3456.73 1683.56 3456.38 1683.12 3456.38Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_759" d="M1691.83 3456.38H1687.88C1687.44 3456.38 1687.08 3456.73 1687.08 3457.17V3461.12C1687.08 3461.56 1687.44 3461.92 1687.88 3461.92H1691.83C1692.27 3461.92 1692.63 3461.56 1692.63 3461.12V3457.17C1692.63 3456.73 1692.27 3456.38 1691.83 3456.38Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_760" d="M1691.83 3465.08H1687.88C1687.44 3465.08 1687.08 3465.44 1687.08 3465.87V3469.83C1687.08 3470.27 1687.44 3470.62 1687.88 3470.62H1691.83C1692.27 3470.62 1692.63 3470.27 1692.63 3469.83V3465.87C1692.63 3465.44 1692.27 3465.08 1691.83 3465.08Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_761" d="M1683.12 3465.08H1679.17C1678.73 3465.08 1678.38 3465.44 1678.38 3465.87V3469.83C1678.38 3470.27 1678.73 3470.62 1679.17 3470.62H1683.12C1683.56 3470.62 1683.92 3470.27 1683.92 3469.83V3465.87C1683.92 3465.44 1683.56 3465.08 1683.12 3465.08Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="metric-1">
-<rect x="551" y="258" width="269" height="142" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<svg x="569" y="282" width="18" height="18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-plus"><path d="M8 2v4"></path><path d="M16 2v4"></path><path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path><path d="M3 10h18"></path><path d="M16 19h6"></path><path d="M19 16v6"></path></svg>
-<text x="596" y="294.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="596" dy="0">Nights booked</tspan>
-</text>
-<text x="569" y="343.7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#555555">
-<tspan x="569" dy="0">1,99,802</tspan>
-</text>
-<text x="569" y="378.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#777777">
-<tspan x="569" dy="0">Lifetime materialized totals</tspan>
-</text>
+<text id="Browse_12" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="1709" y="3466.78">Browse</tspan></text>
+<g id="Frame_171">
+<path id="Vector_762" d="M1682.33 3508.58V3511.75" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_763" d="M1688.67 3508.58V3511.75" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_764" d="M1692.63 3517.29V3511.75C1692.63 3511.33 1692.46 3510.93 1692.16 3510.63C1691.86 3510.33 1691.46 3510.17 1691.04 3510.17H1679.96C1679.54 3510.17 1679.14 3510.33 1678.84 3510.63C1678.54 3510.93 1678.38 3511.33 1678.38 3511.75V3522.83C1678.38 3523.25 1678.54 3523.66 1678.84 3523.95C1679.14 3524.25 1679.54 3524.42 1679.96 3524.42H1686.29" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_765" d="M1678.38 3514.92H1692.63" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_766" d="M1688.67 3522.04H1693.42" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_767" d="M1691.04 3519.67V3524.42" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="metric-2">
-<rect x="840" y="258" width="269" height="142" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<svg x="858" y="282" width="18" height="18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
-<text x="885" y="294.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="885" dy="0">Total bookings</tspan>
-</text>
-<text x="858" y="343.7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#555555">
-<tspan x="858" dy="0">50,013</tspan>
-</text>
-<text x="858" y="378.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#777777">
-<tspan x="858" dy="0">Lifetime materialized totals</tspan>
-</text>
+<text id="Book a stay_13" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="1709" y="3519.78">Book a stay</tspan></text>
+<g id="Frame_172">
+<path id="Vector_768" d="M1679.17 3561.58V3577.42L1680.75 3576.62L1682.33 3577.42L1683.92 3576.62L1685.5 3577.42L1687.08 3576.62L1688.67 3577.42L1690.25 3576.62L1691.83 3577.42V3561.58L1690.25 3562.37L1688.67 3561.58L1687.08 3562.37L1685.5 3561.58L1683.92 3562.37L1682.33 3561.58L1680.75 3562.37L1679.17 3561.58Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_769" d="M1687.08 3566.33H1682.33" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_770" d="M1688.67 3569.5H1682.33" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_771" d="M1686.29 3572.67H1682.33" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="metric-3">
-<rect x="1129" y="258" width="269" height="142" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<svg x="1147" y="282" width="18" height="18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
-<text x="1174" y="294.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="1174" dy="0">Properties</tspan>
-</text>
-<text x="1147" y="343.7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#555555">
-<tspan x="1147" dy="0">2,000</tspan>
-</text>
-<text x="1147" y="378.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#777777">
-<tspan x="1147" dy="0">Lifetime materialized totals</tspan>
-</text>
-<text x="1160" y="424.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="1160" dy="0">Last refreshed 7 Oct 2026, 01:27 pm</tspan>
-</text>
+<text id="Audit trail_9" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="1709" y="3572.78">Audit trail</tspan></text>
+<path id="Vector_772" d="M1831 3599H1669C1665.13 3599 1662 3602.13 1662 3606V3639C1662 3642.87 1665.13 3646 1669 3646H1831C1834.87 3646 1838 3642.87 1838 3639V3606C1838 3602.13 1834.87 3599 1831 3599Z" fill="#EEEEEE" />
+<path id="Vector_773" d="M1820.5 3625C1821.88 3625 1823 3623.88 1823 3622.5C1823 3621.12 1821.88 3620 1820.5 3620C1819.12 3620 1818 3621.12 1818 3622.5C1818 3623.88 1819.12 3625 1820.5 3625Z" fill="#555555" />
+<g id="Frame_173">
+<path id="Vector_774" d="M1685.5 3625.67V3629.63" stroke="#555555" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_775" d="M1688.67 3624.08V3629.62" stroke="#555555" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_776" d="M1691.83 3620.92V3629.63" stroke="#555555" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_777" d="M1693.42 3615.38L1686.57 3622.22C1686.54 3622.26 1686.49 3622.29 1686.44 3622.31C1686.4 3622.33 1686.34 3622.34 1686.29 3622.34C1686.24 3622.34 1686.19 3622.33 1686.14 3622.31C1686.09 3622.29 1686.05 3622.26 1686.01 3622.22L1683.41 3619.61C1683.33 3619.54 1683.23 3619.5 1683.13 3619.5C1683.02 3619.5 1682.92 3619.54 1682.85 3619.61L1677.58 3624.88" stroke="#555555" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_778" d="M1679.17 3627.25V3629.63" stroke="#555555" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_779" d="M1682.33 3624.08V3629.62" stroke="#555555" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="revenue-chart">
-<rect x="262" y="454" width="1136" height="388" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="286" y="495.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="286" dy="0">Revenue, with room to grow</tspan>
-</text>
-<text x="286" y="519.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#777777">
-<tspan x="286" dy="0">Seven-day moving average · top 4 displayed properties · UTC</tspan>
-</text>
-<text x="1074" y="482.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="1074" dy="0">From</tspan>
-</text>
-<rect x="1074" y="494" width="145" height="38" rx="6" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="1086" y="516.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1086" dy="0">08/09/2026</tspan>
-</text>
-<text x="1231" y="482.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="1231" dy="0">To</tspan>
-</text>
-<rect x="1231" y="494" width="143" height="38" rx="6" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="1243" y="516.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1243" dy="0">07/10/2026</tspan>
-</text>
-<text x="298" y="569.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="298" dy="0">₹9k</tspan>
-</text>
-<polyline points="338,567 1355,567" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="5 6"/>
-<text x="298" y="616.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="298" dy="0">₹7k</tspan>
-</text>
-<polyline points="338,614 1355,614" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="5 6"/>
-<text x="298" y="663.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="298" dy="0">₹5k</tspan>
-</text>
-<polyline points="338,661 1355,661" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="5 6"/>
-<text x="298" y="710.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="298" dy="0">₹2k</tspan>
-</text>
-<polyline points="338,708 1355,708" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="5 6"/>
-<text x="298" y="757.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="298" dy="0">₹0k</tspan>
-</text>
-<polyline points="338,755 1355,755" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="5 6"/>
-<polyline points="338.0,671.4444444444445 405.8,671.4444444444445 473.6,567.0 541.4,567.0 609.2,640.1111111111111 677.0,640.1111111111111 744.8,755.0 812.5999999999999,755.0 880.4,755.0 948.1999999999999,755.0 1016.0,755.0 1083.8,755.0 1151.6,755.0 1219.4,755.0 1287.1999999999998,755.0 1355.0,755.0" fill="none" stroke="#555555" stroke-width="3"/>
-<polyline points="338.0,675.6222222222223 405.8,675.6222222222223 473.6,755.0 541.4,755.0 609.2,755.0 677.0,755.0 744.8,755.0 812.5999999999999,713.2222222222222 880.4,713.2222222222222 948.1999999999999,713.2222222222222 1016.0,587.8888888888889 1083.8,587.8888888888889 1151.6,629.6666666666666 1219.4,571.1777777777777 1287.1999999999998,692.3333333333334 1355.0,692.3333333333334" fill="none" stroke="#555555" stroke-width="3"/>
-<polyline points="338.0,755.0 405.8,755.0 473.6,755.0 541.4,755.0 609.2,755.0 677.0,755.0 744.8,755.0 812.5999999999999,755.0 880.4,755.0 948.1999999999999,713.2222222222222 1016.0,713.2222222222222 1083.8,629.6666666666666 1151.6,671.4444444444445 1219.4,671.4444444444445 1287.1999999999998,592.0666666666666 1355.0,658.9111111111112" fill="none" stroke="#777777" stroke-width="3"/>
-<polyline points="338.0,755.0 405.8,755.0 473.6,675.6222222222223 541.4,675.6222222222223 609.2,675.6222222222223 677.0,663.0888888888888 744.8,713.2222222222222 812.5999999999999,713.2222222222222 880.4,713.2222222222222 948.1999999999999,725.7555555555556 1016.0,755.0 1083.8,755.0 1151.6,755.0 1219.4,755.0 1287.1999999999998,644.2888888888889 1355.0,644.2888888888889" fill="none" stroke="#999999" stroke-width="3"/>
-<text x="338" y="790.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="338" dy="0">8 Sept</tspan>
-</text>
-<text x="586" y="790.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="586" dy="0">15 Sept</tspan>
-</text>
-<text x="834" y="790.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="834" dy="0">22 Sept</tspan>
-</text>
-<text x="1082" y="790.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="1082" dy="0">29 Sept</tspan>
-</text>
-<text x="1330" y="790.5" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#777777">
-<tspan x="1330" dy="0">7 Oct</tspan>
-</text>
-<text x="286" y="825.8" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="8" font-weight="400" fill="#777777">
-<tspan x="286" dy="0">● Hyderabad Skyline Loft 1931    ● Chennai Garden Studio 555    ● Hyderabad Courtyard House 1026    ● Hyderabad Garden Studio 836</tspan>
-</text>
+<text id="Analytics_8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="1709" y="3625.78">Analytics</tspan></text>
+<g id="Frame_174">
+<path id="Vector_780" d="M1685.98 3683.26C1687.45 3681.99 1691.83 3677.87 1691.83 3673.92C1691.83 3672.24 1691.17 3670.63 1689.98 3669.44C1688.79 3668.25 1687.18 3667.58 1685.5 3667.58C1683.82 3667.58 1682.21 3668.25 1681.02 3669.44C1679.83 3670.63 1679.17 3672.24 1679.17 3673.92C1679.17 3677.87 1683.55 3681.99 1685.02 3683.26C1685.16 3683.36 1685.33 3683.42 1685.5 3683.42C1685.67 3683.42 1685.84 3683.36 1685.98 3683.26Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_781" d="M1685.5 3676.29C1686.81 3676.29 1687.88 3675.23 1687.88 3673.92C1687.88 3672.61 1686.81 3671.54 1685.5 3671.54C1684.19 3671.54 1683.12 3672.61 1683.12 3673.92C1683.12 3675.23 1684.19 3676.29 1685.5 3676.29Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="daily-rank-table">
-<rect x="262" y="866" width="1136" height="310" rx="9" fill="#ffffff" stroke="#cccccc" opacity="1.0"/>
-<text x="286" y="907.15" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#292929">
-<tspan x="286" dy="0">Places on the rise</tspan>
-</text>
-<text x="286" y="929.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#777777">
-<tspan x="286" dy="0">Top 12 properties by lifetime revenue; equal daily seven-day averages share a dense rank.</tspan>
-</text>
-<text x="286" y="965.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="286" dy="0">RANK</tspan>
-</text>
-<text x="390" y="965.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="390" dy="0">PROPERTY</tspan>
-</text>
-<text x="785" y="965.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="785" dy="0">7-DAY AVERAGE</tspan>
-</text>
-<text x="1010" y="965.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="1010" dy="0">DAY REVENUE</tspan>
-</text>
-<text x="1210" y="965.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#777777">
-<tspan x="1210" dy="0">LIFETIME NIGHTS</tspan>
-</text>
-<polyline points="286,982 1374,982" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="286" y="1002.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="286" dy="0">1</tspan>
-</text>
-<text x="390" y="1002.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="390" dy="0">Hyderabad Garden Studio 836</tspan>
-</text>
-<text x="785" y="1002.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="785" dy="0">₹5,031.00</tspan>
-</text>
-<text x="1010" y="1002.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1010" dy="0">₹0.00</tspan>
-</text>
-<text x="1210" y="1002.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1210" dy="0">178</tspan>
-</text>
-<polyline points="286,1014 1374,1014" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="286" y="1034.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="286" dy="0">2</tspan>
-</text>
-<text x="390" y="1034.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="390" dy="0">Hyderabad Courtyard House 1026</tspan>
-</text>
-<text x="785" y="1034.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="785" dy="0">₹4,344.00</tspan>
-</text>
-<text x="1010" y="1034.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1010" dy="0">₹0.00</tspan>
-</text>
-<text x="1210" y="1034.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1210" dy="0">180</tspan>
-</text>
-<polyline points="286,1046 1374,1046" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="286" y="1066.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="286" dy="0">3</tspan>
-</text>
-<text x="390" y="1066.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="390" dy="0">Chennai Garden Studio 555</tspan>
-</text>
-<text x="785" y="1066.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="785" dy="0">₹3,019.43</tspan>
-</text>
-<text x="1010" y="1066.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1010" dy="0">₹0.00</tspan>
-</text>
-<text x="1210" y="1066.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1210" dy="0">187</tspan>
-</text>
-<polyline points="286,1078 1374,1078" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="286" y="1098.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="286" dy="0">4</tspan>
-</text>
-<text x="390" y="1098.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="390" dy="0">Hyderabad Courtyard House 1836</tspan>
-</text>
-<text x="785" y="1098.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="785" dy="0">₹1,548.57</tspan>
-</text>
-<text x="1010" y="1098.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1010" dy="0">₹0.00</tspan>
-</text>
-<text x="1210" y="1098.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1210" dy="0">143</tspan>
-</text>
-<polyline points="286,1110 1374,1110" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="286" y="1130.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="286" dy="0">5</tspan>
-</text>
-<text x="390" y="1130.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="390" dy="0">Hyderabad Garden Studio 236</tspan>
-</text>
-<text x="785" y="1130.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="785" dy="0">₹0.00</tspan>
-</text>
-<text x="1010" y="1130.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1010" dy="0">₹0.00</tspan>
-</text>
-<text x="1210" y="1130.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1210" dy="0">154</tspan>
-</text>
-<polyline points="286,1142 1374,1142" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="286" y="1162.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="286" dy="0">5</tspan>
-</text>
-<text x="390" y="1162.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="390" dy="0">Mumbai Courtyard House 243</tspan>
-</text>
-<text x="785" y="1162.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="785" dy="0">₹0.00</tspan>
-</text>
-<text x="1010" y="1162.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1010" dy="0">₹0.00</tspan>
-</text>
-<text x="1210" y="1162.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#292929">
-<tspan x="1210" dy="0">153</tspan>
-</text>
+<text id="Search map_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="1709" y="3678.78">Search map</tspan></text>
+<g id="Frame_175">
+<path id="Vector_782" d="M1685.12 3720.82C1685.16 3720.75 1685.21 3720.69 1685.28 3720.65C1685.35 3720.61 1685.42 3720.58 1685.5 3720.58C1685.58 3720.58 1685.65 3720.61 1685.72 3720.65C1685.79 3720.69 1685.84 3720.75 1685.88 3720.82L1687.7 3724.52C1687.83 3724.76 1688 3724.98 1688.22 3725.14C1688.44 3725.3 1688.7 3725.4 1688.97 3725.44L1693.06 3726.04C1693.13 3726.05 1693.21 3726.08 1693.27 3726.13C1693.33 3726.18 1693.37 3726.25 1693.4 3726.32C1693.42 3726.4 1693.42 3726.48 1693.4 3726.55C1693.39 3726.63 1693.35 3726.7 1693.29 3726.75L1690.33 3729.63C1690.14 3729.82 1689.99 3730.06 1689.91 3730.32C1689.82 3730.58 1689.8 3730.85 1689.85 3731.12L1690.55 3735.19C1690.56 3735.27 1690.55 3735.35 1690.52 3735.42C1690.49 3735.49 1690.44 3735.56 1690.38 3735.6C1690.32 3735.65 1690.24 3735.68 1690.16 3735.68C1690.08 3735.69 1690.01 3735.67 1689.94 3735.63L1686.28 3733.71C1686.04 3733.58 1685.77 3733.52 1685.5 3733.52C1685.23 3733.52 1684.96 3733.58 1684.72 3733.71L1681.06 3735.63C1680.99 3735.67 1680.92 3735.69 1680.84 3735.68C1680.76 3735.68 1680.68 3735.65 1680.62 3735.6C1680.56 3735.56 1680.51 3735.49 1680.48 3735.42C1680.45 3735.35 1680.44 3735.27 1680.45 3735.19L1681.15 3731.12C1681.2 3730.85 1681.18 3730.58 1681.09 3730.32C1681.01 3730.06 1680.86 3729.82 1680.67 3729.63L1677.71 3726.75C1677.65 3726.7 1677.61 3726.63 1677.59 3726.55C1677.58 3726.48 1677.58 3726.4 1677.6 3726.32C1677.63 3726.25 1677.67 3726.18 1677.73 3726.13C1677.79 3726.08 1677.86 3726.05 1677.94 3726.04L1682.03 3725.44C1682.3 3725.4 1682.56 3725.3 1682.78 3725.14C1683 3724.98 1683.18 3724.77 1683.3 3724.52L1685.12 3720.82Z" stroke="#777777" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round" />
 </g>
-<g data-section="assignment-notes">
-<polyline points="262,1185 1398,1185" fill="none" stroke="#cccccc" stroke-width="1"/>
-<text x="262" y="1210.65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="9" font-weight="400" fill="#777777">
-<tspan x="262" dy="0">StaySpot · Thoughtful stays, meaningful experiences.</tspan>
-</text>
-<rect x="0" y="1240" width="1440" height="40" rx="0" fill="#eeeeee" stroke="transparent" opacity="1.0"/>
-<text x="22" y="1263.35" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#555555">
-<tspan x="22" dy="0">DESIGN NOTE · Member 3 · Analytics.jsx · sample chart/rank excerpt; zero-filled days, seven-day window and tie-preserving dense ranks.</tspan>
-</text>
+<text id="Reviews_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="1709" y="3731.78">Reviews</tspan></text>
+<g id="Frame_176">
+<path id="Vector_783" d="M1688.67 3850.67C1686.33 3850.67 1684.07 3849.8 1682.34 3848.22C1680.61 3846.64 1679.54 3844.47 1679.34 3842.14C1679.14 3839.8 1679.82 3837.48 1681.25 3835.63C1682.68 3833.77 1684.76 3832.53 1687.07 3832.13C1694.67 3830.67 1696.67 3829.97 1699.33 3826.67C1700.67 3829.33 1702 3832.24 1702 3837.33C1702 3844.67 1695.63 3850.67 1688.67 3850.67Z" stroke="#777777" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_784" d="M1676.67 3852C1676.67 3848 1679.13 3844.85 1683.44 3844C1686.67 3843.36 1690 3841.33 1691.33 3840" stroke="#777777" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
 </g>
+<g id="Group_122">
+<text id="A little closer_8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="1674" y="3893.99">A little closer</tspan></text>
+<text id="to feeling at_8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="1674" y="3923.39">to feeling at</tspan></text>
+<text id="home._8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" letter-spacing="0em"><tspan x="1674" y="3952.79">home.</tspan></text>
+</g>
+<g id="Group_123">
+<text id="VACATION RENTALS &amp;_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1674" y="3991.71">VACATION RENTALS &amp;</tspan></text>
+<text id="EXPERIENCES_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1674" y="4002.91">EXPERIENCES</tspan></text>
+</g>
+<path id="Vector_785" d="M1672 4045H1828" stroke="#CCCCCC" />
+<text id="Project 03 SSD Â· 2026_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1672" y="4070.14">Project 03 SSD · 2026</tspan></text>
+<path id="Vector_786" d="M3080 3290H1860V3378H3080V3290Z" fill="white" stroke="#CCCCCC" />
+<text id="Workspace_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1902" y="3337.85">Workspace </tspan></text>
+<text id="Analytics_9" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1989" y="3337.85">Analytics</tspan></text>
+<path id="Vector_787" d="M2739 3337C2740.66 3337 2742 3335.66 2742 3334C2742 3332.34 2740.66 3331 2739 3331C2737.34 3331 2736 3332.34 2736 3334C2736 3335.66 2737.34 3337 2739 3337Z" fill="#555555" />
+<text id="Live databases_8" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2748" y="3337.14">Live databases</tspan></text>
+<path id="Vector_788" d="M2871.5 3350C2880.61 3350 2888 3342.61 2888 3333.5C2888 3324.39 2880.61 3317 2871.5 3317C2862.39 3317 2855 3324.39 2855 3333.5C2855 3342.61 2862.39 3350 2871.5 3350Z" fill="#EEEEEE" />
+<text id="AR_8" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="2863" y="3336.14">AR</tspan></text>
+<text id="Ananya Rao_9" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="2898" y="3329.85">Ananya Rao</tspan></text>
+<text id="â¹44,911.00 in wallet_6" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2898" y="3347.14">₹44,911.00 in wallet</tspan></text>
+<g id="Frame_177">
+<path id="Vector_789" d="M3024.75 3332.62L3028.5 3336.38L3032.25 3332.62" stroke="#777777" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="A LITTLE PERSPECTIVE" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="1902" y="3423.42">A LITTLE PERSPECTIVE</tspan></text>
+<text id="Good places. Growing stories." fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="39" letter-spacing="0em"><tspan x="1902" y="3472.83">Good places. Growing stories.</tspan></text>
+<text id="See where your stays are taking you, one seven-day average at a time." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="13" letter-spacing="0em"><tspan x="1902" y="3513.78">See where your stays are taking you, one seven-day average at a time.</tspan></text>
+<path id="Vector_790" d="M3032 3478H2904C2900.69 3478 2898 3480.69 2898 3484V3512C2898 3515.31 2900.69 3518 2904 3518H3032C3035.31 3518 3038 3515.31 3038 3512V3484C3038 3480.69 3035.31 3478 3032 3478Z" fill="white" stroke="#CCCCCC" />
+<text id="Refresh totals_3" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="2914" y="3499.85">Refresh totals</tspan></text>
+<g id="Frame_178">
+<path id="Vector_791" d="M3010.12 3497.5C3010.12 3495.81 3010.8 3494.19 3011.99 3492.99C3013.19 3491.8 3014.81 3491.12 3016.5 3491.12C3018.28 3491.13 3019.99 3491.83 3021.27 3493.07L3022.87 3494.67" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_792" d="M3022.87 3491.12V3494.67H3019.33" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_793" d="M3022.87 3497.5C3022.87 3499.19 3022.2 3500.81 3021.01 3502.01C3019.81 3503.2 3018.19 3503.87 3016.5 3503.87C3014.72 3503.87 3013.01 3503.17 3011.73 3501.93L3010.12 3500.33" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_794" d="M3013.67 3500.33H3010.12V3503.87" stroke="#555555" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+<g id="Group_124">
+<path id="Vector_795" d="M2162 3548H1911C1906.03 3548 1902 3552.03 1902 3557V3681C1902 3685.97 1906.03 3690 1911 3690H2162C2166.97 3690 2171 3685.97 2171 3681V3557C2171 3552.03 2166.97 3548 2162 3548Z" fill="white" stroke="#CCCCCC" />
+<g id="Frame_179">
+<path id="Vector_796" d="M1929 3584V3587.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_797" d="M1932 3582.5V3587.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_798" d="M1935 3579.5V3587.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_799" d="M1936.5 3574.25L1930.02 3580.73C1929.98 3580.77 1929.94 3580.8 1929.89 3580.82C1929.85 3580.83 1929.8 3580.84 1929.75 3580.84C1929.7 3580.84 1929.65 3580.83 1929.61 3580.82C1929.56 3580.8 1929.52 3580.77 1929.48 3580.73L1927.02 3578.27C1926.95 3578.2 1926.85 3578.16 1926.75 3578.16C1926.65 3578.16 1926.56 3578.2 1926.49 3578.27L1921.5 3583.25" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_800" d="M1923 3585.5V3587.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_801" d="M1926 3582.5V3587.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Gross booked revenue" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1947" y="3584.42">Gross booked revenue</tspan></text>
+<text id="â¹67,98,00,241.00" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1920" y="3633.2">₹67,98,00,241.00</tspan></text>
+<text id="Lifetime materialized totals" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1920" y="3668.71">Lifetime materialized totals</tspan></text>
+</g>
+<g id="Group_125">
+<path id="Vector_802" d="M2451 3548H2200C2195.03 3548 2191 3552.03 2191 3557V3681C2191 3685.97 2195.03 3690 2200 3690H2451C2455.97 3690 2460 3685.97 2460 3681V3557C2460 3552.03 2455.97 3548 2451 3548Z" fill="white" stroke="#CCCCCC" />
+<g id="Frame_180">
+<path id="Vector_803" d="M2215 3573.5V3576.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_804" d="M2221 3573.5V3576.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_805" d="M2224.75 3581.75V3576.5C2224.75 3576.1 2224.59 3575.72 2224.31 3575.44C2224.03 3575.16 2223.65 3575 2223.25 3575H2212.75C2212.35 3575 2211.97 3575.16 2211.69 3575.44C2211.41 3575.72 2211.25 3576.1 2211.25 3576.5V3587C2211.25 3587.4 2211.41 3587.78 2211.69 3588.06C2211.97 3588.34 2212.35 3588.5 2212.75 3588.5H2218.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_806" d="M2211.25 3579.5H2224.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_807" d="M2221 3586.25H2225.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_808" d="M2223.25 3584V3588.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Nights booked" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2236" y="3584.42">Nights booked</tspan></text>
+<text id="1,99,802" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="2209" y="3633.2">1,99,802</tspan></text>
+<text id="Lifetime materialized totals_2" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2209" y="3668.71">Lifetime materialized totals</tspan></text>
+</g>
+<g id="Group_126">
+<path id="Vector_809" d="M2740 3548H2489C2484.03 3548 2480 3552.03 2480 3557V3681C2480 3685.97 2484.03 3690 2489 3690H2740C2744.97 3690 2749 3685.97 2749 3681V3557C2749 3552.03 2744.97 3548 2740 3548Z" fill="white" stroke="#CCCCCC" />
+<g id="Frame_181">
+<path id="Vector_810" d="M2509.25 3587.75V3581.75C2509.25 3581.55 2509.17 3581.36 2509.03 3581.22C2508.89 3581.08 2508.7 3581 2508.5 3581H2505.5C2505.3 3581 2505.11 3581.08 2504.97 3581.22C2504.83 3581.36 2504.75 3581.55 2504.75 3581.75V3587.75" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_811" d="M2500.25 3579.5C2500.25 3579.28 2500.3 3579.07 2500.39 3578.87C2500.48 3578.67 2500.62 3578.49 2500.78 3578.35L2506.03 3573.85C2506.3 3573.63 2506.65 3573.5 2507 3573.5C2507.35 3573.5 2507.7 3573.63 2507.97 3573.85L2513.22 3578.35C2513.38 3578.49 2513.52 3578.67 2513.61 3578.87C2513.7 3579.07 2513.75 3579.28 2513.75 3579.5V3586.25C2513.75 3586.65 2513.59 3587.03 2513.31 3587.31C2513.03 3587.59 2512.65 3587.75 2512.25 3587.75H2501.75C2501.35 3587.75 2500.97 3587.59 2500.69 3587.31C2500.41 3587.03 2500.25 3586.65 2500.25 3586.25V3579.5Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Total bookings" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2525" y="3584.42">Total bookings</tspan></text>
+<text id="50,013" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="2498" y="3633.2">50,013</tspan></text>
+<text id="Lifetime materialized totals_3" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2498" y="3668.71">Lifetime materialized totals</tspan></text>
+</g>
+<g id="Group_127">
+<path id="Vector_812" d="M3029 3548H2778C2773.03 3548 2769 3552.03 2769 3557V3681C2769 3685.97 2773.03 3690 2778 3690H3029C3033.97 3690 3038 3685.97 3038 3681V3557C3038 3552.03 3033.97 3548 3029 3548Z" fill="white" stroke="#CCCCCC" />
+<g id="Frame_182">
+<path id="Vector_813" d="M2793.75 3574.25H2790C2789.59 3574.25 2789.25 3574.59 2789.25 3575V3578.75C2789.25 3579.16 2789.59 3579.5 2790 3579.5H2793.75C2794.16 3579.5 2794.5 3579.16 2794.5 3578.75V3575C2794.5 3574.59 2794.16 3574.25 2793.75 3574.25Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_814" d="M2802 3574.25H2798.25C2797.84 3574.25 2797.5 3574.59 2797.5 3575V3578.75C2797.5 3579.16 2797.84 3579.5 2798.25 3579.5H2802C2802.41 3579.5 2802.75 3579.16 2802.75 3578.75V3575C2802.75 3574.59 2802.41 3574.25 2802 3574.25Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_815" d="M2802 3582.5H2798.25C2797.84 3582.5 2797.5 3582.84 2797.5 3583.25V3587C2797.5 3587.41 2797.84 3587.75 2798.25 3587.75H2802C2802.41 3587.75 2802.75 3587.41 2802.75 3587V3583.25C2802.75 3582.84 2802.41 3582.5 2802 3582.5Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_816" d="M2793.75 3582.5H2790C2789.59 3582.5 2789.25 3582.84 2789.25 3583.25V3587C2789.25 3587.41 2789.59 3587.75 2790 3587.75H2793.75C2794.16 3587.75 2794.5 3587.41 2794.5 3587V3583.25C2794.5 3582.84 2794.16 3582.5 2793.75 3582.5Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text id="Properties_5" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2814" y="3584.42">Properties</tspan></text>
+<text id="2,000" fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="2787" y="3633.2">2,000</tspan></text>
+<text id="Lifetime materialized totals_4" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="2787" y="3668.71">Lifetime materialized totals</tspan></text>
+<text id="Last refreshed 7 Oct 2026, 01:27 pm" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="2800" y="3714.42">Last refreshed 7 Oct 2026, 01:27 pm</tspan></text>
+</g>
+<g id="Group_128">
+<path id="Vector_817" d="M3029 3744H1911C1906.03 3744 1902 3748.03 1902 3753V4123C1902 4127.97 1906.03 4132 1911 4132H3029C3033.97 4132 3038 4127.97 3038 4123V3753C3038 3748.03 3033.97 3744 3029 3744Z" fill="white" stroke="#CCCCCC" />
+<text id="Revenue, with room to grow" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="1926" y="3784.56">Revenue, with room to grow</tspan></text>
+<text id="Seven-day moving average Â· top 4 displayed properties Â· UTC" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="3808.85">Seven-day moving average · top 4 displayed properties · UTC</tspan></text>
+<text id="From_2" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2714" y="3772.14">From</tspan></text>
+<path id="Vector_818" d="M2853 3784H2720C2716.69 3784 2714 3786.69 2714 3790V3816C2714 3819.31 2716.69 3822 2720 3822H2853C2856.31 3822 2859 3819.31 2859 3816V3790C2859 3786.69 2856.31 3784 2853 3784Z" fill="white" stroke="#CCCCCC" />
+<text id="08/09/2026" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2726" y="3805.85">08/09/2026</tspan></text>
+<text id="To_2" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2871" y="3772.14">To</tspan></text>
+<path id="Vector_819" d="M3008 3784H2877C2873.69 3784 2871 3786.69 2871 3790V3816C2871 3819.31 2873.69 3822 2877 3822H3008C3011.31 3822 3014 3819.31 3014 3816V3790C3014 3786.69 3011.31 3784 3008 3784Z" fill="white" stroke="#CCCCCC" />
+<text id="07/10/2026" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2883" y="3805.85">07/10/2026</tspan></text>
+<text id="â¹9k" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1938" y="3859.14">₹9k</tspan></text>
+<path id="Vector_820" d="M1978 3857H2995" stroke="#CCCCCC" stroke-dasharray="5 6" />
+<text id="â¹7k" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1938" y="3906.14">₹7k</tspan></text>
+<path id="Vector_821" d="M1978 3904H2995" stroke="#CCCCCC" stroke-dasharray="5 6" />
+<text id="â¹5k" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1938" y="3953.14">₹5k</tspan></text>
+<path id="Vector_822" d="M1978 3951H2995" stroke="#CCCCCC" stroke-dasharray="5 6" />
+<text id="â¹2k" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1938" y="4000.14">₹2k</tspan></text>
+<path id="Vector_823" d="M1978 3998H2995" stroke="#CCCCCC" stroke-dasharray="5 6" />
+<text id="â¹0k" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1938" y="4047.14">₹0k</tspan></text>
+<path id="Vector_824" d="M1978 4045H2995" stroke="#CCCCCC" stroke-dasharray="5 6" />
+<path id="Vector_825" d="M1978 3961.44H2045.8L2113.6 3857H2181.4L2249.2 3930.11H2317L2384.8 4045H2452.6H2520.4H2588.2H2656H2723.8H2791.6H2859.4H2927.2H2995" stroke="#555555" stroke-width="3" />
+<path id="Vector_826" d="M1978 3965.62H2045.8L2113.6 4045H2181.4H2249.2H2317H2384.8L2452.6 4003.22H2520.4H2588.2L2656 3877.89H2723.8L2791.6 3919.67L2859.4 3861.18L2927.2 3982.33H2995" stroke="#555555" stroke-width="3" />
+<path id="Vector_827" d="M1978 4045H2045.8H2113.6H2181.4H2249.2H2317H2384.8H2452.6H2520.4L2588.2 4003.22H2656L2723.8 3919.67L2791.6 3961.44H2859.4L2927.2 3882.07L2995 3948.91" stroke="#777777" stroke-width="3" />
+<path id="Vector_828" d="M1978 4045H2045.8L2113.6 3965.62H2181.4H2249.2L2317 3953.09L2384.8 4003.22H2452.6H2520.4L2588.2 4015.76L2656 4045H2723.8H2791.6H2859.4L2927.2 3934.29H2995" stroke="#999999" stroke-width="3" />
+<text id="8 Sept" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="1978" y="4080.14">8 Sept</tspan></text>
+<text id="15 Sept" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2226" y="4080.14">15 Sept</tspan></text>
+<text id="22 Sept" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2474" y="4080.14">22 Sept</tspan></text>
+<text id="29 Sept" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2722" y="4080.14">29 Sept</tspan></text>
+<text id="7 Oct" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="2970" y="4080.14">7 Oct</tspan></text>
+<text id="â Hyderabad Skyline Loft 1931 â Chennai Garden Studio 555 â Hyderabad Courtyard House 1026 â Hyderabad Garden Studio 836" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8" letter-spacing="0em"><tspan x="1926" y="4115.71">● Hyderabad Skyline Loft 1931 ● Chennai Garden Studio 555 ● Hyderabad Courtyard House 1026 ● Hyderabad Garden Studio 836</tspan></text>
+</g>
+<g id="Group_129">
+<path id="Vector_829" d="M3029 4156H1911C1906.03 4156 1902 4160.03 1902 4165V4457C1902 4461.97 1906.03 4466 1911 4466H3029C3033.97 4466 3038 4461.97 3038 4457V4165C3038 4160.03 3033.97 4156 3029 4156Z" fill="white" stroke="#CCCCCC" />
+<text id="Places on the rise" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="19" font-weight="bold" letter-spacing="0em"><tspan x="1926" y="4196.56">Places on the rise</tspan></text>
+<text id="Top 12 properties by lifetime revenue; equal daily seven-day averages share a dense rank." fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4218.85">Top 12 properties by lifetime revenue; equal daily seven-day averages share a dense rank.</tspan></text>
+<text id="RANK" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="1926" y="4255.42">RANK</tspan></text>
+<text id="PROPERTY_2" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2030" y="4255.42">PROPERTY</tspan></text>
+<text id="7-DAY AVERAGE" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2425" y="4255.42">7-DAY AVERAGE</tspan></text>
+<text id="DAY REVENUE" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2650" y="4255.42">DAY REVENUE</tspan></text>
+<text id="LIFETIME NIGHTS" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" font-weight="bold" letter-spacing="0em"><tspan x="2850" y="4255.42">LIFETIME NIGHTS</tspan></text>
+<path id="Vector_830" d="M1926 4272H3014" stroke="#CCCCCC" />
+<text id="1_6" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4291.85">1</tspan></text>
+<text id="Hyderabad Garden Studio 836" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2030" y="4291.85">Hyderabad Garden Studio 836</tspan></text>
+<text id="â¹5,031.00" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2425" y="4291.85">₹5,031.00</tspan></text>
+<text id="â¹0.00" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2650" y="4291.85">₹0.00</tspan></text>
+<text id="178" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2850" y="4291.85">178</tspan></text>
+<path id="Vector_831" d="M1926 4304H3014" stroke="#CCCCCC" />
+<text id="2_4" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4323.85">2</tspan></text>
+<text id="Hyderabad Courtyard House 1026" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2030" y="4323.85">Hyderabad Courtyard House 1026</tspan></text>
+<text id="â¹4,344.00" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2425" y="4323.85">₹4,344.00</tspan></text>
+<text id="â¹0.00_2" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2650" y="4323.85">₹0.00</tspan></text>
+<text id="180" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2850" y="4323.85">180</tspan></text>
+<path id="Vector_832" d="M1926 4336H3014" stroke="#CCCCCC" />
+<text id="3_4" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4355.85">3</tspan></text>
+<text id="Chennai Garden Studio 555" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2030" y="4355.85">Chennai Garden Studio 555</tspan></text>
+<text id="â¹3,019.43" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2425" y="4355.85">₹3,019.43</tspan></text>
+<text id="â¹0.00_3" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2650" y="4355.85">₹0.00</tspan></text>
+<text id="187" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2850" y="4355.85">187</tspan></text>
+<path id="Vector_833" d="M1926 4368H3014" stroke="#CCCCCC" />
+<text id="4_3" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4387.85">4</tspan></text>
+<text id="Hyderabad Courtyard House 1836" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2030" y="4387.85">Hyderabad Courtyard House 1836</tspan></text>
+<text id="â¹1,548.57" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2425" y="4387.85">₹1,548.57</tspan></text>
+<text id="â¹0.00_4" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2650" y="4387.85">₹0.00</tspan></text>
+<text id="143" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2850" y="4387.85">143</tspan></text>
+<path id="Vector_834" d="M1926 4400H3014" stroke="#CCCCCC" />
+<text id="5_3" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4419.85">5</tspan></text>
+<text id="Hyderabad Garden Studio 236" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2030" y="4419.85">Hyderabad Garden Studio 236</tspan></text>
+<text id="â¹0.00_5" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2425" y="4419.85">₹0.00</tspan></text>
+<text id="â¹0.00_6" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2650" y="4419.85">₹0.00</tspan></text>
+<text id="154" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2850" y="4419.85">154</tspan></text>
+<path id="Vector_835" d="M1926 4432H3014" stroke="#CCCCCC" />
+<text id="5_4" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1926" y="4451.85">5</tspan></text>
+<text id="Mumbai Courtyard House 243" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2030" y="4451.85">Mumbai Courtyard House 243</tspan></text>
+<text id="â¹0.00_7" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2425" y="4451.85">₹0.00</tspan></text>
+<text id="â¹0.00_8" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2650" y="4451.85">₹0.00</tspan></text>
+<text id="153" fill="#292929" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="2850" y="4451.85">153</tspan></text>
+</g>
+<g id="Group_130">
+<path id="Vector_836" d="M1902 4475H3038" stroke="#CCCCCC" />
+<text id="StaySpot Â· Thoughtful stays, meaningful experiences._11" fill="#777777" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="1902" y="4500.42">StaySpot · Thoughtful stays, meaningful experiences.</tspan></text>
+<path id="Vector_837" d="M3080 4530H1640V4570H3080V4530Z" fill="#EEEEEE" />
+<text id="DESIGN NOTE Â· Member 3 Â· Analytics.jsx Â· sample chart/rank excerpt; zero-filled days, seven-day window and tie-preserving dense ranks." fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="1662" y="4552.85">DESIGN NOTE · Member 3 · Analytics.jsx · sample chart/rank excerpt; zero-filled days, seven-day window and tie-preserving dense ranks.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_7_3218">
+<rect width="6360" height="6160" fill="white" />
+</clipPath>
+<clipPath id="clip1_7_3218">
+<rect width="18" height="18" fill="white" transform="translate(1941 2617)" />
+</clipPath>
+<clipPath id="clip2_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3638)" />
+</clipPath>
+<clipPath id="clip3_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3668)" />
+</clipPath>
+<clipPath id="clip4_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3698)" />
+</clipPath>
+<clipPath id="clip5_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3728)" />
+</clipPath>
+<clipPath id="clip6_7_3218">
+<rect width="12" height="12" fill="white" transform="translate(5519 3758)" />
+</clipPath>
+<clipPath id="clip7_7_3218">
+<rect width="13" height="13" fill="white" transform="translate(1970.67 5178)" />
+</clipPath>
+<clipPath id="clip8_7_3218">
+<rect width="13" height="13" fill="white" transform="translate(2435.67 5178)" />
+</clipPath>
+<clipPath id="clip9_7_3218">
+<rect width="13" height="13" fill="white" transform="translate(2900.67 5178)" />
+</clipPath>
+<clipPath id="clip10_7_3218">
+<rect width="20" height="20" fill="white" transform="translate(2662 5526)" />
+</clipPath>
+</defs>
 </svg>
