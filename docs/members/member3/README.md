@@ -2,10 +2,10 @@
 
 Assigned Figma screen: **06 Analytics**.
 
-| Area                                             | Source                                                         |
-| ------------------------------------------------ | -------------------------------------------------------------- |
-| Totals, date controls and ranked analytics table | [web/src/members/member3/Analytics.jsx](../../../web/src/members/member3/Analytics.jsx)                         |
-| Seven-day revenue SVG chart                      | [web/src/members/member3/LineChart.jsx](../../../web/src/members/member3/LineChart.jsx)                         |
+| Area                                             | Source                                                                                                  |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Totals, date controls and ranked analytics table | [web/src/members/member3/Analytics.jsx](../../../web/src/members/member3/Analytics.jsx)                 |
+| Seven-day revenue SVG chart                      | [web/src/members/member3/LineChart.jsx](../../../web/src/members/member3/LineChart.jsx)                 |
 | Analytics GET and materialized refresh POST      | [api/members/member3/routes.js](../../../api/members/member3/routes.js)                                 |
 | Materialized totals and concurrent refresh       | [sql/members/member3/05_materialized_views.sql](../../../sql/members/member3/05_materialized_views.sql) |
 | CTEs, moving averages and DENSE_RANK             | [sql/members/member3/06_window_analytics.sql](../../../sql/members/member3/06_window_analytics.sql)     |

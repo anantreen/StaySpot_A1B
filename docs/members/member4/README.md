@@ -2,18 +2,18 @@
 
 Assigned Figma screens: **07 Map / Search Hotspots**, **08 Reviews & Amenities**.
 
-| Area                                             | Source                                                                                                                     |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| Interactive origin, search map and polling       | [web/src/members/member4/MapView.jsx](../../../web/src/members/member4/MapView.jsx)                                                                                         |
-| Review charts and flexible amenities             | [web/src/members/member4/Reviews.jsx](../../../web/src/members/member4/Reviews.jsx)                                                                                         |
-| Search GET/POST and reviews GET                  | [api/members/member4/routes.js](../../../api/members/member4/routes.js)                                                                                             |
-| Nearest pins and hotspot grid cells              | [mongo/members/member4/geospatial.cjs](../../../mongo/members/member4/geospatial.cjs)                                                                               |
-| Indexed property-scoped review facets            | [mongo/members/member4/review-facets.cjs](../../../mongo/members/member4/review-facets.cjs)                                                                         |
-| Shared pipeline exports                          | [mongo/members/member4/pipelines.cjs](../../../mongo/members/member4/pipelines.cjs)                                                                                 |
-| Collection validators and geo/TTL/review indexes | [mongo/members/member4/01_collections_and_indexes.js](../../../mongo/members/member4/01_collections_and_indexes.js)                                                 |
+| Area                                             | Source                                                                                                                                                                                                       |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Interactive origin, search map and polling       | [web/src/members/member4/MapView.jsx](../../../web/src/members/member4/MapView.jsx)                                                                                                                          |
+| Review charts and flexible amenities             | [web/src/members/member4/Reviews.jsx](../../../web/src/members/member4/Reviews.jsx)                                                                                                                          |
+| Search GET/POST and reviews GET                  | [api/members/member4/routes.js](../../../api/members/member4/routes.js)                                                                                                                                      |
+| Nearest pins and hotspot grid cells              | [mongo/members/member4/geospatial.cjs](../../../mongo/members/member4/geospatial.cjs)                                                                                                                        |
+| Indexed property-scoped review facets            | [mongo/members/member4/review-facets.cjs](../../../mongo/members/member4/review-facets.cjs)                                                                                                                  |
+| Shared pipeline exports                          | [mongo/members/member4/pipelines.cjs](../../../mongo/members/member4/pipelines.cjs)                                                                                                                          |
+| Collection validators and geo/TTL/review indexes | [mongo/members/member4/01_collections_and_indexes.js](../../../mongo/members/member4/01_collections_and_indexes.js)                                                                                          |
 | Independent shell workflows                      | [mongo/members/member4/02_workflow3_geonear.js](../../../mongo/members/member4/02_workflow3_geonear.js), [mongo/members/member4/03_workflow4_facet.js](../../../mongo/members/member4/03_workflow4_facet.js) |
-| MongoDB seed generation                          | [data_generation/members/member4/mongo_seeder.py](../../../data_generation/members/member4/mongo_seeder.py)                                                         |
-| Member regression tests                          | [tests/members/member4/workflows.cases.js](../../../tests/members/member4/workflows.cases.js)                                                                       |
+| MongoDB seed generation                          | [data_generation/members/member4/mongo_seeder.py](../../../data_generation/members/member4/mongo_seeder.py)                                                                                                  |
+| Member regression tests                          | [tests/members/member4/workflows.cases.js](../../../tests/members/member4/workflows.cases.js)                                                                                                                |
 
 ## Implementation notes
 

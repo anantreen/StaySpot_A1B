@@ -19,7 +19,7 @@ const temporaryModule = path.join(output, "house-render.mjs");
 // JSX needs a temporary Node-compatible module before server-side rendering.
 await esbuild.build({
   entryPoints: [
-    path.join(project, "members/member1/web/components/HouseArt.jsx"),
+    path.join(project, "web/src/members/member1/components/HouseArt.jsx"),
   ],
   outfile: temporaryModule,
   bundle: true,

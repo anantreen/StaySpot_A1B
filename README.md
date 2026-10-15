@@ -233,19 +233,19 @@ The [October 15 setup and layout verification](docs/structure_verification.md) p
 
 ### Project structure
 
-| Path | Purpose |
-| --- | --- |
-| [docs/](docs/) | Handover, API sketch, reports, designs and screenshots |
-| [docs/members/](docs/members/README.md) | Combined guide and all four individual member READMEs |
-| [web/](web/) | Frontend bootstrap/styles and screens under `web/src/members/memberN/` |
-| [api/](api/) | Server composition/shared helpers and routes under `api/members/memberN/` |
-| [sql/](sql/) | Assignment 1 SQL entry points and canonical `sql/members/memberN/` scripts |
-| [mongo/](mongo/) | Assignment 1 MongoDB entry points and `mongo/members/member4/` implementations |
-| [data_generation/](data_generation/) | Stable seed commands and member-owned seeders |
-| [tests/](tests/README.md) | Shared harness/database checks and `tests/members/memberN/` cases |
-| [scripts/](scripts/) | Setup, development, verification and packaging commands |
-| `dist/` | Generated production output, ignored by Git |
-| `.env` | Local database configuration, ignored by Git |
+| Path                                    | Purpose                                                                        |
+| --------------------------------------- | ------------------------------------------------------------------------------ |
+| [docs/](docs/)                          | Handover, API sketch, reports, designs and screenshots                         |
+| [docs/members/](docs/members/README.md) | Combined guide and all four individual member READMEs                          |
+| [web/](web/)                            | Frontend bootstrap/styles and screens under `web/src/members/memberN/`         |
+| [api/](api/)                            | Server composition/shared helpers and routes under `api/members/memberN/`      |
+| [sql/](sql/)                            | Assignment 1 SQL entry points and canonical `sql/members/memberN/` scripts     |
+| [mongo/](mongo/)                        | Assignment 1 MongoDB entry points and `mongo/members/member4/` implementations |
+| [data_generation/](data_generation/)    | Stable seed commands and member-owned seeders                                  |
+| [tests/](tests/README.md)               | Shared harness/database checks and `tests/members/memberN/` cases              |
+| [scripts/](scripts/)                    | Setup, development, verification and packaging commands                        |
+| `dist/`                                 | Generated production output, ignored by Git                                    |
+| `.env`                                  | Local database configuration, ignored by Git                                   |
 
 The submission retains the required `docs/`, `sql/`, `mongo/`, `data_generation/`, `api/` and `web/` folders. Member ownership is retained inside each layer. All five member guides are included below. The final packager places these files under `14_a1b/` inside `14_a1b.zip`.
 
@@ -282,8 +282,8 @@ Figma exports are design artifacts, listed separately from the application scree
 
 The responsibilities follow the agreed four-member allocation. Names and confirmed roll numbers come from the team's README edits. Members 3 and 4 previously repeated Member 1's roll number; their correct numbers need team confirmation.
 
-| Member   | Name                     | Roll number     | Assigned contribution                                                               | Source folder                        |
-| -------- | ------------------------ | --------------- | ----------------------------------------------------------------------------------- | ------------------------------------ |
+| Member   | Name                     | Roll number     | Assigned contribution                                                               | Source folder                             |
+| -------- | ------------------------ | --------------- | ----------------------------------------------------------------------------------- | ----------------------------------------- |
 | Member 1 | `Anant Preet Singh Reen` | `2026201026`    | Browse, Property Details, shared React components, PostgreSQL schema; screens 00–02 | [member1](docs/members/member1/README.md) |
 | Member 2 | `Aditya Mittal`          | `2026201055`    | Booking, Status Transition, Wallet Audit, procedure/indexes/triggers; screens 03–05 | [member2](docs/members/member2/README.md) |
 | Member 3 | `Varshitha Vallabhadasu` | To be confirmed | Analytics, window functions and materialized summaries; screen 06                   | [member3](docs/members/member3/README.md) |
@@ -296,7 +296,7 @@ The folder allocation documents responsibilities; it does not establish personal
 | Item                             | Value                                                                                                       |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Repository URL                   | [https://github.com/anantreen/StaySpot_A1B](https://github.com/anantreen/StaySpot_A1B)                      |
-| Final submitted commit hash      | Recorded automatically in the final ZIP by the packaging command below                                      |
+| Final submitted commit hash      | 56a2c815bee3ae308bbce1c3a9b4f7e8f41689af                           |
 | Demo video link                  | [Watch the walkthrough](https://drive.google.com/file/d/1QPTfYh7q5jZCB6puoEIr3Hwl4Dp5VEW_/view?usp=sharing) |
 | Team number                      | `14`                                                                                                        |
 | Original Assignment 1 repository | [git-adityamishra/27_a1](https://github.com/git-adityamishra/27_a1)                                         |
@@ -323,10 +323,10 @@ Source: [docs/members/README.md](docs/members/README.md).
 
 ### Four-member code organization
 
-All four member folders are present in the merged StaySpot application. Each member owns related UI, API and database files; shared entry points connect them into one project. Run installation, setup, build and startup commands from the repository root.
+All four members are present in the merged StaySpot application. Each layer retains member1–member4 subfolders, and shared entry points connect them into one project. Run installation, setup, build and startup commands from the repository root.
 
-| Member   | Responsibility                                                            | Assigned Figma screens                                                            | Member guide                          |
-| -------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------- |
+| Member   | Responsibility                                                            | Assigned Figma screens                                                            | Member guide                               |
+| -------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
 | Member 1 | Browse, Property Details, shared React foundations and PostgreSQL schema  | 00 Foundations & Users; 01 Browse; 02 Property Details                            | [Member 1](docs/members/member1/README.md) |
 | Member 2 | Booking, Status Transition, Wallet Audit, procedure, indexes and triggers | 03 Transaction / Book Stay; 04 Booking Status & Constraint; 05 Wallet Audit Trail | [Member 2](docs/members/member2/README.md) |
 | Member 3 | Analytics, window functions and materialized summaries                    | 06 Analytics                                                                      | [Member 3](docs/members/member3/README.md) |
@@ -335,41 +335,34 @@ All four member folders are present in the merged StaySpot application. Each mem
 #### Folder ownership
 
 ```text
-members/
-├── README.md
-├── member1/
-│   ├── web/                 App, Browse, PropertyDetails
-│   │   ├── components/      Shared UI, dialogs, loading and error recovery
-│   │   ├── hooks/           useData, useBookingHistory
-│   │   └── lib/             API client, query, formatting and validation
-│   ├── api/                 Health and guest/property/booking read routes
-│   ├── sql/                 Relational schema and booking browse indexes
-│   └── tests/               Browse, details and bounded booking pagination
-├── member2/
-│   ├── web/                 Transaction, BookingStatusAction, Audit
-│   │   └── hooks/           useAuditHistory
-│   ├── api/                 Booking creation, status updates and audit reads
-│   ├── sql/                 Indexes, wallet trigger, audit guards and procedure
-│   ├── data_generation/     PostgreSQL seeder
-│   └── tests/               Wallet, status, rollback, concurrency and audit
-├── member3/
-│   ├── web/                 Analytics and LineChart
-│   ├── api/                 Analytics reads and materialized refresh
-│   ├── sql/                 Materialized summaries and window analytics
-│   └── tests/               Moving averages, ranks and materialized refresh
-└── member4/
-    ├── web/                 MapView and Reviews
-    ├── api/                 Search, hotspots, reviews and amenities
-    ├── mongo/               Validators, indexes, builders and shell workflows
-    ├── data_generation/     MongoDB seeder
-    └── tests/               Geospatial search, reviews and validators
+api/
+├── app.js, server.js, shared/
+└── members/member1–4/          Member API route handlers
+web/src/
+├── main.jsx, style.css
+└── members/member1–4/          Member screens and shared components
+sql/
+├── 01_*.sql ... 07_*.sql       Stable setup/workflow entry points
+└── members/member1–3/          Canonical schema and financial/analytics SQL
+mongo/
+├── numbered workflows, pipelines.cjs
+└── members/member4/            Canonical validators, indexes and query builders
+data_generation/
+├── postgres_seeder.py, mongo_seeder.py, requirements.txt
+└── members/member2/, member4/  Canonical seeders
+tests/
+├── workflows.test.js, helpers.js, database_checks.py
+└── members/member1–4/          Member regression cases
+docs/members/
+├── README.md                  Combined ownership guide
+└── member1–4/README.md         Individual member guides
 ```
 
 #### Shared integration
 
 - [web/src/main.jsx](web/src/main.jsx) mounts the React application; [web/src/style.css](web/src/style.css) contains the shared styles.
-- [api/app.js](api/app.js) registers all four route modules; [api/server.js](api/server.js) owns connections, listening and shutdown. [api/shared/](api/shared) contains HTTP validation and reusable SQL fragments.
-- Root [sql/](sql) files delegate to member-owned SQL through PostgreSQL's relative `\ir` includes. Root [mongo/](mongo) files use `load()` or shared exports. Root [data_generation/](data_generation) Python entry points delegate through `runpy`.
+- [api/app.js](api/app.js) registers all four route modules; [api/server.js](api/server.js) owns connections, listening and shutdown. [api/shared](api/shared) contains HTTP validation and reusable SQL fragments.
+- Root [sql](sql) files delegate to member-owned SQL through PostgreSQL's relative `\ir` includes. Root [mongo](mongo) files use `load()` or shared exports. Root [data_generation](data_generation) Python entry points delegate through `runpy`.
 - Browse imports Member 2's booking status action. All feature screens reuse Member 1's components and helpers.
 - These folders describe assigned responsibilities. Team names, roll numbers and confirmed personal contributions belong in the project contribution table.
 
@@ -394,21 +387,21 @@ Source: [docs/members/member1/README.md](docs/members/member1/README.md).
 
 Assigned Figma screens: **00 Foundations & Users**, **01 Browse**, **02 Property Details**.
 
-| Area                                                           | Source                                                                                                                                                             |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Application layout, navigation and demo guest switching        | [web/App.jsx](web/src/members/member1/App.jsx)                                                                                                                         |
-| Properties, guests and bookings browsing                       | [web/Browse.jsx](web/src/members/member1/Browse.jsx)                                                                                                                   |
-| Record detail dialog, loading and GET retry                    | [web/PropertyDetails.jsx](web/src/members/member1/PropertyDetails.jsx)                                                                                                 |
-| Shared display, form, status, pagination and dialog components | [web/components/](web/src/members/member1/components)                                                                                                                  |
-| Page-not-found and render-error recovery                       | [web/components/PageState.jsx](web/src/members/member1/components/PageState.jsx), [web/components/ErrorBoundary.jsx](web/src/members/member1/components/ErrorBoundary.jsx) |
-| Request state and stale-response handling                      | [web/hooks/useData.js](web/src/members/member1/hooks/useData.js)                                                                                                       |
-| Newest-first booking display                                   | [web/hooks/useBookingHistory.js](web/src/members/member1/hooks/useBookingHistory.js)                                                                                   |
-| API client, formatting and query helpers                       | [web/lib/](web/src/members/member1/lib)                                                                                                                                |
-| Shared nights, date and coordinate validation                  | [web/lib/validation.js](web/src/members/member1/lib/validation.js)                                                                                                     |
-| Health, browse and detail API handlers                         | [api/routes.js](api/members/member1/routes.js)                                                                                                                     |
-| Relational schema and ERD                                      | [sql/01_schema_ddl.sql](sql/members/member1/01_schema_ddl.sql), [ERD](docs/relational_erd.png)                                                                     |
-| Newest-first booking indexes                                   | [sql/07_booking_pagination_indexes.sql](sql/members/member1/07_booking_pagination_indexes.sql)                                                                     |
-| Member regression tests                                        | [tests/workflows.cases.js](tests/members/member1/workflows.cases.js)                                                                                               |
+| Area                                                           | Source                                                                                                                                                                                                             |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Application layout, navigation and demo guest switching        | [web/src/members/member1/App.jsx](web/src/members/member1/App.jsx)                                                                                                                                                 |
+| Properties, guests and bookings browsing                       | [web/src/members/member1/Browse.jsx](web/src/members/member1/Browse.jsx)                                                                                                                                           |
+| Record detail dialog, loading and GET retry                    | [web/src/members/member1/PropertyDetails.jsx](web/src/members/member1/PropertyDetails.jsx)                                                                                                                         |
+| Shared display, form, status, pagination and dialog components | [web/src/members/member1/components](web/src/members/member1/components)                                                                                                                                           |
+| Page-not-found and render-error recovery                       | [web/src/members/member1/components/PageState.jsx](web/src/members/member1/components/PageState.jsx), [web/src/members/member1/components/ErrorBoundary.jsx](web/src/members/member1/components/ErrorBoundary.jsx) |
+| Request state and stale-response handling                      | [web/src/members/member1/hooks/useData.js](web/src/members/member1/hooks/useData.js)                                                                                                                               |
+| Newest-first booking display                                   | [web/src/members/member1/hooks/useBookingHistory.js](web/src/members/member1/hooks/useBookingHistory.js)                                                                                                           |
+| API client, formatting and query helpers                       | [web/src/members/member1/lib](web/src/members/member1/lib)                                                                                                                                                         |
+| Shared nights, date and coordinate validation                  | [web/src/members/member1/lib/validation.js](web/src/members/member1/lib/validation.js)                                                                                                                             |
+| Health, browse and detail API handlers                         | [api/members/member1/routes.js](api/members/member1/routes.js)                                                                                                                                                     |
+| Relational schema and ERD                                      | [sql/members/member1/01_schema_ddl.sql](sql/members/member1/01_schema_ddl.sql), [ERD](docs/relational_erd.png)                                                                                                     |
+| Newest-first booking indexes                                   | [sql/members/member1/07_booking_pagination_indexes.sql](sql/members/member1/07_booking_pagination_indexes.sql)                                                                                                     |
+| Member regression tests                                        | [tests/members/member1/workflows.cases.js](tests/members/member1/workflows.cases.js)                                                                                                                               |
 
 #### Implementation notes
 
@@ -435,18 +428,18 @@ Source: [docs/members/member2/README.md](docs/members/member2/README.md).
 
 Assigned Figma screens: **03 Transaction / Book Stay**, **04 Booking Status & Constraint**, **05 Wallet Audit Trail**.
 
-| Area                                            | Source                                                                                   |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Booking form, quote, wallet changes and receipt | [web/Transaction.jsx](web/src/members/member2/Transaction.jsx)                               |
-| Check in / Complete stay action inside Browse   | [web/BookingStatusAction.jsx](web/src/members/member2/BookingStatusAction.jsx)               |
-| Read-only ledger, date filters and balances     | [web/Audit.jsx](web/src/members/member2/Audit.jsx)                                           |
-| Newest-first guest/date audit display           | [web/hooks/useAuditHistory.js](web/src/members/member2/hooks/useAuditHistory.js)             |
-| Booking POST, status PATCH and audit GET        | [api/routes.js](api/members/member2/routes.js)                                           |
-| Active-stay and query indexes                   | [sql/02_indexes.sql](sql/members/member2/02_indexes.sql)                                 |
-| Wallet trigger and append-only audit guards     | [sql/03_triggers_and_audit.sql](sql/members/member2/03_triggers_and_audit.sql)           |
-| Server-priced atomic booking procedure          | [sql/04_stored_procedures.sql](sql/members/member2/04_stored_procedures.sql)             |
-| PostgreSQL seed generation                      | [data_generation/postgres_seeder.py](data_generation/members/member2/postgres_seeder.py) |
-| Member regression tests                         | [tests/workflows.cases.js](tests/members/member2/workflows.cases.js)                     |
+| Area                                            | Source                                                                                                   |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Booking form, quote, wallet changes and receipt | [web/src/members/member2/Transaction.jsx](web/src/members/member2/Transaction.jsx)                       |
+| Check in / Complete stay action inside Browse   | [web/src/members/member2/BookingStatusAction.jsx](web/src/members/member2/BookingStatusAction.jsx)       |
+| Read-only ledger, date filters and balances     | [web/src/members/member2/Audit.jsx](web/src/members/member2/Audit.jsx)                                   |
+| Newest-first guest/date audit display           | [web/src/members/member2/hooks/useAuditHistory.js](web/src/members/member2/hooks/useAuditHistory.js)     |
+| Booking POST, status PATCH and audit GET        | [api/members/member2/routes.js](api/members/member2/routes.js)                                           |
+| Active-stay and query indexes                   | [sql/members/member2/02_indexes.sql](sql/members/member2/02_indexes.sql)                                 |
+| Wallet trigger and append-only audit guards     | [sql/members/member2/03_triggers_and_audit.sql](sql/members/member2/03_triggers_and_audit.sql)           |
+| Server-priced atomic booking procedure          | [sql/members/member2/04_stored_procedures.sql](sql/members/member2/04_stored_procedures.sql)             |
+| PostgreSQL seed generation                      | [data_generation/members/member2/postgres_seeder.py](data_generation/members/member2/postgres_seeder.py) |
+| Member regression tests                         | [tests/members/member2/workflows.cases.js](tests/members/member2/workflows.cases.js)                     |
 
 #### Implementation notes
 
@@ -473,14 +466,14 @@ Source: [docs/members/member3/README.md](docs/members/member3/README.md).
 
 Assigned Figma screen: **06 Analytics**.
 
-| Area                                             | Source                                                                         |
-| ------------------------------------------------ | ------------------------------------------------------------------------------ |
-| Totals, date controls and ranked analytics table | [web/Analytics.jsx](web/src/members/member3/Analytics.jsx)                         |
-| Seven-day revenue SVG chart                      | [web/LineChart.jsx](web/src/members/member3/LineChart.jsx)                         |
-| Analytics GET and materialized refresh POST      | [api/routes.js](api/members/member3/routes.js)                                 |
-| Materialized totals and concurrent refresh       | [sql/05_materialized_views.sql](sql/members/member3/05_materialized_views.sql) |
-| CTEs, moving averages and DENSE_RANK             | [sql/06_window_analytics.sql](sql/members/member3/06_window_analytics.sql)     |
-| Member regression tests                          | [tests/workflows.cases.js](tests/members/member3/workflows.cases.js)           |
+| Area                                             | Source                                                                                         |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| Totals, date controls and ranked analytics table | [web/src/members/member3/Analytics.jsx](web/src/members/member3/Analytics.jsx)                 |
+| Seven-day revenue SVG chart                      | [web/src/members/member3/LineChart.jsx](web/src/members/member3/LineChart.jsx)                 |
+| Analytics GET and materialized refresh POST      | [api/members/member3/routes.js](api/members/member3/routes.js)                                 |
+| Materialized totals and concurrent refresh       | [sql/members/member3/05_materialized_views.sql](sql/members/member3/05_materialized_views.sql) |
+| CTEs, moving averages and DENSE_RANK             | [sql/members/member3/06_window_analytics.sql](sql/members/member3/06_window_analytics.sql)     |
+| Member regression tests                          | [tests/members/member3/workflows.cases.js](tests/members/member3/workflows.cases.js)           |
 
 #### Implementation notes
 
@@ -507,18 +500,18 @@ Source: [docs/members/member4/README.md](docs/members/member4/README.md).
 
 Assigned Figma screens: **07 Map / Search Hotspots**, **08 Reviews & Amenities**.
 
-| Area                                             | Source                                                                                                                                                     |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Interactive origin, search map and polling       | [web/MapView.jsx](web/src/members/member4/MapView.jsx)                                                                                                         |
-| Review charts and flexible amenities             | [web/Reviews.jsx](web/src/members/member4/Reviews.jsx)                                                                                                         |
-| Search GET/POST and reviews GET                  | [api/routes.js](api/members/member4/routes.js)                                                                                                             |
-| Nearest pins and hotspot grid cells              | [mongo/geospatial.cjs](mongo/members/member4/geospatial.cjs)                                                                                               |
-| Indexed property-scoped review facets            | [mongo/review-facets.cjs](mongo/members/member4/review-facets.cjs)                                                                                         |
-| Shared pipeline exports                          | [mongo/pipelines.cjs](mongo/members/member4/pipelines.cjs)                                                                                                 |
-| Collection validators and geo/TTL/review indexes | [mongo/01_collections_and_indexes.js](mongo/members/member4/01_collections_and_indexes.js)                                                                 |
-| Independent shell workflows                      | [mongo/02_workflow3_geonear.js](mongo/members/member4/02_workflow3_geonear.js), [mongo/03_workflow4_facet.js](mongo/members/member4/03_workflow4_facet.js) |
-| MongoDB seed generation                          | [data_generation/mongo_seeder.py](data_generation/members/member4/mongo_seeder.py)                                                                         |
-| Member regression tests                          | [tests/workflows.cases.js](tests/members/member4/workflows.cases.js)                                                                                       |
+| Area                                             | Source                                                                                                                                                                                     |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Interactive origin, search map and polling       | [web/src/members/member4/MapView.jsx](web/src/members/member4/MapView.jsx)                                                                                                                 |
+| Review charts and flexible amenities             | [web/src/members/member4/Reviews.jsx](web/src/members/member4/Reviews.jsx)                                                                                                                 |
+| Search GET/POST and reviews GET                  | [api/members/member4/routes.js](api/members/member4/routes.js)                                                                                                                             |
+| Nearest pins and hotspot grid cells              | [mongo/members/member4/geospatial.cjs](mongo/members/member4/geospatial.cjs)                                                                                                               |
+| Indexed property-scoped review facets            | [mongo/members/member4/review-facets.cjs](mongo/members/member4/review-facets.cjs)                                                                                                         |
+| Shared pipeline exports                          | [mongo/members/member4/pipelines.cjs](mongo/members/member4/pipelines.cjs)                                                                                                                 |
+| Collection validators and geo/TTL/review indexes | [mongo/members/member4/01_collections_and_indexes.js](mongo/members/member4/01_collections_and_indexes.js)                                                                                 |
+| Independent shell workflows                      | [mongo/members/member4/02_workflow3_geonear.js](mongo/members/member4/02_workflow3_geonear.js), [mongo/members/member4/03_workflow4_facet.js](mongo/members/member4/03_workflow4_facet.js) |
+| MongoDB seed generation                          | [data_generation/members/member4/mongo_seeder.py](data_generation/members/member4/mongo_seeder.py)                                                                                         |
+| Member regression tests                          | [tests/members/member4/workflows.cases.js](tests/members/member4/workflows.cases.js)                                                                                                       |
 
 #### Implementation notes
 
@@ -529,7 +522,7 @@ Assigned Figma screens: **07 Map / Search Hotspots**, **08 Reviews & Amenities**
 - The API and root MongoDB shell workflows reuse the same pure builders. Coordinates are stored as GeoJSON [longitude, latitude].
 - Tile failures, empty recent searches, missing reviews and empty catalogs have dedicated UI feedback.
 
-Run npm commands and MongoDB shell workflows from the repository root. The [member regression cases](tests/members/member4/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. See the [project README](README.md).
+Run npm commands and MongoDB shell workflows from the repository root. The [member regression cases](tests/members/member4/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. See the [project README](README.md), [combined ownership guide](docs/members/README.md) and [code walkthrough](docs/code_walkthrough.md).
 
 <!-- END INCLUDED README: docs/members/member4/README.md -->
 

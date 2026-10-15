@@ -2,12 +2,12 @@
 
 Assigned Figma screens: **03 Transaction / Book Stay**, **04 Booking Status & Constraint**, **05 Wallet Audit Trail**.
 
-| Area                                            | Source                                                                   |
-| ----------------------------------------------- | ------------------------------------------------------------------------ |
-| Booking form, quote, wallet changes and receipt | [web/src/members/member2/Transaction.jsx](../../../web/src/members/member2/Transaction.jsx)                               |
-| Check in / Complete stay action inside Browse   | [web/src/members/member2/BookingStatusAction.jsx](../../../web/src/members/member2/BookingStatusAction.jsx)               |
-| Read-only ledger, date filters and balances     | [web/src/members/member2/Audit.jsx](../../../web/src/members/member2/Audit.jsx)                                           |
-| Newest-first guest/date audit display           | [web/src/members/member2/hooks/useAuditHistory.js](../../../web/src/members/member2/hooks/useAuditHistory.js)             |
+| Area                                            | Source                                                                                                            |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Booking form, quote, wallet changes and receipt | [web/src/members/member2/Transaction.jsx](../../../web/src/members/member2/Transaction.jsx)                       |
+| Check in / Complete stay action inside Browse   | [web/src/members/member2/BookingStatusAction.jsx](../../../web/src/members/member2/BookingStatusAction.jsx)       |
+| Read-only ledger, date filters and balances     | [web/src/members/member2/Audit.jsx](../../../web/src/members/member2/Audit.jsx)                                   |
+| Newest-first guest/date audit display           | [web/src/members/member2/hooks/useAuditHistory.js](../../../web/src/members/member2/hooks/useAuditHistory.js)     |
 | Booking POST, status PATCH and audit GET        | [api/members/member2/routes.js](../../../api/members/member2/routes.js)                                           |
 | Active-stay and query indexes                   | [sql/members/member2/02_indexes.sql](../../../sql/members/member2/02_indexes.sql)                                 |
 | Wallet trigger and append-only audit guards     | [sql/members/member2/03_triggers_and_audit.sql](../../../sql/members/member2/03_triggers_and_audit.sql)           |
