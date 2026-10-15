@@ -30,6 +30,9 @@ A fresh source copy installed the locked JavaScript dependencies from the local 
 - **8 database checks passed**, including assignment-scale counts, constraints, indexes and preserved query-plan evidence.
 - The fresh-copy production build and all four member-file checks passed.
 - Browser navigation covered Browse, Book a stay, Audit trail, Analytics, Search map and Reviews, plus booking/property dialogs and Bookings → Properties navigation.
+- Guest details, completed-booking filtering and Next-page navigation also passed; no browser console errors were recorded.
+- Final-mode packaging in an isolated committed copy produced a **12,172,292-byte** archive under the required `14_a1b/` root. All 55 moved files and the required layers were included; source-hash stamping, ZIP integrity and local-setting/dependency exclusions passed.
+- All five member guides match the copies embedded in the project README. **356 local documentation links resolve with no missing targets.**
 - Original demo guest/property/booking/audit counts and wallet totals were unchanged. Disposable verification databases were removed.
 
 The [raw setup/test log](../performance/structure_verification.txt) records the fresh-copy run. The [ownership guide](members/README.md) maps the moved source. No new feature or database-data change was included in this reorganization.

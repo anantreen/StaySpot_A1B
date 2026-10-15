@@ -286,8 +286,8 @@ The responsibilities follow the agreed four-member allocation. Names and confirm
 | -------- | ------------------------ | --------------- | ----------------------------------------------------------------------------------- | ----------------------------------------- |
 | Member 1 | `Anant Preet Singh Reen` | `2026201026`    | Browse, Property Details, shared React components, PostgreSQL schema; screens 00–02 | [member1](docs/members/member1/README.md) |
 | Member 2 | `Aditya Mittal`          | `2026201055`    | Booking, Status Transition, Wallet Audit, procedure/indexes/triggers; screens 03–05 | [member2](docs/members/member2/README.md) |
-| Member 3 | `Varshitha Vallabhadasu` | To be confirmed | Analytics, window functions and materialized summaries; screen 06                   | [member3](docs/members/member3/README.md) |
-| Member 4 | `Ashish Soni`            | To be confirmed | Map, Reviews and MongoDB pipelines; screens 07–08                                   | [member4](docs/members/member4/README.md) |
+| Member 3 | `Varshitha Vallabhadasu` | `2026204002` | Analytics, window functions and materialized summaries; screen 06                   | [member3](docs/members/member3/README.md) |
+| Member 4 | `Ashish Soni`            | `2026201040` | Map, Reviews and MongoDB pipelines; screens 07–08                                   | [member4](docs/members/member4/README.md) |
 
 The folder allocation documents responsibilities; it does not establish personal authorship of inherited code. The full inherited/current comparison is in the [backend handover evidence](docs/backend_comparison.md).
 
@@ -296,7 +296,7 @@ The folder allocation documents responsibilities; it does not establish personal
 | Item                             | Value                                                                                                       |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Repository URL                   | [https://github.com/anantreen/StaySpot_A1B](https://github.com/anantreen/StaySpot_A1B)                      |
-| Final submitted commit hash      | 56a2c815bee3ae308bbce1c3a9b4f7e8f41689af                           |
+| Final submitted commit hash      | b79e80cf5a7f93a3825cbb1a121cdd0772e3d3ba                           |
 | Demo video link                  | [Watch the walkthrough](https://drive.google.com/file/d/1QPTfYh7q5jZCB6puoEIr3Hwl4Dp5VEW_/view?usp=sharing) |
 | Team number                      | `14`                                                                                                        |
 | Original Assignment 1 repository | [git-adityamishra/27_a1](https://github.com/git-adityamishra/27_a1)                                         |

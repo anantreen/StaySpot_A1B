@@ -83,3 +83,27 @@ All expected files are present. Continue with the README setup steps.
 This checks file presence; build and database tests still verify behavior.
 PASS: existing demo guests, properties, bookings, audits and wallet totals unchanged.
 Removed only the temporary verification databases.
+
+Path and code preservation checks:
+{
+  "all55MemberFilesPresentAndVisibleToGit": true,
+  "memberBusinessLogicChanges": 0,
+  "productionOutputIdentical": true,
+  "fiveReadmesSynchronized": true,
+  "relativeLinksChecked": 356,
+  "brokenRelativeLinks": 0,
+  "pythonSyntaxValid": true
+}
+
+Final-mode packaging check in an isolated committed copy:
+{
+  "passed": true,
+  "rootFolder": "14_a1b/",
+  "archiveBytes": 12172292,
+  "all55MovedFilesIncluded": true,
+  "requiredLayersPresent": true,
+  "committedHashStamped": true,
+  "secretsAndDependenciesExcluded": true
+}
+
+Browser checks: Browse, Book a stay, Audit trail, Analytics, Search map, Reviews; guest/property/booking dialogs; completed-booking filter; Next page; Bookings -> Properties. Browser console errors: 0.
