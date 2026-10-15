@@ -237,5 +237,5 @@ __pycache__/
 !.env.example
 
 # React source helpers are application code, not Python virtual-environment libraries.
-!members/member1/web/lib/
-!members/member1/web/lib/*.js
+!web/src/members/member1/lib/
+!web/src/members/member1/lib/*.js

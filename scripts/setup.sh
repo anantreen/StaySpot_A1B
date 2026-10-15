@@ -22,6 +22,13 @@ fi
 : "${MONGO_DB:=stayspot}"
 export DATABASE_URL MONGO_URL MONGO_DB
 
+# Mongo setup reads this shared validator map after SQL DDL. Check it first so
+# an incomplete checkout cannot leave a newly created but unseeded SQL schema.
+if [ ! -r docs/mongo_schema_map.json ]; then
+    echo "Setup stopped: required file docs/mongo_schema_map.json is missing or unreadable. Restore it before retrying." >&2
+    exit 1
+fi
+
 # Fail before installing schema if a required client or seeder dependency is absent.
 for executable in psql mongosh "${PYTHON:-python3}"; do
     if ! command -v "$executable" >/dev/null 2>&1; then
@@ -30,6 +37,8 @@ for executable in psql mongosh "${PYTHON:-python3}"; do
     fi
 done
 "${PYTHON:-python3}" -c 'import psycopg, pymongo, faker'
+# Catch malformed JSON before either database receives setup writes.
+"${PYTHON:-python3}" -c 'import json; json.load(open("docs/mongo_schema_map.json", encoding="utf-8"))'
 
 # This is a first-run bootstrap, not a migration or a command to start the app.
 # Detect an existing/partial schema before CREATE TABLE produces duplicate errors.

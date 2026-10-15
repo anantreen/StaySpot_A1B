@@ -11,7 +11,7 @@ if __name__ == "__main__":
     runpy.run_path(
         str(
             Path(__file__).resolve().parents[1]
-            / "members/member2/data_generation/postgres_seeder.py"
+            / "data_generation/members/member2/postgres_seeder.py"
         ),
         run_name="__main__",
     )

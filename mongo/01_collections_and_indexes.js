@@ -6,4 +6,4 @@
  */
 
 // Compatibility entry point: same mongosh command and database behavior.
-load("members/member4/mongo/01_collections_and_indexes.js");
+load("mongo/members/member4/01_collections_and_indexes.js");

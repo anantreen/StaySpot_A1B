@@ -27,9 +27,10 @@ Reviewed **15 October 2026** against the current `StaySpot_A1B` working tree. Se
 
 - **Build:** `npm run build` passed.
 - **Running app:** nine read-only HTTP requests passed, covering HTML, health and every read workflow; an unknown API returned the expected 404. Both databases answered health checks. Map search had zero qualifying pins; no data was inserted.
-- **Limits:** fresh setup, booking writes, concurrency and rollback were not rerun. October 7 clone/test logs concern an earlier version. Test sources are currently deleted; historical pass counts are not current results.
-- **Pagination follow-up:** a temporary-table check exercised 1,105 fixtures, timestamp ties, microsecond boundaries, filters, malformed cursors, record details and the exact 1,000-record stop. Browser checks covered page navigation and a status change against those temporary fixtures. Index installation preserved live booking/audit counts and wallet totals. No deleted tests were restored; this is targeted verification, not a restored test-suite run.
+- **Initial review limits:** the first read-only review did not rerun fresh setup, booking writes, concurrency or rollback. October 7 logs describe an earlier version. The later recovery run below verifies these workflows separately.
+- **Pagination follow-up:** a temporary-table check exercised 1,105 fixtures, timestamp ties, microsecond boundaries, filters, malformed cursors, record details and the exact 1,000-record stop. Browser checks covered page navigation and a status change against those temporary fixtures. Index installation preserved live booking/audit counts and wallet totals. These were targeted checks before the full test recovery.
 - **Live pagination reads:** health passed for both databases. The first two booking pages returned 20 rows each in the same order as PostgreSQL's timestamp/ID query; combined guest/status filters and a booking detail lookup also passed. These checks did not write live data.
+- **Recovery:** restored the schema map, ERD, raw EXPLAIN log, reports, guides and root/member tests. Setup now validates the schema-map artifact before writes. A fresh full seed, 13 API tests, eight database checks, build and member-file check passed in disposable databases; the demo database counts and wallet totals were unchanged. See [setup and layout verification](structure_verification.md) and its raw log.
 
 ## 5. Remaining issues and suggestions
 

@@ -182,6 +182,21 @@ Use Ctrl+C rather than Ctrl+Z; Ctrl+Z suspends the process and can leave its por
 | No map pins in the selected period               | Search sessions expire; try the two-hour window or add a fresh pin at the selected origin through the UI                       |
 | MongoDB missing-namespace error                  | Check `MONGO_URL`/`MONGO_DB` and whether MongoDB initialization completed                                                      |
 
+### 1.9 Run the integration checks
+
+Use dedicated, freshly seeded test databases. The API tests create fixture guests, bookings, audit entries and search pins, and refresh summaries. See the [test guide](tests/README.md) for the setup assumptions. From that test installation:
+
+```bash
+set -a
+source .env
+set +a
+npm test
+python tests/database_checks.py
+python scripts/check_members.py
+```
+
+The root test runner loads the four members' test files. It includes a regression that verifies newest-first booking pages stop at 1,000 matches. Database tests check seeded volumes, atomicity, audit immutability, constraints, summaries, MongoDB indexes and saved query plans. Run the telemetry-volume check soon after seeding because sessions expire after two hours.
+
 ## 2. Assumptions and current limits
 
 - **Demo identity:** the guest selector switches actors for demonstrations. Real authentication, authorization and separate user accounts are not implemented.
@@ -196,7 +211,7 @@ Use Ctrl+C rather than Ctrl+Z; Ctrl+Z suspends the process and can leave its por
 - **Pagination:** Bookings fetch one 20-row server page at a time, newest first, and stop at the latest 1,000 matching records. Filters reset the cursor; booking-ID search can find an older record directly. Individual list API requests are capped at 50. Audit still accumulates matching pages within its selected guest/date scope.
 - **History requirement:** this repository has the team's member/merge history, but lacks the original Assignment 1 Git ancestry. The fork/history requirement remains unresolved; see the [handover](docs/handover_note.md) and [backend comparison](docs/backend_comparison.md).
 
-The recorded October 15 handover includes a passing production build and read-only HTTP checks. Current test sources and the former text test logs have been removed; the remaining `npm test` script does not provide a runnable suite. The saved [PostgreSQL](performance/postgres_execution_stats.json) and [MongoDB](performance/mongo_execution_stats.json) plan files are historical measurements, not current latency guarantees.
+The [October 15 setup and layout verification](docs/structure_verification.md) passed a full fresh setup, 13 API tests, eight database checks, the production build and the member-file check in dedicated disposable databases. The original demo data was preserved. The saved [PostgreSQL](performance/postgres_execution_stats.json), [raw EXPLAIN log](performance/postgres_explain_analyzes.txt) and [MongoDB](performance/mongo_execution_stats.json) plan files retain their historical measurement dates.
 
 ## 3. Technology choices
 
@@ -218,18 +233,21 @@ The recorded October 15 handover includes a passing production build and read-on
 
 ### Project structure
 
-| Path                                                                 | Purpose                                                                             |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [members/](members/README.md)                                        | Four members' screens, route handlers, database implementations and seeders         |
-| [web/](web/)                                                         | React entry HTML/bootstrap and shared stylesheet                                    |
-| [api/](api/)                                                         | Express composition, server lifecycle and shared HTTP/SQL helpers                   |
-| [sql/](sql/), [mongo/](mongo/), [data_generation/](data_generation/) | Stable root entry points delegating to member implementations                       |
-| [scripts/](scripts/)                                                 | First-run database setup and the combined development launcher                      |
-| [docs/](docs/)                                                       | Handover, API sketch, reports, code walkthrough, screenshots and designs            |
-| `dist/`                                                              | Generated production frontend output, created by `npm run build` and ignored by Git |
-| `.env`                                                               | Local connection settings, created from `.env.example` and ignored by Git           |
+| Path | Purpose |
+| --- | --- |
+| [docs/](docs/) | Handover, API sketch, reports, designs and screenshots |
+| [docs/members/](docs/members/README.md) | Combined guide and all four individual member READMEs |
+| [web/](web/) | Frontend bootstrap/styles and screens under `web/src/members/memberN/` |
+| [api/](api/) | Server composition/shared helpers and routes under `api/members/memberN/` |
+| [sql/](sql/) | Assignment 1 SQL entry points and canonical `sql/members/memberN/` scripts |
+| [mongo/](mongo/) | Assignment 1 MongoDB entry points and `mongo/members/member4/` implementations |
+| [data_generation/](data_generation/) | Stable seed commands and member-owned seeders |
+| [tests/](tests/README.md) | Shared harness/database checks and `tests/members/memberN/` cases |
+| [scripts/](scripts/) | Setup, development, verification and packaging commands |
+| `dist/` | Generated production output, ignored by Git |
+| `.env` | Local database configuration, ignored by Git |
 
-The full code mappings and dependencies are included in all five member READMEs below.
+The submission retains the required `docs/`, `sql/`, `mongo/`, `data_generation/`, `api/` and `web/` folders. Member ownership is retained inside each layer. All five member guides are included below. The final packager places these files under `14_a1b/` inside `14_a1b.zip`.
 
 ## 4. Screenshots and designs
 
@@ -262,48 +280,46 @@ Figma exports are design artifacts, listed separately from the application scree
 
 ## 5. Contribution table
 
-The responsibilities follow the agreed four-member allocation. Replace name/roll placeholders and confirm actual individual contributions before submission.
+The responsibilities follow the agreed four-member allocation. Names and confirmed roll numbers come from the team's README edits. Members 3 and 4 previously repeated Member 1's roll number; their correct numbers need team confirmation.
 
-| Member   | Name            | Roll number     | Assigned contribution                                                               | Source folder                        |
-| -------- | --------------- | --------------- | ----------------------------------------------------------------------------------- | ------------------------------------ |
-| Member 1 | `MEMBER_1_NAME` | `MEMBER_1_ROLL` | Browse, Property Details, shared React components, PostgreSQL schema; screens 00–02 | [member1](members/member1/README.md) |
-| Member 2 | `MEMBER_2_NAME` | `MEMBER_2_ROLL` | Booking, Status Transition, Wallet Audit, procedure/indexes/triggers; screens 03–05 | [member2](members/member2/README.md) |
-| Member 3 | `MEMBER_3_NAME` | `MEMBER_3_ROLL` | Analytics, window functions and materialized summaries; screen 06                   | [member3](members/member3/README.md) |
-| Member 4 | `MEMBER_4_NAME` | `MEMBER_4_ROLL` | Map, Reviews and MongoDB pipelines; screens 07–08                                   | [member4](members/member4/README.md) |
+| Member   | Name                     | Roll number     | Assigned contribution                                                               | Source folder                        |
+| -------- | ------------------------ | --------------- | ----------------------------------------------------------------------------------- | ------------------------------------ |
+| Member 1 | `Anant Preet Singh Reen` | `2026201026`    | Browse, Property Details, shared React components, PostgreSQL schema; screens 00–02 | [member1](docs/members/member1/README.md) |
+| Member 2 | `Aditya Mittal`          | `2026201055`    | Booking, Status Transition, Wallet Audit, procedure/indexes/triggers; screens 03–05 | [member2](docs/members/member2/README.md) |
+| Member 3 | `Varshitha Vallabhadasu` | To be confirmed | Analytics, window functions and materialized summaries; screen 06                   | [member3](docs/members/member3/README.md) |
+| Member 4 | `Ashish Soni`            | To be confirmed | Map, Reviews and MongoDB pipelines; screens 07–08                                   | [member4](docs/members/member4/README.md) |
 
 The folder allocation documents responsibilities; it does not establish personal authorship of inherited code. The full inherited/current comparison is in the [backend handover evidence](docs/backend_comparison.md).
 
 ## 6. Repository, final commit and demo
 
-| Item                             | Value                                                                                  |
-| -------------------------------- | -------------------------------------------------------------------------------------- |
-| Repository URL                   | [https://github.com/anantreen/StaySpot_A1B](https://github.com/anantreen/StaySpot_A1B) |
-| Final submitted commit hash      | `FINAL_COMMIT_HASH_PLACEHOLDER`                                                        |
-| Demo video link                  | `https://drive.google.com/file/d/1QPTfYh7q5jZCB6puoEIr3Hwl4Dp5VEW_/view?usp=sharinghttps://drive.google.com/file/d/1QPTfYh7q5jZCB6puoEIr3Hwl4Dp5VEW_/view?usp=sharing`                                                          |
-| Team number                      | `14`                                                              |
-| Original Assignment 1 repository | [git-adityamishra/27_a1](https://github.com/git-adityamishra/27_a1)                    |
-| Original reference commit        | `774fbd2f33463c3e88352bdb0b7988165c65abcf`                                             |
+| Item                             | Value                                                                                                       |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Repository URL                   | [https://github.com/anantreen/StaySpot_A1B](https://github.com/anantreen/StaySpot_A1B)                      |
+| Final submitted commit hash      | Recorded automatically in the final ZIP by the packaging command below                                      |
+| Demo video link                  | [Watch the walkthrough](https://drive.google.com/file/d/1QPTfYh7q5jZCB6puoEIr3Hwl4Dp5VEW_/view?usp=sharing) |
+| Team number                      | `14`                                                                                                        |
+| Original Assignment 1 repository | [git-adityamishra/27_a1](https://github.com/git-adityamishra/27_a1)                                         |
+| Original reference commit        | `774fbd2f33463c3e88352bdb0b7988165c65abcf`                                                                  |
 
-After the final source is committed and pushed, replace the final-commit placeholder with the published revision. Obtain its SHA from the finalized checkout with:
+The current committed base is `d2d9f29c0265a807bd6d21699834260e31815bbc`; the recovered files must be reviewed, committed and pushed before final submission. From the resulting clean checkout, generate the final archive:
 
 ```bash
-git rev-parse HEAD
+python scripts/package_submission.py --assignment 2 --team 14 --repo-url https://github.com/anantreen/StaySpot_A1B
 ```
 
-Replace the demo placeholder with the team's accessible uploaded video URL. The [walkthrough script](docs/video_walkthrough_script.md) provides the planned recording sequence. Source attribution above does not imply that the original Git ancestry is present in this repository.
-
-Supporting documents: [handover note](docs/handover_note.md), [API endpoints](docs/api_endpoints.md), [code walkthrough](docs/code_walkthrough.md), [Assignment 1 report](docs/assignment1_report.md), [Assignment 2 report](docs/assignment2_report.md), and [performance/complexity analysis](docs/performance_and_complexity.md). Older reports may refer to removed test or helper files; the setup and current limitations in this README take precedence.
+Supporting documents: [handover note](docs/handover_note.md), [API endpoints](docs/api_endpoints.md).
 
 ## 7. Member documentation (all five READMEs)
 
-The following sections include the full content of **members/README.md** and **members/member1–4/README.md**. Links are adjusted for this root README. The original guides remain available in their member folders; this consolidated copy reflects them when this README was generated.
+The following sections include the full content of **docs/members/README.md** and **docs/members/member1–4/README.md**. Links are adjusted for this root README. The original guides remain available in their member folders; this consolidated copy reflects them when this README was generated.
 
 <details>
-<summary>Shared member organization — members/README.md</summary>
+<summary>Shared member organization — docs/members/README.md</summary>
 
-Source: [members/README.md](members/README.md).
+Source: [docs/members/README.md](docs/members/README.md).
 
-<!-- BEGIN INCLUDED README: members/README.md -->
+<!-- BEGIN INCLUDED README: docs/members/README.md -->
 
 ### Four-member code organization
 
@@ -311,10 +327,10 @@ All four member folders are present in the merged StaySpot application. Each mem
 
 | Member   | Responsibility                                                            | Assigned Figma screens                                                            | Member guide                          |
 | -------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------- |
-| Member 1 | Browse, Property Details, shared React foundations and PostgreSQL schema  | 00 Foundations & Users; 01 Browse; 02 Property Details                            | [Member 1](members/member1/README.md) |
-| Member 2 | Booking, Status Transition, Wallet Audit, procedure, indexes and triggers | 03 Transaction / Book Stay; 04 Booking Status & Constraint; 05 Wallet Audit Trail | [Member 2](members/member2/README.md) |
-| Member 3 | Analytics, window functions and materialized summaries                    | 06 Analytics                                                                      | [Member 3](members/member3/README.md) |
-| Member 4 | Map, Reviews, MongoDB pipelines, validators and indexes                   | 07 Map / Search Hotspots; 08 Reviews & Amenities                                  | [Member 4](members/member4/README.md) |
+| Member 1 | Browse, Property Details, shared React foundations and PostgreSQL schema  | 00 Foundations & Users; 01 Browse; 02 Property Details                            | [Member 1](docs/members/member1/README.md) |
+| Member 2 | Booking, Status Transition, Wallet Audit, procedure, indexes and triggers | 03 Transaction / Book Stay; 04 Booking Status & Constraint; 05 Wallet Audit Trail | [Member 2](docs/members/member2/README.md) |
+| Member 3 | Analytics, window functions and materialized summaries                    | 06 Analytics                                                                      | [Member 3](docs/members/member3/README.md) |
+| Member 4 | Map, Reviews, MongoDB pipelines, validators and indexes                   | 07 Map / Search Hotspots; 08 Reviews & Amenities                                  | [Member 4](docs/members/member4/README.md) |
 
 #### Folder ownership
 
@@ -327,22 +343,26 @@ members/
 │   │   ├── hooks/           useData, useBookingHistory
 │   │   └── lib/             API client, query, formatting and validation
 │   ├── api/                 Health and guest/property/booking read routes
-│   └── sql/                 Relational table schema
+│   ├── sql/                 Relational schema and booking browse indexes
+│   └── tests/               Browse, details and bounded booking pagination
 ├── member2/
 │   ├── web/                 Transaction, BookingStatusAction, Audit
 │   │   └── hooks/           useAuditHistory
 │   ├── api/                 Booking creation, status updates and audit reads
 │   ├── sql/                 Indexes, wallet trigger, audit guards and procedure
-│   └── data_generation/     PostgreSQL seeder
+│   ├── data_generation/     PostgreSQL seeder
+│   └── tests/               Wallet, status, rollback, concurrency and audit
 ├── member3/
 │   ├── web/                 Analytics and LineChart
 │   ├── api/                 Analytics reads and materialized refresh
-│   └── sql/                 Materialized summaries and window analytics
+│   ├── sql/                 Materialized summaries and window analytics
+│   └── tests/               Moving averages, ranks and materialized refresh
 └── member4/
     ├── web/                 MapView and Reviews
     ├── api/                 Search, hotspots, reviews and amenities
     ├── mongo/               Validators, indexes, builders and shell workflows
-    └── data_generation/     MongoDB seeder
+    ├── data_generation/     MongoDB seeder
+    └── tests/               Geospatial search, reviews and validators
 ```
 
 #### Shared integration
@@ -355,20 +375,20 @@ members/
 
 #### Running and verification
 
-Follow the [project README](README.md) for prerequisites, first-time setup, later starts and graceful shutdown. The current member test sources and root test suite are absent; the remaining `npm test` entry is not a runnable verification suite. Build and read-only smoke results are documented separately from historical tests.
+Follow the [project README](README.md) for prerequisites, first-time setup, later starts and graceful shutdown. The root [test entry point](tests/workflows.test.js) loads all four members' test files. Run `npm test` against dedicated seeded test databases; these integration tests create fixtures and refresh summaries. The [setup and layout verification](docs/structure_verification.md) records 13 passing API tests, eight database checks and a full fresh setup. Earlier performance logs retain their original dates.
 
 The [code walkthrough](docs/code_walkthrough.md) explains the implementation. The [Figma export guide](docs/design/README.md) and [offline gallery](docs/design/preview.html) provide 15 UI designs and 14 wireframes with SVG/PNG downloads and member filters. Property Details is a modal; Booking Status is part of Browse → Bookings.
 
-<!-- END INCLUDED README: members/README.md -->
+<!-- END INCLUDED README: docs/members/README.md -->
 
 </details>
 
 <details>
-<summary>Member 1: Browse and shared foundations — members/member1/README.md</summary>
+<summary>Member 1: Browse and shared foundations — docs/members/member1/README.md</summary>
 
-Source: [members/member1/README.md](members/member1/README.md).
+Source: [docs/members/member1/README.md](docs/members/member1/README.md).
 
-<!-- BEGIN INCLUDED README: members/member1/README.md -->
+<!-- BEGIN INCLUDED README: docs/members/member1/README.md -->
 
 ### Member 1 — Browse, Property Details and shared foundations
 
@@ -376,18 +396,19 @@ Assigned Figma screens: **00 Foundations & Users**, **01 Browse**, **02 Property
 
 | Area                                                           | Source                                                                                                                                                             |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Application layout, navigation and demo guest switching        | [web/App.jsx](members/member1/web/App.jsx)                                                                                                                         |
-| Properties, guests and bookings browsing                       | [web/Browse.jsx](members/member1/web/Browse.jsx)                                                                                                                   |
-| Record detail dialog, loading and GET retry                    | [web/PropertyDetails.jsx](members/member1/web/PropertyDetails.jsx)                                                                                                 |
-| Shared display, form, status, pagination and dialog components | [web/components/](members/member1/web/components)                                                                                                                  |
-| Page-not-found and render-error recovery                       | [web/components/PageState.jsx](members/member1/web/components/PageState.jsx), [web/components/ErrorBoundary.jsx](members/member1/web/components/ErrorBoundary.jsx) |
-| Request state and stale-response handling                      | [web/hooks/useData.js](members/member1/web/hooks/useData.js)                                                                                                       |
-| Newest-first booking display                                   | [web/hooks/useBookingHistory.js](members/member1/web/hooks/useBookingHistory.js)                                                                                   |
-| API client, formatting and query helpers                       | [web/lib/](members/member1/web/lib)                                                                                                                                |
-| Shared nights, date and coordinate validation                  | [web/lib/validation.js](members/member1/web/lib/validation.js)                                                                                                     |
-| Health, browse and detail API handlers                         | [api/routes.js](members/member1/api/routes.js)                                                                                                                     |
-| Relational schema and ERD                                      | [sql/01_schema_ddl.sql](members/member1/sql/01_schema_ddl.sql), [ERD](docs/relational_erd.png)                                                                     |
-| Newest-first booking indexes                                   | [sql/07_booking_pagination_indexes.sql](members/member1/sql/07_booking_pagination_indexes.sql)                                                                     |
+| Application layout, navigation and demo guest switching        | [web/App.jsx](web/src/members/member1/App.jsx)                                                                                                                         |
+| Properties, guests and bookings browsing                       | [web/Browse.jsx](web/src/members/member1/Browse.jsx)                                                                                                                   |
+| Record detail dialog, loading and GET retry                    | [web/PropertyDetails.jsx](web/src/members/member1/PropertyDetails.jsx)                                                                                                 |
+| Shared display, form, status, pagination and dialog components | [web/components/](web/src/members/member1/components)                                                                                                                  |
+| Page-not-found and render-error recovery                       | [web/components/PageState.jsx](web/src/members/member1/components/PageState.jsx), [web/components/ErrorBoundary.jsx](web/src/members/member1/components/ErrorBoundary.jsx) |
+| Request state and stale-response handling                      | [web/hooks/useData.js](web/src/members/member1/hooks/useData.js)                                                                                                       |
+| Newest-first booking display                                   | [web/hooks/useBookingHistory.js](web/src/members/member1/hooks/useBookingHistory.js)                                                                                   |
+| API client, formatting and query helpers                       | [web/lib/](web/src/members/member1/lib)                                                                                                                                |
+| Shared nights, date and coordinate validation                  | [web/lib/validation.js](web/src/members/member1/lib/validation.js)                                                                                                     |
+| Health, browse and detail API handlers                         | [api/routes.js](api/members/member1/routes.js)                                                                                                                     |
+| Relational schema and ERD                                      | [sql/01_schema_ddl.sql](sql/members/member1/01_schema_ddl.sql), [ERD](docs/relational_erd.png)                                                                     |
+| Newest-first booking indexes                                   | [sql/07_booking_pagination_indexes.sql](sql/members/member1/07_booking_pagination_indexes.sql)                                                                     |
+| Member regression tests                                        | [tests/workflows.cases.js](tests/members/member1/workflows.cases.js)                                                                                               |
 
 #### Implementation notes
 
@@ -395,20 +416,20 @@ Assigned Figma screens: **00 Foundations & Users**, **01 Browse**, **02 Property
 - All three entities use API cursor pages. Bookings load 20 rows per request, ordered by creation time and ID descending, with a browse window of the latest 1,000 matching records. Search, status and selected-guest filters run before pagination; a booking-ID lookup can find an older record outside the unfiltered window.
 - Booking cursors preserve microseconds, include an ID tie-breaker and reset when filters change. Back/Next and status-action reloads fetch only the current page; the browser does not accumulate booking rows.
 - Request identity and cleanup prevent late data from one entity, guest or filter from appearing in another view.
-- Browse reuses [Member 2's status action](members/member2/web/BookingStatusAction.jsx). The other members reuse this folder's UI components and helpers.
+- Browse reuses [Member 2's status action](web/src/members/member2/BookingStatusAction.jsx). The other members reuse this folder's UI components and helpers.
 
-Run project commands from the repository root; see the [project README](README.md) and [combined ownership guide](members/README.md). Current member test sources are absent. Source comments and the [code walkthrough](docs/code_walkthrough.md) explain state, handlers and failure paths.
+Run project commands from the repository root; see the [project README](README.md) and [combined ownership guide](docs/members/README.md). The [member regression cases](tests/members/member1/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. Source comments and the [code walkthrough](docs/code_walkthrough.md) explain state, handlers and failure paths.
 
-<!-- END INCLUDED README: members/member1/README.md -->
+<!-- END INCLUDED README: docs/members/member1/README.md -->
 
 </details>
 
 <details>
-<summary>Member 2: Booking, status and audit — members/member2/README.md</summary>
+<summary>Member 2: Booking, status and audit — docs/members/member2/README.md</summary>
 
-Source: [members/member2/README.md](members/member2/README.md).
+Source: [docs/members/member2/README.md](docs/members/member2/README.md).
 
-<!-- BEGIN INCLUDED README: members/member2/README.md -->
+<!-- BEGIN INCLUDED README: docs/members/member2/README.md -->
 
 ### Member 2 — Booking, status and wallet audit
 
@@ -416,15 +437,16 @@ Assigned Figma screens: **03 Transaction / Book Stay**, **04 Booking Status & Co
 
 | Area                                            | Source                                                                                   |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Booking form, quote, wallet changes and receipt | [web/Transaction.jsx](members/member2/web/Transaction.jsx)                               |
-| Check in / Complete stay action inside Browse   | [web/BookingStatusAction.jsx](members/member2/web/BookingStatusAction.jsx)               |
-| Read-only ledger, date filters and balances     | [web/Audit.jsx](members/member2/web/Audit.jsx)                                           |
-| Newest-first guest/date audit display           | [web/hooks/useAuditHistory.js](members/member2/web/hooks/useAuditHistory.js)             |
-| Booking POST, status PATCH and audit GET        | [api/routes.js](members/member2/api/routes.js)                                           |
-| Active-stay and query indexes                   | [sql/02_indexes.sql](members/member2/sql/02_indexes.sql)                                 |
-| Wallet trigger and append-only audit guards     | [sql/03_triggers_and_audit.sql](members/member2/sql/03_triggers_and_audit.sql)           |
-| Server-priced atomic booking procedure          | [sql/04_stored_procedures.sql](members/member2/sql/04_stored_procedures.sql)             |
-| PostgreSQL seed generation                      | [data_generation/postgres_seeder.py](members/member2/data_generation/postgres_seeder.py) |
+| Booking form, quote, wallet changes and receipt | [web/Transaction.jsx](web/src/members/member2/Transaction.jsx)                               |
+| Check in / Complete stay action inside Browse   | [web/BookingStatusAction.jsx](web/src/members/member2/BookingStatusAction.jsx)               |
+| Read-only ledger, date filters and balances     | [web/Audit.jsx](web/src/members/member2/Audit.jsx)                                           |
+| Newest-first guest/date audit display           | [web/hooks/useAuditHistory.js](web/src/members/member2/hooks/useAuditHistory.js)             |
+| Booking POST, status PATCH and audit GET        | [api/routes.js](api/members/member2/routes.js)                                           |
+| Active-stay and query indexes                   | [sql/02_indexes.sql](sql/members/member2/02_indexes.sql)                                 |
+| Wallet trigger and append-only audit guards     | [sql/03_triggers_and_audit.sql](sql/members/member2/03_triggers_and_audit.sql)           |
+| Server-priced atomic booking procedure          | [sql/04_stored_procedures.sql](sql/members/member2/04_stored_procedures.sql)             |
+| PostgreSQL seed generation                      | [data_generation/postgres_seeder.py](data_generation/members/member2/postgres_seeder.py) |
+| Member regression tests                         | [tests/workflows.cases.js](tests/members/member2/workflows.cases.js)                     |
 
 #### Implementation notes
 
@@ -434,18 +456,18 @@ Assigned Figma screens: **03 Transaction / Book Stay**, **04 Booking Status & Co
 - The audit API uses timestamp/ID cursors with microsecond precision. The frontend fetches the selected guest/date scope and reverses it for newest-first display; saved running balances remain intact.
 - Shared UI and HTTP validation helpers are imported. The root SQL and seeder filenames delegate to this member's implementations.
 
-Run project commands from the repository root; see the [project README](README.md) and [combined ownership guide](members/README.md). Current member test sources are absent. The [code walkthrough](docs/code_walkthrough.md) explains transactions, rollback and error paths.
+Run project commands from the repository root; see the [project README](README.md) and [combined ownership guide](docs/members/README.md). The [member regression cases](tests/members/member2/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. The [code walkthrough](docs/code_walkthrough.md) explains transactions, rollback and error paths.
 
-<!-- END INCLUDED README: members/member2/README.md -->
+<!-- END INCLUDED README: docs/members/member2/README.md -->
 
 </details>
 
 <details>
-<summary>Member 3: Analytics — members/member3/README.md</summary>
+<summary>Member 3: Analytics — docs/members/member3/README.md</summary>
 
-Source: [members/member3/README.md](members/member3/README.md).
+Source: [docs/members/member3/README.md](docs/members/member3/README.md).
 
-<!-- BEGIN INCLUDED README: members/member3/README.md -->
+<!-- BEGIN INCLUDED README: docs/members/member3/README.md -->
 
 ### Member 3 — Analytics, windows and materialized summaries
 
@@ -453,11 +475,12 @@ Assigned Figma screen: **06 Analytics**.
 
 | Area                                             | Source                                                                         |
 | ------------------------------------------------ | ------------------------------------------------------------------------------ |
-| Totals, date controls and ranked analytics table | [web/Analytics.jsx](members/member3/web/Analytics.jsx)                         |
-| Seven-day revenue SVG chart                      | [web/LineChart.jsx](members/member3/web/LineChart.jsx)                         |
-| Analytics GET and materialized refresh POST      | [api/routes.js](members/member3/api/routes.js)                                 |
-| Materialized totals and concurrent refresh       | [sql/05_materialized_views.sql](members/member3/sql/05_materialized_views.sql) |
-| CTEs, moving averages and DENSE_RANK             | [sql/06_window_analytics.sql](members/member3/sql/06_window_analytics.sql)     |
+| Totals, date controls and ranked analytics table | [web/Analytics.jsx](web/src/members/member3/Analytics.jsx)                         |
+| Seven-day revenue SVG chart                      | [web/LineChart.jsx](web/src/members/member3/LineChart.jsx)                         |
+| Analytics GET and materialized refresh POST      | [api/routes.js](api/members/member3/routes.js)                                 |
+| Materialized totals and concurrent refresh       | [sql/05_materialized_views.sql](sql/members/member3/05_materialized_views.sql) |
+| CTEs, moving averages and DENSE_RANK             | [sql/06_window_analytics.sql](sql/members/member3/06_window_analytics.sql)     |
+| Member regression tests                          | [tests/workflows.cases.js](tests/members/member3/workflows.cases.js)           |
 
 #### Implementation notes
 
@@ -467,18 +490,18 @@ Assigned Figma screen: **06 Analytics**.
 - Materialized totals contain bookings, actual nights and gross revenue. Refresh uses the database function and records its completion timestamp.
 - Invalid date controls show inline errors. Background refresh retains the previous valid results while loading.
 
-Run project commands from the repository root; the root SQL entry points retain their dependency order. Current member test sources are absent. See the [project README](README.md), [combined ownership guide](members/README.md), [code walkthrough](docs/code_walkthrough.md) and [performance analysis](docs/performance_and_complexity.md). Saved performance measurements describe their recorded scopes and earlier environments.
+Run project commands from the repository root; the root SQL entry points retain their dependency order. The [member regression cases](tests/members/member3/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. See the [project README](README.md), [combined ownership guide](docs/members/README.md), [code walkthrough](docs/code_walkthrough.md) and [performance analysis](docs/performance_and_complexity.md). Saved performance measurements describe their recorded scopes and earlier environments.
 
-<!-- END INCLUDED README: members/member3/README.md -->
+<!-- END INCLUDED README: docs/members/member3/README.md -->
 
 </details>
 
 <details>
-<summary>Member 4: Map and reviews — members/member4/README.md</summary>
+<summary>Member 4: Map and reviews — docs/members/member4/README.md</summary>
 
-Source: [members/member4/README.md](members/member4/README.md).
+Source: [docs/members/member4/README.md](docs/members/member4/README.md).
 
-<!-- BEGIN INCLUDED README: members/member4/README.md -->
+<!-- BEGIN INCLUDED README: docs/members/member4/README.md -->
 
 ### Member 4 — Map, reviews and MongoDB
 
@@ -486,15 +509,16 @@ Assigned Figma screens: **07 Map / Search Hotspots**, **08 Reviews & Amenities**
 
 | Area                                             | Source                                                                                                                                                     |
 | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Interactive origin, search map and polling       | [web/MapView.jsx](members/member4/web/MapView.jsx)                                                                                                         |
-| Review charts and flexible amenities             | [web/Reviews.jsx](members/member4/web/Reviews.jsx)                                                                                                         |
-| Search GET/POST and reviews GET                  | [api/routes.js](members/member4/api/routes.js)                                                                                                             |
-| Nearest pins and hotspot grid cells              | [mongo/geospatial.cjs](members/member4/mongo/geospatial.cjs)                                                                                               |
-| Indexed property-scoped review facets            | [mongo/review-facets.cjs](members/member4/mongo/review-facets.cjs)                                                                                         |
-| Shared pipeline exports                          | [mongo/pipelines.cjs](members/member4/mongo/pipelines.cjs)                                                                                                 |
-| Collection validators and geo/TTL/review indexes | [mongo/01_collections_and_indexes.js](members/member4/mongo/01_collections_and_indexes.js)                                                                 |
-| Independent shell workflows                      | [mongo/02_workflow3_geonear.js](members/member4/mongo/02_workflow3_geonear.js), [mongo/03_workflow4_facet.js](members/member4/mongo/03_workflow4_facet.js) |
-| MongoDB seed generation                          | [data_generation/mongo_seeder.py](members/member4/data_generation/mongo_seeder.py)                                                                         |
+| Interactive origin, search map and polling       | [web/MapView.jsx](web/src/members/member4/MapView.jsx)                                                                                                         |
+| Review charts and flexible amenities             | [web/Reviews.jsx](web/src/members/member4/Reviews.jsx)                                                                                                         |
+| Search GET/POST and reviews GET                  | [api/routes.js](api/members/member4/routes.js)                                                                                                             |
+| Nearest pins and hotspot grid cells              | [mongo/geospatial.cjs](mongo/members/member4/geospatial.cjs)                                                                                               |
+| Indexed property-scoped review facets            | [mongo/review-facets.cjs](mongo/members/member4/review-facets.cjs)                                                                                         |
+| Shared pipeline exports                          | [mongo/pipelines.cjs](mongo/members/member4/pipelines.cjs)                                                                                                 |
+| Collection validators and geo/TTL/review indexes | [mongo/01_collections_and_indexes.js](mongo/members/member4/01_collections_and_indexes.js)                                                                 |
+| Independent shell workflows                      | [mongo/02_workflow3_geonear.js](mongo/members/member4/02_workflow3_geonear.js), [mongo/03_workflow4_facet.js](mongo/members/member4/03_workflow4_facet.js) |
+| MongoDB seed generation                          | [data_generation/mongo_seeder.py](data_generation/members/member4/mongo_seeder.py)                                                                         |
+| Member regression tests                          | [tests/workflows.cases.js](tests/members/member4/workflows.cases.js)                                                                                       |
 
 #### Implementation notes
 
@@ -505,8 +529,8 @@ Assigned Figma screens: **07 Map / Search Hotspots**, **08 Reviews & Amenities**
 - The API and root MongoDB shell workflows reuse the same pure builders. Coordinates are stored as GeoJSON [longitude, latitude].
 - Tile failures, empty recent searches, missing reviews and empty catalogs have dedicated UI feedback.
 
-Run npm commands and MongoDB shell workflows from the repository root. Current member test sources are absent. See the [project README](README.md), [combined ownership guide](members/README.md) and [code walkthrough](docs/code_walkthrough.md).
+Run npm commands and MongoDB shell workflows from the repository root. The [member regression cases](tests/members/member4/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. See the [project README](README.md).
 
-<!-- END INCLUDED README: members/member4/README.md -->
+<!-- END INCLUDED README: docs/members/member4/README.md -->
 
 </details>

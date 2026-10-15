@@ -1,0 +1,74 @@
+{
+  "project": "StaySpot",
+  "repository": "https://github.com/anantreen/StaySpot_A1B",
+  "source_folder": "StaySpotAI",
+  "source_commit": "0b2f70d48917739a1fc841f89f7002fbaa68af7d",
+  "initial_members": [
+    "member1"
+  ],
+  "members": {
+    "member1": [
+      "api/members/member1/routes.js",
+      "docs/members/member1/README.md",
+      "sql/members/member1/01_schema_ddl.sql",
+      "sql/members/member1/07_booking_pagination_indexes.sql",
+      "tests/members/member1/workflows.cases.js",
+      "web/src/members/member1/App.jsx",
+      "web/src/members/member1/Browse.jsx",
+      "web/src/members/member1/PropertyDetails.jsx",
+      "web/src/members/member1/components/Alert.jsx",
+      "web/src/members/member1/components/DataState.jsx",
+      "web/src/members/member1/components/ErrorBoundary.jsx",
+      "web/src/members/member1/components/Heading.jsx",
+      "web/src/members/member1/components/HouseArt.jsx",
+      "web/src/members/member1/components/Modal.jsx",
+      "web/src/members/member1/components/PageState.jsx",
+      "web/src/members/member1/components/Pager.jsx",
+      "web/src/members/member1/components/Picker.jsx",
+      "web/src/members/member1/components/Pill.jsx",
+      "web/src/members/member1/hooks/useBookingHistory.js",
+      "web/src/members/member1/hooks/useData.js",
+      "web/src/members/member1/lib/api.js",
+      "web/src/members/member1/lib/format.js",
+      "web/src/members/member1/lib/query.js",
+      "web/src/members/member1/lib/validation.js"
+    ],
+    "member2": [
+      "api/members/member2/routes.js",
+      "data_generation/members/member2/postgres_seeder.py",
+      "docs/members/member2/README.md",
+      "sql/members/member2/02_indexes.sql",
+      "sql/members/member2/03_triggers_and_audit.sql",
+      "sql/members/member2/04_stored_procedures.sql",
+      "tests/members/member2/workflows.cases.js",
+      "web/src/members/member2/Audit.jsx",
+      "web/src/members/member2/BookingStatusAction.jsx",
+      "web/src/members/member2/Transaction.jsx",
+      "web/src/members/member2/hooks/useAuditHistory.js"
+    ],
+    "member3": [
+      "api/members/member3/routes.js",
+      "docs/members/member3/README.md",
+      "sql/members/member3/05_materialized_views.sql",
+      "sql/members/member3/06_window_analytics.sql",
+      "tests/members/member3/workflows.cases.js",
+      "web/src/members/member3/Analytics.jsx",
+      "web/src/members/member3/LineChart.jsx"
+    ],
+    "member4": [
+      "api/members/member4/routes.js",
+      "data_generation/members/member4/mongo_seeder.py",
+      "docs/members/member4/README.md",
+      "mongo/members/member4/01_collections_and_indexes.js",
+      "mongo/members/member4/02_workflow3_geonear.js",
+      "mongo/members/member4/03_workflow4_facet.js",
+      "mongo/members/member4/geospatial.cjs",
+      "mongo/members/member4/pipelines.cjs",
+      "mongo/members/member4/review-facets.cjs",
+      "tests/members/member4/workflows.cases.js",
+      "web/src/members/member4/MapView.jsx",
+      "web/src/members/member4/Reviews.jsx"
+    ]
+  },
+  "layout": "layered-member-folders"
+}

@@ -1,0 +1,29 @@
+# Member 1 — Browse, Property Details and shared foundations
+
+Assigned Figma screens: **00 Foundations & Users**, **01 Browse**, **02 Property Details**.
+
+| Area                                                           | Source                                                                                                                             |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Application layout, navigation and demo guest switching        | [web/src/members/member1/App.jsx](../../../web/src/members/member1/App.jsx)                                                                                                         |
+| Properties, guests and bookings browsing                       | [web/src/members/member1/Browse.jsx](../../../web/src/members/member1/Browse.jsx)                                                                                                   |
+| Record detail dialog, loading and GET retry                    | [web/src/members/member1/PropertyDetails.jsx](../../../web/src/members/member1/PropertyDetails.jsx)                                                                                 |
+| Shared display, form, status, pagination and dialog components | [web/src/members/member1/components](../../../web/src/members/member1/components)                                                                                                  |
+| Page-not-found and render-error recovery                       | [web/src/members/member1/components/PageState.jsx](../../../web/src/members/member1/components/PageState.jsx), [web/src/members/member1/components/ErrorBoundary.jsx](../../../web/src/members/member1/components/ErrorBoundary.jsx) |
+| Request state and stale-response handling                      | [web/src/members/member1/hooks/useData.js](../../../web/src/members/member1/hooks/useData.js)                                                                                       |
+| Newest-first booking display                                   | [web/src/members/member1/hooks/useBookingHistory.js](../../../web/src/members/member1/hooks/useBookingHistory.js)                                                                   |
+| API client, formatting and query helpers                       | [web/src/members/member1/lib](../../../web/src/members/member1/lib)                                                                                                                |
+| Shared nights, date and coordinate validation                  | [web/src/members/member1/lib/validation.js](../../../web/src/members/member1/lib/validation.js)                                                                                     |
+| Health, browse and detail API handlers                         | [api/members/member1/routes.js](../../../api/members/member1/routes.js)                                                                                                     |
+| Relational schema and ERD                                      | [sql/members/member1/01_schema_ddl.sql](../../../sql/members/member1/01_schema_ddl.sql), [ERD](../../relational_erd.png)                                               |
+| Newest-first booking indexes                                   | [sql/members/member1/07_booking_pagination_indexes.sql](../../../sql/members/member1/07_booking_pagination_indexes.sql)                                                     |
+| Member regression tests                                        | [tests/members/member1/workflows.cases.js](../../../tests/members/member1/workflows.cases.js)                                                                               |
+
+## Implementation notes
+
+- Shared visual styles live in [style.css](../../../web/src/style.css); user journeys are described in [users_and_style.md](../../design/users_and_style.md).
+- All three entities use API cursor pages. Bookings load 20 rows per request, ordered by creation time and ID descending, with a browse window of the latest 1,000 matching records. Search, status and selected-guest filters run before pagination; a booking-ID lookup can find an older record outside the unfiltered window.
+- Booking cursors preserve microseconds, include an ID tie-breaker and reset when filters change. Back/Next and status-action reloads fetch only the current page; the browser does not accumulate booking rows.
+- Request identity and cleanup prevent late data from one entity, guest or filter from appearing in another view.
+- Browse reuses [Member 2's status action](../../../web/src/members/member2/BookingStatusAction.jsx). The other members reuse this folder's UI components and helpers.
+
+Run project commands from the repository root; see the [project README](../../../README.md) and [combined ownership guide](../README.md). The [member regression cases](../../../tests/members/member1/workflows.cases.js) run through root `npm test` against dedicated seeded test databases. Source comments and the [code walkthrough](../../code_walkthrough.md) explain state, handlers and failure paths.

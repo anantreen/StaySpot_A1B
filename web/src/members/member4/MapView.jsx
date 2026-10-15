@@ -1,0 +1,352 @@
+/**
+ * Workflow 3: interactive origin, nearest pins and search hotspots.
+ *
+ * React owns origin/filter state; refs retain Leaflet objects between renders.
+ * Polling refreshes data every 15 seconds without reloading the page.
+ * GeoJSON uses longitude/latitude, while Leaflet expects latitude/longitude.
+ */
+
+import React, { useEffect, useRef, useState } from "react";
+import { MapPin, ArrowRight, Plus } from "lucide-react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { count } from "../member1/lib/format.js";
+import { date } from "../member1/lib/format.js";
+import { qs } from "../member1/lib/query.js";
+import { api } from "../member1/lib/api.js";
+import { useData } from "../member1/hooks/useData.js";
+import { Alert } from "../member1/components/Alert.jsx";
+import { DataState } from "../member1/components/DataState.jsx";
+import { Heading } from "../member1/components/Heading.jsx";
+import { validateCoordinates } from "../member1/lib/validation.js";
+
+/**
+ * Render the Leaflet map and latest bounded results for a selectable origin.
+ * Lifecycle effects own map/timer cleanup; explicit actions add pins or apply typed
+ * coordinates.
+ */
+export function MapView() {
+  // origin drives queries; draft lets the user type coordinates without querying each
+  // keystroke.
+  const [origin, setOrigin] = useState({
+    latitude: 17.385,
+    longitude: 78.4867,
+  });
+  const [draft, setDraft] = useState({ latitude: 17.385, longitude: 78.4867 });
+  const [minutes, setMinutes] = useState(60);
+  const [notice, setNotice] = useState("");
+  const [adding, setAdding] = useState(false);
+  const [inputError, setInputError] = useState("");
+  const [coordinateError, setCoordinateError] = useState("");
+  const [tileError, setTileError] = useState(false);
+  const searchUrl = `/search?${qs({ ...origin, minutes })}`;
+  const resource = useData(searchUrl);
+  // Remember which query the displayed results belong to. A 15-second poll of the same
+  // query refreshes silently instead of swapping the list for a loading spinner.
+  const [loadedUrl, setLoadedUrl] = useState("");
+  useEffect(() => {
+    if (resource.data && !resource.loading) setLoadedUrl(searchUrl);
+  }, [resource.data, resource.loading]);
+  const listState =
+    resource.loading && loadedUrl === searchUrl
+      ? { ...resource, loading: false }
+      : resource;
+  // DOM container, Leaflet instance and replaceable data layer have distinct lifetimes.
+  const mapNode = useRef(null);
+  const mapRef = useRef(null);
+  const layerRef = useRef(null);
+  const tilesRef = useRef(null);
+  useEffect(() => {
+    // The stable reload callback lets polling run without reinstalling its timer on
+    // every result.
+    const timer = setInterval(resource.reload, 15000);
+    return () => clearInterval(timer);
+  }, [resource.reload]);
+  useEffect(() => {
+    // Create the map once. Removing it during cleanup releases listeners and DOM state.
+    if (!mapNode.current || mapRef.current) return;
+    const map = L.map(mapNode.current, { attributionControl: true }).setView(
+      [origin.latitude, origin.longitude],
+      13,
+    );
+    mapRef.current = map;
+    const tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    }).addTo(map);
+    tilesRef.current = tiles;
+    let failedTiles = 0;
+    tiles.on("loading", () => {
+      failedTiles = 0;
+    });
+    tiles.on("tileerror", () => {
+      failedTiles += 1;
+      setTileError(true);
+    });
+    tiles.on("load", () => {
+      if (!failedTiles) setTileError(false);
+    });
+    // A map click updates both committed origin and its editable form values.
+    map.on("click", (e) => {
+      const next = {
+        latitude: Number(e.latlng.lat.toFixed(6)),
+        longitude: Number(e.latlng.lng.toFixed(6)),
+      };
+      setOrigin(next);
+      setDraft(next);
+      setNotice("Search origin moved to your selected point.");
+    });
+    return () => {
+      map.remove();
+      mapRef.current = null;
+      tilesRef.current = null;
+    };
+  }, []);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    // Replace the prior results layer so polling does not accumulate duplicate markers.
+    layerRef.current?.remove();
+    const group = L.layerGroup().addTo(map);
+    layerRef.current = group;
+    // The displayed circle matches the 5,000 metre bound enforced inside MongoDB.
+    L.circle([origin.latitude, origin.longitude], {
+      radius: 5000,
+      color: "#244c38",
+      weight: 2,
+      fillOpacity: 0.05,
+      dashArray: "7 6",
+    }).addTo(group);
+    L.circleMarker([origin.latitude, origin.longitude], {
+      radius: 8,
+      color: "#fff",
+      weight: 3,
+      fillColor: "#c76a42",
+      fillOpacity: 1,
+    })
+      .addTo(group)
+      .bindTooltip("Search origin");
+    // Hotspot size represents count; sqrt softens size growth so dense cells stay
+    // visible.
+    for (const h of resource.data?.hotspots ?? [])
+      L.circleMarker([h.latitude, h.longitude], {
+        radius: Math.min(24, 6 + Math.sqrt(h.count)),
+        color: "#244c38",
+        weight: 1,
+        fillColor: "#73916c",
+        fillOpacity: 0.6,
+      })
+        .addTo(group)
+        .bindTooltip(`${h.count} searches in this area`);
+    // Swap GeoJSON [longitude, latitude] into Leaflet [latitude, longitude].
+    for (const p of resource.data?.nearest ?? [])
+      L.circleMarker([p.location.coordinates[1], p.location.coordinates[0]], {
+        radius: 3,
+        color: "#c76a42",
+        fillOpacity: 0.9,
+        weight: 0,
+      })
+        .addTo(group)
+        .bindTooltip(`${Math.round(p.distance_meters)} metres away`);
+    // Recompute map geometry after layout/data updates, including responsive layouts.
+    map.invalidateSize();
+  }, [resource.data, origin]);
+  useEffect(() => {
+    // Re-centre only when the origin changes, keeping the user's zoom; polling results
+    // must not pull the view back while the user is panning or zooming.
+    mapRef.current?.setView(
+      [origin.latitude, origin.longitude],
+      mapRef.current.getZoom(),
+    );
+  }, [origin.latitude, origin.longitude]);
+  /**
+   * Append a demo search session at the current origin and immediately refresh the
+   * results.
+   */
+  async function add() {
+    setAdding(true);
+    setInputError("");
+    try {
+      await api("/search", { method: "POST", body: JSON.stringify(origin) });
+      setNotice("A new search pin has been added. The results have been updated.");
+      resource.reload();
+    } catch (e) {
+      setInputError(e.message);
+    } finally {
+      setAdding(false);
+    }
+  }
+  /**
+   * Validate coordinate ranges before promoting draft values into the queried origin.
+   */
+  function apply(e) {
+    e.preventDefault();
+    const latitude = Number(draft.latitude);
+    const longitude = Number(draft.longitude);
+    const error = validateCoordinates(draft);
+    setCoordinateError(error);
+    if (error) {
+      return;
+    }
+    setInputError("");
+    setOrigin({ latitude, longitude });
+  }
+  return (
+    <>
+      <Heading
+        eyebrow="FOLLOW THE CURIOSITY"
+        title="Where people want to be."
+        description="Live search pins and neighborhood hotspots, within five kilometres of you."
+        action={
+          <button className="btn secondary" onClick={add} disabled={adding}>
+            <Plus size={17} />
+            {adding ? "Adding…" : "Add a search pin"}
+          </button>
+        }
+      />
+      <div className="panel map-controls">
+        <form onSubmit={apply} noValidate>
+          <label>
+            Latitude
+            <input
+              aria-label="Search latitude"
+              type="number"
+              step="any"
+              required
+              min="-90"
+              max="90"
+              value={draft.latitude}
+              aria-invalid={Boolean(coordinateError)}
+              aria-describedby={coordinateError ? "map-input-error" : undefined}
+              onChange={(e) => setDraft((v) => ({ ...v, latitude: e.target.value }))}
+            />
+          </label>
+          <label>
+            Longitude
+            <input
+              aria-label="Search longitude"
+              type="number"
+              step="any"
+              required
+              min="-180"
+              max="180"
+              value={draft.longitude}
+              aria-invalid={Boolean(coordinateError)}
+              aria-describedby={coordinateError ? "map-input-error" : undefined}
+              onChange={(e) => setDraft((v) => ({ ...v, longitude: e.target.value }))}
+            />
+          </label>
+          <button className="btn" type="submit">
+            Explore this area <ArrowRight size={16} />
+          </button>
+        </form>
+        <label>
+          Recent searches
+          <select
+            aria-label="Recent search period"
+            value={minutes}
+            onChange={(e) => setMinutes(e.target.value)}
+          >
+            <option value="15">Last 15 minutes</option>
+            <option value="60">Last hour</option>
+            <option value="120">Last 2 hours</option>
+          </select>
+        </label>
+      </div>
+      {coordinateError && (
+        <div id="map-input-error">
+          <Alert message={coordinateError} />
+        </div>
+      )}
+      {inputError && <Alert message={inputError} />}
+      <div className="map-layout">
+        <div className="panel map-panel">
+          <div className="section-head">
+            <h2>Search activity</h2>
+            <span className="live-label">
+              <i />
+              LIVE · 15s polling
+            </span>
+          </div>
+          {tileError && (
+            <div className="recovery-banner">
+              <Alert message="Map tiles could not be loaded. Nearby searches are listed separately." />
+              <button
+                className="btn secondary"
+                onClick={() => tilesRef.current?.redraw()}
+              >
+                Retry map tiles
+              </button>
+            </div>
+          )}
+          <div
+            ref={mapNode}
+            className="leaflet-map"
+            aria-label="Interactive map; click to choose the search origin"
+          />
+          <div className="map-caption">
+            <span>
+              <i className="dot terracotta" />
+              Search pins
+            </span>
+            <span>
+              <i className="dot green" />
+              Grid hotspots
+            </span>
+            <span>Click anywhere to move the origin · 5 km radius</span>
+          </div>
+        </div>
+        <div className="panel nearest-panel">
+          <div className="section-head">
+            <h2>Nearby searches</h2>
+            <MapPin size={18} />
+          </div>
+          {notice && (
+            <p className="help" role="status">
+              {notice}
+            </p>
+          )}
+          <DataState
+            resource={listState}
+            empty={!resource.data?.nearest.length}
+            emptyTitle="No recent searches nearby"
+            emptyMessage="Try another area or a longer time window. Older search pins expire after two hours."
+            emptyAction={
+              Number(minutes) < 120 && (
+                <button className="btn secondary" onClick={() => setMinutes(120)}>
+                  Show last 2 hours
+                </button>
+              )
+            }
+          >
+            <p className="help">Nearest 100 pins · sorted by distance</p>
+            <div className="nearest-list">
+              {resource.data?.nearest.map((p, i) => (
+                <div className="nearest-item" key={p._id}>
+                  <span className="pin-icon">
+                    <MapPin size={18} />
+                  </span>
+                  <div>
+                    <strong>Search pin {i + 1}</strong>
+                    <small>
+                      {p.location.coordinates[1].toFixed(4)},{" "}
+                      {p.location.coordinates[0].toFixed(4)}
+                    </small>
+                  </div>
+                  <span>{Math.round(p.distance_meters)} m</span>
+                </div>
+              ))}
+            </div>
+            <p className="help">Checked {date(resource.data?.checked_at)}</p>
+          </DataState>
+        </div>
+      </div>
+      <p className="help">
+        Map tiles need an internet connection. Search pins and distances come from the
+        live database. Hotspots group all recent local pins into approximate 0.5 km grid
+        cells.
+      </p>
+    </>
+  );
+}

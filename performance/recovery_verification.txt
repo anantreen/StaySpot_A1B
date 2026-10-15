@@ -1,0 +1,95 @@
+PASS: missing schema map stops setup before database access.
+Isolated databases: stayspot_recovery_20261015173401
+$ npm run db:setup
+
+> stayspot-assignment-2@1.0.0 db:setup
+> bash scripts/setup.sh
+
+StaySpot MongoDB validators and indexes installed
+Seeded 1000 guests, 2000 properties, 50000 bookings and 100000 trigger-generated audits.
+Seeded 500000 clustered search sessions, 50000 integer-star reviews, 2000 matching catalogs.
+StaySpot setup completed. Run npm run build, then npm start.
+PASS: complete fresh seed {"sql":{"guests":"1000","properties":"2000","bookings":"50000","audits":"100000","wallets":"50000000.00"},"mongo":{"SearchSessions":500000,"PropertyReviews":50000,"PropertyAmenities":2000}}
+$ npm test
+
+> stayspot-assignment-2@1.0.0 test
+> node --env-file-if-exists=.env --test tests/*.test.js
+
+✔ keyset browsing returns bounded non-overlapping pages and detail records (110.632708ms)
+✔ booking pages are newest first and stop after 1,000 matching records (304.820333ms)
+✔ booking commits one debit, one booking and one trigger-created audit (42.972875ms)
+✔ insufficient funds leaves wallet, bookings and audits unchanged (13.655125ms)
+✔ second active check-in rolls back its debit and audit; completion releases slot (32.089291ms)
+✔ concurrent bookings cannot spend the same wallet money twice (36.965625ms)
+✔ audit records reject update, delete and truncate (25.036334ms)
+✔ malformed inputs and forged prices cannot alter a booking (45.769708ms)
+✔ audit microsecond cursor does not repeat or skip adjacent entries (17.868167ms)
+✔ moving averages include missing days and full seven-day warm-up; ranks compare properties (13.276958ms)
+✔ refresh updates the real materialized timestamp and total nights (83.488292ms)
+✔ geoNear stays inside five kilometres; new pins appear in subsequent reads (195.202916ms)
+✔ facet returns five star buckets matching average counts and a flexible catalog (48.478375ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1339.139958
+$ /Users/anantreen/Desktop/dsalgocp/SSD/StaySpot_A1B/.venv/bin/python tests/database_checks.py
+test_audit_is_immutable (__main__.DatabaseChecks.test_audit_is_immutable)
+Test UPDATE, DELETE and statement-level TRUNCATE guards inside recoverable savepoints. ... ok
+test_booking_debit_and_trigger_are_atomic (__main__.DatabaseChecks.test_booking_debit_and_trigger_are_atomic)
+Check one successful debit and ensure a conflicting check-in rolls back its second debit/audit. ... ok
+test_insufficient_wallet_rolls_back (__main__.DatabaseChecks.test_insufficient_wallet_rolls_back)
+A tiny wallet cannot buy a night; its balance and audit count must stay unchanged. ... ok
+test_materialized_nights_are_exact (__main__.DatabaseChecks.test_materialized_nights_are_exact)
+Refresh through the real function and compare stored summary nights with source bookings. ... ok
+test_mongo_seed_indexes_and_cross_database_ids (__main__.DatabaseChecks.test_mongo_seed_indexes_and_cross_database_ids)
+Check live document count/index definitions and find orphan references using actual SQL IDs. ... ok
+test_negative_null_wallet_and_bad_nights_are_rejected (__main__.DatabaseChecks.test_negative_null_wallet_and_bad_nights_are_rejected)
+Exercise database constraints and procedure validation independently of the browser. ... ok
+test_performance_reports_show_real_index_paths (__main__.DatabaseChecks.test_performance_reports_show_real_index_paths)
+Inspect saved measured plans for named indexes and absence of heavy scan paths. ... ok
+test_required_row_counts (__main__.DatabaseChecks.test_required_row_counts)
+Verify persisted relational volumes meet the assignment thresholds. ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.337s
+
+OK
+$ npm run build
+
+> stayspot-assignment-2@1.0.0 build
+> vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1604 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.66 kB │ gzip:   0.42 kB
+../dist/assets/index-CJcSFOWx.css   41.25 kB │ gzip:  12.85 kB
+../dist/assets/index-ChejWDPZ.js   424.78 kB │ gzip: 129.54 kB
+✓ built in 3.66s
+$ /Users/anantreen/Desktop/dsalgocp/SSD/StaySpot_A1B/.venv/bin/python scripts/check_members.py
+StaySpot member contributions:
+  member1: complete
+  member2: complete
+  member3: complete
+  member4: complete
+
+All expected files are present. Continue with the README setup steps.
+This checks file presence; build and database tests still verify behavior.
+PASS: existing demo guests, properties, bookings, audits and wallet totals unchanged.
+Removed only the temporary verification databases.
+
+Final-mode packaging verification in an isolated committed copy:
+{
+  "passed": true,
+  "archiveBytes": 12187377,
+  "requiredArtifactsIncluded": true,
+  "sourceHashStampedCorrectly": true,
+  "secretAndDependencyExclusionsPassed": true,
+  "verifiedOnlyInIsolatedCopy": true
+}

@@ -80,4 +80,4 @@ This uses the checked-in original SVG copies. To start from replacement exports,
 
 ## Existing limitation outside this design review
 
-The original design review left the frontend all-pages booking sorter unchanged. A subsequent functional update, with authorization to change booking reads, replaced it with server cursor pages: 20 rows per UI request, newest first, capped at 1,000 matching records per traversal. See the updated [handover](../../handover_note.md) and [recording notes](../../video_walkthrough_script.md) for the follow-up verification. Audit's selected guest/date accumulation is unchanged.
+The original design review left the frontend all-pages booking sorter unchanged. A subsequent functional update, with authorization to change booking reads, replaced it with server cursor pages: 20 rows per UI request, newest first, capped at 1,000 matching records per traversal. See the updated [handover](../../handover_note.md) and [project README](../../../README.md#6-repository-final-commit-and-demo) for the follow-up verification. Audit's selected guest/date accumulation is unchanged.

@@ -5,4 +5,4 @@
  */
 
 // Compatibility entry point; canonical implementations belong to Member 4.
-module.exports = require("../members/member4/mongo/pipelines.cjs");
+module.exports = require("./members/member4/pipelines.cjs");

@@ -13,10 +13,10 @@ pg.types.setTypeParser(1082, (value) => value);
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 // Register reads before writes exactly as in the previous API; paths remain unchanged.
-import { registerMember1Routes } from "../members/member1/api/routes.js";
-import { registerMember2Routes } from "../members/member2/api/routes.js";
-import { registerMember3Routes } from "../members/member3/api/routes.js";
-import { registerMember4Routes } from "../members/member4/api/routes.js";
+import { registerMember1Routes } from "./members/member1/routes.js";
+import { registerMember2Routes } from "./members/member2/routes.js";
+import { registerMember3Routes } from "./members/member3/routes.js";
+import { registerMember4Routes } from "./members/member4/routes.js";
 
 /**
  * @param {{pool: import("pg").Pool, mongo: import("mongodb").Db}} dependencies

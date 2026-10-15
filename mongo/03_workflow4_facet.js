@@ -3,4 +3,4 @@
  * load() executes in mongosh context, retaining its db/printjson globals.
  */
 // Compatibility entry point: same mongosh command and database behavior.
-load("members/member4/mongo/03_workflow4_facet.js");
+load("mongo/members/member4/03_workflow4_facet.js");
