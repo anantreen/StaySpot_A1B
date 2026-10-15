@@ -296,7 +296,7 @@ The folder allocation documents responsibilities; it does not establish personal
 | Item                             | Value                                                                                                       |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Repository URL                   | [https://github.com/anantreen/StaySpot_A1B](https://github.com/anantreen/StaySpot_A1B)                      |
-| Final submitted commit hash      | b79e80cf5a7f93a3825cbb1a121cdd0772e3d3ba                           |
+| Final submitted commit hash      | 540cfe3e093165cd2116deb4933f7c25ba63733c                          |
 | Demo video link                  | [Watch the walkthrough](https://drive.google.com/file/d/1QPTfYh7q5jZCB6puoEIr3Hwl4Dp5VEW_/view?usp=sharing) |
 | Team number                      | `14`                                                                                                        |
 | Original Assignment 1 repository | [git-adityamishra/27_a1](https://github.com/git-adityamishra/27_a1)                                         |
